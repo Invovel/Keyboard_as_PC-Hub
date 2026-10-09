@@ -1,13 +1,5 @@
 {
-  "revision": "2026-10-09-layout-r0",
   "units": "mm",
-  "status": "R0 nominal layout dimensions; fabrication not released",
-  "main_pcb_candidate": {
-    "width": 100,
-    "depth": 80,
-    "thickness": 1.6,
-    "frozen": false
-  },
   "operating_surface_angle_deg": 5,
   "plug_neck_target_max_envelope": {
     "width": 9.5,
@@ -38,112 +30,123 @@
   "screen_cable_exit": null,
   "selected_plug_part_number": null,
   "selected_hub_module_dimensions": null,
-  "source_document": "../docs/keyboard-compatibility.md",
-  "enclosure_r0": {
-    "main_width": 112,
-    "main_depth": 92,
-    "front_height": 24,
-    "rear_height": 32.05,
+  "revision": "2026-10-09-layout-r2",
+  "status": "Approved candidate layout; not fabrication released",
+  "coordinate_system": "Screen center origin; +X right, +Y rear; millimetres",
+  "dimension_document": "dimensions-r2.md",
+  "historical_document": "dimensions-r0.md",
+  "main_pcb_candidate": {
+    "width": 96,
+    "depth": 62,
+    "thickness": 1.6,
+    "bounds_x": [
+      -45,
+      51
+    ],
+    "bounds_y": [
+      -31,
+      31
+    ],
+    "bottom_z": 6.4,
+    "frozen": false
+  },
+  "enclosure": {
+    "width": 102,
+    "depth": 68,
+    "bounds_x": [
+      -48,
+      54
+    ],
+    "bounds_y": [
+      -34,
+      34
+    ],
+    "front_height": 20,
+    "rear_height": 25.94923,
     "wall": 2.4,
     "base": 2.4,
-    "corner_radius": 4,
-    "module_gap": 1,
-    "combined_width": 225,
-    "combined_depth": 92,
-    "combined_height_envelope": 50
+    "corner_radius": 4
   },
-  "main_pcb_mount_holes_r0": {
-    "diameter": 2.7,
-    "centers": [
+  "screen": {
+    "outline_diameter": 44.32,
+    "active_diameter": 38.16,
+    "installation_thickness_budget": 3.5,
+    "touch": true,
+    "mechanical_press": true,
+    "rotates": false
+  },
+  "dial": {
+    "center": [
+      0,
+      0
+    ],
+    "outer_diameter": 60,
+    "upper_aperture_diameter": 41.76,
+    "lower_clearance_diameter": 50,
+    "carrier_diameter": 49,
+    "height_above_surface": 8,
+    "visible_border_per_side": 1.8,
+    "radial_clearance_per_side": 0.5,
+    "presses": false
+  },
+  "soft_keys": {
+    "order": [
+      "left_rear_small",
+      "right_rear_large",
+      "right_front_large",
+      "left_front_small"
+    ],
+    "sensor_centers": [
       [
-        4,
-        4
+        -36,
+        22
       ],
       [
-        96,
-        4
+        36,
+        22
       ],
       [
-        4,
-        76
+        36,
+        -22
       ],
       [
-        96,
-        76
+        -36,
+        -22
       ]
+    ],
+    "inner_arc_radius": 34.5,
+    "left_outer_x": -45,
+    "right_outer_x": 51,
+    "outer_y_abs": 31,
+    "half_separator": 0.75,
+    "outer_corner_radius": 1,
+    "sensor_board_candidate": [
+      14,
+      14
+    ],
+    "unfilleted_areas": [
+      488.00654,
+      669.50654,
+      669.50654,
+      488.00654
     ]
   },
-  "macro_pcb_r0": {
-    "width": 100,
-    "depth": 30,
-    "thickness": 1.6,
-    "key_pitch": 19.05
-  },
-  "touch_strip_r0": {
-    "enclosure": [
+  "accessory_envelope": {
+    "macro": [
+      112,
+      68
+    ],
+    "joint_gap": 1,
+    "combined_footprint": [
+      215,
+      68
+    ],
+    "touch_strip": [
       104,
       22,
       8
     ],
-    "pcb": [
-      96,
-      14,
-      1.0
-    ]
-  },
-  "dial_r0": {
-    "center": [
-      56,
-      46
-    ],
-    "outer_diameter": 60,
-    "height_above_surface": 8
-  },
-  "screen_unverified_reserve": {
-    "width": 48,
-    "depth": 48,
-    "height": 12,
-    "is_measurement": false
-  },
-  "soft_key_centers_r0": [
-    [
-      17,
-      73
-    ],
-    [
-      95,
-      73
-    ],
-    [
-      17,
-      19
-    ],
-    [
-      95,
-      19
-    ]
-  ],
-  "rear_port_centers_r0": {
-    "z": 13,
-    "x": [
-      14,
-      34,
-      54,
-      78,
-      98
-    ],
-    "roles": [
-      "A1",
-      "A2",
-      "A3",
-      "PC",
-      "POWER"
-    ]
-  },
-  "fast_port_r0": {
-    "side": "left",
-    "y": 60,
-    "z": 13
-  },
-  "dimension_document": "dimensions-r0.md"
+    "key_pitch": 19.05,
+    "status": "visualization envelopes only; connectors not selected"
+  }
 }
