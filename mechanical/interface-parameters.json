@@ -129,7 +129,8 @@
       669.50654,
       669.50654,
       488.00654
-    ]
+    ],
+    "height_above_panel": 1
   },
   "accessory_envelope": {
     "macro": [
@@ -147,6 +148,8 @@
       8
     ],
     "key_pitch": 19.05,
-    "status": "visualization envelopes only; connectors not selected"
+    "status": "visualization envelopes only; connectors not selected",
+    "macro_keycap_height_above_panel": 3,
+    "macro_switch_stack_status": "Low-profile or recessed mounting target; real switch/cap stack unverified"
   }
 }

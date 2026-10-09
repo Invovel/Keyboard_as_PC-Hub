@@ -45,7 +45,7 @@ const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
     const bbox=name=>page.locator(`[data-part="${name}"]`).first().evaluate(el=>{const b=el.getBBox();return {x:b.x,y:b.y,w:b.width,h:b.height};});
     const frame=async()=>{const b=await page.locator('#stage svg').evaluate(el=>{const b=el.getBBox();return [b.x,b.y,b.x+b.width,b.y+b.height];});assert.ok(b[0]>0&&b[1]>0&&b[2]<400&&b[3]<320,`frame ${b}`);};
     const restScreen=await bbox('屏幕'), restSensors=await Promise.all([1,2,3,4].map(i=>bbox('感应板'+i)));
-    const main=await at(-32,-20,21.2),screen=await at(0,0,31),macro=await at(111,22,33.9),strip=await at(111,-19,29.3);
+    const main=await at(-32,-20,21.2),screen=await at(0,0,31),macro=await at(111,22,27.9),strip=await at(111,-19,29.3);
     console.log('viewBox targets',JSON.stringify({main,screen,macro,strip}));
     await point(main);await pause(850);assert.equal(await read(),'主机分层');await frame();
     assert.ok(Math.abs((await bbox('屏幕')).x-restScreen.x)<.01,'screen X fixed in explosion');

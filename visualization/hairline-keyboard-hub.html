@@ -917,7 +917,7 @@ function mount({stage,svg,read},value) {
   add('上壳',RECT(-48,-34,54,34,4),17.6,20,2,{tilt:true,holes:[CIRCLE(25),...KEYS]});
   CENTERS.forEach(([x,y],i)=>{
     add('感应板'+(i+1),RECT(x-7,y-7,x+7,y+7),16,17.6,2.5,{tilt:true,marks2:[RECT(x-2,y-2,x+2,y+2,.5)]});
-    add('软键'+(i+1),KEYS[i],18,23,4.5,{tilt:true});
+    add('软键'+(i+1),KEYS[i],18,21,4.5,{tilt:true});
   });
   for(const a of [30,150,270]) {
     const x=19*Math.cos(a*Math.PI/180),y=19*Math.sin(a*Math.PI/180);
@@ -932,7 +932,7 @@ function mount({stage,svg,read},value) {
   add('Type-C公头',RECT(-22,-47,-12,-40,.8),6,9.8,0);
   add('STOP',RECT(32,-35,42,-32,1),10,14,0);
   add('五键模块',RECT(55,-34,167,34,4),0,20,0,{kind:'macro',tilt:true,flatBase:true});
-  for(let i=0;i<5;i++)add('宏键'+(i+1),RECT(66+i*19.05-8,12,66+i*19.05+8,28,2),21,29,0,{kind:'macro',tilt:true,marks2:[RECT(66+i*19.05-6,14,66+i*19.05+6,26,1.5)]});
+  for(let i=0;i<5;i++)add('宏键'+(i+1),RECT(66+i*19.05-8,12,66+i*19.05+8,28,2),20.6,23,0,{kind:'macro',tilt:true,marks2:[RECT(66+i*19.05-6,14,66+i*19.05+6,26,1.5)]});
   add('触控条',RECT(59,-30,163,-8,3),20,28,0,{kind:'strip',tilt:true,marks2:[RECT(64,-25,158,-13,2)]});
   for(const y of [-9,9]) {
     add('主机磁吸座',RECT(51.5,y-2,54,y+2,.8),10,14,0);
@@ -996,7 +996,7 @@ hairline({
   name:'keyboard-hub',
   means:'左小右长，圆心不动。悬停拆看主机与磁吸附件，点击固定、再次点击或点空白复位；滑块为展示分离距离（mm）。尺寸为装配候选，尚未完成制造验证。',
   rules:[1,3,4,6,7,8,9,10], range:[8,16,24],
-  tour:[[77,172],[127,166],[257,206],[217,232],null], mount,
+  tour:[[77,172],[127,166],[257,213],[217,232],null], mount,
 });
 </script>
 </body>
