@@ -1,19 +1,149 @@
 {
-  "revision": "2026-10-09-research-draft",
+  "revision": "2026-10-09-layout-r0",
   "units": "mm",
-  "status": "Design starting values, not measured population limits or fabrication release",
-  "main_pcb_candidate": {"width": 100, "depth": 80, "thickness": 1.6, "frozen": false},
+  "status": "R0 nominal layout dimensions; fabrication not released",
+  "main_pcb_candidate": {
+    "width": 100,
+    "depth": 80,
+    "thickness": 1.6,
+    "frozen": false
+  },
   "operating_surface_angle_deg": 5,
-  "plug_neck_target_max_envelope": {"width": 9.5, "height": 3.8, "corner_radius": null},
-  "plug_carrier_candidate": {"width": 10, "length": 20, "enters_keyboard_recess": false},
-  "shoulder_setback_trial_variants": [5, 10, 15],
-  "plug_center_height_fixture_trial_range": [5, 25],
-  "insertion_variants": ["rear", "left_or_right_side"],
+  "plug_neck_target_max_envelope": {
+    "width": 9.5,
+    "height": 3.8,
+    "corner_radius": null
+  },
+  "plug_carrier_candidate": {
+    "width": 10,
+    "length": 20,
+    "enters_keyboard_recess": false
+  },
+  "shoulder_setback_trial_variants": [
+    5,
+    10,
+    15
+  ],
+  "plug_center_height_fixture_trial_range": [
+    5,
+    25
+  ],
+  "insertion_variants": [
+    "rear",
+    "left_or_right_side"
+  ],
   "keyboard_link": "USB 2.0 data and 5V; preserve standard metal plug mating dimensions",
   "screen_pcb_measured_dimensions": null,
   "screen_mounting_holes": null,
   "screen_cable_exit": null,
   "selected_plug_part_number": null,
   "selected_hub_module_dimensions": null,
-  "source_document": "../docs/keyboard-compatibility.md"
+  "source_document": "../docs/keyboard-compatibility.md",
+  "enclosure_r0": {
+    "main_width": 112,
+    "main_depth": 92,
+    "front_height": 24,
+    "rear_height": 32.05,
+    "wall": 2.4,
+    "base": 2.4,
+    "corner_radius": 4,
+    "module_gap": 1,
+    "combined_width": 225,
+    "combined_depth": 92,
+    "combined_height_envelope": 50
+  },
+  "main_pcb_mount_holes_r0": {
+    "diameter": 2.7,
+    "centers": [
+      [
+        4,
+        4
+      ],
+      [
+        96,
+        4
+      ],
+      [
+        4,
+        76
+      ],
+      [
+        96,
+        76
+      ]
+    ]
+  },
+  "macro_pcb_r0": {
+    "width": 100,
+    "depth": 30,
+    "thickness": 1.6,
+    "key_pitch": 19.05
+  },
+  "touch_strip_r0": {
+    "enclosure": [
+      104,
+      22,
+      8
+    ],
+    "pcb": [
+      96,
+      14,
+      1.0
+    ]
+  },
+  "dial_r0": {
+    "center": [
+      56,
+      46
+    ],
+    "outer_diameter": 60,
+    "height_above_surface": 8
+  },
+  "screen_unverified_reserve": {
+    "width": 48,
+    "depth": 48,
+    "height": 12,
+    "is_measurement": false
+  },
+  "soft_key_centers_r0": [
+    [
+      17,
+      73
+    ],
+    [
+      95,
+      73
+    ],
+    [
+      17,
+      19
+    ],
+    [
+      95,
+      19
+    ]
+  ],
+  "rear_port_centers_r0": {
+    "z": 13,
+    "x": [
+      14,
+      34,
+      54,
+      78,
+      98
+    ],
+    "roles": [
+      "A1",
+      "A2",
+      "A3",
+      "PC",
+      "POWER"
+    ]
+  },
+  "fast_port_r0": {
+    "side": "left",
+    "y": 60,
+    "z": 13
+  },
+  "dimension_document": "dimensions-r0.md"
 }
