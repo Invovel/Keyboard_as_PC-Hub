@@ -6,6 +6,14 @@ ESP32-S3 圆屏控制台＋键盘直插 USB Hub。独立主机、右侧磁吸五
 
 ![R2布局：左小右长，固定圆心和感应中心](mechanical/layout-r2.svg)
 
+## 交互结构展示
+
+![R2 Hairline装配预览](visualization/hairline-keyboard-hub-rest.png)
+
+[下载／查看单文件HTML](visualization/hairline-keyboard-hub.html) · [使用方法与检查记录](visualization/README.md)
+
+下载HTML后直接用浏览器打开，无需安装。悬停主机看分层；点击固定，再点同处或空白复位。悬停右侧五键或触控条看磁吸分离。滑块改变展示间距，`play`自动导览。GitHub README只显示静态图，不运行HTML交互。
+
 ## 当前尺寸
 
 | 项目 | 布局候选，mm |
