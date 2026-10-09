@@ -1,0 +1,19 @@
+{
+  "revision": "2026-10-09-research-draft",
+  "units": "mm",
+  "status": "Design starting values, not measured population limits or fabrication release",
+  "main_pcb_candidate": {"width": 100, "depth": 80, "thickness": 1.6, "frozen": false},
+  "operating_surface_angle_deg": 5,
+  "plug_neck_target_max_envelope": {"width": 9.5, "height": 3.8, "corner_radius": null},
+  "plug_carrier_candidate": {"width": 10, "length": 20, "enters_keyboard_recess": false},
+  "shoulder_setback_trial_variants": [5, 10, 15],
+  "plug_center_height_fixture_trial_range": [5, 25],
+  "insertion_variants": ["rear", "left_or_right_side"],
+  "keyboard_link": "USB 2.0 data and 5V; preserve standard metal plug mating dimensions",
+  "screen_pcb_measured_dimensions": null,
+  "screen_mounting_holes": null,
+  "screen_cable_exit": null,
+  "selected_plug_part_number": null,
+  "selected_hub_module_dimensions": null,
+  "source_document": "../docs/keyboard-compatibility.md"
+}
