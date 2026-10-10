@@ -1,0 +1,155 @@
+{
+  "units": "mm",
+  "operating_surface_angle_deg": 5,
+  "plug_neck_target_max_envelope": {
+    "width": 9.5,
+    "height": 3.8,
+    "corner_radius": null
+  },
+  "plug_carrier_candidate": {
+    "width": 10,
+    "length": 20,
+    "enters_keyboard_recess": false
+  },
+  "shoulder_setback_trial_variants": [
+    5,
+    10,
+    15
+  ],
+  "plug_center_height_fixture_trial_range": [
+    5,
+    25
+  ],
+  "insertion_variants": [
+    "rear",
+    "left_or_right_side"
+  ],
+  "keyboard_link": "USB 2.0 data and 5V; preserve standard metal plug mating dimensions",
+  "screen_pcb_measured_dimensions": null,
+  "screen_mounting_holes": null,
+  "screen_cable_exit": null,
+  "selected_plug_part_number": null,
+  "selected_hub_module_dimensions": null,
+  "revision": "2026-10-09-layout-r2",
+  "status": "Approved candidate layout; not fabrication released",
+  "coordinate_system": "Screen center origin; +X right, +Y rear; millimetres",
+  "dimension_document": "dimensions-r2.md",
+  "historical_document": "dimensions-r0.md",
+  "main_pcb_candidate": {
+    "width": 96,
+    "depth": 62,
+    "thickness": 1.6,
+    "bounds_x": [
+      -45,
+      51
+    ],
+    "bounds_y": [
+      -31,
+      31
+    ],
+    "bottom_z": 6.4,
+    "frozen": false
+  },
+  "enclosure": {
+    "width": 102,
+    "depth": 68,
+    "bounds_x": [
+      -48,
+      54
+    ],
+    "bounds_y": [
+      -34,
+      34
+    ],
+    "front_height": 20,
+    "rear_height": 25.94923,
+    "wall": 2.4,
+    "base": 2.4,
+    "corner_radius": 4
+  },
+  "screen": {
+    "outline_diameter": 44.32,
+    "active_diameter": 38.16,
+    "installation_thickness_budget": 3.5,
+    "touch": true,
+    "mechanical_press": true,
+    "rotates": false
+  },
+  "dial": {
+    "center": [
+      0,
+      0
+    ],
+    "outer_diameter": 60,
+    "upper_aperture_diameter": 41.76,
+    "lower_clearance_diameter": 50,
+    "carrier_diameter": 49,
+    "height_above_surface": 8,
+    "visible_border_per_side": 1.8,
+    "radial_clearance_per_side": 0.5,
+    "presses": false
+  },
+  "soft_keys": {
+    "order": [
+      "left_rear_small",
+      "right_rear_large",
+      "right_front_large",
+      "left_front_small"
+    ],
+    "sensor_centers": [
+      [
+        -36,
+        22
+      ],
+      [
+        36,
+        22
+      ],
+      [
+        36,
+        -22
+      ],
+      [
+        -36,
+        -22
+      ]
+    ],
+    "inner_arc_radius": 34.5,
+    "left_outer_x": -45,
+    "right_outer_x": 51,
+    "outer_y_abs": 31,
+    "half_separator": 0.75,
+    "outer_corner_radius": 1,
+    "sensor_board_candidate": [
+      14,
+      14
+    ],
+    "unfilleted_areas": [
+      488.00654,
+      669.50654,
+      669.50654,
+      488.00654
+    ],
+    "height_above_panel": 0.3,
+    "maximum_height_above_panel": 1
+  },
+  "accessory_envelope": {
+    "macro": [
+      112,
+      68
+    ],
+    "joint_gap": 1,
+    "combined_footprint": [
+      215,
+      68
+    ],
+    "touch_strip": [
+      104,
+      22,
+      8
+    ],
+    "key_pitch": 19.05,
+    "status": "visualization envelopes only; connectors not selected",
+    "macro_keycap_height_above_panel": 9
+  }
+}
