@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 static QueueHandle_t actions;
-static lv_obj_t *status, *feedback, *details;
+static lv_obj_t *status, *feedback, *details, *mic_details;
 static lv_indev_t *pointer;
 static body_touch_t gui_touch;
 static void read_pointer(lv_indev_t *indev, lv_indev_data_t *data)
@@ -42,13 +42,14 @@ void body_ui_page(body_page_t page)
     lv_obj_set_style_text_color(root,lv_color_hex(0xe6edf4),0);
     status=label(root,"USB offline",65,82,230);
     feedback=label(root,"Ready",60,278,240);
-    details=NULL;
+    details=NULL; mic_details=NULL;
     if(page==PAGE_HOME) {
         label(root,"PC HUB",100,40,160);
         button("Media",UI_MEDIA,65,119,110,52);
         button("Touchpad",UI_PAD,185,119,110,52);
         button("Settings",UI_SETTINGS,65,185,110,52);
         button("Test key A",UI_TEST_KEY,185,185,110,52);
+        button("Mic",UI_MIC,135,243,90,30);
     } else {
         button("Home",UI_HOME,135,35,90,38);
         if(page==PAGE_MEDIA) {
@@ -61,6 +62,10 @@ void body_ui_page(body_page_t page)
             lv_obj_remove_flag(pad,LV_OBJ_FLAG_SCROLLABLE);
             lv_obj_set_style_bg_color(pad,lv_color_hex(0x1c3044),0);
             label(pad,"TOUCHPAD\nMove / tap / double tap\nTap then hold to drag",4,40,210);
+        } else if(page==PAGE_MIC) {
+            label(root,"INMP441 input",90,116,180);
+            button("Start / Stop",UI_MIC_CAPTURE,110,150,140,38);
+            mic_details=label(root,"Not fitted / build disabled",55,201,250);
         } else {
             button("Sensitivity",UI_SENS,65,116,110,45);
             button("Sound",UI_SOUND,185,116,110,45);
@@ -68,6 +73,12 @@ void body_ui_page(body_page_t page)
             details=label(root,"",60,225,240);
         }
     }
+    lvgl_port_unlock();
+}
+void body_ui_mic_status(const char *text)
+{
+    lvgl_port_lock(0);
+    if(mic_details)lv_label_set_text(mic_details,text);
     lvgl_port_unlock();
 }
 void body_ui_init(void)

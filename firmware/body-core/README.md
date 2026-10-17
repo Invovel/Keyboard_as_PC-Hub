@@ -13,11 +13,12 @@ ESP32-S3 N16R8，ESP-IDF 6.1。目标为先跑通主体；Hub、磁吸附件和 
 | 编码器旋转 | 固件 A1、B2；PCNT 官方示例适配；双路及正反转事件已实测 |
 | 按压 | 39；媒体播放/暂停，触摸板页鼠标左键 |
 | MAX98357A | BCLK47、WS48、DIN21 |
+| INMP441（新增预留，未接实物） | I²S1 RX：BCLK4、WS5、SD17；默认不启用 |
 | BOOT | GPIO0；运行时禁用/恢复电脑控制输出 |
 | 原生 USB | GPIO19/20；键盘、鼠标、Consumer Control 复合 HID |
 | FTDI USB | 当前枚举 COM5；烧录与日志，与原生 HID 接口分工 |
 
-页面包括 Home、Media、Touchpad、Settings。设置保存灵敏度和声音开关；Settings 的 A/B 为 GPIO 边沿计数，P 为 PCNT 硬件有符号计数。P 每累积四个有效计数产生一次旋转动作；实际每格脉冲数和方向仍需实测。媒体页旋转调音量，触摸板页旋转滚动。
+页面包括 Home、Media、Touchpad、Settings，并新增 Mic 页（未实物测试）。[麦克风方案、GPIO与编译开关](../../docs/microphone-inmp441.md)说明 INMP441 的可选接入，默认关闭，不影响当前实物。设置保存灵敏度和声音开关；Settings 的 A/B 为 GPIO 边沿计数，P 为 PCNT 硬件有符号计数。P 每累积四个有效计数产生一次旋转动作；实际每格脉冲数和方向仍需实测。媒体页旋转调音量，触摸板页旋转滚动。
 
 圆屏采用本机既有点屏证据中的寄存器表，通过 ST77916 驱动传输；不因此断言屏幕实际 IC 型号。触控同样只确认兼容坐标协议。来源和许可证见 [THIRD_PARTY.md](THIRD_PARTY.md)。
 

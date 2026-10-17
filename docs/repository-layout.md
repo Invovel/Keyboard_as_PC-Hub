@@ -14,14 +14,14 @@ design/
 hardware/
   electronics/             散件与实物接线
   pcb/
-    sources/               后续 PCB 可编辑工程
+    sources/               R3 KiCad 接口工程及后续板件
     exports/               后续 Gerber、钻孔、BOM、贴片坐标
     references/            接口调查等依据
   enclosure/
-    sources/               后续 CAD、参数化模型、装配工程
+    sources/               R3 OpenSCAD 草模及后续装配工程
     exports/               后续 STEP、分件 STL、机械工程图
-    dimensions-r2.md       当前候选尺寸
-    interface-parameters.json
+    dimensions-r3.md       当前候选尺寸
+    interface-parameters-r3.json
 releases/body-core/        烧录包、配置及校验清单
 tests/hardware/logs/       原始实物测试日志
 docs/                     规划、研究和验收说明
@@ -38,7 +38,7 @@ docs/                     规划、研究和验收说明
 
 ## 当前交付状态
 
-主体固件及镜像已存在，基础功能用户实测正常。PCB 尚未完成原理图/布线及装配验证；外壳尚未完成 CAD/STEP/STL。新建的 sources/exports 目录只是明确工作位置，各目录 README 写明状态，并非宣称已有模型或生产文件。
+主体固件及镜像已存在，基础功能用户实测正常。R3 已新增 KiCad 模块接口原理图与未布线 PCB、OpenSCAD 参数化草模。PCB 没有 KiCad ERC/DRC 或制造文件；草模没有实体编译、STEP/STL 或装配验证。麦克风代码已编译，未接实物。
 
 ## 旧路径迁移
 

@@ -1,8 +1,9 @@
 #pragma once
 #include "body_screen.h"
-typedef enum { PAGE_HOME, PAGE_MEDIA, PAGE_PAD, PAGE_SETTINGS } body_page_t;
-enum { UI_HOME=1, UI_MEDIA, UI_PAD, UI_SETTINGS, UI_PREV, UI_PLAY, UI_NEXT,
-       UI_MUTE, UI_VOL_DOWN, UI_VOL_UP, UI_SENS, UI_SOUND, UI_ENABLE, UI_TEST_KEY };
+typedef enum { PAGE_HOME, PAGE_MEDIA, PAGE_PAD, PAGE_SETTINGS, PAGE_MIC } body_page_t;
+enum { UI_HOME=1, UI_MEDIA, UI_PAD, UI_SETTINGS, UI_MIC, UI_PREV, UI_PLAY, UI_NEXT,
+       UI_MUTE, UI_VOL_DOWN, UI_VOL_UP, UI_SENS, UI_SOUND, UI_ENABLE, UI_TEST_KEY, UI_MIC_CAPTURE };
+void body_ui_mic_status(const char *text);
 void body_ui_init(void);
 void body_ui_page(body_page_t page);
 bool body_ui_action(int *action);

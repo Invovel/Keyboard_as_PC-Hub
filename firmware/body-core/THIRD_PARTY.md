@@ -13,7 +13,7 @@ their original license files remain in the downloaded component distributions.
 | esp_lcd_st77916 | 2.0.2 | QSPI panel transport with custom panel register data | Apache-2.0 |
 | esp_lcd_touch_cst816s | 1.1.1 | CST816-compatible coordinate reader at 0x15 | Apache-2.0 |
 | esp_lvgl_port | 2.8.0 | LVGL display, timer and locking | Apache-2.0 |
-| LVGL | 9.5.0 | Four-page UI | MIT |
+| LVGL | 9.5.0 | Body UI plus optional microphone diagnostics | MIT |
 | esp_tinyusb / TinyUSB | 2.4.0 / resolved lock version | Composite HID | Apache-2.0 / MIT |
 | FreeTouchDeck | https://github.com/DustinWatts/FreeTouchDeck | Design reference only; no source copied | Not linked into this firmware |
 
@@ -29,3 +29,8 @@ https://lingflux.com/zh-cn/experiments/esp32/esp32-s3-1inch5-tft-jd9855-qspi-ani
 The local 2026-10-01 evidence records correct color and touch points using QSPI mode 3,
 20 MHz, RGB565. Using this data through an ST77916 transport is not a claim that the
 physical LCD controller ID is ST77916 or JD9855. No new analog drive parameters were invented.
+
+`main/body_mic.c` is newly written ESP-IDF I2S code, using the interface timing from
+[TDK INMP441 datasheet](https://product.tdk.com/system/files/dam/doc/product/sw_piezo/mic/mems-mic/data_sheet/inmp441.pdf).
+No third-party microphone firmware or datasheet artwork is copied. The optional
+microphone path is compile-checked only, not verified with a physical microphone.

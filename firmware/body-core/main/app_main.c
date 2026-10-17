@@ -13,6 +13,7 @@
 #include "body_input.h"
 #include "body_hid.h"
 #include "body_audio.h"
+#include "body_mic.h"
 #include "body_screen.h"
 #include "body_ui.h"
 #include "touchpad_gesture.h"
@@ -57,6 +58,7 @@ static void note(const char *text)
 static void toggle(void)
 {
     enabled=!enabled;release();note(enabled?"Output enabled":"Output disabled");
+    if(!enabled)body_mic_set_capture(false);
     tone(enabled?TONE_CONFIRM:TONE_ERROR);
 }
 static void settings_load(void)
@@ -87,7 +89,7 @@ static void consumer(uint16_t usage,const char *name)
 }
 static void action(int id)
 {
-    if(id>=UI_HOME && id<=UI_SETTINGS){
+    if(id>=UI_HOME && id<=UI_MIC){
         release();page=(body_page_t)(id-UI_HOME);
         if(display_ready)body_ui_page(page);
         note(page==PAGE_PAD?"Touchpad ready":"Page changed");tone(TONE_CONFIRM);return;
@@ -98,6 +100,12 @@ static void action(int id)
     if(id==UI_SENS){speed=speed%3+1;settings_save();tone(TONE_CONFIRM);}
     else if(id==UI_SOUND){sound=!sound;settings_save();tone(TONE_CONFIRM);}
     else if(id==UI_ENABLE)toggle();
+    else if(id==UI_MIC_CAPTURE){
+        if(!enabled){note("Enable output before starting mic");return;}
+        body_mic_status_t mic=body_mic_status();
+        esp_err_t err=body_mic_set_capture(!mic.capturing);
+        note(err==ESP_OK?"Mic capture toggled":"Mic not fitted / build disabled");
+    }
     else if(id==UI_TEST_KEY){
         if(enabled && mounted){body_hid_key(0,0x04);note("Keyboard A queued");}
         else note("Keyboard unavailable");
@@ -108,6 +116,9 @@ void app_main(void)
 {
     gestures_ready=touchpad_gesture_selftest();
     settings_load();body_audio_init();body_hid_init();body_input_init();
+    esp_err_t mic_err=body_mic_init();
+    if(mic_err!=ESP_OK && mic_err!=ESP_ERR_NOT_SUPPORTED)
+        ESP_LOGW(TAG,"Mic setup failed: %s; continuing other peripherals",esp_err_to_name(mic_err));
     tone(TONE_START);
     display_ready=body_screen_init()==ESP_OK;
     touch_ready=body_touch_init()==ESP_OK;
@@ -175,6 +186,14 @@ void app_main(void)
         }
         if(display_ready && now-last_ui>=100000){
             last_ui=now;body_ui_status(mounted,enabled,speed,sound,feedback,point,stats.a_edges,stats.b_edges,stats.pcnt_count);
+            if(page==PAGE_MIC){
+                body_mic_status_t mic=body_mic_status(); char text[160];
+                if(!mic.configured)snprintf(text,sizeof(text),"Not fitted / build disabled\nNo hardware test performed");
+                else snprintf(text,sizeof(text),"%s | UNVERIFIED\n%.1f dBFS | Peak %u\nFrames %lu | Errors %lu",
+                    mic.capturing?"Capture ON":"Capture OFF",(double)mic.rms_dbfs,mic.peak,
+                    (unsigned long)mic.frames,(unsigned long)mic.read_errors);
+                body_ui_mic_status(text);
+            }
         }
         if(now-last_stats>=5000000){
             last_stats=now;ESP_LOGI(TAG,"Health A=%"PRIu32" B=%"PRIu32" invalid=%"PRIu32

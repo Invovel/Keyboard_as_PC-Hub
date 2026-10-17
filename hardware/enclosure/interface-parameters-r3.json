@@ -1,0 +1,182 @@
+{
+  "revision": "R3-NAPE-ADAPTATION-20261017",
+  "units": "mm",
+  "status": "review draft, NOT fabrication released",
+  "body": {
+    "width": 228,
+    "depth": 76,
+    "front_height": 20,
+    "angle_deg": 5,
+    "rear_height": 26.649,
+    "wall": 2.4,
+    "corner_radius": 5
+  },
+  "pcb": {
+    "width": 216,
+    "depth": 64,
+    "thickness": 1.6,
+    "mount_holes": [
+      [
+        -104,
+        -28
+      ],
+      [
+        104,
+        -28
+      ],
+      [
+        104,
+        28
+      ],
+      [
+        -104,
+        28
+      ]
+    ],
+    "hole_diameter": 2.4
+  },
+  "screen": {
+    "outline_diameter": 44.32,
+    "active_diameter": 38.16,
+    "thickness_budget": 3.5,
+    "rotates": false,
+    "presses": true
+  },
+  "ring": {
+    "outer_diameter": 60,
+    "upper_aperture": 41.76,
+    "lower_aperture": 50,
+    "carrier_diameter": 49,
+    "visible_border_per_side": 1.8,
+    "radial_clearance_per_side": 0.5,
+    "height_above_panel": 8,
+    "presses": false
+  },
+  "keys": {
+    "count": 4,
+    "symmetric_x": true,
+    "symmetric_y": true,
+    "outer_x": 108,
+    "outer_y": 31,
+    "half_separator": 1,
+    "inner_arc_radius": 34.5,
+    "height_above_panel": 0.3,
+    "max_height_above_panel": 1,
+    "sensor_centers": [
+      [
+        -65,
+        18
+      ],
+      [
+        65,
+        18
+      ],
+      [
+        65,
+        -18
+      ],
+      [
+        -65,
+        -18
+      ]
+    ]
+  },
+  "contacts": {
+    "sides": [
+      "left",
+      "right"
+    ],
+    "face_x_abs": 114,
+    "y_positions": [
+      -8.75,
+      -6.25,
+      -3.75,
+      -1.25,
+      1.25,
+      3.75,
+      6.25,
+      8.75
+    ],
+    "pitch": 2.5,
+    "magnet_y": [
+      -27,
+      27
+    ],
+    "magnet_diameter": 5,
+    "magnets_carry_current": false,
+    "signals": [
+      "5V_MAG_PROTECTED",
+      "GND",
+      "3V3_MAG_ISOLATED",
+      "MAG_SDA",
+      "MAG_SCL",
+      "MAG_DET",
+      "MAG_INT",
+      "GND"
+    ],
+    "pin_order": "main-board face, rear to front; mating side mirrored",
+    "current_rating": "TBD by connector selection"
+  },
+  "accessories": {
+    "macro": [
+      112,
+      76
+    ],
+    "macro_keys": 5,
+    "macro_key_height": 9,
+    "joint_gap": 1,
+    "touch_strip": [
+      104,
+      22,
+      8
+    ]
+  },
+  "rear_ports": [
+    {
+      "name": "USB-A1",
+      "x": -91
+    },
+    {
+      "name": "USB-A2",
+      "x": -64
+    },
+    {
+      "name": "USB-A3",
+      "x": 64
+    },
+    {
+      "name": "PC-C",
+      "x": 91
+    },
+    {
+      "name": "POWER-C",
+      "x": 105
+    }
+  ],
+  "fast_port": {
+    "side": "left",
+    "y": 17
+  },
+  "microphone": {
+    "part": "INMP441 module",
+    "voltage": 3.3,
+    "i2s": 1,
+    "bclk": 4,
+    "ws": 5,
+    "sd": 17,
+    "lr": "GND / left",
+    "hardware_tested": false,
+    "acoustic_position": [
+      -88,
+      -38
+    ]
+  },
+  "central_keepout": {
+    "radius": 27,
+    "purpose": "screen carrier, travel, FPC; no tall components"
+  },
+  "keyboard_plug": {
+    "type": "adjustable USB-C male on independent carrier",
+    "fixed_pcb_plug": false
+  }
+}

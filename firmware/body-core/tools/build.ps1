@@ -3,6 +3,7 @@ param(
     [string]$IdfRoot = 'D:\.espressif\v6.1\esp-idf',
     [string]$ToolsRoot = 'D:\.espressif\v6.1',
     [string]$PythonEnv = 'C:\Users\indeg\.espressif\python_env\idf6.1_py3.14_env',
+    [switch]$WithMicrophone,
     [switch]$Flash,
     [string]$Port = 'COM5'
 )
@@ -21,10 +22,20 @@ $env:PYTHONUTF8 = '1'
 $env:PATH = "$PythonEnv\Scripts;$ToolsRoot\tools\cmake\4.0.3\bin;$ToolsRoot\tools\ninja\1.12.1;$ToolsRoot\tools\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin;" + $env:PATH
 Push-Location $Stage
 try {
-    & "$PythonEnv\Scripts\python.exe" "$IdfRoot\tools\idf.py" build
+    $buildConfig = Join-Path $Stage 'sdkconfig'
+    if ($WithMicrophone) {
+        $buildConfig = Join-Path $Stage 'sdkconfig.mic'
+        if (Test-Path (Join-Path $Stage 'sdkconfig')) {
+            $micConfig = Get-Content (Join-Path $Stage 'sdkconfig') -Raw
+            $micConfig = $micConfig -replace '(?m)^# CONFIG_BODY_MIC_ENABLE is not set\r?\n?', ''
+            $micConfig = $micConfig -replace '(?m)^CONFIG_BODY_MIC_ENABLE=.*\r?\n?', ''
+            $micConfig + "`nCONFIG_BODY_MIC_ENABLE=y`n" | Set-Content -LiteralPath $buildConfig -Encoding utf8
+        } else { 'CONFIG_BODY_MIC_ENABLE=y' | Set-Content -LiteralPath $buildConfig -Encoding utf8 }
+    }
+    & "$PythonEnv\Scripts\python.exe" "$IdfRoot\tools\idf.py" -D "SDKCONFIG=$buildConfig" build
     if ($LASTEXITCODE -ne 0) { throw "Build failed: $LASTEXITCODE" }
     if ($Flash) {
-        & "$PythonEnv\Scripts\python.exe" "$IdfRoot\tools\idf.py" -p $Port flash
+        & "$PythonEnv\Scripts\python.exe" "$IdfRoot\tools\idf.py" -D "SDKCONFIG=$buildConfig" -p $Port flash
         if ($LASTEXITCODE -ne 0) { throw "Flash failed: $LASTEXITCODE" }
     }
 } finally { Pop-Location }

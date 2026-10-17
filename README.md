@@ -12,8 +12,8 @@ ESP32-S3 圆屏控制台＋键盘直插 USB Hub。独立主机、右侧磁吸五
 | --- | --- | --- |
 | 固件代码 | [firmware](firmware/README.md) | 当前 ESP32-S3 工程、GPIO 诊断工程、历史代码 |
 | 设计图与展示 | [design](design/README.md) | 布局图、概念图、历史 PDF、交互 HTML |
-| PCB 设计 | [hardware/pcb](hardware/pcb/README.md) | 独立源工程与制造导出目录，目前尚无完成板图 |
-| 外壳设计 | [hardware/enclosure](hardware/enclosure/README.md) | 尺寸参数、独立 CAD 源文件与导出目录，目前尚无完成模型 |
+| PCB 设计 | [hardware/pcb](hardware/pcb/README.md) | R3 KiCad 接口载板草稿；尚未布线与制造验证 |
+| 外壳设计 | [hardware/enclosure](hardware/enclosure/README.md) | R3 尺寸、参数化 OpenSCAD 草模与后续导出目录 |
 | 电气接线 | [hardware/electronics](hardware/electronics/README.md) | 实物模块与接线说明 |
 | 烧录包 | [releases](releases/README.md) | 镜像、构建配置、校验清单和恢复方法 |
 | 测试证据 | [tests](tests/README.md) | 原始实物测试日志 |
@@ -25,13 +25,15 @@ ESP32-S3 圆屏控制台＋键盘直插 USB Hub。独立主机、右侧磁吸五
 
 **主体固件进展（2026-10-17）：** 圆屏、触控页面、触摸板、USB 键鼠/媒体控制、四键、按压、旋转及提示音已整合。旋转双向事件和 Windows HID 枚举已验证，用户在原生 USB 下复测后确认所有功能正常。Touchpad 刷新率和延迟保留为后续优化项。参见[实测记录](docs/body-core-bringup.md)、[固件源码](firmware/body-core)及[烧录镜像](releases/body-core/README.md)。Hub、磁吸附件和 eFlesh 不在本轮范围内。
 
-**当前版本 R2：左侧①④小、右侧②③横向加长，圆屏和四个感应中心保持固定。外环只旋转，中央屏幕可触控和独立按压。**
+**当前设计 R3：参考 Nape Pro 的横向布局，去掉 M1/M2，主体四键镜像对称。中央改为旋钮触摸屏，保留磁吸五键、触控条、触点和键盘公头位置。** R2 左小右长方案保留为历史；现有实物接线不随新外壳规划移动。
 
-![R2布局：左小右长，固定圆心和感应中心](design/drawings/layout-r2.svg)
+![R3对称长条布局与触点预留](design/drawings/layout-r3.svg)
+
+新增 [INMP441 麦克风方案与代码](docs/microphone-inmp441.md)：采用独立 I²S1，默认关闭，已做两种配置的编译检查；本轮未连接或烧录实测麦克风。
 
 ## 交互结构展示
 
-![R2 Hairline装配预览](design/visualization/hairline-keyboard-hub-rest.png)
+![R3 Hairline装配预览：直接更新原HTML](design/visualization/hairline-keyboard-hub-rest.png)
 
 [下载／查看单文件HTML](design/visualization/hairline-keyboard-hub.html) · [使用方法与检查记录](design/visualization/README.md)
 
@@ -43,25 +45,27 @@ ESP32-S3 圆屏控制台＋键盘直插 USB Hub。独立主机、右侧磁吸五
 
 | 项目 | 布局候选，mm |
 | --- | --- |
-| 主机外壳 | 102×68；5°；前高20、后高25.95（不含突出控件） |
-| 主 PCB | 96×62×1.6；尚未验证器件装配 |
+| 主机外壳 | 228×76；5°；前高20、后高26.65（不含突出控件） |
+| 主 PCB | 216×64×1.6；模块接口载板草稿，未布线 |
 | 旋转环／屏体／有效区 | Ø60／Ø44.32／Ø38.16 |
 | 环开口／可见边框 | Ø41.76／单边1.8 |
-| 四键感应中心 | (−36,+22)、(+36,+22)、(+36,−22)、(−36,−22) |
-| 左右键面 | 右侧向外多伸6；未倒圆面积比约1:1.37 |
+| 四键感应中心 | R3 新布局：(−65,+18)、(+65,+18)、(+65,−18)、(−65,−18) |
+| 左右键面 | 四片镜像等面积，中央避让 R34.5 |
 | 主体四软键外露高度 | 目标0.3，基本齐平；右侧五个机械键保持原高度 |
-| 右侧附件／拼合占地 | 112×68／215×68，均为展示包络 |
+| 右侧附件／拼合占地 | 112×76／341×76，均为展示包络 |
+| 两端磁吸触点 | 每端8点、间距2.5；两枚Ø5磁体，电气保护待设计 |
 
-**2026-10-09：资料研究与散件验证阶段。没有制造放行的PCB、CAD或整机验收结果。** GPIO及已验证状态见现有硬件记录。
+**R3 尚未制造放行。** KiCad 草稿可编辑，但没有走线、ERC/DRC 结果或 Gerber；OpenSCAD 草模尚未进行实体编译和装配验证。已通过的主体固件实物测试与这些新结构草案分别记录。
 
 ## 详细资料
 
-1. [R2结构、坐标和尺寸](hardware/enclosure/dimensions-r2.md)：当前机械基准及未核实项目。
+1. [R3结构、坐标和尺寸](hardware/enclosure/dimensions-r3.md)：当前机械候选及未核实项目；[R2](hardware/enclosure/dimensions-r2.md) 为历史。
 2. [键盘接口兼容性研究](docs/keyboard-compatibility.md)：公开端口资料、可调公头与主板尺寸边界。
 3. [接口与供电](docs/ports-and-power.md)：背部3A＋PC-C＋POWER-C、左侧FAST-C、键盘公头。
 4. [已有硬件与GPIO](hardware/electronics/current-wiring.md)：保留用户11个GPIO分配。
 5. [功能、散件验证及单板集成](docs/product-and-integration.md)。
-6. [接口调查表](hardware/pcb/references/keyboard-port-survey.csv)与[当前机械参数](hardware/enclosure/interface-parameters.json)。
+6. [接口调查表](hardware/pcb/references/keyboard-port-survey.csv)与[R3机械参数](hardware/enclosure/interface-parameters-r3.json)。
+7. [R3 PCB接口工程](hardware/pcb/sources/body-r3/README.md)、[OpenSCAD草模](hardware/enclosure/sources/body-r3.scad)及[检查记录](tests/design/README.md)。
 
 主机使用现有N16R8、360×360圆形触控屏、MAX98357A及扬声器。外围四块eFlesh软键、五宏键和触控条可配置；独立视觉节点识别手势，经ESP-NOW传输。高速数据走独立Hub，ESP32作为下游HID；FAST与其他外设共享上行带宽。
 
