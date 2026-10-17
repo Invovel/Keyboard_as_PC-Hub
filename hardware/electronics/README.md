@@ -4,3 +4,5 @@
 当前运行固件的完整 GPIO 表以 [body-core README](../../firmware/body-core/README.md) 为准，实际测试以[实测记录](../../docs/body-core-bringup.md)为准。
 
 新增散件型号、模块接口说明、实物接线图放这里。PCB 原理图工程放到相邻的 pcb 目录。
+
+[桌面底座接口选型表](dock-port-selection.csv)对应[最新定位与供电方案](../../docs/desktop-power-dock.md)，是采购约束而非实物接线通过记录。

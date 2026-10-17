@@ -1,5 +1,7 @@
 # 原 Hairline HTML：更新至 R3
 
+当前产品定位为[键盘联接式桌面供电与控制底座](../../docs/desktop-power-dock.md)，原HTML继续展示相同结构和交互；端口电气功能以新选型文档为准，不把图形预留视为已实现PD或Hub。
+
 [原HTML入口](hairline-keyboard-hub.html)及[原绘图源码](keyboard-hub.js)直接更新，没有另建 R3 展示入口。原有分层、点击固定、磁吸拆分和导览继续使用。历史 R2 可从 Git 历史和[尺寸文档](../../hardware/enclosure/dimensions-r2.md)查看。
 
 ![R3装配预览](hairline-keyboard-hub-rest.png)

@@ -2,7 +2,9 @@
 
 **实施入口（2026-10-13）：** [从设计走向实现](docs/project-start.md) · [下一阶段任务](CODEX_START.md)。
 
-ESP32-S3 圆屏控制台＋键盘直插 USB Hub。独立主机、右侧磁吸五键模块、独立磁吸触控条；先验证散件，再集成主 PCB。
+**产品定位：键盘联接式桌面供电与控制底座（Desktop Power & Control Dock）。** 独立外部供电，为键盘与桌面外设汇聚数据和供电，圆屏/旋钮负责操作。主机独立落桌承力，键盘通过可调 Type-C 公头接入；右侧磁吸五键与触控条保持独立。
+
+[最新定位与Hub/插头选型](docs/desktop-power-dock.md)：POWER IN按100W等级PD受电预留，PC为10Gbps电脑上行，FAST为10Gbps外设口；保持背部3A+2C、侧面FAST。100W输入不等于已验证100W输出，也不自动给电脑充电。基础版为低压USB供电，无市电插座。
 
 ## 文件分类
 
@@ -66,6 +68,7 @@ ESP32-S3 圆屏控制台＋键盘直插 USB Hub。独立主机、右侧磁吸五
 5. [功能、散件验证及单板集成](docs/product-and-integration.md)。
 6. [接口调查表](hardware/pcb/references/keyboard-port-survey.csv)与[R3机械参数](hardware/enclosure/interface-parameters-r3.json)。
 7. [R3 PCB接口工程](hardware/pcb/sources/body-r3/README.md)、[OpenSCAD草模](hardware/enclosure/sources/body-r3.scad)及[检查记录](tests/design/README.md)。
+8. [端口与插头采购约束表](hardware/electronics/dock-port-selection.csv)：上行、PD受电、数据下游、键盘公头与磁吸接口分别选型。
 
 主机使用现有N16R8、360×360圆形触控屏、MAX98357A及扬声器。外围四块eFlesh软键、五宏键和触控条可配置；独立视觉节点识别手势，经ESP-NOW传输。高速数据走独立Hub，ESP32作为下游HID；FAST与其他外设共享上行带宽。
 

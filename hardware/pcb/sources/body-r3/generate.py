@@ -14,6 +14,8 @@ PARAM=ROOT/'hardware/enclosure/interface-parameters-r3.json'
 for p in (HERE,OUT,DRAW,PARAM.parent): p.mkdir(parents=True,exist_ok=True)
 P={
  'revision':'R3-NAPE-ADAPTATION-20261017','units':'mm','status':'review draft, NOT fabrication released',
+ 'product':{'positioning':'Desktop Power & Control Dock with keyboard connection','external_power':True,'internal_mains':False,'host_PD_charging':False},
+ 'power_plan':{'input_role':'USB-C PD Sink','input_target_v':20,'input_target_a':5,'input_target_w':100,'regulated_bus_v':5,'regulated_bus_target_a':10,'planned_load_w':46,'implemented':False,'hub_controller_candidate':'USB7206C','power_board_separate':True,'carrier_input_v':5},
  'body':{'width':228,'depth':76,'front_height':20,'angle_deg':5,'rear_height':round(20+76*math.tan(math.radians(5)),3),'wall':2.4,'corner_radius':5},
  'pcb':{'width':216,'depth':64,'thickness':1.6,'mount_holes':[[-104,-28],[104,-28],[104,28],[-104,28]],'hole_diameter':2.4},
  'screen':{'outline_diameter':44.32,'active_diameter':38.16,'thickness_budget':3.5,'rotates':False,'presses':True},
@@ -22,7 +24,7 @@ P={
  'contacts':{'sides':['left','right'],'face_x_abs':114,'y_positions':[-8.75,-6.25,-3.75,-1.25,1.25,3.75,6.25,8.75],'pitch':2.5,'magnet_y':[-27,27],'magnet_diameter':5,'magnets_carry_current':False,'signals':['5V_MAG_PROTECTED','GND','3V3_MAG_ISOLATED','MAG_SDA','MAG_SCL','MAG_DET','MAG_INT','GND'],'pin_order':'main-board face, rear to front; mating side mirrored','current_rating':'TBD by connector selection'},
  'accessories':{'macro':[112,76],'macro_keys':5,'macro_key_height':9,'joint_gap':1,'touch_strip':[104,22,8]},
  'rear_ports':[{'name':'USB-A1','x':-91},{'name':'USB-A2','x':-64},{'name':'USB-A3','x':64},{'name':'PC-C','x':91},{'name':'POWER-C','x':105}],
- 'fast_port':{'side':'left','y':17},
+ 'fast_port':{'side':'left','y':17,'data_target_Gbps':10,'source_v':5,'source_target_a':3,'high_voltage_PD':False},
  'microphone':{'part':'INMP441 module','voltage':3.3,'i2s':1,'bclk':4,'ws':5,'sd':17,'lr':'GND / left','hardware_tested':False,'acoustic_position':[-88,-38]},
  'central_keepout':{'radius':27,'purpose':'screen carrier, travel, FPC; no tall components'},
  'keyboard_plug':{'type':'adjustable USB-C male on independent carrier','fixed_pcb_plug':False},

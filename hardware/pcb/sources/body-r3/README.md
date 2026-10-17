@@ -2,6 +2,8 @@
 
 这是基于当前已运行固件 GPIO 与模块拓扑生成的 **KiCad 接口原理图 + PCB 布局草稿**。不是 Keychron PCB 的复刻，也不是制造放行板。
 
+按[桌面供电底座定位](../../../../docs/desktop-power-dock.md)，本板是控制载板。新增100W等级PD输入、5V分路供电与USB7206C Hub需要单独子板，**本板J9仍只接5V**；更新产品定位没有实现这些电源电路。
+
 - [body-r3.kicad_pro](body-r3.kicad_pro)：项目入口。
 - [body-r3.kicad_sch](body-r3.kicad_sch)：内嵌连接器符号的原理图，11 个逻辑接口。
 - [body-r3.kicad_pcb](body-r3.kicad_pcb)：216×64×1.6 mm 板框、34 个网络（包含空网络编号 0）、15 个封装（含安装孔）。**没有走线与铺铜**。

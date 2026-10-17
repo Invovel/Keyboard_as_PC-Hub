@@ -2,6 +2,25 @@
   "revision": "R3-NAPE-ADAPTATION-20261017",
   "units": "mm",
   "status": "review draft, NOT fabrication released",
+  "product": {
+    "positioning": "Desktop Power & Control Dock with keyboard connection",
+    "external_power": true,
+    "internal_mains": false,
+    "host_PD_charging": false
+  },
+  "power_plan": {
+    "input_role": "USB-C PD Sink",
+    "input_target_v": 20,
+    "input_target_a": 5,
+    "input_target_w": 100,
+    "regulated_bus_v": 5,
+    "regulated_bus_target_a": 10,
+    "planned_load_w": 46,
+    "implemented": false,
+    "hub_controller_candidate": "USB7206C",
+    "power_board_separate": true,
+    "carrier_input_v": 5
+  },
   "body": {
     "width": 228,
     "depth": 76,
@@ -155,7 +174,11 @@
   ],
   "fast_port": {
     "side": "left",
-    "y": 17
+    "y": 17,
+    "data_target_Gbps": 10,
+    "source_v": 5,
+    "source_target_a": 3,
+    "high_voltage_PD": false
   },
   "microphone": {
     "part": "INMP441 module",
