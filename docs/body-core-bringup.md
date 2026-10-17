@@ -1,0 +1,99 @@
+# Body-core 接入与实测记录
+
+## 2026-10-17：整合固件实测反馈（当前状态）
+
+圆屏、触控、LVGL 四页面、numrow 手势适配、TinyUSB 复合 HID、实体输入、音频及 NVS 已进入同一固件。用户确认页面可切换、操作提示音正常；换用开发板另一 USB 口后确认音量控制成功。最新反馈更正为“所有的按钮和功能都正常，除了数字编码器没有任何反应”。旋转功能尚未通过；其余为用户实物反馈，不替代逐项仪器测量。
+
+Windows 本轮实际枚举 `VID_303A/PID_4004`，设备序列号 `BODY-CORE-001`：键盘 `COL01`、鼠标 `COL02`、Consumer Control `COL03` 均为 `OK`。此前靠近 FTDI 的接口只提供 COM5 串口；电脑控制应使用本次成功枚举的另一接口。
+
+| 验收项 | 当前依据与结果 |
+| --- | --- |
+| 显示、页面切换、触控及提示音 | 用户明确确认正常 |
+| 电脑音量控制 | 换 USB 口后用户明确确认成功 |
+| 键盘、鼠标、媒体 HID 枚举 | Windows 实测三个集合均为 OK |
+| 其余主体操作 | 用户反馈除旋转编码器外正常；未新增逐项串口记录 |
+| Touchpad 刷新率与延迟 | 用户反馈体验不佳；明确要求本轮不修改，留作后续优化 |
+| 旋转编码器 | 用户明确反馈无响应，未通过；历史计数 A=76、B=0，待读取当前 Settings 中的 A/B 计数 |
+| 重连释放、设置重启保存 | 尚无本轮独立释放报告或重启日志证据 |
+
+本次不更改触摸板参数或重新烧录。Hub、磁吸附件、eFlesh 和屏幕机械按压结构不在本轮实物验收范围内。以下为较早镜像记录，其中“USB=0”和“未初始化 LCD”不代表当前整合版本。
+
+### 编码器专项诊断（上述反馈之后）
+
+用户进一步确认 Settings 中 A/B 计数在旋转时均不变化。为排除 1 ms 轮询漏采，后续仅将编码器改为 GPIO1/2 双边沿中断捕获，按钮仍按原方式采样，未修改 Touchpad。诊断镜像大小 632144 字节，COM5 烧录哈希校验通过。
+
+用户完成顺时针 5 格、逆时针 5 格并按压后，日志仍为 `A=0 B=0 invalid=0 drop=0`；按压正常记录 `Press DOWN/UP`。因此当前 GPIO1/2 没有捕获到旋转电平边沿，尚不能归因于方向解码，也不能仅凭软件确定是编码器触点、公共端、连接或实际引脚对应问题。需要实物电气检查后继续，不能标记旋转通过。
+
+同时启动日志确认手势模块自测 PASS（点击、停留、移动、双击、拖动、复位、待发送取消和时间回绕），NVS 本次加载 `speed=2 sound=0`。自测不替代实物手势验收。原始记录：[编码器中断诊断](../firmware/body-core/logs/2026-10-17-encoder-irq.txt)。
+
+### 官方 PCNT 接入与交叉验证
+
+用户更正编码器型号为 **EC11**。已基于本机 ESP-IDF 6.1 官方 `peripherals/pcnt/rotary_encoder` 示例增加 `body_encoder.c`，保留 CC0-1.0 版权和来源信息。旋转改用硬件 PCNT 正交计数，GPIO 双边沿计数仅作诊断；Settings 增加 P 计数。
+
+640016 字节镜像已编译、烧录并通过哈希校验；原应用在烧录前备份。用户再次旋转并反馈 A/B 不变，串口同时确认 `A=0 B=0 PCNT=0`、按压 DOWN/UP 正常。开源驱动已实际接入，但旋转功能**仍未通过**，下一步需要断电后实测 EC11 的 C–A、C–B 通断。不能用未出现的信号编造方向。
+
+日志：[官方 PCNT 测试](../firmware/body-core/logs/2026-10-17-encoder-pcnt.txt)。
+镜像、恢复方式及校验清单：[调试镜像](../firmware/body-core/artifacts/README.md)。
+
+## 历史：2026-10-17 主体输入模块集成与烧录
+
+本轮替换 BOOT 演示主程序，实际编译 `body_input.c`、`body_hid.c`、`body_audio.c`。
+固件大小 0x3dca0 字节，经 COM5 写入并通过哈希校验。
+镜像 SHA256：`76b9e49143b535bf2f78f3e9869fff1002e4e98caf39a03443e115a6db0ac44e`。
+
+| 输入 | 本轮配置 | 动作 | 验证结果 |
+| --- | --- | --- | --- |
+| ① | GPIO42 | 上一曲 | 收到 DOWN/UP；用户确认短音 |
+| ② | GPIO41 | 播放/暂停 | 收到 DOWN/UP；用户确认短音 |
+| ③ | GPIO40 | 下一曲 | 收到 DOWN/UP；用户确认短音 |
+| ④ | GPIO38 | 静音 | 收到 DOWN/UP；用户确认短音 |
+| 编码器按压 | GPIO39，依据有序测试 | 播放/暂停 | 收到 DOWN/UP；用户确认短音 |
+| 编码器 A/B | GPIO1/2；B 尚未验证 | 完整正交周期调节音量 | A=76、B=0；方向/步进未通过 |
+| 开发板 BOOT | GPIO0 | 运行时切换 HID 输出禁用/恢复 | 日志记录 DISABLED → ENABLED；用户确认短音 |
+
+输入每 1 ms 采样，按钮按时间去抖 25 ms。编码器只有完整双相周期才发出旋转事件，
+单路脉冲不推测方向；每个实际卡位对应多少周期仍需实测。轮询无法保证捕获任意短的边沿。
+输入队列溢出时禁用 HID 输出，需显式重新启用。当前没有丢事件或无效双相跳变。
+音频任务使用 MAX98357A GPIO47/48/21，短音结束自动清零 DMA，用户确认启动及按键声音。
+旋转默认没有提示音，不能以是否发声判断旋转是否正常。
+
+HID 描述符包含键盘、鼠标、Consumer Control；四键和旋钮映射目前使用 Consumer Control。
+断连清空 HID 状态、重连优先发送释放报告。当前串口 `USB=0`，Windows 仅枚举到
+FTDI COM5，未发现本固件 `VID_303A/PID_4004`，所以电脑媒体控制和主机端释放行为尚未验收。
+BOOT 禁用/恢复通过的是固件状态切换，不代表主机端卡键测试已通过。
+
+触控总线仍扫描到 `0x15`；当前镜像没有初始化 LCD、触控坐标、LVGL 页面或
+numrow 手势模块。中央屏幕独立按压、GPIO17 总禁用开关也未接入本轮镜像。
+Hub、磁吸附件不在本轮范围内。
+
+原始启动与操作日志：[2026-10-17-input-integration.txt](../firmware/body-core/logs/2026-10-17-input-integration.txt)。
+可复用串口记录脚本：[capture_serial.py](../firmware/body-core/tools/capture_serial.py)。
+本轮尚未推送 GitHub；以下为历史接入记录，BOOT 发送 A/鼠标点击的旧行为已移除。
+
+## 历史：第 1 次接入
+
+目录 `firmware/body-core` 是主体首轮 bring-up 工程，暂不启用 Hub。
+
+## 当前接入
+
+- ESP32-S3 原生 TinyUSB HID：键盘 + 鼠标
+- BOOT 键 GPIO0：发送 `A` 和鼠标左键，用于 USB 验证
+- 触控 I²C 总线：SDA GPIO8 / SCL GPIO9，启动时扫描地址
+- MAX98357A I²S 总线：BCLK GPIO47 / WS GPIO48 / DIN GPIO21
+- 屏幕 QSPI 和 LVGL UI：下一次迭代接入，当前先避免误用 ST77916/JD9855 初始化表
+
+## 2026-10-15 实测结果
+
+- 本机 ESP-IDF v6.1、Python 环境和 Xtensa GCC 15.2.0 均可运行；编译器位于 `D:\.espressif\v6.1\tools\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin`，无需重复下载安装。
+- `espressif/esp_tinyusb` 解析为 2.4.0；项目已固定该版本。
+- 本机 COM5 经 `esptool chip-id` 确认是 ESP32-S3 v0.2，配备 8 MB PSRAM、16 MB Flash。COM5 访问需要允许宿主机串口权限；受限环境内的“拒绝访问”不代表端口被占用。
+- 固件在 ESP-IDF v6.1 下编译成功，镜像约 249 KB，并通过 COM5 烧录和校验。烧录前已在本机临时目录备份原 Flash 前 1 MB；备份不纳入仓库。
+- 启动日志确认：I²C GPIO8/9 扫到设备 `0x15`，I²S GPIO47/48/21 初始化成功，TinyUSB HID 驱动已启动，未见启动崩溃。
+
+这仍只是主体 bring-up。I²C 地址不等于触摸坐标已可读；I²S 初始化不等于扬声器已经发声；TinyUSB 驱动启动不等于电脑端已确认 HID 枚举或 BOOT 键动作。QSPI 屏幕显示、四个独立按键与 Hub 尚未实现。
+
+## 本机复现注意
+
+`IDF_PATH` 是 `D:\.espressif\v6.1\esp-idf`，`IDF_TOOLS_PATH` 必须是 `D:\.espressif\v6.1`（包含 `tools` 的父目录）。Python 环境位于 `C:\Users\indeg\.espressif\python_env\idf6.1_py3.14_env`。使用 ESP-IDF 导出环境后运行 `idf.py build`、`idf.py -p COM5 flash monitor`。
+
+本机 ESP-IDF 工具链处理项目路径中的中文字符时，曾在 `picolibc.specs` 路径处失败。因此本次只将固件源码复制到英文临时目录 `C:\Users\indeg\AppData\Local\Temp\codex-body-core-build-20261015` 后编译、烧录；仓库中的源文件仍是权威版本，后续修改后需重新同步源码。当前临时目录中的构建产物可用于核对这次结果，但不应作为长期构建位置。
