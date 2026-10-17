@@ -4,6 +4,8 @@
 
 ESP32-S3 圆屏控制台＋键盘直插 USB Hub。独立主机、右侧磁吸五键模块、独立磁吸触控条；先验证散件，再集成主 PCB。
 
+**主体固件进展（2026-10-17）：** 圆屏、触控页面、触摸板、USB 键鼠/媒体控制、四键、按压、旋转及提示音已整合。旋转双向事件和 Windows HID 枚举已验证，用户在原生 USB 下复测后确认所有功能正常。Touchpad 刷新率和延迟保留为后续优化项。参见[实测记录](docs/body-core-bringup.md)、[固件源码](firmware/body-core/)及[烧录镜像](firmware/body-core/artifacts/README.md)。Hub、磁吸附件和 eFlesh 不在本轮范围内。
+
 **当前版本 R2：左侧①④小、右侧②③横向加长，圆屏和四个感应中心保持固定。外环只旋转，中央屏幕可触控和独立按压。**
 
 ![R2布局：左小右长，固定圆心和感应中心](mechanical/layout-r2.svg)

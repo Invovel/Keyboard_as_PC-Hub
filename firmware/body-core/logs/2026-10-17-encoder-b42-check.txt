@@ -1,0 +1,6 @@
+I (693864) body-core: Health A=92 B=52 invalid=0 drop=0 touch=27 errors=0 PCNT=-4 USB=0 enabled=1 heap=244300
+I (698874) body-core: Health A=92 B=52 invalid=0 drop=0 touch=27 errors=0 PCNT=-4 USB=0 enabled=1 heap=244300
+I (703884) body-core: Health A=92 B=52 invalid=0 drop=0 touch=27 errors=0 PCNT=-4 USB=0 enabled=1 heap=244300
+I (708904) body-core: Health A=92 B=52 invalid=0 drop=0 touch=27 errors=0 PCNT=-4 USB=0 enabled=1 heap=244300
+I (713914) body-core: Health A=92 B=52 invalid=0 drop=0 touch=27 errors=0 PCNT=-4 USB=0 enabled=1 heap=244300
+I (718924) body-core: Health A=92 B=52 invalid=0 drop=0 touch=27 errors=0 PCNT=-4 USB=0 enabled=1 heap=244300
