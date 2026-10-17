@@ -4,17 +4,38 @@
 
 ESP32-S3 圆屏控制台＋键盘直插 USB Hub。独立主机、右侧磁吸五键模块、独立磁吸触控条；先验证散件，再集成主 PCB。
 
-**主体固件进展（2026-10-17）：** 圆屏、触控页面、触摸板、USB 键鼠/媒体控制、四键、按压、旋转及提示音已整合。旋转双向事件和 Windows HID 枚举已验证，用户在原生 USB 下复测后确认所有功能正常。Touchpad 刷新率和延迟保留为后续优化项。参见[实测记录](docs/body-core-bringup.md)、[固件源码](firmware/body-core/)及[烧录镜像](firmware/body-core/artifacts/README.md)。Hub、磁吸附件和 eFlesh 不在本轮范围内。
+## 文件分类
+
+后续直接在 `main` 上继续优化。文件按用途分开存放：
+
+| 分类 | 入口 | 内容 |
+| --- | --- | --- |
+| 固件代码 | [firmware](firmware/README.md) | 当前 ESP32-S3 工程、GPIO 诊断工程、历史代码 |
+| 设计图与展示 | [design](design/README.md) | 布局图、概念图、历史 PDF、交互 HTML |
+| PCB 设计 | [hardware/pcb](hardware/pcb/README.md) | 独立源工程与制造导出目录，目前尚无完成板图 |
+| 外壳设计 | [hardware/enclosure](hardware/enclosure/README.md) | 尺寸参数、独立 CAD 源文件与导出目录，目前尚无完成模型 |
+| 电气接线 | [hardware/electronics](hardware/electronics/README.md) | 实物模块与接线说明 |
+| 烧录包 | [releases](releases/README.md) | 镜像、构建配置、校验清单和恢复方法 |
+| 测试证据 | [tests](tests/README.md) | 原始实物测试日志 |
+| 规划与记录 | [docs](docs/repository-layout.md) | 功能规划、兼容性研究、验收说明与目录规则 |
+
+目录规则及旧路径对应关系见[仓库目录规范](docs/repository-layout.md)。
+
+## 当前进展
+
+**主体固件进展（2026-10-17）：** 圆屏、触控页面、触摸板、USB 键鼠/媒体控制、四键、按压、旋转及提示音已整合。旋转双向事件和 Windows HID 枚举已验证，用户在原生 USB 下复测后确认所有功能正常。Touchpad 刷新率和延迟保留为后续优化项。参见[实测记录](docs/body-core-bringup.md)、[固件源码](firmware/body-core)及[烧录镜像](releases/body-core/README.md)。Hub、磁吸附件和 eFlesh 不在本轮范围内。
 
 **当前版本 R2：左侧①④小、右侧②③横向加长，圆屏和四个感应中心保持固定。外环只旋转，中央屏幕可触控和独立按压。**
 
-![R2布局：左小右长，固定圆心和感应中心](mechanical/layout-r2.svg)
+![R2布局：左小右长，固定圆心和感应中心](design/drawings/layout-r2.svg)
 
 ## 交互结构展示
 
-![R2 Hairline装配预览](visualization/hairline-keyboard-hub-rest.png)
+![R2 Hairline装配预览](design/visualization/hairline-keyboard-hub-rest.png)
 
-[下载／查看单文件HTML](visualization/hairline-keyboard-hub.html) · [使用方法与检查记录](visualization/README.md)
+[下载／查看单文件HTML](design/visualization/hairline-keyboard-hub.html) · [使用方法与检查记录](design/visualization/README.md)
+
+[主体功能详细展示（结构、连接、信号流、软件模块、验收阶段）](design/visualization/body-core-showcase.html)
 
 下载HTML后直接用浏览器打开，无需安装。悬停主机看分层；点击固定，再点同处或空白复位。悬停右侧五键或触控条看磁吸分离。滑块改变展示间距，`play`自动导览。GitHub README只显示静态图，不运行HTML交互。
 
@@ -35,17 +56,17 @@ ESP32-S3 圆屏控制台＋键盘直插 USB Hub。独立主机、右侧磁吸五
 
 ## 详细资料
 
-1. [R2结构、坐标和尺寸](mechanical/dimensions-r2.md)：当前机械基准及未核实项目。
+1. [R2结构、坐标和尺寸](hardware/enclosure/dimensions-r2.md)：当前机械基准及未核实项目。
 2. [键盘接口兼容性研究](docs/keyboard-compatibility.md)：公开端口资料、可调公头与主板尺寸边界。
 3. [接口与供电](docs/ports-and-power.md)：背部3A＋PC-C＋POWER-C、左侧FAST-C、键盘公头。
-4. [已有硬件与GPIO](hardware/current-wiring.md)：保留用户11个GPIO分配。
+4. [已有硬件与GPIO](hardware/electronics/current-wiring.md)：保留用户11个GPIO分配。
 5. [功能、散件验证及单板集成](docs/product-and-integration.md)。
-6. [接口调查表](hardware/keyboard-port-survey.csv)与[当前机械参数](mechanical/interface-parameters.json)。
+6. [接口调查表](hardware/pcb/references/keyboard-port-survey.csv)与[当前机械参数](hardware/enclosure/interface-parameters.json)。
 
 主机使用现有N16R8、360×360圆形触控屏、MAX98357A及扬声器。外围四块eFlesh软键、五宏键和触控条可配置；独立视觉节点识别手势，经ESP-NOW传输。高速数据走独立Hub，ESP32作为下游HID；FAST与其他外设共享上行带宽。
 
 ## 历史资料
 
-![早期概念效果，仅供外观参考](assets/concept-four-soft-keys.png)
+![早期概念效果，仅供外观参考](design/concepts/concept-four-soft-keys.png)
 
-以上旧效果图不代表R2键面、接口标识或制造尺寸。[R0结构](mechanical/dimensions-r0.md)、`设计图/`、`Functions/`、`STM32F103C8T6/`均保留作历史参考；原示例不是当前ESP32固件。[此前首页](docs/history/README-before-2026-10-09.md)保留原始思路。
+以上旧效果图不代表R2键面、接口标识或制造尺寸。[R0结构](hardware/enclosure/dimensions-r0.md)、`design/drawings/history/`、`firmware/legacy/functions/`、`firmware/legacy/stm32f103c8t6/`均保留作历史参考；原示例不是当前ESP32固件。[此前首页](docs/history/README-before-2026-10-09.md)保留原始思路。

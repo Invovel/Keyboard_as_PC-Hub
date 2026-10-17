@@ -1,3 +1,0 @@
-# Preserve raw diagnostic bytes and the packaged files used by SHA256 manifests.
-logs/** -text -diff
-artifacts/** -text whitespace=cr-at-eol

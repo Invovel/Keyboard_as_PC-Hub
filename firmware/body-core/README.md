@@ -41,7 +41,9 @@ idf.py -p COM5 monitor
 在固件目录记录串口（录制期间勿同时运行 monitor/esptool）：
 
 ```sh
-python tools/capture_serial.py --port COM5 --seconds 180 --reset --output logs/session.txt
+python tools/capture_serial.py --port COM5 --seconds 180 --reset --output ../../tests/hardware/logs/body-core/session-new.txt
 ```
 
 编译成功后构建目录包含 `body_core.bin`、`bootloader/bootloader.bin`、`partition_table/partition-table.bin` 和 `flash_args`。优先按生成的 `flash_args` 烧录。只更新应用时地址为 `0x10000`，不擦除 NVS。GPIO 计数静止时不要以提示音或驱动初始化成功判断旋转通过。
+
+归档镜像位于 [releases/body-core](../../releases/body-core/README.md)，原始日志位于 [tests/hardware](../../tests/hardware/README.md)，不与固件源文件混放。

@@ -47,7 +47,7 @@ USB-IF定义的是连接器配合接口，不定义键盘外壳开口及母座�
 
 ## 主PCB的尺寸决策
 
-当前机械基准为[R2结构](../mechanical/dimensions-r2.md)：主机102×68，主板96×62×1.6；均为布局候选，不是加工图。主板内包含主控、Hub、供电、音频与连接管理，现有开发板及GPIO扩展板整板不承诺可装入。
+当前机械基准为[R2结构](../hardware/enclosure/dimensions-r2.md)：主机102×68，主板96×62×1.6；均为布局候选，不是加工图。主板内包含主控、Hub、供电、音频与连接管理，现有开发板及GPIO扩展板整板不承诺可装入。
 
 早期100×80板框已被替代。背部3A+2C和侧面FAST必须采用真实连接器封装核对板边、插入深度和外部插头间距。62mm深度来自本机布局目标，不来自键盘端口统计；器件、排线、旋转/按压机构、高速走线或散热任何一项不满足，都必须复核板框，不牺牲净空。
 
@@ -59,4 +59,4 @@ USB-IF定义的是连接器配合接口，不定义键盘外壳开口及母座�
 
 [Keychron官方硬件目录](https://github.com/Keychron/Keychron-Keyboards-Hardware-Design)公开了多款模型的下载入口，本次已确认K2 Pro与Q1目录含外壳/整机STEP链接；**未完成这些STEP的导入测量**，因此不把它们当作已测量的尺寸证据。后续可据模型提取尺寸，再以实物试插确认版本差异。原始厂商模型不作为本项目原创模型发布。
 
-量测数据表见[keyboard-port-survey.csv](../hardware/keyboard-port-survey.csv)，设计起始参数见[interface-parameters.json](../mechanical/interface-parameters.json)。
+量测数据表见[keyboard-port-survey.csv](../hardware/pcb/references/keyboard-port-survey.csv)，设计起始参数见[interface-parameters.json](../hardware/enclosure/interface-parameters.json)。

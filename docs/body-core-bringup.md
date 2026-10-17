@@ -26,7 +26,7 @@ Windows 本轮实际枚举 `VID_303A/PID_4004`，设备序列号 `BODY-CORE-001`
 
 用户完成顺时针 5 格、逆时针 5 格并按压后，日志仍为 `A=0 B=0 invalid=0 drop=0`；按压正常记录 `Press DOWN/UP`。因此当前 GPIO1/2 没有捕获到旋转电平边沿，尚不能归因于方向解码，也不能仅凭软件确定是编码器触点、公共端、连接或实际引脚对应问题。需要实物电气检查后继续，不能标记旋转通过。
 
-同时启动日志确认手势模块自测 PASS（点击、停留、移动、双击、拖动、复位、待发送取消和时间回绕），NVS 本次加载 `speed=2 sound=0`。自测不替代实物手势验收。原始记录：[编码器中断诊断](../firmware/body-core/logs/2026-10-17-encoder-irq.txt)。
+同时启动日志确认手势模块自测 PASS（点击、停留、移动、双击、拖动、复位、待发送取消和时间回绕），NVS 本次加载 `speed=2 sound=0`。自测不替代实物手势验收。原始记录：[编码器中断诊断](../tests/hardware/logs/body-core/2026-10-17-encoder-irq.txt)。
 
 ### 官方 PCNT 接入与交叉验证
 
@@ -34,20 +34,20 @@ Windows 本轮实际枚举 `VID_303A/PID_4004`，设备序列号 `BODY-CORE-001`
 
 640016 字节镜像已编译、烧录并通过哈希校验；原应用在烧录前备份。用户再次旋转并反馈 A/B 不变，串口同时确认 `A=0 B=0 PCNT=0`、按压 DOWN/UP 正常。开源驱动已实际接入，但旋转功能**仍未通过**，下一步需要断电后实测 EC11 的 C–A、C–B 通断。不能用未出现的信号编造方向。
 
-日志：[官方 PCNT 测试](../firmware/body-core/logs/2026-10-17-encoder-pcnt.txt)。
-镜像、恢复方式及校验清单：[调试镜像](../firmware/body-core/artifacts/README.md)。
+日志：[官方 PCNT 测试](../tests/hardware/logs/body-core/2026-10-17-encoder-pcnt.txt)。
+镜像、恢复方式及校验清单：[调试镜像](../releases/body-core/README.md)。
 
 ### 公共端调整后的复测
 
 用户调整连接后，COM5 恢复，未修改或重新烧录固件。旋转期间 GPIO1 的 A 边沿累计从 0 增至至少 314，GPIO2 的 B 边沿仍为 0；PCNT 曾读到 1，随后为 0，未形成有效旋转动作。用户反馈 A 累加、B 闪烁、按压正常；屏幕闪烁不等于日志捕获到 B 边沿。
 
 这修正了先前“两路都无信号”的状态，当前只有一路被捕获。下一步断电交换 IO1/IO2 的两根信号线，公共地和按压不变，以区分信号来源/连接路径与输入引脚问题，不先判定编码器损坏。
-原始记录：[公共端调整后复测](../firmware/body-core/logs/2026-10-17-encoder-after-common-wire.txt)。
+原始记录：[公共端调整后复测](../tests/hardware/logs/body-core/2026-10-17-encoder-after-common-wire.txt)。
 
 随后用户反馈交换 A/B 后结果一致。新的串口完整健康记录为 `A=472 B=0 PCNT=0`；A/B 在本固件中是累计边沿数，屏幕所述“1/0 闪烁”不能据此认定 B 有边沿，可能与邻近 P 数字混淆，但尚未目视确认。交换具体位置也尚未通过照片核对，不能据此认定 GPIO2 或 EC11 已损坏。
 
 此轮捕获开头出现大量重复、不完整的串口尾部文本，保留原始文件，仅使用带时间戳的完整 `Health` 行作为数值证据。当前等待编码器旋转组三脚与开发板插线位置的照片，再决定下一步；不继续盲目换线或刷机。
-原始记录：[用户交换 A/B 后的串口读取](../firmware/body-core/logs/2026-10-17-encoder-ab-swapped.txt)。
+原始记录：[用户交换 A/B 后的串口读取](../tests/hardware/logs/body-core/2026-10-17-encoder-ab-swapped.txt)。
 
 ### 双路及正反转恢复
 
@@ -56,7 +56,7 @@ Windows 本轮实际枚举 `VID_303A/PID_4004`，设备序列号 `BODY-CORE-001`
 新日志读到 A=92、B=52、PCNT=-4。用户按要求只旋转后，捕获连续负向与正向完整周期，A/B 最终达到 116/76、PCNT=0，invalid=0、drop=0，测试段没有①键事件。这证明当前运行固件收到了双路信号并产生双向旋转动作；未验证每个机械卡位的精确计数或顺时针对应音量增减的约定。
 
 当时 FTDI 单线连接，USB=0，因此日志中的 `Volume +/-: USB offline` 只证明动作映射。随后切回原生 USB，Windows 三个 HID 集合均为 OK，用户在音量及滚动复测请求后回复“所有功能完全正常”。串口录制因拔掉 FTDI 线而结束，不将该串口断开误记为固件崩溃。
-记录：[恢复前计数读取](../firmware/body-core/logs/2026-10-17-encoder-b42-check.txt)、[双向旋转事件](../firmware/body-core/logs/2026-10-17-encoder-recovered-directions.txt)。
+记录：[恢复前计数读取](../tests/hardware/logs/body-core/2026-10-17-encoder-b42-check.txt)、[双向旋转事件](../tests/hardware/logs/body-core/2026-10-17-encoder-recovered-directions.txt)。
 
 ### 交付核对与尚未闭环的验收
 
@@ -106,7 +106,7 @@ BOOT 禁用/恢复通过的是固件状态切换，不代表主机端卡键测�
 numrow 手势模块。中央屏幕独立按压、GPIO17 总禁用开关也未接入本轮镜像。
 Hub、磁吸附件不在本轮范围内。
 
-原始启动与操作日志：[2026-10-17-input-integration.txt](../firmware/body-core/logs/2026-10-17-input-integration.txt)。
+原始启动与操作日志：[2026-10-17-input-integration.txt](../tests/hardware/logs/body-core/2026-10-17-input-integration.txt)。
 可复用串口记录脚本：[capture_serial.py](../firmware/body-core/tools/capture_serial.py)。
 本轮尚未推送 GitHub；以下为历史接入记录，BOOT 发送 A/鼠标点击的旧行为已移除。
 

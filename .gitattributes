@@ -1,0 +1,3 @@
+# Preserve captured serial bytes and the packaged files used by SHA256 manifests.
+tests/hardware/logs/** -text -diff
+releases/** -text whitespace=cr-at-eol

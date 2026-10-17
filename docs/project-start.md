@@ -9,8 +9,8 @@
 ## 设计依据
 
 - [产品和集成设计](product-and-integration.md)：模块职责与制造前条件。
-- [当前接线](../hardware/current-wiring.md)：保留11个GPIO。
-- [R2尺寸](../mechanical/dimensions-r2.md)：布局候选，不是加工放行图。
+- [当前接线](../hardware/electronics/current-wiring.md)：保留11个GPIO。
+- [R2尺寸](../hardware/enclosure/dimensions-r2.md)：布局候选，不是加工放行图。
 - [供电与接口](ports-and-power.md)：USB角色及端口预算。
 
 ## 学习与实现顺序
