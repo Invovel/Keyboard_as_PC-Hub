@@ -6,7 +6,7 @@ const CIRCLE = (r, x=0, y=0) => Array.from({length:96}, (_,i) => [x+r*Math.cos(i
 const CCW = q => q.reduce((s,a,i)=>{const b=q[(i+1)%q.length];return s+a[0]*b[1]-b[0]*a[1];},0)<0?q.reverse():q;
 const RECT = (x0,y0,x1,y1,r=1) => CCW(rrect(x0,y0,x1,y1,r,8).map(p=>[p.u,p.v]));
 function keyShape(sx,sy) {
-  const r=34.5, a=Math.asin(1/r), b=Math.asin(31/r), w=108;
+  const r=34.5, a=Math.asin(1/r), b=Math.asin(31/r), w=84;
   const p=[[Math.sqrt(r*r-1),1],[w,1],[w,31],[Math.sqrt(r*r-31*31),31]];
   for(let i=1;i<=48;i++){const t=b+(a-b)*i/48;p.push([r*Math.cos(t),r*Math.sin(t)]);}
   const rounded=fillet(p,p.map((_,i)=>i===1||i===2?1:0),5);

@@ -75,12 +75,14 @@
     "count": 4,
     "symmetric_x": true,
     "symmetric_y": true,
-    "outer_x": 108,
+    "outer_x": 84,
     "outer_y": 31,
     "half_separator": 1,
     "inner_arc_radius": 34.5,
     "height_above_panel": 0.3,
     "max_height_above_panel": 1,
+    "end_blank_width": 30,
+    "outer_edge_retraction": 24,
     "sensor_centers": [
       [
         -65,

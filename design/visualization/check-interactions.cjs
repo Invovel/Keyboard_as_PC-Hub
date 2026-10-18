@@ -32,6 +32,7 @@ const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
     assert.ok(areas.every(a=>Math.abs(a-areas[0])<1e-6),'four mirrored keys have equal area');
     assert.deepEqual(geometry.centers,[[-65,18],[65,18],[65,-18],[-65,-18]]);
     for(const key of geometry.keys){
+      assert.ok(Math.abs(Math.max(...key.map(([x])=>Math.abs(x)))-84)<1e-6,'keys stop 30 mm before each body end');
       assert.ok(key.every(([x,y])=>Number.isFinite(x+y)&&Math.hypot(x,y)>34.49),'concave arc remains outside ring clearance');
       const turns=key.map((p,i)=>{const a=key[(i+key.length-1)%key.length],b=key[(i+1)%key.length];return (p[0]-a[0])*(b[1]-p[1])-(p[1]-a[1])*(b[0]-p[0]);});
       assert.ok(turns.some(v=>v<-.000001)&&turns.some(v=>v>.000001),'concavity retained');

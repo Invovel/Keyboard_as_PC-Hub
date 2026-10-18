@@ -15,6 +15,9 @@ assert (params['ring']['upper_aperture']-params['screen']['active_diameter'])/2<
 assert abs((params['ring']['upper_aperture']-params['screen']['active_diameter'])/2-1.8)<1e-6
 assert params['keys']['symmetric_x'] and params['keys']['symmetric_y']
 assert params['keys']['height_above_panel']<=1
+assert params['keys']['outer_x']==84
+assert params['body']['width']/2-params['keys']['outer_x']==params['keys']['end_blank_width']==30
+assert all(abs(x)+7<params['keys']['outer_x'] for x,y in params['keys']['sensor_centers'])
 centers={tuple(c) for c in params['keys']['sensor_centers']}
 for x,y in centers:assert (-x,y) in centers and (x,-y) in centers
 assert params['pcb']['width']+2*params['body']['wall']<params['body']['width']

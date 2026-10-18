@@ -20,7 +20,7 @@ P={
  'pcb':{'width':216,'depth':64,'thickness':1.6,'mount_holes':[[-104,-28],[104,-28],[104,28],[-104,28]],'hole_diameter':2.4},
  'screen':{'outline_diameter':44.32,'active_diameter':38.16,'thickness_budget':3.5,'rotates':False,'presses':True},
  'ring':{'outer_diameter':60,'upper_aperture':41.76,'lower_aperture':50,'carrier_diameter':49,'visible_border_per_side':1.8,'radial_clearance_per_side':0.5,'height_above_panel':8,'presses':False},
- 'keys':{'count':4,'symmetric_x':True,'symmetric_y':True,'outer_x':108,'outer_y':31,'half_separator':1,'inner_arc_radius':34.5,'height_above_panel':0.3,'max_height_above_panel':1,'sensor_centers':[[-65,18],[65,18],[65,-18],[-65,-18]]},
+ 'keys':{'count':4,'symmetric_x':True,'symmetric_y':True,'outer_x':84,'outer_y':31,'half_separator':1,'inner_arc_radius':34.5,'height_above_panel':0.3,'max_height_above_panel':1,'end_blank_width':30,'outer_edge_retraction':24,'sensor_centers':[[-65,18],[65,18],[65,-18],[-65,-18]]},
  'contacts':{'sides':['left','right'],'face_x_abs':114,'y_positions':[-8.75,-6.25,-3.75,-1.25,1.25,3.75,6.25,8.75],'pitch':2.5,'magnet_y':[-27,27],'magnet_diameter':5,'magnets_carry_current':False,'signals':['5V_MAG_PROTECTED','GND','3V3_MAG_ISOLATED','MAG_SDA','MAG_SCL','MAG_DET','MAG_INT','GND'],'pin_order':'main-board face, rear to front; mating side mirrored','current_rating':'TBD by connector selection'},
  'accessories':{'macro':[112,76],'macro_keys':5,'macro_key_height':9,'joint_gap':1,'touch_strip':[104,22,8]},
  'rear_ports':[{'name':'USB-A1','x':-91},{'name':'USB-A2','x':-64},{'name':'USB-A3','x':64},{'name':'PC-C','x':91},{'name':'POWER-C','x':105}],
@@ -123,20 +123,22 @@ with (OUT/'unresolved-items.json').open('w',encoding='utf8') as f:
 def svg_header(w,h):return f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">'
 def key_points(sx,sy):
     r=34.5;y0,y1=1,31;x0=math.sqrt(r*r-y0*y0);x1=math.sqrt(r*r-y1*y1)
-    pts=[(108,y0),(108,y1),(x1,y1)]
+    outer=P['keys']['outer_x'];pts=[(outer,y0),(outer,y1),(x1,y1)]
     a0=math.asin(y1/r);a1=math.asin(y0/r)
     pts += [(r*math.cos(a0+(a1-a0)*i/32),r*math.sin(a0+(a1-a0)*i/32)) for i in range(33)]
     return [(sx*x,sy*y) for x,y in pts]
 S=[svg_header(1240,670),'<rect width="1240" height="670" fill="#f4f6f7"/>','<g font-family="Segoe UI,Microsoft YaHei,sans-serif" fill="#192b35">',
  '<text x="48" y="42" font-size="25">R3 · Nape-inspired symmetrical body</text>',
- '<text x="48" y="69" font-size="14">228 × 76 mm · 5° · four mirrored keys · M1/M2 removed · review candidate</text>']
+ '<text x="48" y="69" font-size="14">228 × 76 mm · 5° · shorter mirrored keys · 30 mm clear at both ends · review candidate</text>']
 def px(x):return 610+x*4.4
 def py(y):return 330-y*4.4
 S.append(f'<rect x="{px(-114)}" y="{py(38)}" width="1003.2" height="334.4" rx="22" fill="#1e2b31" stroke="#51636b" stroke-width="2"/>')
 for index,(sx,sy) in enumerate([(-1,1),(1,1),(1,-1),(-1,-1)],1):
     pts=' '.join(f'{px(x):.2f},{py(y):.2f}' for x,y in key_points(sx,sy))
     S.append(f'<polygon points="{pts}" fill="#d9e5e5" stroke="#87a5a8" stroke-width="1.5"/>')
-    S.append(f'<text x="{px(sx*75)}" y="{py(sy*18)+5}" text-anchor="middle" font-size="18">{index:02}</text>')
+    S.append(f'<text x="{px(sx*65)}" y="{py(sy*18)+5}" text-anchor="middle" font-size="18">{index:02}</text>')
+for side in [-1,1]:
+    S.append(f'<text x="{px(side*99)}" y="335" text-anchor="middle" fill="#a2c3cc" font-size="16">30 mm</text>')
 S.append(f'<circle cx="610" cy="330" r="132" fill="#404d54" stroke="#7f9a9e" stroke-width="2"/>')
 S.append(f'<circle cx="610" cy="330" r="91.872" fill="#0b1820" stroke="#87b4bd" stroke-width="2"/>')
 S.append('<text x="610" y="324" fill="#dbfbff" text-anchor="middle" font-size="17">360 × 360</text><text x="610" y="349" fill="#a2c3cc" text-anchor="middle" font-size="13">touch + independent press</text>')

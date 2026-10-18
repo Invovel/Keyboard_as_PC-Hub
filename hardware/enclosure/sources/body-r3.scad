@@ -4,6 +4,7 @@
 part="assembly";
 explode=0;             // Display separation only, not a physical dimension.
 W=228; D=76; wall=2.4; base=2.4; angle=5; front_h=20;
+key_outer_x=84;        // Each key ends 30 mm before its body end; sensors stay at +/-65.
 $fn=96;
 function topz(y)=front_h+(y+D/2)*tan(angle);
 module round_outline(w,d,r=5){offset(r=r) square([w-2*r,d-2*r],center=true);}
@@ -38,7 +39,7 @@ module bottom(){
 }
 module face_key(sx,sy){
  difference(){
-  translate([sx*54.5,sy*16])square([107,30],center=true);
+  translate([sx*(key_outer_x+1)/2,sy*16])square([key_outer_x-1,30],center=true);
   circle(r=34.5);
  }
 }
