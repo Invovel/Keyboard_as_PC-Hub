@@ -1,5 +1,7 @@
 # R3 模块接口载板草稿
 
+> 本工程保留为历史被动接口载板。本轮没有修改KiCad文件；R3.1原生Core与Dock电气仍待设计，见[最新审查](../../../../docs/R3_1_ENGINEERING_REVIEW.md)。下文100W单体供电及旧生成器说明不代表当前Core结构；不要运行旧生成器覆盖新版参数/图纸，KiCad后续修改须通过Konnect。
+
 这是基于当前已运行固件 GPIO 与模块拓扑生成的 **KiCad 接口原理图 + PCB 布局草稿**。不是 Keychron PCB 的复刻，也不是制造放行板。
 
 按[桌面供电底座定位](../../../../docs/desktop-power-dock.md)，本板是控制载板。新增100W等级PD输入、5V分路供电与USB7206C Hub需要单独子板，**本板J9仍只接5V**；更新产品定位没有实现这些电源电路。
@@ -7,7 +9,7 @@
 - [body-r3.kicad_pro](body-r3.kicad_pro)：项目入口。
 - [body-r3.kicad_sch](body-r3.kicad_sch)：内嵌连接器符号的原理图，11 个逻辑接口。
 - [body-r3.kicad_pcb](body-r3.kicad_pcb)：216×64×1.6 mm 板框、34 个网络（包含空网络编号 0）、15 个封装（含安装孔）。**没有走线与铺铜**。
-- [generate.py](generate.py)：生成源，可用 Python 重建工程、CSV、R3 参数与示意图。
+- [generate.py](generate.py)：已停用的旧入口，返回非零且不写文件；[原生成源文本](generate-r3-legacy.py.txt)只供历史阅读。新机械/参数用[update_r3_1.py](../../../enclosure/tools/update_r3_1.py)，后续KiCad变更经Konnect。
 - [导出目录](../../exports/body-r3-review/README.md)：接口表、草稿 BOM、布局 SVG、未决事项。
 
 ## 可以从现有连接推导什么

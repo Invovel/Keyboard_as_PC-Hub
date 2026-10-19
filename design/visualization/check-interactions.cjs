@@ -22,6 +22,9 @@ const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
     });
     const url=pathToFileURL(path.join(__dirname,'hairline-keyboard-hub.html')).href;
     await page.goto(url);await pause(900);
+    for(const name of ['A1','A2','PC-C'])assert.equal(await page.locator(`[data-part="${name}"]`).count(),1,'R3.1 rear ports');
+    for(const name of ['A3','POWER','POWER IN'])assert.equal(await page.locator(`[data-part="${name}"]`).count(),0,'no legacy Core ports');
+    assert.equal(await page.locator('[data-part="Rev B Dock候选包络"]').getAttribute('display'),'none','Core default has no Dock');
     const geometry=await page.evaluate(src=>{
       const prefix=src.slice(0,src.indexOf('function mount'));
       return new Function(prefix+';return {keys:KEYS,centers:CENTERS};')();
@@ -49,6 +52,7 @@ const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
     const main=await at(-70,-20,21.6),screen=await at(0,0,31),macro=await at(175,20,25.1),strip=await at(175,-24,29.2);
     console.log('viewBox targets',JSON.stringify({main,screen,macro,strip}));
     await point(main);await pause(850);assert.equal(await read(),'主机分层');await frame();
+    assert.equal(await page.locator('[data-part="Rev B Dock候选包络"]').getAttribute('display'),'inline','Dock study shown only in expansion');
     assert.ok(Math.abs((await bbox('屏幕')).x-restScreen.x)<.01,'screen X fixed in explosion');
     for(let i=0;i<4;i++)assert.ok(Math.abs((await bbox('感应板'+(i+1))).x-restSensors[i].x)<.01,'sensor X fixed');
     await point(main,'pointerdown');await point([399,319]);await pause(850);assert.equal(await read(),'主机分层','click pins');

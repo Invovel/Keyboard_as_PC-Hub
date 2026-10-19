@@ -1,79 +1,58 @@
 # Keyboard as PC Hub
 
-**实施入口（2026-10-13）：** [从设计走向实现](docs/project-start.md) · [下一阶段任务](CODEX_START.md)。
+**Desktop Control Hub · R3.1：Core＋可选下置Power Dock＋低功耗MAG附件。**
 
-**产品定位：键盘联接式桌面供电与控制底座（Desktop Power & Control Dock）。** 独立外部供电，为键盘与桌面外设汇聚数据和供电，圆屏/旋钮负责操作。主机独立落桌承力，键盘通过可调 Type-C 公头接入；右侧磁吸五键与触控条保持独立。
+Core背部PC-C是唯一电脑上行，单线从电脑允许的VBUS预算取电，目标为不依赖Dock即可使用主体与键盘。Hub硬件转发USB外设数据，ESP32负责圆屏、旋钮、四键、音频和HID；Hub启动不应依赖ESP32固件。单线功耗、Hub配置与故障独立性尚未通过整机验证。
 
-[最新定位与Hub/插头选型](docs/desktop-power-dock.md)：POWER IN按100W等级PD受电预留，PC为10Gbps电脑上行，FAST为10Gbps外设口；保持背部3A+2C、侧面FAST。100W输入不等于已验证100W输出，也不自动给电脑充电。基础版为低压USB供电，无市电插座。
+[最新交接基准](docs/R3_1_CODEX_HANDOFF.md) · [差异与决策台账](docs/R3_1_DECISIONS.md) · [WP1/WP2工程评审](docs/R3_1_ENGINEERING_REVIEW.md) · [下一步入口](CODEX_START.md)
 
-## 文件分类
+[补充讨论采用/放弃清单](docs/R3_1_SUPPLEMENT.md)：保留五键与104mm前部横条，补强Hub启动和Slider验证，早期双向供电/竖条/第二上行不混入当前设计。
 
-后续直接在 `main` 上继续优化。文件按用途分开存放：
+## 当前结构与接口
 
-| 分类 | 入口 | 内容 |
-| --- | --- | --- |
-| 固件代码 | [firmware](firmware/README.md) | 当前 ESP32-S3 工程、GPIO 诊断工程、历史代码 |
-| 设计图与展示 | [design](design/README.md) | 布局图、概念图、历史 PDF、交互 HTML |
-| PCB 设计 | [hardware/pcb](hardware/pcb/README.md) | R3 KiCad 接口载板草稿；尚未布线与制造验证 |
-| 外壳设计 | [hardware/enclosure](hardware/enclosure/README.md) | R3 尺寸、参数化 OpenSCAD 草模与后续导出目录 |
-| 电气接线 | [hardware/electronics](hardware/electronics/README.md) | 实物模块与接线说明 |
-| 烧录包 | [releases](releases/README.md) | 镜像、构建配置、校验清单和恢复方法 |
-| 测试证据 | [tests](tests/README.md) | 原始实物测试日志 |
-| 规划与记录 | [docs](docs/repository-layout.md) | 功能规划、兼容性研究、验收说明与目录规则 |
+![R3.1 Core布局](design/drawings/layout-r3-1.svg)
 
-目录规则及旧路径对应关系见[仓库目录规范](docs/repository-layout.md)。
-
-## 当前进展
-
-**主体固件进展（2026-10-17）：** 圆屏、触控页面、触摸板、USB 键鼠/媒体控制、四键、按压、旋转及提示音已整合。旋转双向事件和 Windows HID 枚举已验证，用户在原生 USB 下复测后确认所有功能正常。Touchpad 刷新率和延迟保留为后续优化项。参见[实测记录](docs/body-core-bringup.md)、[固件源码](firmware/body-core)及[烧录镜像](releases/body-core/README.md)。Hub、磁吸附件和 eFlesh 不在本轮范围内。
-
-**当前设计 R3：参考 Nape Pro 的横向布局，去掉 M1/M2，主体四键镜像对称。中央改为旋钮触摸屏，保留磁吸五键、触控条、触点和键盘公头位置。** R2 左小右长方案保留为历史；现有实物接线不随新外壳规划移动。
-
-![R3对称长条布局与触点预留](design/drawings/layout-r3.svg)
-
-新增 [INMP441 麦克风方案与代码](docs/microphone-inmp441.md)：采用独立 I²S1，默认关闭，已做两种配置的编译检查；本轮未连接或烧录实测麦克风。
-
-## 交互结构展示
-
-![R3 Hairline装配预览：直接更新原HTML](design/visualization/hairline-keyboard-hub-rest.png)
-
-[下载／查看单文件HTML](design/visualization/hairline-keyboard-hub.html) · [使用方法与检查记录](design/visualization/README.md)
-
-[主体功能详细展示（结构、连接、信号流、软件模块、验收阶段）](design/visualization/body-core-showcase.html)
-
-下载HTML后直接用浏览器打开，无需安装。悬停主机看分层；点击固定，再点同处或空白复位。悬停右侧五键或触控条看磁吸分离。滑块改变展示间距，`play`自动导览。GitHub README只显示静态图，不运行HTML交互。
-
-## 当前尺寸
-
-| 项目 | 布局候选，mm |
+| 部位 | R3.1分工 |
 | --- | --- |
-| 主机外壳 | 228×76；5°；前高20、后高26.65（不含突出控件） |
-| 主 PCB | 216×64×1.6；模块接口载板草稿，未布线 |
-| 旋转环／屏体／有效区 | Ø60／Ø44.32／Ø38.16 |
-| 环开口／可见边框 | Ø41.76／单边1.8 |
-| 四键感应中心 | R3 新布局：(−65,+18)、(+65,+18)、(+65,−18)、(−65,−18) |
-| 左右键面 | 四片镜像等面积，中央避让R34.5；外端X=±84，左右各留30 mm固定壳面 |
-| 主体四软键外露高度 | 目标0.3，基本齐平；右侧五个机械键保持原高度 |
-| 右侧附件／拼合占地 | 112×76／341×76，均为展示包络 |
-| 两端磁吸触点 | 每端8点、间距2.5；两枚Ø5磁体，电气保护待设计 |
+| Core背部 | A1、A2、PC-C；PC-C唯一电脑上行，无Core POWER输入 |
+| Core左侧 | FAST-C，目标10Gbps下游；实际供电按预算，不预先承诺3A |
+| KBD / CTRL | 可调Type-C键盘公头 / 内部ESP32 USB2 Full-Speed HID |
+| Core底部 | P4 Dock DATA＋独立PWR/CTRL预留，封装与开孔未定 |
+| 可选下置Dock | Rev B：扩展Hub、外部PD受电、保护降压、单向给Core供电；没有第二电脑上行 |
+| 两端MAG | 低速、低功耗8触点；五键及前部唯一横向触控条，不传高速USB/全机电流 |
 
-**R3 尚未制造放行。** KiCad 草稿可编辑，但没有走线、ERC/DRC 结果或 Gerber；OpenSCAD 草模尚未进行实体编译和装配验证。已通过的主体固件实物测试与这些新结构草案分别记录。
+逻辑下游P1=A1、P2=A2、P3=FAST、P4=DOCK、P5=KBD、P6=CTRL；这是架构分配，不是芯片物理引脚。USB7206C仍为候选，尚未证明Core单线工作能力。旧A3迁为Dock数据链路，POWER IN移至Dock；旧100W/46W单体预算仅保留为历史。
 
-## 详细资料
+| 尺寸 | 候选值，mm |
+| --- | --- |
+| Core / PCB | 228×76、5°，前20/后26.65；PCB216×64×1.6 |
+| 短四键 | 四片镜像，外端X=±84，两端各留30固定壳面；键面高0.3 |
+| 感应中心 | (±65,±18)，保持原位 |
+| 环 / 屏 / AA | Ø60 / Ø44.32 / Ø38.16；单边可见边框1.8 |
+| 五键 / 横条 | 112×76一字五键；前部横条104×22×8，目标有效长90～96 |
+| 底部Dock研究区 | 48×18功能区；8板间距和20高Dock包络均未冻结 |
 
-1. [R3结构、坐标和尺寸](hardware/enclosure/dimensions-r3.md)：当前机械候选及未核实项目；[R2](hardware/enclosure/dimensions-r2.md) 为历史。
-2. [键盘接口兼容性研究](docs/keyboard-compatibility.md)：公开端口资料、可调公头与主板尺寸边界。
-3. [接口与供电](docs/ports-and-power.md)：背部3A＋PC-C＋POWER-C、左侧FAST-C、键盘公头。
-4. [已有硬件与GPIO](hardware/electronics/current-wiring.md)：保留用户11个GPIO分配。
-5. [功能、散件验证及单板集成](docs/product-and-integration.md)。
-6. [接口调查表](hardware/pcb/references/keyboard-port-survey.csv)与[R3机械参数](hardware/enclosure/interface-parameters-r3.json)。
-7. [R3 PCB接口工程](hardware/pcb/sources/body-r3/README.md)、[OpenSCAD草模](hardware/enclosure/sources/body-r3.scad)及[检查记录](tests/design/README.md)。
-8. [端口与插头采购约束表](hardware/electronics/dock-port-selection.csv)：上行、PD受电、数据下游、键盘公头与磁吸接口分别选型。
+## 原HTML持续更新
 
-主机使用现有N16R8、360×360圆形触控屏、MAX98357A及扬声器。外围四块eFlesh软键、五宏键和触控条可配置；独立视觉节点识别手势，经ESP-NOW传输。高速数据走独立Hub，ESP32作为下游HID；FAST与其他外设共享上行带宽。
+![R3.1装配预览](design/visualization/hairline-keyboard-hub-rest.png)
 
-## 历史资料
+[原单文件HTML](design/visualization/hairline-keyboard-hub.html) · [使用与截图](design/visualization/README.md)。下载后离线打开；悬停主体展开、点击固定/复位，右侧五键及横条磁吸拆分。可选Dock只在主体展开时显示研究包络；默认Core不装Dock。GitHub README仅显示静态图。
 
-![早期概念效果，仅供外观参考](design/concepts/concept-four-soft-keys.png)
+[底部接口与侧剖](design/drawings/dock-interface-r3-1.svg) · [R3.1机械说明](hardware/enclosure/dimensions-r3-1.md) · [端口选型表](hardware/electronics/dock-port-selection.csv)
 
-以上旧效果图不代表R2键面、接口标识或制造尺寸。[R0结构](hardware/enclosure/dimensions-r0.md)、`design/drawings/history/`、`firmware/legacy/functions/`、`firmware/legacy/stm32f103c8t6/`均保留作历史参考；原示例不是当前ESP32固件。[此前首页](docs/history/README-before-2026-10-09.md)保留原始思路。
+## 实物进展与文件分类
+
+已运行主体：圆屏、触控页面、触摸板、USB键鼠/媒体HID、四键、按压输入、编码器与提示音；[实测历史](docs/body-core-bringup.md)保留原文。Touchpad延迟本轮不改。新增[INMP441代码](docs/microphone-inmp441.md)只编译，默认关闭，未接实物。输入按压通过不代表屏幕Z轴机械机构已完成。
+
+| 分类 | 入口 | 状态 |
+| --- | --- | --- |
+| 固件 | [firmware](firmware/README.md) | 保留已运行GPIO与整合代码，本轮不改动/烧录 |
+| 展示与图纸 | [design](design/README.md) | 原HTML、R3.1俯视/底视/剖面示意 |
+| 机械 | [hardware/enclosure](hardware/enclosure/README.md) | R3.1参数/草模，未实体编译与装配验证 |
+| PCB | [hardware/pcb](hardware/pcb/README.md) | R3历史接口载板未布线；不是R3.1原生主板 |
+| 接口与接线 | [hardware/electronics](hardware/electronics/README.md) | 新接口目标与既有实物分开记录 |
+| 镜像与证据 | [releases](releases/README.md)、[tests](tests/README.md) | 保留原镜像、许可和真实日志 |
+
+本轮没有完成电源/Hub/Dock电路、连接器冻结、ERC/DRC、USB合规、闭壳温升或制造放行。不做第二上行、双向大电流、手机高压PD输出、读卡、电池或竖触控条。先测Core峰值功耗和上游电力，再冻结Dock配对器件与中央旋钮传动，进入真实原理图/PCB工作。
+
+[目录规则](docs/repository-layout.md) · [本轮检查](tests/design/r3-1-review.md) · [R3历史尺寸](hardware/enclosure/dimensions-r3.md) · [旧单体供电方案](docs/desktop-power-dock.md) · [R2历史](hardware/enclosure/dimensions-r2.md)

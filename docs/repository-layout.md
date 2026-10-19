@@ -18,10 +18,10 @@ hardware/
     exports/               后续 Gerber、钻孔、BOM、贴片坐标
     references/            接口调查等依据
   enclosure/
-    sources/               R3 OpenSCAD 草模及后续装配工程
+    sources/               R3.1草模、历史R3及后续装配工程
     exports/               后续 STEP、分件 STL、机械工程图
-    dimensions-r3.md       当前候选尺寸
-    interface-parameters-r3.json
+    dimensions-r3-1.md     当前候选尺寸
+    interface-parameters-r3-1.json
 releases/body-core/        烧录包、配置及校验清单
 tests/hardware/logs/       原始实物测试日志
 docs/                     规划、研究和验收说明
@@ -57,3 +57,5 @@ docs/                     规划、研究和验收说明
 | firmware/body-core/logs/ | tests/hardware/logs/body-core/ |
 
 旧聊天中的绝对文件链接可能仍指向迁移前位置；从仓库首页或本表进入新目录。
+
+R3.1当前基准见[决策台账](R3_1_DECISIONS.md)。新机械生成器只写R3.1 JSON/SVG；原R3参数/SCAD/布局和KiCad作为历史保留，本轮不通过旧生成器重写。原交接包Markdown原文已导入，来源与完成状态分开记录。

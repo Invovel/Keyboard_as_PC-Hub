@@ -5,4 +5,4 @@
 
 新增散件型号、模块接口说明、实物接线图放这里。PCB 原理图工程放到相邻的 pcb 目录。
 
-[桌面底座接口选型表](dock-port-selection.csv)对应[最新定位与供电方案](../../docs/desktop-power-dock.md)，是采购约束而非实物接线通过记录。
+[R3.1接口选型表](dock-port-selection.csv)对应[当前供电方案](../../docs/ports-and-power.md)，是架构约束而非实物通过记录；[旧R3表](history/dock-port-selection-r3.csv)保留历史。

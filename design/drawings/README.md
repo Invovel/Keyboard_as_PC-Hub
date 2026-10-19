@@ -1,6 +1,8 @@
 # 设计图纸
 
-- [layout-r3.svg](layout-r3.svg)：当前 R3 对称长条主体与触点位置。
+- [layout-r3-1.svg](layout-r3-1.svg)：当前Core布局，无A3/POWER，唯一PC-C上行。
+- [dock-interface-r3-1.svg](dock-interface-r3-1.svg)：底部DATA/PWR/CTRL空间与侧剖研究，非封装/加工图。
+- [layout-r3.svg](layout-r3.svg)：历史R3对称长条主体与触点位置。
 - [layout-r2.svg](layout-r2.svg)：历史 R2 四键与圆屏平面布局。
 - [history](history/README.md)：早期设计说明与 PDF，仅供追溯。
 

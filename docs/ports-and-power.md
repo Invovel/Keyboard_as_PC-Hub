@@ -1,25 +1,37 @@
-# 接口、数据与供电分工
+# 当前接口与供电：R3.1 Core＋可选Power Dock
 
-2026-10-18更新。产品定位为**键盘联接式桌面供电与控制底座**，完整选型、拓扑与预算以[桌面底座方案](desktop-power-dock.md)为准。早期60W受电/36W预算已被本版规划替代；新增供电和Hub尚未实装。
+2026-10-19。本页替代原R3单体必接PD的方案。详细依据见[交接基准](R3_1_CODEX_HANDOFF.md)、[差异决策](R3_1_DECISIONS.md)、[工程评审](R3_1_ENGINEERING_REVIEW.md)。
 
-| 位置/丝印 | 选择 | 分工 |
+| 接口/逻辑口 | 位置与角色 | 约束 |
 | --- | --- | --- |
-| 背部PC | USB-C 24接点母座，10Gbps通道 | 电脑上行，保留VBUS检测与反灌隔离 |
-| 背部POWER IN | 额定20V/5A的USB-C母座+PD Sink | 外部100W等级输入，只受电，不输出PD、不接外设数据 |
-| 背部A1/A2/A3 | USB-A 3.x 9接点母座 | 外设数据+5V；每口0.9A预算，至少5Gbps目标 |
-| 左侧FAST | USB-C 24接点母座+CC/翻转及电源控制 | 独立物理10Gbps数据口，5V/3A上限目标，不输出20V |
-| KBD | 可调USB-C公头组件，USB2数据+5V，正确CC | 键盘直插，独立支架承力，1.5A为支路预留 |
-| 内部CTRL | 主控原生USB | ESP32-S3 HID，独立于FTDI调试 |
-| MAG | 每端8触点+定位磁体 | 受保护低压电源及低速信号；DNP，未接通 |
+| PC-C / 上行 | Core背部X≈+91；唯一电脑数据上行、VBUS输入 | CC Sink/方向、SS Mux、ESD、合规取电/检测、防反灌；Core无20V受电口 |
+| A1/P1、A2/P2 | Core背部X≈−91/−64 | USB-A 3.x下游；限流与可用电流须重算 |
+| FAST-C/P3 | 左侧Y≈+17 | USB 10Gbps目标，下游Source与翻转；不默认承诺5V/3A |
+| DOCK/P4 | Core底部 | 专用USB3+USB2 DATA链路，Rev A未接时空置；不是第二上行 |
+| KBD/P5 | 独立可调公头 | USB2键盘，正确CC/翻转及独立承载 |
+| CTRL/P6 | Core内部 | ESP32-S3原生USB Full-Speed HID；保留GPIO19/20 |
+| DOCK PWR/CTRL | 底部专用接口 | Dock单向输出受保护5V给Core；独立管理与检测，封装/量程TBD |
+| MAG-L/R | 两端8点 | 仅低速低功耗，不作USB3/Dock全机供电接口 |
 
-仍为背部3A+2C，侧面FAST是第三个外部C口。POWER不是数据下游；六个数据下游为A×3、FAST、键盘、主控。FAST与所有外设共享PC上行带宽，不保证独享10Gbps或文件复制速率。
+Core不再保留A3和POWER IN-C。Rev B Dock有自己的外部PD输入、降压保护和下游Hub；其数据由Core P4进入唯一电脑上行。手机高压PD充电、读卡、电池、第二Host、双向供电不在本版。
 
-选型结论：自供电Hub主线为**USB7206C**，参考**EVB-USB7206**五个Gen2下游+一个USB2下游；散件整机台架可参考**StarTech HB31C5A2CME**及原配电源。四口VL822不够直接接六路。PC端最终使用USB-C，需要额外完成CC角色与翻转，不把评估板原有Type-B当成已适配C口。
+```mermaid
+flowchart LR
+ PC[唯一电脑Host] --- UP[Core PC-C]
+ UP --- HUB[Core Hub / 自启动候选]
+ HUB --- A[A1 / A2 / FAST]
+ HUB --- K[KBD]
+ HUB --- M[ESP32 CTRL]
+ HUB --- P4[P4 DATA / 底部专用]
+ P4 --- DH[可选Dock下游Hub]
+ PD[Dock外部PD] --> DP[Dock保护与5V转换]
+ DP --> ISO[单向隔离 / Core电源选择]
+ VBUS[PC-C VBUS / 允许预算] --> ISO
+ ISO --> CORE[Core受保护电源轨]
+```
 
-外部PD输入参考**STUSB4500 / EVAL-SCS001V1**，后接受保护降压与每支路限流。5V转换目标10A等级，候选**D42V110F5**需要在20V输入、闭壳温升条件下验证。新预算合计5V/9.2A、46W；100W输入等级不代表100W可输出，支路预算也不代表外设可以跳过枚举/CC取电。具体分配与厂商原始资料均在[完整方案](desktop-power-dock.md)。
+USB7206C的5个Gen2+1个USB2下游在数量上匹配本逻辑，不能由此冻结物理管脚/供电模式；官方启动、额外电源轨及功耗已列入[WP1审查](R3_1_ENGINEERING_REVIEW.md)。Core自身峰值未知，旧100W输入/46W预算不能继承。必须检测上游实际能力、扣除Core损耗并满足USB枚举/挂起规则；不能默认所有外设同时满载。
 
-外部电源不能并到电脑VBUS；20V不能接ESP32或现有控制载板J9。低速磁吸接口不承担高速USB或PD电压。基础版不集成交流插座，不给笔记本反向充电。新增电源/Hub子板独立于当前R3控制载板，尚未布局、布线或制造验证。
+PC VBUS与Dock 5V禁止硬并联或反灌，P4数据参考VBUS也不能充当Dock大电流回供。拔插Dock不承诺SSD写入不中断；配置/电源切换可能需要受控重枚举。保护需硬件自主，ESP32只显示真实测量和允许的控制项。
 
-[插头采购约束CSV](../hardware/electronics/dock-port-selection.csv) · [当前R3尺寸](../hardware/enclosure/dimensions-r3.md) · [当前GPIO](../firmware/body-core/README.md)
-
-验收需分别完成六路枚举、SSD并发、压降/过流、热点温度、休眠/重连、断电恢复。每项记录真实结果；只有接口预留或输入控制器初始化不能算通过。
+[选型CSV](../hardware/electronics/dock-port-selection.csv) · [R3.1参数](../hardware/enclosure/interface-parameters-r3-1.json) · [底视/剖面](../design/drawings/dock-interface-r3-1.svg)。具体料号和封装未冻结，原KiCad载板J9仍只允许5V。

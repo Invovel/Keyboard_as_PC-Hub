@@ -875,7 +875,7 @@ var HL = (() => {
 })();
 </script>
 <script type="module" id="hl-figure">
-// R3: 228x76 mm, Nape-inspired four-key symmetry. +Y is rear.
+// R3.1 Core: original 228x76 geometry, sole PC uplink, optional lower Dock study.
 // Concave key outlines are extruded directly: no convex hull on a key.
 const {Cam, fit, proj, poly, open, rrect, fillet, mk, pointer, disposer, register, tween, tset, tval, tdone} = HL;
 const SLOPE = Math.tan(5 * Math.PI / 180);
@@ -909,10 +909,12 @@ function mount({stage,svg,read},value) {
   add('壳体侧壁',RECT(-114,-38,114,38,5),2.4,17.6,0,{tilt:true,holes:[RECT(-111.6,-35.6,111.6,35.6,2.6)],flatBase:true});
   for(const [x,y] of [[-104,-28],[104,-28],[-104,28],[104,28]])add('支柱',CIRCLE(3,x,y),2.4,6.4,0);
   add('主PCB',RECT(-108,-32,108,32,1.2),6.4,8,1,{marks2:[RECT(-101,22,-50,26),RECT(-101,13,-76,17),RECT(57,19,73,24),RECT(47,-23,61,-18)]});
-  for(const [i,x] of [-91,-64,64,91,105].entries()) {
-    const w=i<3?15:10;
-    add(i<3?'USB-A':'USB-C',RECT(x-w/2,21.5,x+w/2,37.2,.8),8,15,1,{socket:{axis:'y',at:37.3,x,w:w-2}});
+  for(const [i,x] of [-91,-64,91].entries()) {
+    const w=i<2?15:10;
+    add(i<2?'A'+(i+1):'PC-C',RECT(x-w/2,21.5,x+w/2,37.2,.8),8,15,1,{socket:{axis:'y',at:37.3,x,w:w-2}});
   }
+  add('Rev B Dock候选包络',RECT(-114,-38,114,38,5),-21,-1,0,{optional:true});
+  for(const [name,x0,y0,x1,y1] of [['DATA',36,5,64,23],['PWR',68,5,84,13],['CTRL',68,15,84,23]])add('Dock '+name+'预留',RECT(x0,y0,x1,y1,.6),2.5,3,1,{optional:true});
   add('FAST',RECT(-113,12.5,-99,21.5,.8),8,12.5,1,{socket:{axis:'x',at:-113.1,y:17,w:8}});
   add('麦克风声腔',RECT(-95,-35,-81,-25,2),5,12,1,{marks2:[CIRCLE(.8,-88,-30)]});
   add('扬声器腔',RECT(82,-32,102,-16,3),3,11,1,{marks2:[CIRCLE(6,92,-24)]});
@@ -932,7 +934,7 @@ function mount({stage,svg,read},value) {
   add('外旋转环',CIRCLE(30),20,28,4.5,{tilt:true,holes:[CIRCLE(25)],upperHole:20.88});
   add('KBD支架',RECT(-20,-45,-6,-34,2),3,10,0);
   add('Type-C公头',RECT(-18,-51,-8,-44,.8),6,9.8,0);
-  add('STOP',RECT(92,-39,102,-36,1),10,14,0);
+  add('STOP',RECT(-5,-39,5,-36,1),10,14,0);
   add('五键模块',RECT(115,-38,227,38,5),0,20,0,{kind:'macro',tilt:true,flatBase:true});
   for(let i=0;i<5;i++)add('宏键'+(i+1),RECT(133+i*19.05-8,9,133+i*19.05+8,25,2),21,29,0,{kind:'macro',tilt:true,marks2:[RECT(133+i*19.05-6,11,133+i*19.05+6,23,1.5)]});
   add('触控条',RECT(119,-35,223,-13,3),20,28,0,{kind:'strip',tilt:true,marks2:[RECT(124,-30,218,-18,2)]});
@@ -945,6 +947,7 @@ function mount({stage,svg,read},value) {
   for(const x of [128,214])add('条形定位座',RECT(x-2,-29,x+2,-21,1),20,21,0,{kind:'macro',tilt:true});
   for(const x of [165,168,171,174,177])add('触控条触点',CIRCLE(.6,x,-24),20,20.6,0,{kind:'macro',tilt:true});
   function drawPart(p,e,m,s) {
+    if(p.optional)p.g.setAttribute('display',e>.001?'inline':'none');
     const dx=p.kind==='main'?0:m*gap*1.25,dy=p.kind==='strip'?-s*gap:0,dz=p.kind==='main'?e*gap*p.level:p.kind==='strip'?s*gap*.5:0;
     const z=(y,h)=>h+(p.tilt?(y+38)*SLOPE:0)+dz;
     const at=(q,h)=>P(q[0]+dx,q[1]+dy,p.flatBase&&h===p.z0?h+dz:z(q[1],h)), top=p.shape.map(q=>at(q,p.z1));
@@ -996,7 +999,7 @@ function mount({stage,svg,read},value) {
 }
 hairline({
   name:'keyboard-hub',
-  means:'桌面供电与控制底座，键盘通过独立公头接入。悬停拆看主体与磁吸模块、点击固定；滑块控制展示分离距离（mm）。供电、Hub与结构仍为设计候选。',
+  means:'R3.1 Desktop Control Hub：Core唯一电脑上行，展开查看可选下置Dock与接口预留。悬停拆看、点击固定；滑块仅改变展示间距。供电、连接器和机构尚未实测。',
   rules:[1,3,4,6,7,8,9,10], range:[8,16,24],
   tour:[[84,136],[141,157],[262,225],[245,228],null], mount,
 });

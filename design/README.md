@@ -4,7 +4,7 @@
 
 | 目录 | 内容 |
 | --- | --- |
-| [drawings](drawings/README.md) | R3 布局 SVG、历史 R2 图、装配/尺寸表达图和 PDF |
+| [drawings](drawings/README.md) | R3.1 Core布局、底部Dock分区/剖面，历史R3/R2及PDF |
 | [concepts](concepts/README.md) | 概念效果图、外观参考 |
 | [visualization](visualization/README.md) | 交互 HTML、绘图源码和展示截图 |
 

@@ -1,6 +1,6 @@
 # 产品功能、散件验证与后续单板集成
 
-> 2026-10-18：最新定位、接口和供电以[桌面供电底座方案](desktop-power-dock.md)及[R3尺寸](../hardware/enclosure/dimensions-r3.md)为准。本文保留原功能清单与验证原则。
+> 2026-10-19：当前为R3.1 Core＋可选下置Power Dock，以[决策台账](R3_1_DECISIONS.md)、[供电/端口](ports-and-power.md)和[R3.1尺寸](../hardware/enclosure/dimensions-r3-1.md)为准。本文原R3端口/单板合并方向仅作历史功能参考。
 
 日期：2026-10-09。本轮按用户要求先明确功能，用现有硬件和散件组装验证，再进行PCB集成。此轮不生成可下单Gerber，不把板框占位当成已完成PCB。
 

@@ -1,0 +1,213 @@
+这份 R3.1 方案可以作为下一版设计基准。我的建议是：保留当前的端口重排、Core + 可选 Dock 结构、五键与横向触控条，不再扩大功能范围。
+
+但在正式冻结 PCB 前，有几处需要修正。其中最重要的是供电架构与 Dock 数据接口，而不是再增加新的模块。
+
+## 一、先确认当前设计决定
+
+| 项目                 | 建议决定  | 状态        |
+| ------------------ | ----- | --------- |
+| Core 内置 USB Hub    | 保留    | 架构可冻结     |
+| 电脑上行仅 PC-C         | 保留    | 可冻结       |
+| A1、A2、FAST 留在 Core | 保留    | 功能可冻结     |
+| A3 改为 Dock 数据通道    | 保留    | 逻辑可冻结     |
+| 五键原布局 + 横向触控条      | 保留    | 可冻结       |
+| 可选下置 Power Dock    | 保留    | 功能可冻结     |
+| Dock → Core 单向增强供电 | 保留    | 方向可冻结     |
+| 竖向触控条、读卡、手机快充      | 推迟    | 不纳入 Rev A |
+| USB7206C           | 保留为候选 | 不冻结芯片选型   |
+| USB 接口精确坐标         | 重新核对  | 暂不冻结      |
+
+这里需要区分“架构冻结”和“机械冻结”。目前已经可以确定每个接口的用途，却还不能确定每个插座的最终焊盘坐标。
+
+另外，我读取了 GitHub 仓库当前 `main` 分支：[README.md](https://github.com/Invovel/Keyboard_as_PC-Hub/blob/main/README.md?utm_source=chatgpt.com) 仍是旧版 Desktop Power & Control Dock 内容，尚未显示你贴出的 R3.1 新文本。下面的审查以你消息中提供的新版本为准，而不是将旧仓库内容误认为已经同步。
+
+## 二、需要修正的 5 个工程问题
+
+### 1. USB7206C 不能只按 5V 供电设计
+
+我核对了 [Microchip EVB-USB7206 官方评估板](https://www.microchip.com/en-us/development-tool/EVB-USB7206?utm_source=chatgpt.com) 和硬件设计检查表。
+
+USB7206C 确实具有五个 10Gbps 下游端口和一个 USB2 下游端口，你现在的 P1～P6 逻辑分配是成立的。
+
+[image](https://www.google.com/s2/favicons?domain=https://www.microchip.com\&sz=32)
+
+Microchip Technology
+
+
+
+但是，Hub 芯片本身还需要 3.3V 和 1.15V 电源轨，并要求符合上电时序和复位条件。
+
+[image](https://www.google.com/s2/favicons?domain=https://www.microchip.com\&sz=32)
+
+microchip.com
+
+
+
+因此 Core 的实际电源树应当是：
+
+```
+电脑 PC-C VBUS
+       │
+ USB-C 取电检测
+       │
+输入保护 / 电源路径选择 ◄── Dock 受保护 5V
+       │
+     5V_SYS
+       │
+       ├── 3.3V → ESP32 / Hub / 触控
+       ├── 1.15V → Hub 核心
+       ├── 5V → 功放
+       └── 限流开关 → 各 USB 下游
+```
+
+建议将 Rev A 的第一项硬件验收设为：Core 在只有电脑供电的条件下，Hub、ESP32 和屏幕能否同时稳定运行。
+
+这比直接宣布 Core 支持多个 USB3 外设并发更重要。
+
+### 2. Core 单线供电和 Dock 增强供电不能随意切换
+
+这里有一个 USB 规范层面的细节。
+
+USB Hub 存在总线供电和自供电的区别，电脑会根据设备所报告的供电能力管理下游设备。
+
+[image](https://www.google.com/s2/favicons?domain=https://developerhelp.microchip.com\&sz=32)
+
+Developer Help
+
+
+
+当 Dock 从自供电状态被移除时，不能假设 Hub 可以无条件切回电脑供电且所有设备完全不断联。部分供电角色变化可能要求重新枚举，尤其不能让设备在没有重新协商的情况下提高上游取电。
+
+[image](https://www.google.com/s2/favicons?domain=https://compliance.usb.org\&sz=32)
+
+compliance.usb.org
+
+
+
+建议将运行状态写成：
+
+| 状态            | 设计要求                       |
+| ------------- | -------------------------- |
+| Core 单独运行     | 仅开放功率预算允许的端口               |
+| Dock 已连接      | 使用 Dock 提供的额外供电能力          |
+| Dock 拔除       | 先保护系统及限制外设负载；按规范决定是否需要重新枚举 |
+| Core 正在使用 SSD | 不承诺拔除 Dock 时 SSD 数据不中断     |
+
+不必第一版就追求完全无缝的电源切换。优先保证电气安全、USB 规范符合性和可恢复性。
+
+### 3. Hub 启动不能依赖 ESP32
+
+这一点比 README 当前写得更重要。
+
+Microchip 的设计检查表明确指出，USB7206C 在特定 SMBus/I²C 启动配置方式下，如果检测到上拉电阻，会等待外部控制器进行配置。
+
+[image](https://www.google.com/s2/favicons?domain=https://www.microchip.com\&sz=32)
+
+microchip.com
+
+
+
+假如 ESP32 固件损坏或启动失败，Hub 就可能无法完成初始化。
+
+因此建议：
+
+默认 Hub 使用经过验证的独立启动配置。ESP32 在 Hub 工作后再执行允许的运行时管理。
+
+要保留异常情况下的键盘通信，就不要让 Hub 的必要启动配置完全依赖 ESP32。
+
+### 4. Dock 对接接口必须支持 USB3，而不仅是管理通信
+
+你的 P4 规划正确，但需要在 Rev A 就具体预留：
+
+| 通道        | 需要的信号或电路                        |
+| --------- | ------------------------------- |
+| USB3 DATA | SuperSpeed TX/RX 差分对、USB2 D+/D− |
+| 参考地与屏蔽    | 高速信号回流路径、GND、必要屏蔽               |
+| PWR       | 受保护电源输入和大电流返回路径                 |
+| CTRL      | Dock 检测、I²C/UART、故障信号           |
+| 机械        | 防反插、导向、锁定和适当的插拔寿命               |
+
+连接器必须有明确的高速性能、接触电流和机械规格。不能仅因为是细间距板对板连接器，就认定能稳定通过 10Gbps 数据。
+
+我还建议优先采用机械锁定的高速板对板连接器，磁铁只辅助定位，避免 Dock 相对滑动导致 USB 数据接点瞬断。
+
+### 5. 触控条芯片已经可以进一步缩小选型范围
+
+我核对了两颗相关芯片的官方资料。
+
+| 芯片                   | 已确认的能力                                  | 结论                      |
+| -------------------- | --------------------------------------- | ----------------------- |
+| Microchip AT42QT2160 | I²C，支持由 2～8 个电极组成的 Slider，最高 8-bit 位置输出 | 可用于原型，但 90–96mm 有效长度需验证 |
+| Microchip MCP23017   | 16 路 GPIO，硬件可配置地址，支持中断                  | 适合五键输入                  |
+
+AT42QT2160 的可选 I²C 地址为 `0x0D、0x17、0x44、0x6B`；MCP23017 通常使用 `0x20–0x27`。两者地址范围不冲突。
+
+[image](https://www.google.com/s2/favicons?domain=https://ww1.microchip.com\&sz=32)
+
+ww1.microchip.com
+
++1
+
+
+
+但 AT42QT2160 数据手册推荐用于 Slider 的单个电极长度约为 5–7mm，最多支持 8 个 Slider 电极。你需要的 90–96mm 长度明显值得单独测试电极尺寸、线性度和端点稳定性；不能因为芯片输出 8-bit，就假设整个触控条具有 256 个稳定的物理位置。
+
+[image](https://www.google.com/s2/favicons?domain=https://ww1.microchip.com\&sz=32)
+
+ww1.microchip.com
+
+
+
+## 三、Rev A 不建议再扩大范围
+
+现在可以将开发任务收敛成以下检查表。
+
+R3.1 工程冻结前检查
+
+0/6
+
+USB Hub 独立启动
+
+不依赖 ESP32 完成基础枚举
+
+Core 单线供电
+
+测量启动峰值与稳定负载，制定下游预算
+
+中央机构
+
+确定旋转编码器、圆屏和独立按压的机械空间
+
+Dock 对接连接器
+
+确定 USB3、电源、控制和机械连接方式
+
+Core 端口位置
+
+确认 A1、A2、PC-C、FAST 的真实封装与开孔
+
+五键与触控条
+
+按现有布局验证 MCP23017 和 Slider
+
+## 四、文档同步还需要处理
+
+等 GitHub 上的 README 确认更新后，建议同步以下三个文件，避免 Codex 后续根据旧方案生成错误电路：
+
+| 仓库文件                                  | 应修改内容                                      |
+| ------------------------------------- | ------------------------------------------ |
+| `docs/desktop-power-dock.md`          | 改为可选下置 Power Dock，不再描述 Core 必须有 100W PD 输入 |
+| `docs/ports-and-power.md`             | 更新 A1、A2、FAST、DOCK、KBD、CTRL 的连接关系与两种供电模式   |
+| `hardware/enclosure/dimensions-r3.md` | 更新背部端口候选位置，增加底部 Dock 对接区与禁布区               |
+
+此外，README 末尾那些 `claude.ai/chat/docs/...` 地址应改成仓库相对路径，例如 `docs/ports-and-power.md`，否则它们不是可靠的 GitHub 文档链接。
+
+## 最终判断
+
+这版 R3.1 架构可以保留，不需要再推翻重做。
+
+我建议把下一步的重点从功能讨论正式转到 机械、电源、USB 三部分的协同设计。
+
+具体执行顺序应是：先确定 Hub 的独立启动及单线供电能力，再确定 Dock 高速连接器和中央编码器机构，最后完成 PCB 位点冻结。
+
+还有一点：Core 保留 FAST 10Gbps，就仍然需要完整的 USB3.x 高速 Hub 路线。 只有在主动取消 FAST 高速需求时，才能将 Core 简化为成本更低的普通 USB2 Hub。因此现阶段不建议仅为了减小开发难度临时换成 USB2 芯片，再在 Rev B 重新设计整套高速 PCB。
