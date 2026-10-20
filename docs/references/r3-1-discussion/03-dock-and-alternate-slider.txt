@@ -1,0 +1,213 @@
+你的新方案比之前把所有功能都塞进主体更合理。我建议将它正式调整为：
+
+三件式交互主体 + 可选下置桌面电源底座。电脑上行接口永远保留在主体上，底座只负责扩展供电、USB 外设、读卡等功能。
+
+其中，你提出的“把触控条从五键附件拆下来，磁吸到主体右侧的竖向位置”很值得保留。它可以使触控条在不同使用场景中转换位置，而不是只能固定在五键前方。
+
+不过有两处需要修改：
+
+1. 触控条不能简单用普通磁铁吸附后就假设能通信，还要解决触点朝向、固定方向、模块识别和热插拔。
+2. 底座连接鼠标、键盘、读卡器的数据，不能只靠 I²C 与主体进行简单通信。 需要完整的 USB2 或 USB3 数据通道，才能让这些设备被电脑正常识别。
+
+下面是我建议的具体布局。
+
+## 一、整机重新划分成四个实体模块
+
+建议的模块关系
+
+这里的四部分是：
+
+| 部件            | 职责                             | 是否可独立拆卸 |
+| ------------- | ------------------------------ | ------- |
+| Core 主体       | ESP32-S3、圆屏、旋钮、四软键、基础 Hub、电脑上行 | 是       |
+| Macro 五键      | 五个宏键及控制器                       | 是       |
+| Touch 触控条     | 滑动、点击、触摸控制                     | 是，可换位   |
+| Power Dock 底座 | PD 供电、充电、USB 扩展、读卡             | 是，可选    |
+
+重点是 Power Dock 不取代 Core 的数据上行，只作为 Core 的下级扩展设备。
+
+## 二、触控条换位：可行，但原来的 104mm 长度不能直接竖放
+
+你现有 R3 的主体尺寸是 228×76mm，右端留白约 30mm。原触控条候选尺寸是 104×22×8mm。
+
+如果把原来的触控条旋转 90°，沿主体前后方向安装，长度就会变成 104mm，而主体前后只有 76mm。
+
+因此，原触控条不能原尺寸直接竖装到右端留白内。
+
+我建议改为“双尺寸兼容设计”：保持一条完整长度的触控条可以安装在五键模块前方，同时设计一个缩短的竖向触控条，或让同一个较短的触控模块通过不同方向的底座安装。
+
+三个可选位置方案
+
+A. 右端竖条
+
+缩短为约 45–55mm，有机会进入 R3 右侧留白。
+
+B. 横向触控条
+
+适合较长的滑动控制，需要五键附件提供停靠结构。
+
+C. L 形电极
+
+定制触摸电极，利用右上区域，但不再是普通直条。
+
+我更推荐 A，但需要针对你已有机械设计进一步修改。
+
+### 右侧竖向触控条的具体位点
+
+建议先使用如下候选包络：
+
+| 参数    | 候选值                  |
+| ----- | -------------------- |
+| 触控条外形 | 约 50×14×6mm          |
+| 安装方向  | 长边沿 Y 轴              |
+| 大致中心  | X=+95、Y=0            |
+| 覆盖区域  | X=+88～+102、Y=−25～+25 |
+| 连接    | 低速磁吸触点或弹簧针           |
+| 操作    | 上下滑动、点击、长按           |
+| 拆卸    | 可手动取下并安装至五键附件        |
+
+这仅是布置候选，尚不能冻结成制造尺寸，因为目前右端还有主 PCB 固定孔 (104,±28)、端面磁体以及左右磁吸连接结构。触控条可能需要与这些结构错层或调整固定位置。
+
+还有一点：如果同一个触控条需要在竖向和横向位置工作，最好使用位置感知的触控传感器，而非仅输出固定方向手势的模块。
+
+ESP32 根据附件的安装位置，自动旋转坐标系：
+
+- 竖向安装：Y 轴滑动映射为音量、纵向滚动等。
+- 横向安装：X 轴滑动映射为进度、横向滚动等。
+
+安装位置可通过不同的识别触点、编码电阻或附件身份信息判断。单纯使用磁铁吸附，不能可靠判断方向。
+
+## 三、下置桌面电源底座：可以做，而且比侧挂大功率电源更适合
+
+你的提议是底座和主体一样大，主体直接安装在它上面。我认为这是合理的结构路线。
+
+具体来说：
+
+叠层关系（侧面概念示意）
+
+可以保留主体 R3 的 228×76mm 顶视尺寸，底座也先按相同尺寸作为候选。但两者叠装以后，整体高度、倾角、USB 插座开口以及散热条件必须重新计算。
+
+尤其需要注意：底座不是简单的“电源板”。你希望它可以连接键盘、鼠标、手机、读卡器，意味着它同时是电源扩展模块 + USB 扩展 Hub。
+
+底座至少包含以下内容：
+
+| 功能             | 需要的电路                                     |
+| -------------- | ----------------------------------------- |
+| PD 适配器输入       | USB-C PD Sink 控制器、保护                      |
+| 5V 系统供电        | DC-DC 降压、电源路径管理                           |
+| 手机充电           | USB-C Source/PD 控制器、端口功率开关；高于 5V 需要额外电源设计 |
+| 键盘/鼠标连接        | USB Hub 下游口                               |
+| 读卡             | USB SD/microSD 读卡控制器和卡座                   |
+| USB-A/USB-C 扩展 | Hub、ESD、过流保护                              |
+| 状态通信           | 与主件 ESP32 的管理总线                           |
+| 散热与安全          | 温度监测、保险/限流、热设计                            |
+
+如果未来底座需要给手机提供 9V 或更高电压的 PD 快充，不能直接沿用现有 5V USB Hub 下游供电电路。那是独立的充电电源功能。
+
+## 四、关键问题：底座的数据怎么传到电脑？
+
+这里需要明确一条 USB 拓扑规则：
+
+电脑永远只连接 Core 的 PC-C 上行口。底座不拥有第二条电脑上行。
+
+但是，底座内部的鼠标、键盘、读卡器仍要通过 Core 中的 USB Hub 连接电脑，不能仅靠 ESP32 的 I²C 管理总线完成。
+
+推荐采用级联 USB Hub：
+
+\#chatgpt-mermaid-\_r_1a7\_{font-family:-apple-system-body,ui-sans-serif,-apple-system,system-ui,"Segoe UI",Helvetica,"Apple Color Emoji",Arial,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";font-size:16px;fill:rgb(13, 13, 13);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#chatgpt-mermaid-\_r_1a7\_ .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#chatgpt-mermaid-\_r_1a7\_ .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#chatgpt-mermaid-\_r_1a7\_ .error-icon{fill:rgb(243, 243, 243);}#chatgpt-mermaid-\_r_1a7\_ .error-text{fill:rgb(13, 13, 13);stroke:rgb(13, 13, 13);}#chatgpt-mermaid-\_r_1a7\_ .edge-thickness-normal{stroke-width:1px;}#chatgpt-mermaid-\_r_1a7\_ .edge-thickness-thick{stroke-width:3.5px;}#chatgpt-mermaid-\_r_1a7\_ .edge-pattern-solid{stroke-dasharray:0;}#chatgpt-mermaid-\_r_1a7\_ .edge-thickness-invisible{stroke-width:0;fill:none;}#chatgpt-mermaid-\_r_1a7\_ .edge-pattern-dashed{stroke-dasharray:3;}#chatgpt-mermaid-\_r_1a7\_ .edge-pattern-dotted{stroke-dasharray:2;}#chatgpt-mermaid-\_r_1a7\_ .marker{fill:rgb(143, 143, 143);stroke:rgb(143, 143, 143);}#chatgpt-mermaid-\_r_1a7\_ .marker.cross{stroke:rgb(143, 143, 143);}#chatgpt-mermaid-\_r_1a7\_ svg{font-family:-apple-system-body,ui-sans-serif,-apple-system,system-ui,"Segoe UI",Helvetica,"Apple Color Emoji",Arial,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";font-size:16px;}#chatgpt-mermaid-\_r_1a7\_ p{margin:0;}#chatgpt-mermaid-\_r_1a7\_ .label{font-family:-apple-system-body,ui-sans-serif,-apple-system,system-ui,"Segoe UI",Helvetica,"Apple Color Emoji",Arial,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";color:rgb(13, 13, 13);}#chatgpt-mermaid-\_r_1a7\_ .cluster-label text{fill:rgb(13, 13, 13);}#chatgpt-mermaid-\_r_1a7\_ .cluster-label span{color:rgb(13, 13, 13);}#chatgpt-mermaid-\_r_1a7\_ .cluster-label span p{background-color:transparent;}#chatgpt-mermaid-\_r_1a7\_ .label text,#chatgpt-mermaid-\_r_1a7\_ span{fill:rgb(13, 13, 13);color:rgb(13, 13, 13);}#chatgpt-mermaid-\_r_1a7\_ .node rect,#chatgpt-mermaid-\_r_1a7\_ .node circle,#chatgpt-mermaid-\_r_1a7\_ .node ellipse,#chatgpt-mermaid-\_r_1a7\_ .node polygon,#chatgpt-mermaid-\_r_1a7\_ .node path{fill:rgb(222, 234, 251);stroke:rgb(83, 154, 248);stroke-width:1px;}#chatgpt-mermaid-\_r_1a7\_ .rough-node .label text,#chatgpt-mermaid-\_r_1a7\_ .node .label text,#chatgpt-mermaid-\_r_1a7\_ .image-shape .label,#chatgpt-mermaid-\_r_1a7\_ .icon-shape .label{text-anchor:middle;}#chatgpt-mermaid-\_r_1a7\_ .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#chatgpt-mermaid-\_r_1a7\_ .rough-node .label,#chatgpt-mermaid-\_r_1a7\_ .node .label,#chatgpt-mermaid-\_r_1a7\_ .image-shape .label,#chatgpt-mermaid-\_r_1a7\_ .icon-shape .label{text-align:center;}#chatgpt-mermaid-\_r_1a7\_ .node.clickable{cursor:pointer;}#chatgpt-mermaid-\_r_1a7\_ .root .anchor path{fill:rgb(143, 143, 143)!important;stroke-width:0;stroke:rgb(143, 143, 143);}#chatgpt-mermaid-\_r_1a7\_ .arrowheadPath{fill:rgb(143, 143, 143);}#chatgpt-mermaid-\_r_1a7\_ .edgePath .path{stroke:rgb(143, 143, 143);stroke-width:1px;}#chatgpt-mermaid-\_r_1a7\_ .flowchart-link{stroke:rgb(143, 143, 143);fill:none;}#chatgpt-mermaid-\_r_1a7\_ .edgeLabel{background-color:rgb(252, 252, 252);text-align:center;}#chatgpt-mermaid-\_r_1a7\_ .edgeLabel p{background-color:rgb(252, 252, 252);}#chatgpt-mermaid-\_r_1a7\_ .edgeLabel rect{opacity:0.5;background-color:rgb(252, 252, 252);fill:rgb(252, 252, 252);}#chatgpt-mermaid-\_r_1a7\_ .labelBkg{background-color:rgba(252, 252, 252, 0.5);}#chatgpt-mermaid-\_r_1a7\_ .cluster rect{fill:rgb(243, 243, 243);stroke:rgba(0, 0, 0, 0.1);stroke-width:1px;}#chatgpt-mermaid-\_r_1a7\_ .cluster text{fill:rgb(13, 13, 13);}#chatgpt-mermaid-\_r_1a7\_ .cluster span{color:rgb(13, 13, 13);}#chatgpt-mermaid-\_r_1a7\_ div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:-apple-system-body,ui-sans-serif,-apple-system,system-ui,"Segoe UI",Helvetica,"Apple Color Emoji",Arial,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";font-size:12px;background:rgb(243, 243, 243);border:1px solid rgba(0, 0, 0, 0.1);border-radius:2px;pointer-events:none;z-index:100;}#chatgpt-mermaid-\_r_1a7\_ .flowchartTitleText{text-anchor:middle;font-size:18px;fill:rgb(13, 13, 13);}#chatgpt-mermaid-\_r_1a7\_ rect.text{fill:none;stroke-width:0;}#chatgpt-mermaid-\_r_1a7\_ .icon-shape,#chatgpt-mermaid-\_r_1a7\_ .image-shape{background-color:rgb(252, 252, 252);text-align:center;}#chatgpt-mermaid-\_r_1a7\_ .icon-shape p,#chatgpt-mermaid-\_r_1a7\_ .image-shape p{background-color:rgb(252, 252, 252);padding:2px;}#chatgpt-mermaid-\_r_1a7\_ .icon-shape .label rect,#chatgpt-mermaid-\_r_1a7\_ .image-shape .label rect{opacity:0.5;background-color:rgb(252, 252, 252);fill:rgb(252, 252, 252);}#chatgpt-mermaid-\_r_1a7\_ .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#chatgpt-mermaid-\_r_1a7\_ .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#chatgpt-mermaid-\_r_1a7\_ .node .neo-node{stroke:rgb(83, 154, 248);}#chatgpt-mermaid-\_r_1a7\_ [data-look="neo"].node rect,#chatgpt-mermaid-\_r_1a7\_ [data-look="neo"].cluster rect,#chatgpt-mermaid-\_r_1a7\_ [data-look="neo"].node polygon{stroke:url(#chatgpt-mermaid-\_r_1a7\_-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#chatgpt-mermaid-\_r_1a7\_ [data-look="neo"].swimlane.cluster rect{filter:none;}#chatgpt-mermaid-\_r_1a7\_ [data-look="neo"].node path{stroke:url(#chatgpt-mermaid-\_r_1a7\_-gradient);stroke-width:1px;}#chatgpt-mermaid-\_r_1a7\_ [data-look="neo"].node .outer-path{filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#chatgpt-mermaid-\_r_1a7\_ [data-look="neo"].node .neo-line path{stroke:rgb(83, 154, 248);filter:none;}#chatgpt-mermaid-\_r_1a7\_ [data-look="neo"].node circle{stroke:url(#chatgpt-mermaid-\_r_1a7\_-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#chatgpt-mermaid-\_r_1a7\_ [data-look="neo"].node circle .state-start{fill:#000000;}#chatgpt-mermaid-\_r_1a7\_ [data-look="neo"].icon-shape .icon{fill:url(#chatgpt-mermaid-\_r_1a7\_-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#chatgpt-mermaid-\_r_1a7\_ [data-look="neo"].icon-shape .icon-neo path{stroke:url(#chatgpt-mermaid-\_r_1a7\_-gradient);filter:drop-shadow( 1px 2px 2px rgba(185,185,185,1));}#chatgpt-mermaid-\_r_1a7\_ .node text{font-size:14px;font-weight:600;letter-spacing:normal;fill:rgb(0, 79, 153);}#chatgpt-mermaid-\_r_1a7\_ .edgeLabels text{font-size:13px;font-weight:600;letter-spacing:-0.08px;fill:rgb(0, 79, 153);}#chatgpt-mermaid-\_r_1a7\_ .node tspan[font-weight="normal"],#chatgpt-mermaid-\_r_1a7\_ .edgeLabels tspan[font-weight="normal"]{font-weight:600;}#chatgpt-mermaid-\_r_1a7\_ .edgeLabel .label rect{opacity:1;rx:13px;ry:13px;fill:rgb(245, 250, 255);stroke:rgb(206, 219, 229);stroke-width:1px;}#chatgpt-mermaid-\_r_1a7\_ .node rect,#chatgpt-mermaid-\_r_1a7\_ .node circle,#chatgpt-mermaid-\_r_1a7\_ .node ellipse,#chatgpt-mermaid-\_r_1a7\_ .node polygon,#chatgpt-mermaid-\_r_1a7\_ .node path{fill:rgb(229, 243, 255);stroke:rgba(0, 0, 0, 0.1);stroke-width:1px;}#chatgpt-mermaid-\_r_1a7\_ .node rect{rx:16px;ry:16px;}#chatgpt-mermaid-\_r_1a7\_ .node.mermaid-decision .label-container{fill:rgb(245, 250, 255);stroke:rgb(206, 219, 229);stroke-dasharray:2,2;}#chatgpt-mermaid-\_r_1a7\_ .edgePaths .flowchart-link{stroke:rgb(143, 143, 143);stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;}#chatgpt-mermaid-\_r_1a7\_ .marker{fill:rgb(143, 143, 143);stroke:rgb(143, 143, 143);}#chatgpt-mermaid-\_r_1a7\_ :root{--mermaid-font-family:-apple-system-body,ui-sans-serif,-apple-system,system-ui,"Segoe UI",Helvetica,"Apple Color Emoji",Arial,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";}电脑Core 主体 USB HubESP32-S3 控制中心主体 USB-A / FAST / 键盘主体专用 Dock USB 下游通道底座 USB Hub键盘 / 鼠标SD / microSD 读卡器扩展 USB 外设底座 PD + 电源管理唯一上行USB3 数据受保护供电I²C/UART 管理
+
+USB Hub 级联是标准 USB 拓扑支持的方式，USB7206C 也具有五个 USB3 Gen2 下游以及一个 USB2 下游。
+
+[image](https://www.google.com/s2/favicons?domain=https://ww1.microchip.com\&sz=32)
+
+ww1.microchip.com
+
++1
+
+
+
+但你当前的六个下游端口已经全部分配完毕：
+
+`A1 + A2 + A3 + FAST + KBD + CTRL = 6`
+
+因此要给底座增加真实 USB 数据连接，必须重新规划端口资源。
+
+我建议优先考虑以下方案。
+
+| 方案   | 实施方式                                          | 评价                     |
+| ---- | --------------------------------------------- | ---------------------- |
+| 方案 1 | 使用主体一个现有 USB3 下游，通过 USB3 切换器在外部接口与 Dock 之间二选一 | 简单一些，但安装底座后对应外部口不可同时使用 |
+| 方案 2 | 在主体增加一级小型 Hub，为外部接口及 Dock 分出更多下游              | 同时保留功能，但增加芯片、布线和功耗     |
+| 方案 3 | 将主体某个 USB3 接口移到扩展底座，并为主件设计对应版本                | 机械设计更复杂，不符合主体功能完全固定的目标 |
+
+推荐方案 2 作为完整功能目标，方案 1 可作为验证原型。
+
+但级联会占用 USB 拓扑层级和共享带宽，不能承诺所有扩展端口独享 10Gbps。还要根据实际级联芯片、总线供电和并发性能进行验证。
+
+另外，不能直接用普通低速磁吸触点承载 USB 10Gbps。建议在底部使用经过高速信号完整性验证的板对板连接器，并用磁吸及机械定位辅助安装。
+
+## 五、主件与底座连接器应当分成两个独立部分
+
+我建议底部连接区域包含：
+
+PWR 接口
+
+受保护电源、GND、检测
+
+DATA 接口
+
+USB3、参考地、屏蔽
+
+CTRL 接口
+
+I²C/UART、DET、INT
+
+三个逻辑通道可以使用分开的连接器，也可以使用具有明确分区与额定参数的同一组件，不能将普通磁吸触点直接视为高速连接器。
+
+其中，电源路径必须支持从底座给主体供电，同时避免主体电脑 VBUS 与底座电源反灌。保护、限流和电源选择由硬件控制。
+
+数据路径必须能够在底座拔掉后让 Core 的基础 USB Hub 继续运行。扩展件的 USB 设备可能因拔掉底座而断联，这是正常行为，但不能连带让主体键盘和 HID 整体掉线。
+
+管理路径则让 ESP32 读取底座状态、控制允许的软件功能、显示电源信息。
+
+## 六、我建议冻结的新 R3.1 结构
+
+| 部位      | R3.1 推荐定义                 |
+| ------- | ------------------------- |
+| 主体外形    | 保留 228×76mm、5° 候选         |
+| 中央圆屏和旋钮 | 完全保留现有位置与独立按压目标           |
+| 四软键     | 仍使用 (±65,±18)             |
+| 主体右侧留白  | 新增可拆卸竖向触控条停靠区，尺寸待机械验证     |
+| 五键附件    | 保留独立五键，增加触控条横向停靠座         |
+| 触控条     | 先采用可双向安装的缩短版，或重新设计主件的安装支架 |
+| 左右磁吸接口  | 继续服务低功耗交互附件               |
+| 主体下方    | 新增专用 Dock 对接结构            |
+| 底座外形    | 与主体相同顶视尺寸作为初始候选           |
+| 底座功能    | PD 电源、充电、USB 扩展、读卡        |
+| 电脑上行    | 只在主体 PC-C                 |
+| USB 数据  | 主体 Hub 为第一层，底座 Hub 为下游扩展  |
+| 系统管理    | ESP32-S3 始终负责统一 UI 和扩展件状态 |
+
+还有一个必须在机械设计时处理的细节：如果主体安装在底座上，原本底部的脚垫、螺丝、倾角以及背部 USB 接口都可能发生干涉。底座不应该仅仅复制一个相同尺寸的矩形外壳，而应设计出定位槽、承力柱、散热路径以及锁定机构。
+
+我建议把扩展底座设计成带机械定位与可拆卸固定结构的下置模块。磁铁只负责吸附和辅助对位，不承担全部抗剪切力和插拔时的机械负载。
+
+## 七、现在还有一个需要你优先考虑的布局冲突
+
+主体右侧 30mm 留白，同时承担了触控条位置、磁吸端面、结构固定和未来附件连接。
+
+这四件事情都集中在同一个区域，直接按当前尺寸制作，很可能相互干涉。
+
+所以我更倾向于：
+
+- 保留主体右端竖向触控条停靠位，但使用缩短的触控模块。
+- 五键附件的原触控条区域改为可拆停靠座，而不是固定电极。
+- 保留右侧磁吸五键的连接位置，但让触控条触点和五键主连接触点相互独立。
+- 将大功率和高速 Dock 对接接口放到主体底部中央偏后，而不是右侧端面。
+- 底座负责通过专用连接器进行高速数据扩展及供电。
+
+这样主件、五键、触控条和电源底座之间不会争夺同一组触点和机械位置。
+
+最终建议是：R3.1 采用“横向五键 + 可拆双位置触控条 + 下置功能 Dock”的结构。 主体始终独立工作、始终负责电脑上行；外接底座后只是新增充电、外设、读卡和功率能力，并不会改变主件的操作方式和控制权。
+
+下一步设计中，最应优先完成的是右端触控条与磁吸五键的二维干涉图，以及底座 USB 数据/供电连接器的剖面尺寸。它们将决定这个模块化设计是否能真正装进目前的 R3 外壳。

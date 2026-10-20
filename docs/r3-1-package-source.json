@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-19",
+  "source_archive": "Keyboard_as_PC_Hub_R3_1_Codex_Package.zip",
+  "sha256": "89454343290af7533d66c0b7f1232acbbeca7ca9cc8b0da686a5cc7ec570674b",
+  "kind": "user supplied architecture input; not proof of existing tests or source-file correctness",
+  "imported_files": [
+    "CODEX_START_R3_1.md",
+    "docs/R3_1_CODEX_HANDOFF.md"
+  ],
+  "imported_file_sha256": {
+    "CODEX_START_R3_1.md": "903d3f1c50cfac37af3fbe3ca4d0970b6e5dd40fe264b6fc33977d7ea25f6360",
+    "docs/R3_1_CODEX_HANDOFF.md": "9ef043489098ec0c406ebe95605ffcfe6b06974f448681c17a49ce1fd6cd33cf"
+  },
+  "baseline_commit": "2de74a127bfeadb25659c117c61721e969205f17"
+}

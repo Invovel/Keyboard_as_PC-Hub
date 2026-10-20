@@ -1,0 +1,274 @@
+{
+  "revision": "R3.1-CORE-OPTIONAL-DOCK-20261019",
+  "units": "mm",
+  "status": "architecture and mechanical envelope study; NOT fabrication released",
+  "product": {
+    "name": "Desktop Control Hub",
+    "core_independent_required": true,
+    "unique_host_upstream": "Core PC-C",
+    "power_dock_optional": true,
+    "power_dock_revision": "B",
+    "internal_mains": false,
+    "host_PD_charging": false
+  },
+  "body": {
+    "width": 228,
+    "depth": 76,
+    "front_height": 20,
+    "angle_deg": 5,
+    "rear_height": 26.649,
+    "wall": 2.4,
+    "corner_radius": 5
+  },
+  "pcb": {
+    "width": 216,
+    "depth": 64,
+    "thickness": 1.6,
+    "mount_holes": [
+      [
+        -104,
+        -28
+      ],
+      [
+        104,
+        -28
+      ],
+      [
+        104,
+        28
+      ],
+      [
+        -104,
+        28
+      ]
+    ],
+    "hole_diameter": 2.4
+  },
+  "screen": {
+    "outline_diameter": 44.32,
+    "active_diameter": 38.16,
+    "thickness_budget": 3.5,
+    "rotates": false,
+    "presses": true
+  },
+  "ring": {
+    "outer_diameter": 60,
+    "upper_aperture": 41.76,
+    "lower_aperture": 50,
+    "carrier_diameter": 49,
+    "visible_border_per_side": 1.8,
+    "radial_clearance_per_side": 0.5,
+    "height_above_panel": 8,
+    "presses": false
+  },
+  "keys": {
+    "count": 4,
+    "symmetric_x": true,
+    "symmetric_y": true,
+    "outer_x": 84,
+    "outer_y": 31,
+    "half_separator": 1,
+    "inner_arc_radius": 34.5,
+    "height_above_panel": 0.3,
+    "max_height_above_panel": 1,
+    "end_blank_width": 30,
+    "outer_edge_retraction": 24,
+    "sensor_centers": [
+      [
+        -65,
+        18
+      ],
+      [
+        65,
+        18
+      ],
+      [
+        65,
+        -18
+      ],
+      [
+        -65,
+        -18
+      ]
+    ]
+  },
+  "contacts": {
+    "sides": [
+      "left",
+      "right"
+    ],
+    "face_x_abs": 114,
+    "y_positions": [
+      -8.75,
+      -6.25,
+      -3.75,
+      -1.25,
+      1.25,
+      3.75,
+      6.25,
+      8.75
+    ],
+    "pitch": 2.5,
+    "magnet_y": [
+      -27,
+      27
+    ],
+    "magnet_diameter": 5,
+    "magnets_carry_current": false,
+    "signals": [
+      "5V_MAG_PROTECTED",
+      "GND",
+      "3V3_MAG_ISOLATED",
+      "MAG_SDA",
+      "MAG_SCL",
+      "MAG_DET",
+      "MAG_INT",
+      "GND"
+    ],
+    "pin_order": "main-board face, rear to front; mating side mirrored",
+    "current_rating": "TBD by connector selection"
+  },
+  "accessories": {
+    "macro": [
+      112,
+      76
+    ],
+    "macro_keys": 5,
+    "macro_key_height": 9,
+    "joint_gap": 1,
+    "touch_strip": [
+      104,
+      22,
+      8
+    ],
+    "layout": "five keys in one horizontal row; K5 Fn target",
+    "slider_position": "front of five-key module, horizontal only",
+    "slider_active_length_target": [
+      90,
+      96
+    ],
+    "slider_active_width_target": [
+      12,
+      16
+    ],
+    "slider_update_hz_target": 100,
+    "slider_position_bits_target": 8,
+    "slider_default_mode": "relative",
+    "slider_tested": false
+  },
+  "rear_ports": [
+    {
+      "name": "A1",
+      "x": -91,
+      "logical_port": "P1"
+    },
+    {
+      "name": "A2",
+      "x": -64,
+      "logical_port": "P2"
+    },
+    {
+      "name": "PC-C",
+      "x": 91,
+      "role": "only host upstream"
+    }
+  ],
+  "fast_port": {
+    "name": "FAST-C",
+    "side": "left",
+    "y": 17,
+    "logical_port": "P3",
+    "data_target_Gbps": 10,
+    "source_v": 5,
+    "source_current_a": null
+  },
+  "microphone": {
+    "part": "INMP441 module",
+    "voltage": 3.3,
+    "i2s": 1,
+    "bclk": 4,
+    "ws": 5,
+    "sd": 17,
+    "lr": "GND / left",
+    "hardware_tested": false,
+    "acoustic_position": [
+      -88,
+      -38
+    ]
+  },
+  "central_keepout": {
+    "radius": 27,
+    "purpose": "screen carrier, travel, FPC; no tall components"
+  },
+  "keyboard_plug": {
+    "type": "adjustable USB-C male on independent carrier",
+    "fixed_pcb_plug": false
+  },
+  "power": {
+    "core_default_source": "PC-C VBUS, within detected and configured allowance",
+    "core_PD_high_voltage_input": false,
+    "dock_to_core_direction": "one-way",
+    "pc_backfeed_allowed": false,
+    "fixed_core_budget_w": null,
+    "fixed_dock_budget_w": null,
+    "hardware_verified": false
+  },
+  "logical_downstream": {
+    "P1": "A1",
+    "P2": "A2",
+    "P3": "FAST-C",
+    "P4": "DOCK DATA",
+    "P5": "KBD USB2",
+    "P6": "CTRL USB2 FS HID"
+  },
+  "dock": {
+    "revision": "B",
+    "present_by_default": false,
+    "second_host_upstream": false,
+    "connector_part_number": null,
+    "connector_frozen": false,
+    "study_only": true,
+    "zone_xy": [
+      36,
+      5,
+      84,
+      23
+    ],
+    "data_zone_xy": [
+      36,
+      5,
+      64,
+      23
+    ],
+    "pwr_zone_xy": [
+      68,
+      5,
+      84,
+      13
+    ],
+    "ctrl_zone_xy": [
+      68,
+      15,
+      84,
+      23
+    ],
+    "core_pcb_bottom_z": 6.4,
+    "dock_pcb_top_z_study": -1.6,
+    "board_spacing_study": 8,
+    "body_height_study": 20,
+    "body_top_z_study": -1,
+    "power_direction": "Dock to Core only",
+    "data_via": "Core P4 downstream",
+    "power_rating_a": null,
+    "high_speed_on_MAG": false
+  },
+  "total_disable": {
+    "position": "front-center",
+    "candidate_xy": [
+      0,
+      -38
+    ],
+    "runtime_GPIO": 0,
+    "switch_part_number": null
+  }
+}

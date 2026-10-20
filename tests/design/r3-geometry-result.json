@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "pcb_footprints": 15,
+  "pcb_nets_including_0": 34,
+  "schematic_connectors": 11,
+  "connector_rows": 79,
+  "geometry_checked": true,
+  "routing_complete": false,
+  "KiCad_ERC_DRC_run": false
+}

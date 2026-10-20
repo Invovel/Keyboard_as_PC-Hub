@@ -1,0 +1,45 @@
+I (38064) body-core: Health A=0 B=0 invalid=0 drop=0 touch=0 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (43064) body-core: Health A=0 B=0 invalid=0 drop=0 touch=0 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (48074) body-core: Health A=0 B=0 invalid=0 drop=0 touch=0 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (53074) body-core: Health A=0 B=0 invalid=0 drop=0 touch=0 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (58084) body-core: Health A=0 B=0 invalid=0 drop=0 touch=0 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (63094) body-core: Health A=0 B=0 invalid=0 drop=0 touch=0 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (64884) body-core: Touch DOWN x=111 y=189
+I (64944) body-core: Touch UP x=0 y=0
+I (65104) body-core: Page changed
+I (68094) body-core: Health A=23 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=1 USB=0 enabled=1 heap=244300
+I (73104) body-core: Health A=64 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (78104) body-core: Health A=122 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (83104) body-core: Health A=172 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (88114) body-core: Health A=202 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (93114) body-core: Health A=264 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (98114) body-core: Health A=300 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (103124) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (108134) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (113154) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (118164) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (123174) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (128194) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (133204) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (138214) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (143234) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (145574) body-core: Press DOWN
+I (145574) body-core: Play/pause: USB offline
+I (145724) body-core: Press UP
+I (146224) body-core: Press DOWN
+I (146224) body-core: Play/pause: USB offline
+I (146384) body-core: Press UP
+I (148244) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (153264) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (158274) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (163284) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (168304) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (173314) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (178324) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (183344) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (188354) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (193364) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (198384) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (203394) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (208404) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (213424) body-core: Health A=314 B=0 invalid=0 drop=0 touch=3 errors=0 PCNT=0 USB=0 enabled=1 heap=244300

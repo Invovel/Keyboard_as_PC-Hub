@@ -1,219 +1,58 @@
-# 🎮 适配60%键盘的小键盘式拓展模块完整方案
-结合你的键盘构造和最新需求，我帮你把模块设计成**小键盘分区形态**，外壳长度与键盘完全一致，视觉上和键盘连成一体，同时保证操作顺手、功能完整。
+# Keyboard as PC Hub
 
----
+**Desktop Control Hub · R3.1：Core＋可选下置Power Dock＋低功耗MAG附件。**
 
-## ✨ 核心需求整理（精准匹配你的键盘）
-### 1. 形态约束
-- **外壳长度**：与60%键盘完全一致（约280mm），视觉上连成一条线，整体感强
-- **模块形态**：类似小键盘的分区布局（非方形），宽度比键盘窄（约40mm），高度与键盘持平（约15mm）
-- **空缺处理**：功能区外的空缺部分用透明盖板占位，后续可拓展，不影响当前操作
-- **防尘结构**：三面包围式外壳（仅右侧开放接口），与键盘透明外壳材质呼应（推荐透明PLA）
+Core背部PC-C是唯一电脑上行，单线从电脑允许的VBUS预算取电，目标为不依赖Dock即可使用主体与键盘。Hub硬件转发USB外设数据，ESP32负责圆屏、旋钮、四键、音频和HID；Hub启动不应依赖ESP32固件。单线功耗、Hub配置与故障独立性尚未通过整机验证。
 
-### 2. 连接与固定
-- **主连接**：模块左侧伸出凸出USB-C公头，直接插入键盘左上角USB-C母座（取电+基础连接）
-- **固定方式**：模块两侧加装3D打印卡扣，扣住键盘左侧边缘，稳固不晃，拆装方便
-- **拓展预留**：空缺盖板下方预留pogo pin触点，后续可加拓展模块（如额外按键板）
+[最新交接基准](docs/R3_1_CODEX_HANDOFF.md) · [差异与决策台账](docs/R3_1_DECISIONS.md) · [WP1/WP2工程评审](docs/R3_1_ENGINEERING_REVIEW.md) · [下一步入口](CODEX_START.md)
 
-### 3. 功能保留（操作优先）
-- 核心控制：旋钮（带双色LED）+ 类雷蛇滚轮（复位钮子开关）+ 5个热插拔按键
-- 状态显示：0.96寸OLED屏 + 3个彩色LED（供电/调试/高速接口状态）
-- Hub拓展：USB-C上行 + 3×USB-A + 2×USB-C（含高速接口）+ PD双供电切换
+[补充讨论采用/放弃清单](docs/R3_1_SUPPLEMENT.md)：保留五键与104mm前部横条，补强Hub启动和Slider验证，早期双向供电/竖条/第二上行不混入当前设计。
 
----
+## 当前结构与接口
 
-## 🎨 模块形态与布局方案（适配60%键盘）
-### 1. 整体形态（视觉统一）
-- 外壳：透明PLA材质，长度280mm（与键盘一致），宽度40mm（比键盘窄5-10mm，视觉协调），高度15mm（与键盘持平）
-- 结构：三面包围防尘（左/上/下封闭），仅右侧开放接口，左侧用凸出USB-C公头连接键盘，空缺部分用透明盖板占位（与外壳一体3D打印，成本低）
-- 视觉效果：模块与键盘连成一条线，透明材质呼应键盘外壳，整体简洁统一
+![R3.1 Core布局](design/drawings/layout-r3-1.svg)
 
-### 2. 功能区布局（小键盘式，操作顺手）
-按小键盘的“上中下”分区布局，左手自然放置即可操作，不影响右手敲键盘：
-```
-┌──────────────────────────────────────────────────────────────┐
-│ [透明盖板（空缺占位）]  │  [OLED屏]  [红/黄/蓝状态LED]  │  上区：状态可视化
-├──────────────────────────────────────────────────────────────┤
-│ [EC11旋钮+双色LED]  │  [热插拔按键×5（2×3紧凑布局）]  │  中区：核心控制
-├──────────────────────────────────────────────────────────────┤
-│ [复位钮子开关（类雷蛇滚轮）]  │  [供电切换拨动开关]  │  下区：滚轮+供电控制
-└──────────────────────────────────────────────────────────────┘
-模块右侧（开放端）：USB-C上行口 + 3×USB-A + 2×USB-C + PD供电口
-模块左侧（靠键盘端）：凸出USB-C公头（插键盘左上母座）+ 卡扣
-模块背面：主控+Hub芯片+散热片 + 预留pogo pin触点（盖板下方）
-```
+| 部位 | R3.1分工 |
+| --- | --- |
+| Core背部 | A1、A2、PC-C；PC-C唯一电脑上行，无Core POWER输入 |
+| Core左侧 | FAST-C，目标10Gbps下游；实际供电按预算，不预先承诺3A |
+| KBD / CTRL | 可调Type-C键盘公头 / 内部ESP32 USB2 Full-Speed HID |
+| Core底部 | P4 Dock DATA＋独立PWR/CTRL预留，封装与开孔未定 |
+| 可选下置Dock | Rev B：扩展Hub、外部PD受电、保护降压、单向给Core供电；没有第二电脑上行 |
+| 两端MAG | 低速、低功耗8触点；五键及前部唯一横向触控条，不传高速USB/全机电流 |
 
-### 3. 按键功能映射（编程场景优化）
-| 按键位置 | 功能映射（VS Code优先） |
-|----------|--------------------------|
-| 按键1    | F5（调试启动）|
-| 按键2    | Ctrl+S（快速保存）|
-| 按键3    | Ctrl+Shift+B（项目构建）|
-| 按键4    | Ctrl+Shift+P（命令面板）|
-| 按键5    | Esc（退出调试/取消）|
+逻辑下游P1=A1、P2=A2、P3=FAST、P4=DOCK、P5=KBD、P6=CTRL；这是架构分配，不是芯片物理引脚。USB7206C仍为候选，尚未证明Core单线工作能力。旧A3迁为Dock数据链路，POWER IN移至Dock；旧100W/46W单体预算仅保留为历史。
 
----
+| 尺寸 | 候选值，mm |
+| --- | --- |
+| Core / PCB | 228×76、5°，前20/后26.65；PCB216×64×1.6 |
+| 短四键 | 四片镜像，外端X=±84，两端各留30固定壳面；键面高0.3 |
+| 感应中心 | (±65,±18)，保持原位 |
+| 环 / 屏 / AA | Ø60 / Ø44.32 / Ø38.16；单边可见边框1.8 |
+| 五键 / 横条 | 112×76一字五键；前部横条104×22×8，目标有效长90～96 |
+| 底部Dock研究区 | 48×18功能区；8板间距和20高Dock包络均未冻结 |
 
-## 🛠️ 硬件清单（预算精准控制，总235元）
-| 模块               | 选型（高性价比）| 预算（元） | 核心作用                     |
-|--------------------|-------------------------|------------|------------------------------|
-| 主控               | 全新树莓派Pico（RP2040） | 20         | 核心控制，贴模块背面省空间 |
-| USB Hub芯片        | VL813（USB3.0，1上5下） | 25         | 满足3A+2C接口，高速兼容 |
-| 控制核心组件       | EC11旋钮（带LED）×1 + 复位钮子开关×1 + Kailh热插拔底座×5 + 二手MX红轴×5 | 38         | 小键盘式布局，操作顺手 |
-| 连接&固定组件      | 凸出USB-C公头（焊板款）×1 + pogo pin（4针，拓展用）×1 + 3D打印卡扣×2 | 12         | 插键盘左上母座，卡扣固定 |
-| 供电组件           | PD20W诱骗器+小型拨动开关+自恢复保险丝 | 13         | 双供电切换，避免过载 |
-| 显示&状态组件      | 0.96寸OLED（I2C，二手）+ 彩色LED×3 + 限流电阻 | 15         | 状态可视化，抬头可见 |
-| 接口&辅料          | USB3.0 A/C母座×5 + 屏蔽线（高速用）+ 散热片 + 焊锡/杜邦线 | 22         | 接口集中右侧，防干扰 |
-| 3D打印外壳+盖板    | 透明PLA，三面包围，长度280mm | 40         | 与键盘长度一致，透明呼应 |
-| 其他（缓冲垫/防尘条） | 硅胶缓冲垫+海绵防尘条    | 5          | 防刮键盘，增强防尘 |
-| **合计**           | ——                       | **235**    | 完全在200-300元预算内 |
+## 原HTML持续更新
 
----
+![R3.1装配预览](design/visualization/hairline-keyboard-hub-rest.png)
 
-## 📌 关键落地细节（避坑+优化）
-### 1. 外壳适配（透明+防尘）
-- 材质：透明PLA，与你的键盘外壳材质呼应，视觉统一
-- 空缺盖板：与外壳一体3D打印，后续需要拓展时拆掉盖板即可，成本低，灵活性高
-- 防尘优化：三面包围内侧贴海绵防尘条，接口端配硅胶防尘塞（可选，1元），兼顾防尘与实用
+[原单文件HTML](design/visualization/hairline-keyboard-hub.html) · [使用与截图](design/visualization/README.md)。下载后离线打开；悬停主体展开、点击固定/复位，右侧五键及横条磁吸拆分。可选Dock只在主体展开时显示研究包络；默认Core不装Dock。GitHub README仅显示静态图。
 
-### 2. 操作优化（顺手优先）
-- 旋钮位置：放在中区左侧，左手拇指自然就能调节音量/亮度，无需抬手
-- 滚轮开关：放在下区右侧，拇指下方拨动顺手，不与旋钮冲突
-- 按键布局：2×3紧凑排列，左手食指/中指操作，类似小键盘的数字键布局，记忆成本低
+[底部接口与侧剖](design/drawings/dock-interface-r3-1.svg) · [R3.1机械说明](hardware/enclosure/dimensions-r3-1.md) · [端口选型表](hardware/electronics/dock-port-selection.csv)
 
-### 3. 成本控制（实用为主）
-- 外壳：长度与键盘一致，但宽度窄，3D打印耗材比方形多10元左右，但视觉效果提升明显
-- 配件：OLED屏、MX轴选二手，功能无影响，单配件省5-10元
-- 拓展触点：仅预留位置，暂不焊接，后续需要再补，当前不增加成本
+## 实物进展与文件分类
 
----
+已运行主体：圆屏、触控页面、触摸板、USB键鼠/媒体HID、四键、按压输入、编码器与提示音；[实测历史](docs/body-core-bringup.md)保留原文。Touchpad延迟本轮不改。新增[INMP441代码](docs/microphone-inmp441.md)只编译，默认关闭，未接实物。输入按压通过不代表屏幕Z轴机械机构已完成。
 
-我可以帮你生成**模块外壳的3D打印尺寸图**，包含精确的开孔、卡扣位置和空缺盖板尺寸，你直接发给打印方就能精准制作，需要吗？
+| 分类 | 入口 | 状态 |
+| --- | --- | --- |
+| 固件 | [firmware](firmware/README.md) | 保留已运行GPIO与整合代码，本轮不改动/烧录 |
+| 展示与图纸 | [design](design/README.md) | 原HTML、R3.1俯视/底视/剖面示意 |
+| 机械 | [hardware/enclosure](hardware/enclosure/README.md) | R3.1参数/草模，未实体编译与装配验证 |
+| PCB | [hardware/pcb](hardware/pcb/README.md) | R3历史接口载板未布线；不是R3.1原生主板 |
+| 接口与接线 | [hardware/electronics](hardware/electronics/README.md) | 新接口目标与既有实物分开记录 |
+| 镜像与证据 | [releases](releases/README.md)、[tests](tests/README.md) | 保留原镜像、许可和真实日志 |
 
-## 固件说明
-### 开发环境
-- 主控：RP2040（树莓派Pico）
-- 开发框架：CircuitPython / Arduino
-- 依赖库：`adafruit_hid`（HID快捷键模拟）、`adafruit_ssd1306`（OLED屏驱动）
+本轮没有完成电源/Hub/Dock电路、连接器冻结、ERC/DRC、USB合规、闭壳温升或制造放行。不做第二上行、双向大电流、手机高压PD输出、读卡、电池或竖触控条。先测Core峰值功耗和上游电力，再冻结Dock配对器件与中央旋钮传动，进入真实原理图/PCB工作。
 
-### 核心功能逻辑
-1.  **类雷蛇滚轮**：持续检测钮子开关状态，左/右拨动时每100ms发送一次快捷键（触发间隔可自定义），松手开关自动复位后立即停止触发，内置50ms防抖避免误触
-2.  **旋钮控制**：旋转编码器脉冲信号映射为系统音量/亮度快捷键，按压切换功能模式，双色LED亮灭反馈当前模式
-3.  **热插拔按键**：按下触发对应VS Code/系统快捷键，支持长按连续触发，可通过修改固件自定义映射规则
-
-### 极简核心代码示例（CircuitPython）
-```python
-import board
-import digitalio
-import usb_hid
-import time
-from adafruit_hid.keyboard import Keyboard
-from adafruit_hid.keycode import Keycode
-from adafruit_hid.consumer_control import ConsumerControl
-from adafruit_hid.consumer_control_code import ConsumerControlCode
-
-# 初始化设备
-keyboard = Keyboard(usb_hid.devices)
-consumer_control = ConsumerControl(usb_hid.devices)
-
-# 引脚定义
-# 旋钮引脚
-enc_clk = digitalio.DigitalInOut(board.D2)
-enc_dt = digitalio.DigitalInOut(board.D3)
-enc_sw = digitalio.DigitalInOut(board.D4)
-enc_clk.switch_to_input(pull=digitalio.Pull.UP)
-enc_dt.switch_to_input(pull=digitalio.Pull.UP)
-enc_sw.switch_to_input(pull=digitalio.Pull.UP)
-
-# 类雷蛇滚轮钮子开关引脚
-switch_left = digitalio.DigitalInOut(board.D5)
-switch_right = digitalio.DigitalInOut(board.D6)
-switch_left.switch_to_input(pull=digitalio.Pull.UP)
-switch_right.switch_to_input(pull=digitalio.Pull.UP)
-
-# 全局变量
-mode = 0  # 0=音量模式，1=亮度模式
-enc_last_state = enc_clk.value
-TRIGGER_INTERVAL = 0.1  # 滚轮触发间隔
-DEBOUNCE_DELAY = 0.05   # 防抖延迟
-
-# 主循环
-while True:
-    # 旋钮功能逻辑
-    enc_current_state = enc_clk.value
-    if enc_current_state != enc_last_state:
-        if enc_dt.value != enc_current_state:
-            # 顺时针旋转
-            if mode == 0:
-                consumer_control.send(ConsumerControlCode.VOLUME_INCREMENT)
-            else:
-                keyboard.press(Keycode.BRIGHTNESS_INCREMENT)
-                keyboard.release_all()
-        else:
-            # 逆时针旋转
-            if mode == 0:
-                consumer_control.send(ConsumerControlCode.VOLUME_DECREMENT)
-            else:
-                keyboard.press(Keycode.BRIGHTNESS_DECREMENT)
-                keyboard.release_all()
-    enc_last_state = enc_current_state
-
-    # 旋钮按压切换模式
-    if not enc_sw.value:
-        time.sleep(DEBOUNCE_DELAY)
-        if not enc_sw.value:
-            mode = 1 - mode
-            time.sleep(0.2)
-
-    # 类雷蛇滚轮逻辑
-    if not switch_left.value:
-        time.sleep(DEBOUNCE_DELAY)
-        if not switch_left.value:
-            keyboard.press(Keycode.CONTROL, Keycode.PAGE_UP)
-            keyboard.release_all()
-            time.sleep(TRIGGER_INTERVAL)
-    elif not switch_right.value:
-        time.sleep(DEBOUNCE_DELAY)
-        if not switch_right.value:
-            keyboard.press(Keycode.CONTROL, Keycode.PAGE_DOWN)
-            keyboard.release_all()
-            time.sleep(TRIGGER_INTERVAL)
-
-    time.sleep(0.01)
-```
-
----
-
-## 安装与组装步骤
-1.  **3D打印外壳**：按设计尺寸打印透明PLA外壳、空缺盖板、固定卡扣，确认开孔与器件尺寸匹配
-2.  **硬件焊接**：按接线图焊接主控、Hub芯片、接口、控制组件、供电单元，焊接完成后测试通断
-3.  **组装固定**：将焊接完成的PCB板装入外壳，安装按键、旋钮、开关、屏幕，用卡扣将模块固定在键盘左侧，USB-C公头插入键盘左上角母座
-4.  **固件烧录**：给树莓派Pico烧录CircuitPython固件，将核心代码拷贝至Pico磁盘，重启后测试功能
-5.  **功能测试**：依次测试按键、旋钮、滚轮、Hub接口、屏幕显示、供电切换功能，确认全部正常运行
-
----
-
-## 拓展件规划（按字母顺序命名）
-| 拓展件名称 | 核心功能 | 适配位置 |
-|------------|----------|----------|
-| 模块B | 额外4键热插拔按键拓展板 | 模块A上区空缺盖板位 |
-| 模块C | RGB灯效拓展板（与键盘灯效同步） | 模块A正面边缘 |
-| 模块D | 2.4G/蓝牙无线接收器拓展板 | 模块A背面预留位 |
-| 模块E | 迷你摇杆拓展模块（替代滚轮，实现鼠标滚轮/光标控制） | 模块A下区预留位 |
-
----
-
-## 注意事项
-1.  焊接操作请做好防静电措施，避免静电击穿主控、Hub芯片，焊接完成后务必测试通断，避免短路
-2.  高速USB 3.0接口请使用屏蔽线布线，与控制信号线垂直走向，避免电磁干扰导致传输降速
-3.  切换PD供电模式前，请确认拨动开关档位正确，避免同时接入两路供电导致设备损坏
-4.  热插拔轴体请在断电状态下操作，避免带电插拔损坏底座与PCB板
-5.  模块安装时请加装硅胶缓冲垫，避免刮花键盘外壳，卡扣固定时请勿用力过猛导致断裂
-
----
-
-## 常见问题排查
-1.  **按键/旋钮无响应**：检查焊接是否虚焊、引脚定义是否与固件匹配、主控是否正常供电
-2.  **Hub接口无法识别设备**：检查VL813芯片焊接是否正常、上行USB-C线是否连接到位、供电是否充足
-3.  **滚轮误触发**：调整固件防抖延迟时间，检查钮子开关触点是否氧化、接线是否松动
-4.  **高速传输降速**：检查屏蔽线是否接地良好、布线是否与控制信号线平行、Hub芯片散热是否正常
+[目录规则](docs/repository-layout.md) · [本轮检查](tests/design/r3-1-review.md) · [R3历史尺寸](hardware/enclosure/dimensions-r3.md) · [旧单体供电方案](docs/desktop-power-dock.md) · [R2历史](hardware/enclosure/dimensions-r2.md)

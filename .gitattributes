@@ -1,0 +1,9 @@
+# Preserve captured serial bytes and the packaged files used by SHA256 manifests.
+tests/hardware/logs/** -text -diff
+releases/** -text whitespace=cr-at-eol
+# Imported source material is checked byte-for-byte against recorded SHA256.
+CODEX_START_R3_1.md -text
+# The supplied Markdown uses intentional two-space hard breaks; preserve its bytes.
+docs/R3_1_CODEX_HANDOFF.md -text whitespace=-blank-at-eol
+docs/references/r3-1-discussion/*.txt -text whitespace=cr-at-eol
+hardware/pcb/sources/body-r3/generate-r3-legacy.py.txt -text whitespace=cr-at-eol

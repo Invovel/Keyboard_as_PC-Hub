@@ -1,0 +1,12 @@
+﻿reference,qty,description,status
+J1,1,1x20 2.54mm logical harness / MCU_DIGITAL_HARNESS,footprint requires connector selection
+J2,1,1x9 2.54mm logical harness / MCU_POWER_AUDIO_HARNESS,footprint requires connector selection
+J3,1,1x6 2.54mm logical harness / LCD_QSPI_LOGICAL,footprint requires connector selection
+J4,1,1x4 2.54mm logical harness / LCD_TOUCH_POWER_LOGICAL,footprint requires connector selection
+J5,1,1x6 2.54mm logical harness / KEYS_AND_CENTRAL_PRESS,footprint requires connector selection
+J6,1,1x5 2.54mm logical harness / REMOTE_EC11_LOGICAL,footprint requires connector selection
+J7,1,1x5 2.54mm logical harness / MAX98357A_MODULE,footprint requires connector selection
+J8,1,1x6 2.54mm logical harness / INMP441_MODULE,footprint requires connector selection
+J9,1,1x2 2.54mm logical harness / BODY_POWER_INPUT,footprint requires connector selection
+"J10,J11",2,"8-contact magnetic mating land pattern, 2.5mm pitch",DNP; protected power and I2C isolation not designed
+H1-H4,4,"M2 clearance, drill 2.4mm",candidate coordinates

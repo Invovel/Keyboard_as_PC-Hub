@@ -1,0 +1,22 @@
+[
+  {
+    "file": "01-freeze-review.txt",
+    "sha256": "7541491fef586c2bf4dedda8c8d1ae61fd5885f9e38af6d2b360476506ee79ef",
+    "kind": "user supplied reference discussion; not current instructions or test evidence"
+  },
+  {
+    "file": "02-five-key-slider.txt",
+    "sha256": "3c9a012aca9a2174cd60d84924bddb70d7358d143e569c670f56cf8a667e3694",
+    "kind": "user supplied reference discussion; not current instructions or test evidence"
+  },
+  {
+    "file": "03-dock-and-alternate-slider.txt",
+    "sha256": "8ee87f972015a6f26023bdde0708bb2c5405962ec154bf576f7478b477c4191e",
+    "kind": "user supplied reference discussion; not current instructions or test evidence"
+  },
+  {
+    "file": "04-early-bidirectional-proposal.txt",
+    "sha256": "ee4139417165356298bb243283358e3f0b418c6816780144e74a5eaecfdd24aa",
+    "kind": "user supplied reference discussion; not current instructions or test evidence"
+  }
+]
