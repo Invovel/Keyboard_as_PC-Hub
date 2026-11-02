@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 297" role="img" aria-labelledby="title desc">
+<title id="title">R3.1 ISO DEBUG 原理图摆位</title><desc id="desc">A3 横向原理图页的功能块摆位，只有位置和分区，没有电气连线。左侧为 Core 域，右侧为 ISO 域。</desc>
+<style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#20304a}.heading{font-size:7px;font-weight:700}.sub{font-size:3.4px;fill:#546783}.label{font-size:4.2px;font-weight:700}.detail{font-size:2.9px;fill:#546783}.coord{font-size:2.5px;fill:#6c7f9a}.core{fill:#eef6fb;stroke:#8bbbd8}.iso{fill:#fff5e8;stroke:#e3b16a}.cross{fill:#f3edf8;stroke:#b293cb}.box{stroke-width:.55}.grid{stroke:#e5eaf0;stroke-width:.13}.barrier{stroke:#816e93;stroke-width:.7;stroke-dasharray:2 2}</style>
+<rect width="420" height="297" fill="#fff"/>
+<text class="heading" x="12" y="16">R3.1  ISO / DEBUG · 原理图器件摆位</text>
+<text class="sub" x="12" y="23">现有 Pc-Hub 主工程新增层次页的摆位依据 · A3 横向 · 无导线 / 无 PCB 布局</text>
+<path d="M12 30H408M12 265H408" stroke="#c8d4df" stroke-width=".5"/>
+<rect class="core box" x="12" y="33" width="175" height="226" rx="2"/><rect class="iso box" x="194" y="33" width="214" height="226" rx="2"/>
+<path class="barrier" d="M190.5 32V260"/><text class="sub" x="18" y="41">CORE 域 · CORE_GND</text><text class="sub" x="200" y="41">ISO 域 · ISO_GND</text>
+<text class="detail" x="156" y="58">隔离边界 X=190.50</text>
+<g class="grid"><path d="M12 118H408M12 222H408"/></g>
+<text class="sub" x="18" y="51">USB2 数据区</text><text class="sub" x="18" y="137">5V 供电区</text>
+<g class="box core"><rect x="15" y="61" width="33" height="20" rx="2"/><rect x="61" y="60" width="46" height="22" rx="2"/><rect x="114" y="35" width="42" height="21" rx="2"/><rect x="65" y="148" width="38" height="22" rx="2"/><rect x="15" y="149" width="33" height="20" rx="2"/></g>
+<g class="box cross"><rect x="161" y="69" width="49" height="24" rx="2"/><rect x="158" y="33" width="55" height="21" rx="2"/><rect x="158" y="147" width="55" height="24" rx="2"/></g>
+<g class="box iso"><rect x="226" y="70" width="43" height="22" rx="2"/><rect x="286" y="69" width="45" height="24" rx="2"/><rect x="228" y="148" width="44" height="22" rx="2"/><rect x="226" y="185" width="49" height="21" rx="2"/><rect x="290" y="198" width="45" height="21" rx="2"/></g>
+<g text-anchor="middle"><text class="label" x="31.5" y="69">P6</text><text class="detail" x="31.5" y="75">原下游入口</text><text class="label" x="84" y="68">U1</text><text class="detail" x="84" y="75">双口 USB2 Hub</text><text class="label" x="135" y="44">原 CTRL</text><text class="detail" x="135" y="50">ESP32 通路</text><text class="label" x="185" y="78">U2</text><text class="detail" x="185" y="85">USB2 数据隔离</text><text class="label" x="185" y="41">U2 配套</text><text class="detail" x="185" y="47">时钟 · 去耦</text><text class="label" x="247.5" y="78">U4</text><text class="detail" x="247.5" y="85">USB2 ESD</text><text class="label" x="308.5" y="78">J1</text><text class="detail" x="308.5" y="85">ISO USB-A</text><text class="label" x="31.5" y="157">Core 5V</text><text class="detail" x="31.5" y="163">原电源选择</text><text class="label" x="84" y="157">SW1</text><text class="detail" x="84" y="164">输入软启动</text><text class="label" x="185" y="156">PS1</text><text class="detail" x="185" y="163">隔离 5→5V</text><text class="label" x="250" y="157">U3</text><text class="detail" x="250" y="164">输出硬件保护</text><text class="label" x="250" y="193">U3 配套</text><text class="detail" x="250" y="200">阈值 · 去耦</text><text class="label" x="312.5" y="206">D1</text><text class="detail" x="312.5" y="213">本地故障灯</text></g>
+<text class="coord" x="15" y="95">31.75, 71.12</text><text class="coord" x="61" y="95">83.82, 71.12</text><text class="coord" x="162" y="103">185.42, 81.28</text><text class="coord" x="228" y="102">247.65, 81.28</text><text class="coord" x="286" y="103">308.61, 81.28</text>
+<text class="coord" x="15" y="181">31.75, 158.75</text><text class="coord" x="65" y="181">83.82, 158.75</text><text class="coord" x="158" y="181">185.42, 158.75</text><text class="coord" x="228" y="181">250.19, 158.75</text>
+<text class="sub" x="18" y="241">摆位均对齐 1.27 mm 网格。模块矩形仅指功能占位，实际符号宽度、引脚及料号需在放入 KiCad 前核对。</text>
+<text class="sub" x="18" y="249">没有导线、网名或接地符号；Core/ISO 色块只表示阅读分区，不表示 PCB 铜皮或已达成电气隔离。</text>
+<text class="detail" x="18" y="278">ROOT A4：保留 Main_Control (40.64,50.80) 104.14×45.72；预留 ISO_DEBUG_R3_1 (160.02,50.80) 104.14×45.72 mm</text>
+<text class="detail" x="18" y="285">状态：位置方案已定 · KiCad 主工程尚未写入该层次页和符号</text>
+</svg>

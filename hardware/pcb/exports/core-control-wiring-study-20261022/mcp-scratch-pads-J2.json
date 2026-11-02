@@ -1,0 +1,13 @@
+{
+  "jsonrpc": "2.0",
+  "id": 16,
+  "result": {
+    "content": [
+      {
+        "text": "{\"pad_count\":4,\"pads\":[{\"copper_layers\":[{\"chamfer_ratio\":null,\"corner_rounding_ratio\":0.25,\"layer\":\"F.Cu\",\"offset\":{\"x\":0.0,\"y\":0.0},\"shape\":\"roundrect\",\"size\":{\"x\":0.6,\"y\":1.7}}],\"drill\":{\"end_layer\":\"Unknown\",\"shape\":null,\"size\":{\"x\":0.0,\"y\":0.0},\"start_layer\":\"Unknown\"},\"layers\":[\"F.Cu\",\"F.Mask\",\"F.Paste\"],\"net\":\"\",\"number\":\"1\",\"pad_type\":\"smd\",\"rotation_deg\":0.0,\"shape\":\"roundrect\",\"size\":{\"x\":0.6,\"y\":1.7},\"uuid\":\"8f788eab-7499-43b6-ba20-46092cfd1912\",\"x\":49.375,\"y\":91.95},{\"copper_layers\":[{\"chamfer_ratio\":null,\"corner_rounding_ratio\":0.25,\"layer\":\"F.Cu\",\"offset\":{\"x\":0.0,\"y\":0.0},\"shape\":\"roundrect\",\"size\":{\"x\":0.6,\"y\":1.7}}],\"drill\":{\"end_layer\":\"Unknown\",\"shape\":null,\"size\":{\"x\":0.0,\"y\":0.0},\"start_layer\":\"Unknown\"},\"layers\":[\"F.Cu\",\"F.Mask\",\"F.Paste\"],\"net\":\"\",\"number\":\"2\",\"pad_type\":\"smd\",\"rotation_deg\":0.0,\"shape\":\"roundrect\",\"size\":{\"x\":0.6,\"y\":1.7},\"uuid\":\"6b3544c9-692a-4dc9-bf69-50443e133a89\",\"x\":50.625,\"y\":91.95},{\"copper_layers\":[{\"chamfer_ratio\":null,\"corner_rounding_ratio\":0.25,\"layer\":\"F.Cu\",\"offset\":{\"x\":0.0,\"y\":0.0},\"shape\":\"roundrect\",\"size\":{\"x\":1.0,\"y\":2.8}}],\"drill\":{\"end_layer\":\"Unknown\",\"shape\":null,\"size\":{\"x\":0.0,\"y\":0.0},\"start_layer\":\"Unknown\"},\"layers\":[\"F.Cu\",\"F.Mask\",\"F.Paste\"],\"net\":\"\",\"number\":\"MP\",\"pad_type\":\"smd\",\"rotation_deg\":0.0,\"shape\":\"roundrect\",\"size\":{\"x\":1.0,\"y\":2.8},\"uuid\":\"e1a3d055-8dd6-4019-bb57-6baa2f6e0213\",\"x\":47.525,\"y\":88.6},{\"copper_layers\":[{\"chamfer_ratio\":null,\"corner_rounding_ratio\":0.25,\"layer\":\"F.Cu\",\"offset\":{\"x\":0.0,\"y\":0.0},\"shape\":\"roundrect\",\"size\":{\"x\":1.0,\"y\":2.8}}],\"drill\":{\"end_layer\":\"Unknown\",\"shape\":null,\"size\":{\"x\":0.0,\"y\":0.0},\"start_layer\":\"Unknown\"},\"layers\":[\"F.Cu\",\"F.Mask\",\"F.Paste\"],\"net\":\"\",\"number\":\"MP\",\"pad_type\":\"smd\",\"rotation_deg\":0.0,\"shape\":\"roundrect\",\"size\":{\"x\":1.0,\"y\":2.8},\"uuid\":\"cf0a4fb4-aa52-466b-b882-5bc576b6f31f\",\"x\":52.475,\"y\":88.6}],\"reference\":\"J2\",\"source\":\"ipc\"}",
+        "type": "text"
+      }
+    ],
+    "isError": false
+  }
+}

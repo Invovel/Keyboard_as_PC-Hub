@@ -1,5 +1,5 @@
 {
-  "revision": "R3.1-CORE-OPTIONAL-DOCK-20261019",
+  "revision": "R3.1-CORE-ISO-DEBUG-20261031",
   "units": "mm",
   "status": "architecture and mechanical envelope study; NOT fabrication released",
   "product": {
@@ -169,8 +169,15 @@
     },
     {
       "name": "PC-C",
-      "x": 91,
+      "x": 64,
       "role": "only host upstream"
+    },
+    {
+      "name": "ISO/DEBUG",
+      "x": 91,
+      "logical_port": "P6b",
+      "data_target_Mbps": 480,
+      "aperture_frozen": false
     }
   ],
   "fast_port": {
@@ -219,7 +226,26 @@
     "P3": "FAST-C",
     "P4": "DOCK DATA",
     "P5": "KBD USB2",
-    "P6": "CTRL USB2 FS HID"
+    "P6": "USB2 branch: CTRL + ISO/DEBUG"
+  },
+  "iso_debug": {
+    "location": "rear_right",
+    "optional_dock_required": false,
+    "data_rate_target_Mbps": 480,
+    "branch_from": "P6 via candidate two-port USB2 hub",
+    "original_CTRL_preserved": true,
+    "isolated_power_required": true,
+    "Core_GND_to_ISO_GND_short_allowed": false,
+    "candidate_aperture_center_xy": [
+      91,
+      38
+    ],
+    "connector_part_number": null,
+    "isolation_power_budget_w": null,
+    "safe_no_dock_output_current_a": null,
+    "haptic_collision_unresolved": true,
+    "right_rear_mount_clearance_unresolved": true,
+    "hardware_verified": false
   },
   "dock": {
     "revision": "B",

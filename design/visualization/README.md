@@ -1,5 +1,7 @@
 # 原 Hairline HTML：更新至 R3.1
 
+[ISO／DEBUG Anatomy 结构视图](iso-debug-anatomy.html)可切换正常/过流、上盖和主题；[静态预览](iso-debug-anatomy-preview.png)与[精简连接图](../drawings/iso-debug-minimal-schematic-r3-1.svg)展示目前的隔离调试口方案。它们是设计视图，不代表PCB已布局。
+
 当前产品定位为[Desktop Control Hub：Core＋可选下置Power Dock](../../docs/R3_1_DECISIONS.md)，原HTML继续展示相同结构和交互；端口电气功能以新选型文档为准，不把图形预留视为已实现PD或Hub。
 
 [原HTML入口](hairline-keyboard-hub.html)及[原绘图源码](keyboard-hub.js)直接更新，没有另建 R3 展示入口。原有分层、点击固定、磁吸拆分和导览继续使用。历史 R2 可从 Git 历史和[尺寸文档](../../hardware/enclosure/dimensions-r2.md)查看。
@@ -8,7 +10,7 @@
 
 ## 本次结构修改
 
-- R3.1背部只保留A1/A2/唯一PC-C，取消Core A3/POWER；PD输入移到Rev B可选Dock。
+- R3.1背部A1/A2/唯一PC-C加最右侧ISO／DEBUG USB-A研究口；PC-C移至X≈+64、ISO口X≈+91，取消Core A3/POWER；PD输入移到Rev B可选Dock。ISO电路/供电未完成，见[工程决定](../../docs/iso-debug-r3-1.md)。
 - 默认只装Core及右附件；悬停主体展开时显示下置Dock候选包络和DATA/PWR/CTRL三分区，均不是选定连接器或电气实现。
 
 - 主体228×76 mm、5°，中央Ø60旋转环包围Ø44.32圆屏，四个凹弧长键镜像对称；去掉参考外观中的M1/M2。

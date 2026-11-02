@@ -24,3 +24,9 @@ node check-interactions.cjs
 [一致性结果](r3-1-result.json) · [八状态](../../design/visualization/hairline-keyboard-hub-look.png) · [机构/电源阻塞](../../docs/R3_1_ENGINEERING_REVIEW.md)
 
 与旧100W单体方案的差异已经修正文档、图形和参数；没有把旧KiCad被动载板重命名冒充原生PCB。下一步是Core实测峰值功耗/上游限制与Dock配对器件冻结，然后才进行受控电气工程操作。
+
+## 2026-10-31 右后ISO／DEBUG增补
+
+[新增决定和物料候选](../../docs/iso-debug-r3-1.md)已写入端口表、R3.1机械JSON、俯视/右后干涉研究图、原Hairline HTML与原草模。P6经USB2双下游候选保留原CTRL并形成P6b隔离支路；没有改变原固件GPIO或KiCad电路。
+
+`python tests/design/check_r3_1.py`检查四个后口、唯一上行、P6两分支、ISO两地约束、与右端7 Plus马达X重叠及原始输入/历史文件保留。HTML需另运行`node design/visualization/check-interactions.cjs`。本次仅完成资料/视图层检查；隔离侧电源预算、连接器与右孔/马达三维净空、保护阈值、真实隔离和USB兼容均未实测。

@@ -2,6 +2,8 @@
 
 2026-10-19，资料级评审。输入为[交接基准](R3_1_CODEX_HANDOFF.md)和现有源码/接口CSV；没有将未布线R3载板当作原生Rev A PCB。结论：**架构可以继续收敛，当前不能放行原理图/PCB或保证任意电脑单线满功能。**
 
+2026-10-31补充：本页原P6=CTRL表是当时的六路基准；新增[ISO／DEBUG](iso-debug-r3-1.md)计划把P6接USB2双下游Hub，分支P6a仍接CTRL、P6b经隔离器接新USB-A。其器件、独立启动、功耗与右端装配仍待实证；不能继续把六个主Hub口当作七个独立口。
+
 ## 1. Hub端口、供电与独立启动
 
 USB7206C保留为候选。官方DS00003850F说明有五个Gen2下游和一个USB2下游，需3.3V与1.15V核心电源；支持上电配置绑带、内部ROM及外部SPI配置。因此存在脱离ESP32启动的设计路线，具体配置仍须验证。官方资料没有替本产品证明总线供电合规性。[数据手册§2、§5、§9](https://www.microchip.com/content/dam/mchp/documents/NCS/ProductDocuments/DataSheets/USB7206C-Data-Sheet-DS00003850.pdf)。

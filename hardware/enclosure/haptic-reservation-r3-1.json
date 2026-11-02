@@ -1,0 +1,159 @@
+{
+  "revision": "R3.1-HAPTIC-7PLUS-20261022",
+  "status": "mechanical reservation and unrouted PCB placement study",
+  "units": "mm",
+  "body": [
+    228,
+    76
+  ],
+  "pcb": [
+    216,
+    64,
+    1.6
+  ],
+  "screen_origin": [
+    0,
+    0
+  ],
+  "kicad_origin": [
+    150,
+    100
+  ],
+  "kicad_mapping": "pcb_x=150+product_x; pcb_y=100-product_y",
+  "top_blank_bands_x": [
+    [
+      -114,
+      -84
+    ],
+    [
+      84,
+      114
+    ]
+  ],
+  "motor_bays": [
+    {
+      "name": "LEFT",
+      "xy": [
+        -100.5,
+        -30,
+        -85.5,
+        24
+      ]
+    },
+    {
+      "name": "RIGHT",
+      "xy": [
+        85.5,
+        -30,
+        100.5,
+        24
+      ]
+    }
+  ],
+  "motor_bay_size": [
+    15,
+    54,
+    6
+  ],
+  "motor_assembly_z": [
+    9.5,
+    15.5
+  ],
+  "pcb_bottom_z": 6.4,
+  "pcb_top_z": 8.0,
+  "minimum_nominal_roof_clearance": 2.8,
+  "minimum_nominal_pcb_clearance": 1.5,
+  "mount": "removable carrier attached to roof ribs; side bracket alternative; no final Apple hole pattern",
+  "motor_candidates": [
+    "iPhone 7 Plus Taptic Engine"
+  ],
+  "motor_selection": {
+    "target_device": "iPhone 7 Plus",
+    "selection_locked_by_user": true,
+    "dimension_source": "user-supplied design input on 2026-10-22; not independently measured or an Apple drawing",
+    "body_bbox_mm": [
+      43,
+      12.5,
+      2.6
+    ],
+    "bbox_including_ears_mm": [
+      50,
+      12.5,
+      2.6
+    ],
+    "mass_g_user_input": 6.9,
+    "previous_candidates": [
+      "iPhone 13 Pro Taptic Engine",
+      "iPhone 13 Pro Max Taptic Engine"
+    ],
+    "previous_candidates_are_current_targets": false,
+    "measured_motor_bbox_mm": null,
+    "mounting_hole_coordinates_mm": null,
+    "motor_fpc_connector": null,
+    "drive_voltage_vrms": null,
+    "drive_current_a": null,
+    "resonance_hz": null,
+    "body_length_axis_relative_to_product": "Y",
+    "internal_vibration_axis_relative_to_product": null,
+    "fit_gate": "user-supplied 50x12.5x2.6 bounding box fits 54x15x6 assembly target; holes, solder fillets, wire bend, actual sockets and mount still need verification",
+    "purpose": "short haptic feedback only; no sensing or continuous audio",
+    "sources": [
+      "https://elchika.com/article/2bbe60e0-c923-434e-adc8-8bbf6bb0fd0e/",
+      "https://www.ifixit.com/Guide/iPhone+7+Plus+Taptic+Engine+Replacement/67594",
+      "https://www.ti.com/lit/ds/symlink/drv2605l.pdf"
+    ]
+  },
+  "motor_fit_confirmed": false,
+  "electrical_pinout_confirmed": false,
+  "coil_connection_route": "public 7 Plus modification: two outermost pads of exposed six-test-pad row; project labels TP-A/TP-B, not Apple FPC pin numbers",
+  "nominal_bbox_fit": true,
+  "both_motors_populated_required": false,
+  "driver": "DRV2605L integration target on PCB; optional external adapter via DNP JH headers; Apple-motor parameters not validated",
+  "driver_connectors": [
+    {
+      "reference": "JH1",
+      "xy": [
+        -78,
+        -6
+      ],
+      "pins": 6
+    },
+    {
+      "reference": "JH2",
+      "xy": [
+        78,
+        -6
+      ],
+      "pins": 6
+    }
+  ],
+  "driver_interface_proposed": [
+    "HAPTIC_3V3_PROTECTED",
+    "GND",
+    "SDA_3V3",
+    "SCL_3V3",
+    "EN_RESERVED",
+    "NC"
+  ],
+  "driver_interface_status": "proposed interface only; pads have no nets and must not be plugged into existing modules",
+  "motor_output": "driver OUT+ to outer test pad TP-A; OUT- to opposite outer pad TP-B; inner four isolated; no output to ground",
+  "two_driver_i2c": "same-address drivers need isolated channels or mux; not yet implemented",
+  "mag_internal_headers_xy": [
+    [
+      -76.5,
+      6
+    ],
+    [
+      76.5,
+      6
+    ]
+  ],
+  "power_selection_candidate_xy": [
+    55,
+    2,
+    69,
+    10
+  ],
+  "native_pcb": "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Pc-Hub.kicad_pcb",
+  "electrical_layout_complete": false
+}

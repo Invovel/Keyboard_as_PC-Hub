@@ -1,5 +1,9 @@
 # R3.1 Core PCB：具体分区与安装层建议
 
+2026-10-22后续变更：[左右马达布局](core-haptic-placement-r3-1.md)取代本文中两端麦克风/扬声器腔，锁定7 Plus、每侧15×54×6。旧PC/Dock电源选择区因与右马达重叠而作废，改研究X=55～69、Y=2～10；14×8不保证完整电源器件装得下。下方旧分区图未重绘，当前马达/电源关系以新图为准；本文其余未验证分区仍仅为建议。
+
+2026-10-31新增[ISO／DEBUG右后口](../../../docs/iso-debug-r3-1.md)：本文件下方原PC-C X+91及P6直连CTRL为**旧版候选布局**。当前PC-C研究中心X+64、ISO X+91，P6经双下游USB2 Hub候选保留CTRL和增加ISO。右端马达包络与ISO中心X必然重叠、后孔邻近，不能沿用下方旧图作开孔或PCB放行。[最新2D研究图](../../../design/drawings/iso-debug-rear-study-r3-1.svg)。
+
 2026-10-19。以main的f7e1ca2、[最新决策](../../../docs/R3_1_DECISIONS.md)、[机械基准](../../enclosure/dimensions-r3-1.md)为依据。本文新增的是下一步布局建议，不是冻结的元件坐标或已经修改的KiCad板图。没有运行旧生成器、修改受保护KiCad文件或更改固件。
 
 ![顶面及底面分区建议](../../../design/drawings/core-placement-r3-1.png)

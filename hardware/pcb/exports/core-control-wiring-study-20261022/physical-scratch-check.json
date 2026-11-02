@@ -1,0 +1,66 @@
+{
+  "status": "PASS_PART_PINMAP_ACCEPTANCE",
+  "scope": "exact selected package pin numbers, library/readback geometry, top-view orientation and scratch instance validation; not manufacturing or finished PCB",
+  "source": "Konnect scratch PCB get_components/get_pad_info after requested_open binding, plus saved native SVG export and inspected labelled render",
+  "parts": [
+    {
+      "reference": "U1",
+      "footprint": "RF_Module:ESP32-S3-WROOM-1U",
+      "pad_objects": 62,
+      "library_to_live_all_pads_equal": true,
+      "rotation": 0,
+      "side": "F.Cu"
+    },
+    {
+      "reference": "U2",
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "pad_objects": 6,
+      "library_to_live_all_pads_equal": true,
+      "rotation": 0,
+      "side": "F.Cu"
+    },
+    {
+      "reference": "U3",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "pad_objects": 14,
+      "library_to_live_all_pads_equal": true,
+      "rotation": 0,
+      "side": "F.Cu"
+    },
+    {
+      "reference": "U4",
+      "footprint": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+      "pad_objects": 10,
+      "library_to_live_all_pads_equal": true,
+      "rotation": 0,
+      "side": "F.Cu"
+    },
+    {
+      "reference": "J2",
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "pad_objects": 4,
+      "library_to_live_all_pads_equal": true,
+      "rotation": 0,
+      "side": "F.Cu"
+    },
+    {
+      "reference": "J4",
+      "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+      "pad_objects": 6,
+      "library_to_live_all_pads_equal": true,
+      "rotation": 0,
+      "side": "F.Cu"
+    },
+    {
+      "reference": "J6",
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "pad_objects": 8,
+      "library_to_live_all_pads_equal": true,
+      "rotation": 0,
+      "side": "F.Cu"
+    }
+  ],
+  "visual_inspection": "PASS: pin1 marks, direction and pad/MP geometry inspected on 7plus-pinmap-board-labelled.png, and disposable symbols inspected on core-pinmap-check.png",
+  "U1_reconciliation": "41 unique electrical numbers = 40 perimeter + 1 ground; ground41 has 1 copper land +12 plated thermal vias; 9 unnumbered F.Paste-only apertures are not holes or electrical pins",
+  "library_geometry_variations": "TCA PW14 uses IPC land width0.4mm vs TI example0.45mm; lead pitch/order/body compatible. ESP thermal land/paste/via implementation differs from optional reference example; source physical lead numbers unchanged. Fabrication drill checks remain independent."
+}

@@ -1,4 +1,4 @@
-// R3.1 Core: original 228x76 geometry, sole PC uplink, optional lower Dock study.
+// R3.1 Core: 228x76, sole PC uplink, rightmost candidate ISO/DEBUG, optional lower Dock.
 // Concave key outlines are extruded directly: no convex hull on a key.
 const {Cam, fit, proj, poly, open, rrect, fillet, mk, pointer, disposer, register, tween, tset, tval, tdone} = HL;
 const SLOPE = Math.tan(5 * Math.PI / 180);
@@ -32,9 +32,8 @@ function mount({stage,svg,read},value) {
   add('壳体侧壁',RECT(-114,-38,114,38,5),2.4,17.6,0,{tilt:true,holes:[RECT(-111.6,-35.6,111.6,35.6,2.6)],flatBase:true});
   for(const [x,y] of [[-104,-28],[104,-28],[-104,28],[104,28]])add('支柱',CIRCLE(3,x,y),2.4,6.4,0);
   add('主PCB',RECT(-108,-32,108,32,1.2),6.4,8,1,{marks2:[RECT(-101,22,-50,26),RECT(-101,13,-76,17),RECT(57,19,73,24),RECT(47,-23,61,-18)]});
-  for(const [i,x] of [-91,-64,91].entries()) {
-    const w=i<2?15:10;
-    add(i<2?'A'+(i+1):'PC-C',RECT(x-w/2,21.5,x+w/2,37.2,.8),8,15,1,{socket:{axis:'y',at:37.3,x,w:w-2}});
+  for(const [name,x,w] of [['A1',-91,15],['A2',-64,15],['PC-C',64,10],['ISO/DEBUG',91,15]]) {
+    add(name,RECT(x-w/2,21.5,x+w/2,37.2,.8),8,15,1,{socket:{axis:'y',at:37.3,x,w:w-2}});
   }
   add('Rev B Dock候选包络',RECT(-114,-38,114,38,5),-21,-1,0,{optional:true});
   for(const [name,x0,y0,x1,y1] of [['DATA',36,5,64,23],['PWR',68,5,84,13],['CTRL',68,15,84,23]])add('Dock '+name+'预留',RECT(x0,y0,x1,y1,.6),2.5,3,1,{optional:true});
@@ -122,7 +121,7 @@ function mount({stage,svg,read},value) {
 }
 hairline({
   name:'keyboard-hub',
-  means:'R3.1 Desktop Control Hub：Core唯一电脑上行，展开查看可选下置Dock与接口预留。悬停拆看、点击固定；滑块仅改变展示间距。供电、连接器和机构尚未实测。',
+  means:'R3.1 Desktop Control Hub：PC-C唯一上行，右后新增隔离调试口候选；展开查看可选Dock。悬停拆看、点击固定；滑块仅改展示间距。隔离电路与装配尚未实测。',
   rules:[1,3,4,6,7,8,9,10], range:[8,16,24],
   tour:[[84,136],[141,157],[262,225],[245,228],null], mount,
 });

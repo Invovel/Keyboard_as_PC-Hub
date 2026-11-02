@@ -1,8 +1,10 @@
 # 当前开发入口：R3.1
 
-先看[最新决策与差异](docs/R3_1_DECISIONS.md)、[工程评审](docs/R3_1_ENGINEERING_REVIEW.md)和[README](README.md)。用户输入包原文保留在[交接资料](docs/R3_1_CODEX_HANDOFF.md)与[原启动说明](CODEX_START_R3_1.md)，其“待执行”清单不能替代本轮状态记录。
+先看[最新决策与差异](docs/R3_1_DECISIONS.md)、[右后ISO调试口新增决定](docs/iso-debug-r3-1.md)、[工程评审](docs/R3_1_ENGINEERING_REVIEW.md)和[README](README.md)。用户输入包原文保留在[交接资料](docs/R3_1_CODEX_HANDOFF.md)与[原启动说明](CODEX_START_R3_1.md)，其“待执行”清单不能替代本轮状态记录。
 
 定位为Desktop Control Hub：Core唯一PC-C上行，A1/A2/FAST/KBD/CTRL及底部P4，Core目标单线独立使用；Power Dock可选、Rev B下置，单向供电且只有下游数据链路。原A3改为P4，POWER输入移至Dock；MAG保持低功耗。
+
+2026-10-31新增最右侧ISO／DEBUG USB-A研究口：PC-C候选X+64、ISO候选X+91；P6经USB2双下游候选继续承载CTRL并增加隔离支路。隔离供电、保护、采样、右马达/安装孔干涉与真实插座均待验，不能依据草图制板。
 
 本轮WP0文档/参数/展示迁移与WP1/WP2资料级评审已经完成；单线功率、Hub配置、中央传动、Dock配对连接器仍阻塞真实布局。下一步先测Core峰值电流并确认上游电力，再冻结Dock DATA/PWR/CTRL料号/高度，不凭候选坐标出制造文件。
 

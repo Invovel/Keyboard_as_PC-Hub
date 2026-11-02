@@ -6,3 +6,5 @@
 新增散件型号、模块接口说明、实物接线图放这里。PCB 原理图工程放到相邻的 pcb 目录。
 
 [R3.1接口选型表](dock-port-selection.csv)对应[当前供电方案](../../docs/ports-and-power.md)，是架构约束而非实物通过记录；[旧R3表](history/dock-port-selection-r3.csv)保留历史。
+
+[ISO／DEBUG接口决定](../../docs/iso-debug-r3-1.md)及[候选BOM](iso-debug-candidate-bom.csv)：新增USB2双下游分支、数据和电源隔离、硬件保护与隔离侧计量；全部待原理图和实物验证。

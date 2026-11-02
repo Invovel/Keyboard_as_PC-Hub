@@ -22,7 +22,7 @@ const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
     });
     const url=pathToFileURL(path.join(__dirname,'hairline-keyboard-hub.html')).href;
     await page.goto(url);await pause(900);
-    for(const name of ['A1','A2','PC-C'])assert.equal(await page.locator(`[data-part="${name}"]`).count(),1,'R3.1 rear ports');
+    for(const name of ['A1','A2','PC-C','ISO/DEBUG'])assert.equal(await page.locator(`[data-part="${name}"]`).count(),1,'R3.1 rear ports');
     for(const name of ['A3','POWER','POWER IN'])assert.equal(await page.locator(`[data-part="${name}"]`).count(),0,'no legacy Core ports');
     assert.equal(await page.locator('[data-part="Rev B Dock候选包络"]').getAttribute('display'),'none','Core default has no Dock');
     const geometry=await page.evaluate(src=>{

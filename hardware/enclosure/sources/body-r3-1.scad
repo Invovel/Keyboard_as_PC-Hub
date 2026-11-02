@@ -1,4 +1,4 @@
-// R3.1 Core study model, mm. Not released for manufacture; no verified bearing/FPC stack.
+// R3.1 Core study model, mm. ISO/DEBUG candidate at rear right; no verified connector/haptic stack.
 // The matching dimensional source is interface-parameters-r3-1.json.
 // Total-disable target: front-center (0,-38); switch part/opening not frozen, runtime GPIO unchanged.
 // Select part="assembly", "bottom", "top", "ring", "carrier", "keys", "pcb".
@@ -25,7 +25,9 @@ module contact_cutouts(){
 module port_cutouts(){
  // Blank these openings until an actual hub/PD daughterboard is selected.
  for(x=[-91,-64])translate([x,D/2,11])cube([14,8,7],center=true);
- for(x=[91])translate([x,D/2,11])cube([9,8,4],center=true);
+ for(x=[64])translate([x,D/2,11])cube([9,8,4],center=true);
+ // ISO/DEBUG rightmost: schematic clearance only, never a validated USB-A cutout.
+ translate([91,D/2,11])cube([14,8,7],center=true);
  translate([-W/2,17,11])cube([8,9,4],center=true);
  // Front-wall acoustic duct; microphone itself must be gasketed behind this bore.
  translate([-88,-D/2,9])rotate([90,0,0])cylinder(d=1.5,h=8,center=true);
