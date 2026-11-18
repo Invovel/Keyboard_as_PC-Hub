@@ -1,5 +1,11 @@
 # PCB 设计
 
+## 2026-11-18 RevB 进展
+
+实际工程修改和验证记录见[RevB 当前状态](../../docs/pc-hub-revb-status-20261118.md)。PCB 已有正反面真实铜线、87 个过孔和四个地铜区，当前剩余 120 个未连接缺口、54 个未布通网络。背面晶振与隔离去耦、屏幕 QSPI 以及部分电源和磁吸保护支路已实施，整板尚未达到制造验收条件。
+
+右侧保留磁吸，左侧新增双向回中拨轮位置。当前 GitHub 同步范围为文字记录，最新本地工程、DRC 和总览媒体未随本次提交上传。下面按日期保留的旧阶段描述供追溯，后续硬件改动暂缓。
+
 **当前状态：尚无完成布线、通过器件装配验证的 PCB 工程，也没有可下单 Gerber。**
 
 2026-11-02[ISO／DEBUG首版范围](../../docs/iso-debug-r3-1.md)已收敛到正常调试所需的USB2隔离、隔离供电、集成输出保护、数据ESD和本地故障提示。[功能连接原理图](../../design/drawings/iso-debug-minimal-schematic-r3-1.svg)、[候选BOM](../electronics/iso-debug-candidate-bom.csv)及[后续PCB元件依据](references/iso-debug-pcb-component-plan-r3-1.md)供主工程原理图实施；现有KiCad网表仍未接入该支路。本轮不绘制PCB。
