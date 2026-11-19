@@ -1,5 +1,9 @@
 # 外壳与机械设计
 
+当前使用 [RevC 外壳与装配研究](../../docs/revc/ASSEMBLY.md)及[产品坐标和约束](../../docs/revc/CONSTRAINTS.md)。
+
+## R3.1 历史资料
+
 **当前有参数化 OpenSCAD 草模，尚未完成实体编译、装配验证或可制造 STEP/STL。**
 
 - [dimensions-r3-1.md](dimensions-r3-1.md)：当前Core＋可选下置Dock机械说明。

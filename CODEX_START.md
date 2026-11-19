@@ -1,4 +1,8 @@
-# 当前开发入口：R3.1
+# 当前开发入口 · RevC
+
+从 [RevC 项目入口](docs/revc/README.md)进入，按 [AGENTS.md](AGENTS.md) 的专业分工和产品坐标工作。
+
+## R3.1 历史开发说明
 
 先看[最新决策与差异](docs/R3_1_DECISIONS.md)、[右后ISO调试口新增决定](docs/iso-debug-r3-1.md)、[工程评审](docs/R3_1_ENGINEERING_REVIEW.md)和[README](README.md)。用户输入包原文保留在[交接资料](docs/R3_1_CODEX_HANDOFF.md)与[原启动说明](CODEX_START_R3_1.md)，其“待执行”清单不能替代本轮状态记录。
 

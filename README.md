@@ -1,16 +1,18 @@
 # Keyboard as PC Hub
 
-## 2026-11-18 RevB 当前状态
+## 当前产品基准 · RevC
 
-[最新工程状态与剩余问题](docs/pc-hub-revb-status-20261118.md)已同步本地实际修改。当前采用右侧磁吸、左侧双向回中拨轮、中央屏幕编码器和四个独立按键，具体功能映射待定。以下 R3.1 图示和双侧 MAG 描述保留为历史设计资料，硬件当前状态以本次记录为准。
+[RevC 工程入口](docs/revc/README.md) · [差异审查](docs/revc/REVIEW.md) · [工作分工](docs/revc/PLAN.md) · [协作规范](AGENTS.md)。
 
-RevB 已完成一批真实布线，背面 171 段、正面 381 段、87 个过孔和四个独立地铜区。完整同步后的 257 个缺口已减少至 120 个，涉及 54 个网络。屏幕六根 QSPI 信号板上连通、隔离地连通，整板仍有电源、接口、封装与丝印问题，尚不可投板。本轮仅更新文字文档，后续硬件改动暂缓。
+冻结环形霍尔四键和独立 RGB、EC56 与独立屏幕下压、承力下壳、双马达、独立麦克风、浮动 USB-C 键盘公头，以及完整 Hub 和隔离口。右 MAG、左拨轮、现有五页固件与可选底置 Dock 继续纳入。当前工程基线为核验过的 116 封装修复板，详见[真实四层铜、焊盘和钻孔证据](docs/revc/evidence/README.md)。**制造未放行。**
+
+## R3.1 历史设计资料
 
 **Desktop Control Hub · R3.1：Core＋可选下置Power Dock＋低功耗MAG附件。**
 
 Core背部PC-C是唯一电脑上行，单线从电脑允许的VBUS预算取电，目标为不依赖Dock即可使用主体与键盘。Hub硬件转发USB外设数据，ESP32负责圆屏、旋钮、四键、音频和HID；Hub启动不应依赖ESP32固件。单线功耗、Hub配置与故障独立性尚未通过整机验证。
 
-[最新交接基准](docs/R3_1_CODEX_HANDOFF.md) · [差异与决策台账](docs/R3_1_DECISIONS.md) · [WP1/WP2工程评审](docs/R3_1_ENGINEERING_REVIEW.md) · [下一步入口](CODEX_START.md)
+[R3.1 交接](docs/R3_1_CODEX_HANDOFF.md) · [历史差异与决策](docs/R3_1_DECISIONS.md) · [WP1/WP2 工程评审](docs/R3_1_ENGINEERING_REVIEW.md) · [当前开发入口](CODEX_START.md)
 
 [补充讨论采用/放弃清单](docs/R3_1_SUPPLEMENT.md)：保留五键与104mm前部横条，补强Hub启动和Slider验证，早期双向供电/竖条/第二上行不混入当前设计。
 
@@ -18,7 +20,7 @@ Core背部PC-C是唯一电脑上行，单线从电脑允许的VBUS预算取电�
 
 [原理图摆位表](docs/iso-debug-schematic-placement-r3-1.md) · [A3摆位视图](design/drawings/iso-debug-schematic-placement-r3-1.svg) · [首版功能连接参考](design/drawings/iso-debug-minimal-schematic-r3-1.svg) · [Anatomy结构视图](design/visualization/iso-debug-anatomy.html) · [预览图](design/visualization/iso-debug-anatomy-preview.png)。当前仅确定原理图页内位置，未画导线或PCB；现有KiCad主工程尚未写入该页。
 
-## 当前结构与接口
+## R3.1 结构与接口
 
 ![R3.1 Core布局](design/drawings/layout-r3-1.svg)
 
