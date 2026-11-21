@@ -4,6 +4,8 @@ releases/** -text whitespace=cr-at-eol
 # Imported source material is checked byte-for-byte against recorded SHA256.
 CODEX_START_R3_1.md -text
 docs/revc/baseline/** -text whitespace=cr-at-eol
+hardware/pcb/sources/revc/**/*.kicad_* -text whitespace=cr-at-eol
+hardware/pcb/sources/revc/*-lib-table -text whitespace=cr-at-eol
 # The supplied Markdown uses intentional two-space hard breaks; preserve its bytes.
 docs/R3_1_CODEX_HANDOFF.md -text whitespace=-blank-at-eol
 docs/references/r3-1-discussion/*.txt -text whitespace=cr-at-eol

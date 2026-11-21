@@ -1,3 +1,5 @@
+本页记录第一批修改前的基线。当前实施见[第一批保存结果](../BATCH1.md)。
+
 # 原理图网表差异
 
 Konnect 在本次审查中从根图完整导出层级网表。根图、Main_Control、MAG_Protection、ISO_Debug_Output 的 SHA-256 见 [Audit_Source.json](Audit_Source.json)。

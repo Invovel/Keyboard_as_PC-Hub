@@ -1,0 +1,14 @@
+function,manufacturer,exact_mpn,quantity,jlc_code,assembly_class,catalog_price_usd_tiers,footprint_state
+four linear hall,JSMSEMI,OH49E,4,C49021369,extended,,mapping audit required
+four RGB,Worldsemi,WS2812C-4020-H2,4,C42417604,,,mapping audit required
+four channel ADC,Texas Instruments,ADS1015IDGSR,1,C193969,extended,1+:1.8990 / 10+:1.6310 / 30+:1.4636 / 100+:1.2931 / 500+:1.2151 / 1000+:1.1810,exact DGS package mapping audit required
+rotary encoder,Soundwell,EC56-HA1,1,,,,ordering drawing and pin variant pending
+three direction switch,Alps Alpine,SLLB510100,1,,,,existing manufacturer map and native RevB readback
+left/right motor driver,Texas Instruments,DRV2605LDGSR,2,,,,existing DGS schematic and pads
+I2C switch,Texas Instruments,TCA9543APWR,1,,,,existing PW schematic and pads
+left/right motor jack,JST,BM02B-GHS-TBT,2,,,,existing two signal pads and stakes
+mic IC,TDK InvenSense,INMP441,1,,,,sub-board acoustic and connector release pending
+main Hub,Microchip,USB7206C,1,,,,exact package and power implementation pending
+branch Hub,Microchip,USB2512B,1,,,,exact package and power implementation pending
+USB isolation,Analog Devices,ADuM3165BRSZ,1,,,,existing SSOP-20 anchor and isolation verification pending
+isolated supply,Mornsun,VRB0505S,1,,,,ordering suffix and isolation verification pending

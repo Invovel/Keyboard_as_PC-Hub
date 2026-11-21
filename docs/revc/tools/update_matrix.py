@@ -94,6 +94,13 @@ def main():
     for design_id, ref in {166: "JML1", 167: "JMR1", 180: "SWJ1"}.items():
         if ref in active:
             parts[str(design_id)]["saved_anchor_id"] = ids[ref]
+    bindings_path = ROOT / "electrical_bindings.json"
+    if bindings_path.exists():
+        bindings = read_json(bindings_path)
+        assert bindings["schematic_sha256"] == audit["schematic_sha256"], "Stale electrical bindings"
+        for design_id, binding in bindings["components"].items():
+            assert design_id in parts, f"Unknown design ID {design_id}"
+            parts[design_id]["electrical_binding"] = binding
     rows.sort(key=lambda row: row[0])
     assert len({row[0] for row in rows}) == len(rows) == len(parts)
     assert {str(row[0]) for row in rows} == parts.keys()

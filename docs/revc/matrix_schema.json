@@ -86,15 +86,15 @@
     "zones": 0
   },
   "limits": "Pad XY extracted by footprint transform; old anchors verified from source; pad display rectangles approximate all shapes; no filled zones reconstruction, DRC, exact courtyards, or latest 116 footprint data.",
-  "saved_pcb_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+  "saved_pcb_sha256": "b6ecaefe3850c9baf6a0456be1a1b326bef079d9325e58b4e8ad76446d298b58",
   "saved_pcb_counts": {
     "footprints": 116,
     "pads": 469,
-    "vias": 87,
+    "vias": 95,
     "layers": {
       "B.Cu": {
-        "track_segments": 171,
-        "length_mm": 480.8963043877092
+        "track_segments": 191,
+        "length_mm": 547.9434219370208
       },
       "In2.Cu": {
         "track_segments": 0,
@@ -105,8 +105,8 @@
         "length_mm": 0
       },
       "F.Cu": {
-        "track_segments": 381,
-        "length_mm": 1103.0337306123433
+        "track_segments": 390,
+        "length_mm": 1111.4728179088693
       }
     },
     "zones": 4

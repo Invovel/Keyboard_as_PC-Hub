@@ -7635,18 +7635,17 @@
       },
       "items": [
         {
-          "description": "F.Cu 上 R3 的焊盘 1 [3V3]",
+          "description": "走线 [3V3] (F.Cu), 长度: 2.5000 mm",
           "pos": {
             "x": 161.175,
             "y": 127.0
           },
-          "uuid": "ae48eb6e-9810-4514-92de-5eac85e4f108",
+          "uuid": "1c17efe3-a017-4ab9-93aa-9cfb0c22886b",
           "ownership_status": "resolved",
-          "item_kind": "pad",
+          "item_kind": "segment",
+          "layer": "F.Cu",
           "owner": {
-            "kind": "footprint",
-            "reference": "R3",
-            "uuid": "e9b1b3ad-d263-489f-8702-50b60995fd4b"
+            "kind": "board"
           }
         },
         {
@@ -7691,17 +7690,18 @@
           }
         },
         {
-          "description": "走线 [3V3] (F.Cu), 长度: 2.5000 mm",
+          "description": "F.Cu 上 R4 的焊盘 1 [3V3]",
           "pos": {
             "x": 161.175,
-            "y": 127.0
+            "y": 129.5
           },
-          "uuid": "1c17efe3-a017-4ab9-93aa-9cfb0c22886b",
+          "uuid": "fae274f4-3279-4139-a336-6c32f58a8c5b",
           "ownership_status": "resolved",
-          "item_kind": "segment",
-          "layer": "F.Cu",
+          "item_kind": "pad",
           "owner": {
-            "kind": "board"
+            "kind": "footprint",
+            "reference": "R4",
+            "uuid": "c8518de0-7646-4fbd-9da5-bdf8534767fb"
           }
         }
       ]
@@ -8541,12 +8541,12 @@
           }
         },
         {
-          "description": "走线 [3V3] (B.Cu), 长度: 0.4243 mm",
+          "description": "走线 [3V3] (B.Cu), 长度: 0.8750 mm",
           "pos": {
-            "x": 232.5,
+            "x": 231.624999,
             "y": 94.8
           },
-          "uuid": "ff1128dd-a6a9-4f58-bfd9-8a24304774a7",
+          "uuid": "619c87d3-abef-461b-9b6f-e185cb511a42",
           "ownership_status": "resolved",
           "item_kind": "segment",
           "layer": "B.Cu",
@@ -9494,17 +9494,17 @@
       "description": "Missing connection between items",
       "rule": "unconnected_items",
       "pos": {
-        "x": 92.65,
-        "y": 108.5
+        "x": 94.55,
+        "y": 106.0
       },
       "items": [
         {
-          "description": "走线 [/Main_Control/HAPTIC_VDD] (F.Cu), 长度: 1.9000 mm",
+          "description": "走线 [/Main_Control/HAPTIC_VDD] (F.Cu), 长度: 2.5000 mm",
           "pos": {
-            "x": 92.65,
-            "y": 108.5
+            "x": 94.55,
+            "y": 106.0
           },
-          "uuid": "79204240-630d-46d1-8302-13f0777fbfa2",
+          "uuid": "2ab296f2-584f-4c58-9e0a-30af85478b9f",
           "ownership_status": "resolved",
           "item_kind": "segment",
           "layer": "F.Cu",
@@ -9858,102 +9858,20 @@
       "description": "Missing connection between items",
       "rule": "unconnected_items",
       "pos": {
-        "x": 216.15,
-        "y": 111.5
+        "x": 176.375,
+        "y": 121.95
       },
       "items": [
         {
-          "description": "F.Cu 上 U5 的焊盘 7 [/Main_Control/MOTOR_R_P]",
+          "description": "走线 [/Main_Control/ENC_SW_GPIO39] (F.Cu), 长度: 0.9192 mm",
           "pos": {
-            "x": 216.15,
-            "y": 111.5
+            "x": 176.375,
+            "y": 121.95
           },
-          "uuid": "2f335dca-8fda-4a57-829b-5be83362b21b",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "U5",
-            "uuid": "4b1e757f-072c-4b5b-a9aa-2ffe0ef9d619"
-          }
-        },
-        {
-          "description": "F.Cu 上 JMR1 的焊盘 1 [/Main_Control/MOTOR_R_P]",
-          "pos": {
-            "x": 225.375,
-            "y": 127.95
-          },
-          "uuid": "cab8037d-d5b4-40f7-a500-9a5276d6f62b",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "JMR1",
-            "uuid": "4e5cb18f-373c-4263-8cf6-bb49191bf89d"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "error",
-      "description": "Missing connection between items",
-      "rule": "unconnected_items",
-      "pos": {
-        "x": 216.15,
-        "y": 110.5
-      },
-      "items": [
-        {
-          "description": "F.Cu 上 U5 的焊盘 9 [/Main_Control/MOTOR_R_N]",
-          "pos": {
-            "x": 216.15,
-            "y": 110.5
-          },
-          "uuid": "774774fe-35a0-41d2-aadb-1bc3dd7db17b",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "U5",
-            "uuid": "4b1e757f-072c-4b5b-a9aa-2ffe0ef9d619"
-          }
-        },
-        {
-          "description": "F.Cu 上 JMR1 的焊盘 2 [/Main_Control/MOTOR_R_N]",
-          "pos": {
-            "x": 226.625,
-            "y": 127.95
-          },
-          "uuid": "78e76d5f-dc4e-4c08-b6de-3396ced749d1",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "JMR1",
-            "uuid": "4e5cb18f-373c-4263-8cf6-bb49191bf89d"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "error",
-      "description": "Missing connection between items",
-      "rule": "unconnected_items",
-      "pos": {
-        "x": 194.275,
-        "y": 102.75
-      },
-      "items": [
-        {
-          "description": "走线 [/Main_Control/ENC_SW_GPIO39] (B.Cu), 长度: 26.2337 mm",
-          "pos": {
-            "x": 194.275,
-            "y": 102.75
-          },
-          "uuid": "baebc595-1ca6-4d29-922e-2e1b076b79ab",
+          "uuid": "605e759f-10e6-40a4-b767-96d8fbc1061c",
           "ownership_status": "resolved",
           "item_kind": "segment",
-          "layer": "B.Cu",
+          "layer": "F.Cu",
           "owner": {
             "kind": "board"
           }
@@ -9979,17 +9897,17 @@
       "description": "Missing connection between items",
       "rule": "unconnected_items",
       "pos": {
-        "x": 207.0,
+        "x": 205.25,
         "y": 96.9
       },
       "items": [
         {
-          "description": "走线 [/Main_Control/5V_CORE] (F.Cu), 长度: 2.4042 mm",
+          "description": "走线 [/Main_Control/5V_CORE] (F.Cu), 长度: 1.7500 mm",
           "pos": {
-            "x": 207.0,
+            "x": 205.25,
             "y": 96.9
           },
-          "uuid": "42393223-b232-4ccf-991b-ed9b28f51d51",
+          "uuid": "8d2d4129-41ce-4a36-b57c-f3fae577e57f",
           "ownership_status": "resolved",
           "item_kind": "segment",
           "layer": "F.Cu",
@@ -10975,12 +10893,12 @@
           }
         },
         {
-          "description": "走线 [/Main_Control/MAG_R_3V3_SW] (B.Cu), 长度: 0.1414 mm",
+          "description": "走线 [/Main_Control/MAG_R_3V3_SW] (B.Cu), 长度: 3.4648 mm",
           "pos": {
-            "x": 221.95,
-            "y": 101.5
+            "x": 222.05,
+            "y": 101.6
           },
-          "uuid": "05a184ef-4f47-4a63-a3b6-ec62524be230",
+          "uuid": "f6f3a03a-22b4-4d55-bfe1-da5215313fb3",
           "ownership_status": "resolved",
           "item_kind": "segment",
           "layer": "B.Cu",
@@ -11431,88 +11349,6 @@
             "kind": "footprint",
             "reference": "JG2",
             "uuid": "906d022b-04b1-4d5e-bf63-732e20ea0dd1"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "error",
-      "description": "Missing connection between items",
-      "rule": "unconnected_items",
-      "pos": {
-        "x": 81.875,
-        "y": 109.95
-      },
-      "items": [
-        {
-          "description": "F.Cu 上 JML1 的焊盘 1 [/Main_Control/MOTOR_L_P]",
-          "pos": {
-            "x": 81.875,
-            "y": 109.95
-          },
-          "uuid": "d9f0b13e-484a-47ac-87ae-88433fce2ad7",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "JML1",
-            "uuid": "908829a2-1116-4c57-adbd-e036899776b2"
-          }
-        },
-        {
-          "description": "F.Cu 上 U4 的焊盘 7 [/Main_Control/MOTOR_L_P]",
-          "pos": {
-            "x": 92.15,
-            "y": 107.5
-          },
-          "uuid": "e7d2185a-148f-443a-a10d-a6fb6363b62e",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "U4",
-            "uuid": "998072ee-d2b9-4daa-a809-8cb1a409d8dd"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "error",
-      "description": "Missing connection between items",
-      "rule": "unconnected_items",
-      "pos": {
-        "x": 83.125,
-        "y": 109.95
-      },
-      "items": [
-        {
-          "description": "F.Cu 上 JML1 的焊盘 2 [/Main_Control/MOTOR_L_N]",
-          "pos": {
-            "x": 83.125,
-            "y": 109.95
-          },
-          "uuid": "7969c298-cdb4-4785-8deb-3e2d7cdd79cb",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "JML1",
-            "uuid": "908829a2-1116-4c57-adbd-e036899776b2"
-          }
-        },
-        {
-          "description": "F.Cu 上 U4 的焊盘 9 [/Main_Control/MOTOR_L_N]",
-          "pos": {
-            "x": 92.15,
-            "y": 106.5
-          },
-          "uuid": "cca202fc-7934-4648-a812-4b366e4f66a3",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "U4",
-            "uuid": "998072ee-d2b9-4daa-a809-8cb1a409d8dd"
           }
         }
       ]
@@ -12282,6 +12118,153 @@
     },
     {
       "severity": "warning",
+      "description": "缺失的封装 C60 (470nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C61 (470nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C62 (470nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C63 (470nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C64 (100nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C65 (100nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C66 (100nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C67 (100nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C68 (100nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C69 (10uF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C70 (4.7uF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C71 (100nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C72 (100nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C73 (100nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C74 (100nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C75 (100nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 C76 (100nF)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 D20 (WS2812C-4020-H2)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 D21 (WS2812C-4020-H2)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 D22 (WS2812C-4020-H2)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 D23 (WS2812C-4020-H2)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
       "description": "字段 'Description' 不一致: (PCB: '', 原理图: 'Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)')",
       "rule": "footprint_symbol_field_mismatch",
       "pos": {
@@ -12457,6 +12440,97 @@
     },
     {
       "severity": "warning",
+      "description": "缺失的封装 R60 (1k)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 R61 (1k)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 R62 (1k)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 R63 (1k)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 R64 (1M)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 R65 (1M)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 R66 (1M)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 R67 (1M)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 R68 (4.7k)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 R69 (47k)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 R70 (33R)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 R71 (100k)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 R72 (100R)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
       "description": "字段 'Datasheet' 不一致: (PCB: '', 原理图: 'https://tech.alpsalpine.com/e/products/detail/SLLB510100/')",
       "rule": "footprint_symbol_field_mismatch",
       "pos": {
@@ -12476,6 +12550,67 @@
           "layer": "F.Cu",
           "owner": {
             "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 TP20 (HALL1_INPUT)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 TP21 (HALL2_INPUT)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 TP22 (HALL3_INPUT)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 TP23 (HALL4_INPUT)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 TP24 (RGB_EN)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘网络 (unconnected-(U1-IO10-Pad18)) 与原理图 (/Main_Control/RGB_DATA_GPIO10) 指定的网络不匹配",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 190.825,
+        "y": 110.35
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U1 的焊盘 18 [unconnected-(U1-IO10-Pad18)]",
+          "pos": {
+            "x": 190.825,
+            "y": 110.35
+          },
+          "uuid": "08455301-fa05-4609-9fab-8575c92222aa",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
           }
         }
       ]
@@ -12504,6 +12639,55 @@
           }
         }
       ]
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 U20 (ADS1015IDGSR)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 U21 (TPS22919DCKR)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 U22 (TXU0101DBVR)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 U23 (OH49E)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 U24 (OH49E)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 U25 (OH49E)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 U26 (OH49E)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
     },
     {
       "severity": "warning",

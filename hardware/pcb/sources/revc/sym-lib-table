@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+
+  (lib (name "CoreControl") (type "KiCad") (uri "${KIPRJMOD}/CoreControl.kicad_sym") (options "") (descr ""))
+  (lib (name "CoreExpansion") (type "KiCad") (uri "${KIPRJMOD}/CoreExpansion.kicad_sym") (options "") (descr ""))
+  (lib (name "RevC_Control") (type "KiCad") (uri "${KIPRJMOD}/RevC_Control.kicad_sym") (options "") (descr "")))

@@ -1,6 +1,6 @@
 # PCB 设计
 
-目前从 [RevC 审查与工程基线](../../docs/revc/REVIEW.md)进入。保存版为 116 封装修复工程，真实四层铜和检验结果见[本次证据](../../docs/revc/evidence/README.md)。
+目前使用 [RevC 可编辑工程](sources/revc/Pc-Hub_RevB.kicad_pro)。它继承经核实的 116 封装修复工程，实际电路和布线变更见[首批实施](../../docs/revc/BATCH1.md)，真实四层铜和检验结果见[本次证据](../../docs/revc/evidence/README.md)。以下 RevB 与 R3.1 段落记录当时状态。
 
 ## 2026-11-18 RevB 进展
 

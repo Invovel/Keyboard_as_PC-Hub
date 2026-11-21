@@ -1,0 +1,9 @@
+(footprint "Haptic_Bay_20x36_H8_STUDY"
+  (version 20240108)
+  (generator "konnect")
+  (layer "F.Cu")
+  (descr "Mechanical reservation only; NOT iPhone motor footprint. No electrical pads. H8 study.")
+  (attr board_only exclude_from_bom exclude_from_pos_files)
+
+  (fp_rect (start -10 -18) (end 10 18) (stroke (width 0.1) (type solid)) (fill none) (layer "Dwgs.User"))
+  (fp_rect (start -10 -18) (end 10 18) (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd")))

@@ -1,0 +1,17 @@
+{
+  "units": {"voltage": "V", "current": "mA"},
+  "status": "design inputs only",
+  "input": {"nominal_v": 5, "authorized_from_host_ma": null, "dock_sustained_limit_ma": null},
+  "loads": [
+    {"domain": "3V3", "item": "ESP32-S3, LCD/touch, right MAG, and microphone", "idle_ma": null, "peak_ma": null},
+    {"domain": "3V3", "item": "Four OH49E + ADS1015", "idle_ma": null, "peak_ma": null},
+    {"domain": "RGB switched 5 V", "item": "Four WS2812C, level translator and rail inrush", "idle_ma": null, "peak_ma": null},
+    {"domain": "HAPTIC_VDD", "item": "Two DRV2605L plus actual motor windings", "idle_ma": null, "peak_ma": null},
+    {"domain": "protected KBD VBUS", "item": "CC64-RGB including inrush", "idle_ma": null, "peak_ma": null},
+    {"domain": "core rails", "item": "Main and branch Hub plus external downstream ports", "idle_ma": null, "peak_ma": null},
+    {"domain": "ISO", "item": "Isolator, DC/DC conversion losses and isolated downstream load", "idle_ma": null, "peak_ma": null}
+  ],
+  "measured_total_idle_ma": null,
+  "measured_total_peak_ma": null,
+  "verification_cases": ["boot and brownout", "plug inrush and disconnect", "full RGB white", "simultaneous motor braking and USB transfer", "ISO loaded", "Dock and PC connected", "fault and total disable"]
+}

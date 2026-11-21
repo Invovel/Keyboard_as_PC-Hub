@@ -130,9 +130,9 @@
         },
         {
           "description": "标签 'GND'",
-          "uuid": "046e9646-a13a-4c8c-ab36-fc4357b200ac",
-          "x": 157.48,
-          "y": 248.92
+          "uuid": "02668d6b-0989-45d8-a12e-441a70d71701",
+          "x": 245.11,
+          "y": 511.81
         }
       ],
       "rule": "same_local_global_label",
@@ -152,9 +152,9 @@
         },
         {
           "description": "标签 '3V3'",
-          "uuid": "0ca43720-ffc5-445a-a9dd-73e1b46df77d",
-          "x": 466.09,
-          "y": 57.15
+          "uuid": "08019e0e-36f2-47ee-8cdc-5b401536cdf8",
+          "x": 402.59,
+          "y": 480.06
         }
       ],
       "rule": "same_local_global_label",

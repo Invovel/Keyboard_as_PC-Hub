@@ -1,0 +1,590 @@
+{
+  "base_board_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+  "saved_board_sha256": "b6ecaefe3850c9baf6a0456be1a1b326bef079d9325e58b4e8ad76446d298b58",
+  "added_copper": [
+    {
+      "uuid": "08f98e76-a665-48a7-9048-f8dd6cad262b",
+      "net": "/Main_Control/MOTOR_R_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        65.05,
+        -10.5
+      ],
+      "end_xy_mm": [
+        65.3,
+        -10.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "127b38c8-5e9d-410a-afa9-bd2fb97c0bfb",
+      "net": "/Main_Control/MOTOR_L_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -56.8,
+        -7.75
+      ],
+      "end_xy_mm": [
+        -57.0,
+        -7.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "1e5de496-12e2-4cea-97f0-3973e28cf4c9",
+      "net": "/Main_Control/MOTOR_L_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -57.85,
+        -7.5
+      ],
+      "end_xy_mm": [
+        -56.55,
+        -7.5
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "2384e689-0f0f-459c-aeb4-517aacf230b9",
+      "net": "/Main_Control/MOTOR_L_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -67.75,
+        -11.25
+      ],
+      "end_xy_mm": [
+        -68.25,
+        -10.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "23892462-77ec-4301-baa9-d0060df94f15",
+      "net": "/Main_Control/MOTOR_R_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        77.275,
+        -27.025
+      ],
+      "end_xy_mm": [
+        77.275,
+        -27.3
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "2f3f1a35-cbf7-4bc3-8f4c-251bd0f05b8d",
+      "net": "/Main_Control/MOTOR_R_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        66.15,
+        -11.5
+      ],
+      "end_xy_mm": [
+        65.05,
+        -11.5
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "3f9a898e-68d9-431b-aa7f-0dff63c94a21",
+      "net": "/Main_Control/MOTOR_L_N",
+      "kind": "via",
+      "xy_mm": [
+        -56.65,
+        -6.65
+      ],
+      "drill_mm": 0.3,
+      "width_mm": 0.6,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "47811979-ac32-4e78-b07c-d62a5b86ae66",
+      "net": "/Main_Control/MOTOR_R_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        66.15,
+        -10.5
+      ],
+      "end_xy_mm": [
+        65.05,
+        -10.5
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "4da44b83-8de4-40b7-8f7b-fbada22d5b9e",
+      "net": "/Main_Control/MOTOR_R_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        75.375,
+        -27.95
+      ],
+      "end_xy_mm": [
+        74.725,
+        -27.3
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "5061294e-42f7-49fb-9b63-0d03f656d173",
+      "net": "/Main_Control/MOTOR_R_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        74.5,
+        -27.075
+      ],
+      "end_xy_mm": [
+        74.725,
+        -27.3
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "50d7eb64-56c8-47fc-9965-ffb725ef7389",
+      "net": "/Main_Control/MOTOR_L_P",
+      "kind": "via",
+      "xy_mm": [
+        -68.775,
+        -10.6
+      ],
+      "drill_mm": 0.3,
+      "width_mm": 0.6,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "53eb81ca-f5d8-4b36-88a6-438c2463654e",
+      "net": "/Main_Control/MOTOR_L_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -60.5,
+        -11.25
+      ],
+      "end_xy_mm": [
+        -67.75,
+        -11.25
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "55290861-5899-47fe-8d7e-4ec8922d132b",
+      "net": "/Main_Control/MOTOR_L_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -57.0,
+        -7.75
+      ],
+      "end_xy_mm": [
+        -60.5,
+        -11.25
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "5c27586e-ba56-4974-a3ad-590dfc79eee5",
+      "net": "/Main_Control/MOTOR_R_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        76.625,
+        -27.95
+      ],
+      "end_xy_mm": [
+        77.275,
+        -27.3
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "5ff96f29-d5e1-484b-969f-6a23719347fd",
+      "net": "/Main_Control/MOTOR_R_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        65.3,
+        -10.75
+      ],
+      "end_xy_mm": [
+        65.5,
+        -10.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "63c452bc-511b-4e05-b346-f0171d2d3c8d",
+      "net": "/Main_Control/MOTOR_R_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        65.5,
+        -10.75
+      ],
+      "end_xy_mm": [
+        77.0,
+        -22.25
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "689301c8-f2d9-4c2d-b28c-8bf3fabbd550",
+      "net": "/Main_Control/MOTOR_R_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        77.0,
+        -26.75
+      ],
+      "end_xy_mm": [
+        77.275,
+        -27.025
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "6b4c0d0c-5dca-44f6-a3dd-74ebb64dcd08",
+      "net": "/Main_Control/MOTOR_L_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -68.125,
+        -9.95
+      ],
+      "end_xy_mm": [
+        -68.775,
+        -10.6
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "6cb7383d-8ba0-4a1f-8044-371f097afe89",
+      "net": "/Main_Control/MOTOR_R_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        74.5,
+        -26.75
+      ],
+      "end_xy_mm": [
+        74.5,
+        -27.075
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "85e93152-1d7a-47c8-882a-db4818304879",
+      "net": "/Main_Control/MOTOR_L_N",
+      "kind": "via",
+      "xy_mm": [
+        -66.225,
+        -10.6
+      ],
+      "drill_mm": 0.3,
+      "width_mm": 0.6,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "8c539d5e-1605-4282-bec8-7e1c2b1b297e",
+      "net": "/Main_Control/MOTOR_L_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -56.8,
+        -6.5
+      ],
+      "end_xy_mm": [
+        -56.65,
+        -6.65
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "8e05a7a5-726f-427f-addc-b43fd6f10dcf",
+      "net": "/Main_Control/MOTOR_L_P",
+      "kind": "via",
+      "xy_mm": [
+        -56.55,
+        -7.5
+      ],
+      "drill_mm": 0.3,
+      "width_mm": 0.6,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "93cd867f-96b6-4704-8378-6415056beb96",
+      "net": "/Main_Control/MOTOR_R_N",
+      "kind": "via",
+      "xy_mm": [
+        65.05,
+        -10.5
+      ],
+      "drill_mm": 0.3,
+      "width_mm": 0.6,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "942ff743-a5ab-4de8-8c95-a7b599516d58",
+      "net": "/Main_Control/MOTOR_L_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -56.65,
+        -6.65
+      ],
+      "end_xy_mm": [
+        -60.6,
+        -10.6
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "9ed2301e-03a0-4613-b280-7a421cdec39e",
+      "net": "/Main_Control/MOTOR_R_P",
+      "kind": "via",
+      "xy_mm": [
+        65.05,
+        -11.5
+      ],
+      "drill_mm": 0.3,
+      "width_mm": 0.6,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "a75d9fa0-f397-46a0-86bf-6de793c26fe6",
+      "net": "/Main_Control/MOTOR_L_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -68.625,
+        -10.75
+      ],
+      "end_xy_mm": [
+        -68.775,
+        -10.6
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "be82ab85-2675-4f39-9680-8fbc47259ff2",
+      "net": "/Main_Control/MOTOR_L_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -60.6,
+        -10.6
+      ],
+      "end_xy_mm": [
+        -66.225,
+        -10.6
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "c599f039-7fbc-4ac8-82d3-d386798327cc",
+      "net": "/Main_Control/MOTOR_R_P",
+      "kind": "via",
+      "xy_mm": [
+        74.725,
+        -27.3
+      ],
+      "drill_mm": 0.3,
+      "width_mm": 0.6,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "cae19a31-2d1a-45fd-be66-c9efdb369732",
+      "net": "/Main_Control/MOTOR_R_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        65.5,
+        -17.75
+      ],
+      "end_xy_mm": [
+        74.5,
+        -26.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "cfa1e8e6-3a86-49df-b1b4-0d4e125d214c",
+      "net": "/Main_Control/MOTOR_R_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        65.5,
+        -11.95
+      ],
+      "end_xy_mm": [
+        65.5,
+        -17.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "dd42146c-cb1c-4ccd-b8fb-eb0768c4eb3f",
+      "net": "/Main_Control/MOTOR_R_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        77.0,
+        -22.25
+      ],
+      "end_xy_mm": [
+        77.0,
+        -26.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "dea2ea1a-7e19-43b8-87cd-19500c80744c",
+      "net": "/Main_Control/MOTOR_L_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -56.55,
+        -7.5
+      ],
+      "end_xy_mm": [
+        -56.8,
+        -7.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "e43cdf1d-4218-410d-bbad-3bf3172749af",
+      "net": "/Main_Control/MOTOR_L_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -57.85,
+        -6.5
+      ],
+      "end_xy_mm": [
+        -56.8,
+        -6.5
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "e9426da8-29c6-4621-8e67-13fb52c8188c",
+      "net": "/Main_Control/MOTOR_R_N",
+      "kind": "via",
+      "xy_mm": [
+        77.275,
+        -27.3
+      ],
+      "drill_mm": 0.3,
+      "width_mm": 0.6,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "ede7dc3a-f35f-40c6-a04c-cdf0d433b32b",
+      "net": "/Main_Control/MOTOR_L_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -68.25,
+        -10.75
+      ],
+      "end_xy_mm": [
+        -68.625,
+        -10.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "f8d5f9cd-1721-4e7c-a59f-3afec9cd6d52",
+      "net": "/Main_Control/MOTOR_L_N",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        -66.875,
+        -9.95
+      ],
+      "end_xy_mm": [
+        -66.225,
+        -10.6
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "fbf3b509-fce9-4db8-9ec7-64c9527a99cd",
+      "net": "/Main_Control/MOTOR_R_P",
+      "kind": "segment",
+      "width_mm": 0.25,
+      "start_xy_mm": [
+        65.05,
+        -11.5
+      ],
+      "end_xy_mm": [
+        65.5,
+        -11.95
+      ],
+      "layer": "B.Cu"
+    }
+  ],
+  "added_footprints": [],
+  "removed_footprints": [],
+  "moved_footprints": [],
+  "drc_rules": {
+    "drill_out_of_range": 12,
+    "lib_footprint_mismatch": 52,
+    "silk_overlap": 54,
+    "silk_over_copper": 82
+  },
+  "drc_unconnected": 116,
+  "drc_parity": 88,
+  "erc_errors": 2,
+  "erc_warnings": 7
+}

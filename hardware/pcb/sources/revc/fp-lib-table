@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+
+  (lib (name "CoreMechanical") (type "KiCad") (uri "${KIPRJMOD}/CoreMechanical.pretty") (options "") (descr ""))
+  (lib (name "CoreControl") (type "KiCad") (uri "${KIPRJMOD}/CoreControl.pretty") (options "") (descr ""))
+  (lib (name "RevC_Control") (type "KiCad") (uri "${KIPRJMOD}/RevC_Control.pretty") (options "") (descr "")))

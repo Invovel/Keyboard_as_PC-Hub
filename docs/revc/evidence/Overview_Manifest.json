@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-19T18:56:25.372879+08:00",
-  "board": "outputs/pc-hub-repair-20261116/Project/Pc-Hub_RevB.kicad_pcb",
-  "board_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+  "generated_utc": "2026-11-21T13:56:32.723450+00:00",
+  "board": "hardware/pcb/sources/revc/Pc-Hub_RevB.kicad_pcb",
+  "board_sha256": "b6ecaefe3850c9baf6a0456be1a1b326bef079d9325e58b4e8ad76446d298b58",
   "status": "INCOMPLETE",
   "source": "saved file via KiCad native geometry engine",
   "bounds_mm": {
@@ -18,8 +18,8 @@
   ],
   "layers": {
     "B.Cu": {
-      "track_segments": 171,
-      "length_mm": 480.8963043877092
+      "track_segments": 191,
+      "length_mm": 547.9434219370208
     },
     "In2.Cu": {
       "track_segments": 0,
@@ -30,13 +30,13 @@
       "length_mm": 0
     },
     "F.Cu": {
-      "track_segments": 381,
-      "length_mm": 1103.0337306123433
+      "track_segments": 390,
+      "length_mm": 1111.4728179088693
     }
   },
   "footprints": 116,
   "pads": 469,
-  "vias": 87,
+  "vias": 95,
   "zones_hidden_only_in_export": [
     {
       "uuid": "09ba8aba-7f90-44de-b032-3bd84ac83278",
@@ -69,16 +69,16 @@
   ],
   "geometry_max_error_mm": 0.001,
   "protected_source_hashes": {
-    "Project\\CoreControl.kicad_sym": "1cfd264cf94459c8b41d1c9c745aaa5ddfba3855947837afd4dace8ac14dc01d",
-    "Project\\CoreExpansion.kicad_sym": "eeec2b4d85eacc231956d129ad69ad8ebd689ac69661cc1cfa8a6ff9043b61ae",
-    "Project\\ISO_Debug_Output.kicad_sch": "29c06672f7ac530effc8abf90b52d2d9e842183444782a7a0f9766aad6af9840",
-    "Project\\MAG_Protection.kicad_sch": "5dba042c5256ffe252f9c9c25f141bb985a708c37a6c6aec9f444912a9cce7dc",
-    "Project\\Main_Control.kicad_sch": "fbcf3cdee396c91f0ce7ed66db8702def9150cb298588648c2fb636f5487aff5",
-    "Project\\Pc-Hub_RevB.kicad_dru": "5babbade588305d56221c755914e8c87b9ec987bf65a9bd918ea988a1e8ea25c",
-    "Project\\Pc-Hub_RevB.kicad_pcb": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
-    "Project\\Pc-Hub_RevB.kicad_prl": "c633a316cf751283148a9a2ff605e754442bd5c61233308e1bf4f71f09e04c89",
-    "Project\\Pc-Hub_RevB.kicad_pro": "67acc2ddbc2aa603b0a310b417923d07cb8853786931111f574545f54455395f",
-    "Project\\Pc-Hub_RevB.kicad_sch": "51d8542161456230e8dca86bfe3ebdd9d235ff71666e676237a67453418015df"
+    "CoreControl.kicad_sym": "1cfd264cf94459c8b41d1c9c745aaa5ddfba3855947837afd4dace8ac14dc01d",
+    "CoreExpansion.kicad_sym": "eeec2b4d85eacc231956d129ad69ad8ebd689ac69661cc1cfa8a6ff9043b61ae",
+    "ISO_Debug_Output.kicad_sch": "29c06672f7ac530effc8abf90b52d2d9e842183444782a7a0f9766aad6af9840",
+    "MAG_Protection.kicad_sch": "5dba042c5256ffe252f9c9c25f141bb985a708c37a6c6aec9f444912a9cce7dc",
+    "Main_Control.kicad_sch": "31e0fd5cc228206566377749b9360f990b0d60e4ab41760b0f423893b8e7e930",
+    "Pc-Hub_RevB.kicad_dru": "5babbade588305d56221c755914e8c87b9ec987bf65a9bd918ea988a1e8ea25c",
+    "Pc-Hub_RevB.kicad_pcb": "b6ecaefe3850c9baf6a0456be1a1b326bef079d9325e58b4e8ad76446d298b58",
+    "Pc-Hub_RevB.kicad_pro": "67acc2ddbc2aa603b0a310b417923d07cb8853786931111f574545f54455395f",
+    "Pc-Hub_RevB.kicad_sch": "51d8542161456230e8dca86bfe3ebdd9d235ff71666e676237a67453418015df",
+    "RevC_Control.kicad_sym": "a2c017e972cb1df4c384f4a0c2ad7c20cccc10e33bc94042dd65bcef45182489"
   },
   "net_track_lengths_mm": {
     "3V3": 63.73764284107915,
@@ -100,6 +100,8 @@
     "/Main_Control/ENC_A_GPIO1": 168.47357925518781,
     "/Main_Control/KEY4_GPIO38": 7.227396073144733,
     "/Main_Control/HAPTIC_VDD": 19.497781374238567,
+    "/Main_Control/MOTOR_R_P": 21.826755031502206,
+    "/Main_Control/MOTOR_R_N": 24.00015690307898,
     "/Main_Control/ENC_SW_GPIO39": 45.84818968952161,
     "/Main_Control/ENC_B_GPIO2": 171.89779281756094,
     "/Main_Control/5V_CORE": 5.450762081801234,
@@ -118,6 +120,8 @@
     "/Main_Control/MAG_R_SCL": 10.255077554195742,
     "/Main_Control/MAG_R_DET_EXT_N": 5.331244584051392,
     "/Main_Control/MAG_R_INT_N": 7.2151280605345764,
+    "/Main_Control/MOTOR_L_P": 16.26677848998413,
+    "/Main_Control/MOTOR_L_N": 13.392514421272203,
     "/Main_Control/MAG_Protection/MAG_DISABLE_N": 3.0465990257669735,
     "/ISO_Debug_Output/XI_24M": 4.792019733045907,
     "/ISO_Debug_Output/XO_24M": 6.7744163824159225,

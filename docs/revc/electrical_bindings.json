@@ -1,0 +1,60 @@
+{
+  "schematic_sha256": {
+    "ISO_Debug_Output.kicad_sch": "29c06672f7ac530effc8abf90b52d2d9e842183444782a7a0f9766aad6af9840",
+    "MAG_Protection.kicad_sch": "5dba042c5256ffe252f9c9c25f141bb985a708c37a6c6aec9f444912a9cce7dc",
+    "Main_Control.kicad_sch": "31e0fd5cc228206566377749b9360f990b0d60e4ab41760b0f423893b8e7e930",
+    "Pc-Hub_RevB.kicad_sch": "51d8542161456230e8dca86bfe3ebdd9d235ff71666e676237a67453418015df"
+  },
+  "components": {
+    "110": {
+      "status": "saved_schematic",
+      "pcb_xy": null,
+      "reference": "U23"
+    },
+    "130": {
+      "status": "saved_schematic",
+      "pcb_xy": null,
+      "reference": "D20"
+    },
+    "111": {
+      "status": "saved_schematic",
+      "pcb_xy": null,
+      "reference": "U24"
+    },
+    "131": {
+      "status": "saved_schematic",
+      "pcb_xy": null,
+      "reference": "D21"
+    },
+    "112": {
+      "status": "saved_schematic",
+      "pcb_xy": null,
+      "reference": "U25"
+    },
+    "132": {
+      "status": "saved_schematic",
+      "pcb_xy": null,
+      "reference": "D22"
+    },
+    "113": {
+      "status": "saved_schematic",
+      "pcb_xy": null,
+      "reference": "U26"
+    },
+    "133": {
+      "status": "saved_schematic",
+      "pcb_xy": null,
+      "reference": "D23"
+    },
+    "210": {
+      "status": "saved_schematic",
+      "address": "0x48",
+      "reference": "U20"
+    },
+    "211": {
+      "status": "saved_schematic",
+      "enable_switch": "U21",
+      "reference": "U22"
+    }
+  }
+}
