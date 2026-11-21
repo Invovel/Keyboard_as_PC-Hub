@@ -1,0 +1,304 @@
+{
+  "changes": [],
+  "coverage": {
+    "atomicity": "single_kicad_undo_commit",
+    "board_only_preserved": {
+      "applied": 0,
+      "planned": 0
+    },
+    "conflicts": {
+      "applied": 0,
+      "planned": 29
+    },
+    "footprints_added": {
+      "applied": 0,
+      "planned": 0
+    },
+    "footprints_updated": {
+      "applied": 0,
+      "planned": 0
+    },
+    "hierarchy_files": 4,
+    "pads_reassigned": {
+      "applied": 0,
+      "planned": 0
+    },
+    "skipped_by_flag": {
+      "applied": 0,
+      "planned": 0
+    },
+    "source": "saved_schematic_hierarchy",
+    "transport": "live_kicad_ipc",
+    "unassigned_footprint": {
+      "applied": 0,
+      "planned": 0
+    }
+  },
+  "diagnostics": [
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D20 pad 1 would change from '' to '/Main_Control/RGB_DIN_1' while routed copper uses that net",
+      "reference": "D20",
+      "references": [
+        "D20"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D20 pad 2 would change from '' to '/Main_Control/RGB_5V' while routed copper uses that net",
+      "reference": "D20",
+      "references": [
+        "D20"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D20 pad 3 would change from '' to '/Main_Control/RGB_DIN_2' while routed copper uses that net",
+      "reference": "D20",
+      "references": [
+        "D20"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D20 pad 4 would change from '' to 'GND' while routed copper uses that net",
+      "reference": "D20",
+      "references": [
+        "D20"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D21 pad 1 would change from '' to '/Main_Control/RGB_DIN_2' while routed copper uses that net",
+      "reference": "D21",
+      "references": [
+        "D21"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D21 pad 2 would change from '' to '/Main_Control/RGB_5V' while routed copper uses that net",
+      "reference": "D21",
+      "references": [
+        "D21"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D21 pad 3 would change from '' to '/Main_Control/RGB_DIN_3' while routed copper uses that net",
+      "reference": "D21",
+      "references": [
+        "D21"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D21 pad 4 would change from '' to 'GND' while routed copper uses that net",
+      "reference": "D21",
+      "references": [
+        "D21"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D22 pad 1 would change from '' to '/Main_Control/RGB_DIN_3' while routed copper uses that net",
+      "reference": "D22",
+      "references": [
+        "D22"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D22 pad 2 would change from '' to '/Main_Control/RGB_5V' while routed copper uses that net",
+      "reference": "D22",
+      "references": [
+        "D22"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D22 pad 3 would change from '' to '/Main_Control/RGB_DIN_4' while routed copper uses that net",
+      "reference": "D22",
+      "references": [
+        "D22"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D22 pad 4 would change from '' to 'GND' while routed copper uses that net",
+      "reference": "D22",
+      "references": [
+        "D22"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D23 pad 1 would change from '' to '/Main_Control/RGB_DIN_4' while routed copper uses that net",
+      "reference": "D23",
+      "references": [
+        "D23"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D23 pad 2 would change from '' to '/Main_Control/RGB_5V' while routed copper uses that net",
+      "reference": "D23",
+      "references": [
+        "D23"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D23 pad 3 would change from '' to 'unconnected-(D23-DOUT-Pad3)' while routed copper uses that net",
+      "reference": "D23",
+      "references": [
+        "D23"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "D23 pad 4 would change from '' to 'GND' while routed copper uses that net",
+      "reference": "D23",
+      "references": [
+        "D23"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U1 pad 18 would change from 'unconnected-(U1-IO10-Pad18)' to '/Main_Control/RGB_DATA_GPIO10' while routed copper uses that net",
+      "reference": "U1",
+      "references": [
+        "U1"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U23 pad 1 would change from '' to '3V3' while routed copper uses that net",
+      "reference": "U23",
+      "references": [
+        "U23"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U23 pad 2 would change from '' to 'GND' while routed copper uses that net",
+      "reference": "U23",
+      "references": [
+        "U23"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U23 pad 3 would change from '' to '/Main_Control/HALL1_RAW' while routed copper uses that net",
+      "reference": "U23",
+      "references": [
+        "U23"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U24 pad 1 would change from '' to '3V3' while routed copper uses that net",
+      "reference": "U24",
+      "references": [
+        "U24"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U24 pad 2 would change from '' to 'GND' while routed copper uses that net",
+      "reference": "U24",
+      "references": [
+        "U24"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U24 pad 3 would change from '' to '/Main_Control/HALL2_RAW' while routed copper uses that net",
+      "reference": "U24",
+      "references": [
+        "U24"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U25 pad 1 would change from '' to '3V3' while routed copper uses that net",
+      "reference": "U25",
+      "references": [
+        "U25"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U25 pad 2 would change from '' to 'GND' while routed copper uses that net",
+      "reference": "U25",
+      "references": [
+        "U25"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U25 pad 3 would change from '' to '/Main_Control/HALL3_RAW' while routed copper uses that net",
+      "reference": "U25",
+      "references": [
+        "U25"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U26 pad 1 would change from '' to '3V3' while routed copper uses that net",
+      "reference": "U26",
+      "references": [
+        "U26"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U26 pad 2 would change from '' to 'GND' while routed copper uses that net",
+      "reference": "U26",
+      "references": [
+        "U26"
+      ]
+    },
+    {
+      "code": "routed_pad_net_change",
+      "footprint_id": null,
+      "message": "U26 pad 3 would change from '' to '/Main_Control/HALL4_RAW' while routed copper uses that net",
+      "reference": "U26",
+      "references": [
+        "U26"
+      ]
+    }
+  ],
+  "plan_revision": "691d38f8c48fd15e297f354cf9d6ff29ed9105ce62f89426852c0e47e73779bf",
+  "status": "conflict",
+  "unassigned_footprints": [],
+  "undo": null
+}

@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-21T13:56:32.723450+00:00",
+  "generated_utc": "2026-11-21T14:10:28.688979+00:00",
   "board": "hardware/pcb/sources/revc/Pc-Hub_RevB.kicad_pcb",
-  "board_sha256": "b6ecaefe3850c9baf6a0456be1a1b326bef079d9325e58b4e8ad76446d298b58",
+  "board_sha256": "5e874a8ad7fc3052e4228d225968f4427fa315b40a842bd78d690ab54784e5c5",
   "status": "INCOMPLETE",
   "source": "saved file via KiCad native geometry engine",
   "bounds_mm": {
@@ -34,8 +34,8 @@
       "length_mm": 1111.4728179088693
     }
   },
-  "footprints": 116,
-  "pads": 469,
+  "footprints": 124,
+  "pads": 497,
   "vias": 95,
   "zones_hidden_only_in_export": [
     {
@@ -75,7 +75,7 @@
     "MAG_Protection.kicad_sch": "5dba042c5256ffe252f9c9c25f141bb985a708c37a6c6aec9f444912a9cce7dc",
     "Main_Control.kicad_sch": "31e0fd5cc228206566377749b9360f990b0d60e4ab41760b0f423893b8e7e930",
     "Pc-Hub_RevB.kicad_dru": "5babbade588305d56221c755914e8c87b9ec987bf65a9bd918ea988a1e8ea25c",
-    "Pc-Hub_RevB.kicad_pcb": "b6ecaefe3850c9baf6a0456be1a1b326bef079d9325e58b4e8ad76446d298b58",
+    "Pc-Hub_RevB.kicad_pcb": "5e874a8ad7fc3052e4228d225968f4427fa315b40a842bd78d690ab54784e5c5",
     "Pc-Hub_RevB.kicad_pro": "67acc2ddbc2aa603b0a310b417923d07cb8853786931111f574545f54455395f",
     "Pc-Hub_RevB.kicad_sch": "51d8542161456230e8dca86bfe3ebdd9d235ff71666e676237a67453418015df",
     "RevC_Control.kicad_sym": "a2c017e972cb1df4c384f4a0c2ad7c20cccc10e33bc94042dd65bcef45182489"

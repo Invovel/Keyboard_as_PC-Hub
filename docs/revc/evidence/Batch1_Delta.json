@@ -1,6 +1,6 @@
 {
   "base_board_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
-  "saved_board_sha256": "b6ecaefe3850c9baf6a0456be1a1b326bef079d9325e58b4e8ad76446d298b58",
+  "saved_board_sha256": "5e874a8ad7fc3052e4228d225968f4427fa315b40a842bd78d690ab54784e5c5",
   "added_copper": [
     {
       "uuid": "08f98e76-a665-48a7-9048-f8dd6cad262b",
@@ -574,17 +574,26 @@
       "layer": "B.Cu"
     }
   ],
-  "added_footprints": [],
+  "added_footprints": [
+    "D20",
+    "D21",
+    "D22",
+    "D23",
+    "U23",
+    "U24",
+    "U25",
+    "U26"
+  ],
   "removed_footprints": [],
   "moved_footprints": [],
   "drc_rules": {
     "drill_out_of_range": 12,
-    "lib_footprint_mismatch": 52,
-    "silk_overlap": 54,
-    "silk_over_copper": 82
+    "lib_footprint_mismatch": 60,
+    "silk_overlap": 62,
+    "silk_over_copper": 102
   },
   "drc_unconnected": 116,
-  "drc_parity": 88,
+  "drc_parity": 116,
   "erc_errors": 2,
   "erc_warnings": 7
 }

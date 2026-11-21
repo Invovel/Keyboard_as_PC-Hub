@@ -314,6 +314,31 @@
     },
     {
       "severity": "warning",
+      "description": "封装 'SOT-23-3_JSMICRO_OH49E' 与库 'RevC_Control' 中的副本不匹配",
+      "rule": "lib_footprint_mismatch",
+      "pos": {
+        "x": 85.0,
+        "y": 118.0
+      },
+      "items": [
+        {
+          "description": "封装 U26",
+          "pos": {
+            "x": 85.0,
+            "y": 118.0
+          },
+          "uuid": "0210a4e9-72fc-4ade-ac87-d8c321ec3646",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
       "description": "封装 'SW_Jog_ALPS_SLLB510100' 与库 'CoreControl' 中的副本不匹配",
       "rule": "lib_footprint_mismatch",
       "pos": {
@@ -339,6 +364,31 @@
     },
     {
       "severity": "warning",
+      "description": "封装 'LED_Worldsemi_WS2812C-4020-H2' 与库 'RevC_Control' 中的副本不匹配",
+      "rule": "lib_footprint_mismatch",
+      "pos": {
+        "x": 210.0,
+        "y": 82.0
+      },
+      "items": [
+        {
+          "description": "封装 D21",
+          "pos": {
+            "x": 210.0,
+            "y": 82.0
+          },
+          "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
       "description": "封装 'JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical' 与库 'Connector_JST' 中的副本不匹配",
       "rule": "lib_footprint_mismatch",
       "pos": {
@@ -353,6 +403,31 @@
             "y": 120.0
           },
           "uuid": "4b30ed65-8c2f-49eb-bfdf-4cd4ea0b97a7",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "封装 'LED_Worldsemi_WS2812C-4020-H2' 与库 'RevC_Control' 中的副本不匹配",
+      "rule": "lib_footprint_mismatch",
+      "pos": {
+        "x": 210.5,
+        "y": 124.5
+      },
+      "items": [
+        {
+          "description": "封装 D22",
+          "pos": {
+            "x": 210.5,
+            "y": 124.5
+          },
+          "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4",
           "ownership_status": "resolved",
           "item_kind": "footprint",
           "layer": "F.Cu",
@@ -414,6 +489,31 @@
     },
     {
       "severity": "warning",
+      "description": "封装 'SOT-23-3_JSMICRO_OH49E' 与库 'RevC_Control' 中的副本不匹配",
+      "rule": "lib_footprint_mismatch",
+      "pos": {
+        "x": 215.0,
+        "y": 82.0
+      },
+      "items": [
+        {
+          "description": "封装 U24",
+          "pos": {
+            "x": 215.0,
+            "y": 82.0
+          },
+          "uuid": "91730a7e-3c44-40fd-84bb-86f60b4a2462",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
       "description": "封装 'R_0603_1608Metric' 与库 'Resistor_SMD' 中的副本不匹配",
       "rule": "lib_footprint_mismatch",
       "pos": {
@@ -439,6 +539,81 @@
     },
     {
       "severity": "warning",
+      "description": "封装 'LED_Worldsemi_WS2812C-4020-H2' 与库 'RevC_Control' 中的副本不匹配",
+      "rule": "lib_footprint_mismatch",
+      "pos": {
+        "x": 90.0,
+        "y": 82.0
+      },
+      "items": [
+        {
+          "description": "封装 D20",
+          "pos": {
+            "x": 90.0,
+            "y": 82.0
+          },
+          "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "封装 'SOT-23-3_JSMICRO_OH49E' 与库 'RevC_Control' 中的副本不匹配",
+      "rule": "lib_footprint_mismatch",
+      "pos": {
+        "x": 85.0,
+        "y": 82.0
+      },
+      "items": [
+        {
+          "description": "封装 U23",
+          "pos": {
+            "x": 85.0,
+            "y": 82.0
+          },
+          "uuid": "b5ce21a6-521e-4984-8e44-9716f062e709",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "封装 'LED_Worldsemi_WS2812C-4020-H2' 与库 'RevC_Control' 中的副本不匹配",
+      "rule": "lib_footprint_mismatch",
+      "pos": {
+        "x": 90.0,
+        "y": 118.0
+      },
+      "items": [
+        {
+          "description": "封装 D23",
+          "pos": {
+            "x": 90.0,
+            "y": 118.0
+          },
+          "uuid": "c2085c43-f401-4f77-9e13-43559ab04246",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
       "description": "封装 'USB_A_Receptacle_GCT_USB1046' 与库 'Connector_USB' 中的副本不匹配",
       "rule": "lib_footprint_mismatch",
       "pos": {
@@ -453,6 +628,31 @@
             "y": 73.45
           },
           "uuid": "c289f224-8db1-47b4-8f5b-70305b142e8c",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "封装 'SOT-23-3_JSMICRO_OH49E' 与库 'RevC_Control' 中的副本不匹配",
+      "rule": "lib_footprint_mismatch",
+      "pos": {
+        "x": 219.5,
+        "y": 125.0
+      },
+      "items": [
+        {
+          "description": "封装 U25",
+          "pos": {
+            "x": 219.5,
+            "y": 125.0
+          },
+          "uuid": "d3933b82-4197-449e-9e4f-353d6b905384",
           "ownership_status": "resolved",
           "item_kind": "footprint",
           "layer": "F.Cu",
@@ -1617,6 +1817,92 @@
       "description": "Silkscreen clearance",
       "rule": "silk_overlap",
       "pos": {
+        "x": 116.0,
+        "y": 124.07
+      },
+      "items": [
+        {
+          "description": "R10 的参考字段",
+          "pos": {
+            "x": 116.0,
+            "y": 124.07
+          },
+          "uuid": "92434698-1d12-4f6a-b0a7-1c38eacf9610",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R10",
+            "uuid": "5d7cb044-25fe-4b29-b2d2-e43b260ffd9d"
+          }
+        },
+        {
+          "description": "R9 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 115.762742,
+            "y": 123.5225
+          },
+          "uuid": "fb7e28c3-87cd-43fd-8c54-59228e5b55b5",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R9",
+            "uuid": "12113190-3b05-4e74-aae9-4da5e635da25"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 115.762742,
+        "y": 126.0225
+      },
+      "items": [
+        {
+          "description": "R10 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 115.762742,
+            "y": 126.0225
+          },
+          "uuid": "63676d72-24fc-443e-9236-d7daddcc5249",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R10",
+            "uuid": "5d7cb044-25fe-4b29-b2d2-e43b260ffd9d"
+          }
+        },
+        {
+          "description": "R11 的参考字段",
+          "pos": {
+            "x": 116.0,
+            "y": 126.57
+          },
+          "uuid": "e9848d2e-7862-4a28-be83-723cab1d4753",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R11",
+            "uuid": "570096ac-a404-4840-9a98-7a94a0d9dc70"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
         "x": 181.8,
         "y": 108.87
       },
@@ -1746,6 +2032,49 @@
       "description": "Silkscreen clearance",
       "rule": "silk_overlap",
       "pos": {
+        "x": 181.8,
+        "y": 93.87
+      },
+      "items": [
+        {
+          "description": "R1 的参考字段",
+          "pos": {
+            "x": 181.8,
+            "y": 93.87
+          },
+          "uuid": "066a2db6-9dad-4fb2-9c05-9c4a9bf276e4",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R1",
+            "uuid": "8341c5d2-2414-4254-bdc0-20399c40dbc6"
+          }
+        },
+        {
+          "description": "C2 的参考字段",
+          "pos": {
+            "x": 181.8,
+            "y": 94.079999
+          },
+          "uuid": "0d0b33eb-db9e-4635-bc9b-3f55feecec8a",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C2",
+            "uuid": "56cccb96-e2e0-48f1-bfa3-accaa3d105f6"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
         "x": 44.65,
         "y": 126.65
       },
@@ -1823,221 +2152,6 @@
             "kind": "footprint",
             "reference": "H4",
             "uuid": "32b3d6cd-3cc4-4aa1-91a2-dd79092fc492"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clearance",
-      "rule": "silk_overlap",
-      "pos": {
-        "x": 201.0,
-        "y": 120.57
-      },
-      "items": [
-        {
-          "description": "R19 的参考字段",
-          "pos": {
-            "x": 201.0,
-            "y": 120.57
-          },
-          "uuid": "70868261-ac9f-4660-bee3-92e72f42b3c3",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R19",
-            "uuid": "00666359-c9da-490b-8af5-fe11a13298a1"
-          }
-        },
-        {
-          "description": "R18 的 线段, 位于 F.Silkscreen",
-          "pos": {
-            "x": 200.762742,
-            "y": 120.5225
-          },
-          "uuid": "a5dacab8-cc0b-442d-8df5-742607a7f291",
-          "ownership_status": "resolved",
-          "item_kind": "fp_line",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R18",
-            "uuid": "ff3f47d0-c0b5-48e2-9730-7e648962ee91"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clearance",
-      "rule": "silk_overlap",
-      "pos": {
-        "x": 205.0,
-        "y": 125.17
-      },
-      "items": [
-        {
-          "description": "R20 的参考字段",
-          "pos": {
-            "x": 205.0,
-            "y": 125.17
-          },
-          "uuid": "1cb9c2e3-5b2a-422d-a54d-5db32b180e7d",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R20",
-            "uuid": "75b4785e-d152-4500-8775-590ee12905a0"
-          }
-        },
-        {
-          "description": "C9 的 线段, 位于 F.Silkscreen",
-          "pos": {
-            "x": 203.738748,
-            "y": 124.735
-          },
-          "uuid": "7c5ed07e-05d4-4c04-83e2-1054a6ca2e07",
-          "ownership_status": "resolved",
-          "item_kind": "fp_line",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "C9",
-            "uuid": "f71be6ee-0355-420c-92f2-532038748f79"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clearance",
-      "rule": "silk_overlap",
-      "pos": {
-        "x": 181.8,
-        "y": 93.87
-      },
-      "items": [
-        {
-          "description": "R1 的参考字段",
-          "pos": {
-            "x": 181.8,
-            "y": 93.87
-          },
-          "uuid": "066a2db6-9dad-4fb2-9c05-9c4a9bf276e4",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R1",
-            "uuid": "8341c5d2-2414-4254-bdc0-20399c40dbc6"
-          }
-        },
-        {
-          "description": "C2 的参考字段",
-          "pos": {
-            "x": 181.8,
-            "y": 94.079999
-          },
-          "uuid": "0d0b33eb-db9e-4635-bc9b-3f55feecec8a",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "C2",
-            "uuid": "56cccb96-e2e0-48f1-bfa3-accaa3d105f6"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clearance",
-      "rule": "silk_overlap",
-      "pos": {
-        "x": 115.762742,
-        "y": 126.0225
-      },
-      "items": [
-        {
-          "description": "R10 的 线段, 位于 F.Silkscreen",
-          "pos": {
-            "x": 115.762742,
-            "y": 126.0225
-          },
-          "uuid": "63676d72-24fc-443e-9236-d7daddcc5249",
-          "ownership_status": "resolved",
-          "item_kind": "fp_line",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R10",
-            "uuid": "5d7cb044-25fe-4b29-b2d2-e43b260ffd9d"
-          }
-        },
-        {
-          "description": "R11 的参考字段",
-          "pos": {
-            "x": 116.0,
-            "y": 126.57
-          },
-          "uuid": "e9848d2e-7862-4a28-be83-723cab1d4753",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R11",
-            "uuid": "570096ac-a404-4840-9a98-7a94a0d9dc70"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clearance",
-      "rule": "silk_overlap",
-      "pos": {
-        "x": 116.0,
-        "y": 124.07
-      },
-      "items": [
-        {
-          "description": "R10 的参考字段",
-          "pos": {
-            "x": 116.0,
-            "y": 124.07
-          },
-          "uuid": "92434698-1d12-4f6a-b0a7-1c38eacf9610",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R10",
-            "uuid": "5d7cb044-25fe-4b29-b2d2-e43b260ffd9d"
-          }
-        },
-        {
-          "description": "R9 的 线段, 位于 F.Silkscreen",
-          "pos": {
-            "x": 115.762742,
-            "y": 123.5225
-          },
-          "uuid": "fb7e28c3-87cd-43fd-8c54-59228e5b55b5",
-          "ownership_status": "resolved",
-          "item_kind": "fp_line",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R9",
-            "uuid": "12113190-3b05-4e74-aae9-4da5e635da25"
           }
         }
       ]
@@ -2133,6 +2247,479 @@
       "description": "Silkscreen clearance",
       "rule": "silk_overlap",
       "pos": {
+        "x": 85.0,
+        "y": 117.0
+      },
+      "items": [
+        {
+          "description": "U26 的参考字段",
+          "pos": {
+            "x": 85.0,
+            "y": 117.0
+          },
+          "uuid": "3a4dd1bd-a6b7-440c-be5b-ad9e535eab06",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U26",
+            "uuid": "0210a4e9-72fc-4ade-ac87-d8c321ec3646"
+          }
+        },
+        {
+          "description": "U26 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 83.4,
+            "y": 117.57
+          },
+          "uuid": "ccc49bcc-9987-48eb-bf60-cfad567b1212",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U26",
+            "uuid": "0210a4e9-72fc-4ade-ac87-d8c321ec3646"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 85.0,
+        "y": 81.0
+      },
+      "items": [
+        {
+          "description": "U23 的参考字段",
+          "pos": {
+            "x": 85.0,
+            "y": 81.0
+          },
+          "uuid": "9df469f1-3099-4457-9d02-cfd3f659b6aa",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U23",
+            "uuid": "b5ce21a6-521e-4984-8e44-9716f062e709"
+          }
+        },
+        {
+          "description": "U23 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 85.48,
+            "y": 81.57
+          },
+          "uuid": "a542f614-4101-4125-86d7-662e6f850c65",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U23",
+            "uuid": "b5ce21a6-521e-4984-8e44-9716f062e709"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 83.4,
+        "y": 81.57
+      },
+      "items": [
+        {
+          "description": "U23 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 83.4,
+            "y": 81.57
+          },
+          "uuid": "0bb92005-650b-4273-9956-a0fc96920ee6",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U23",
+            "uuid": "b5ce21a6-521e-4984-8e44-9716f062e709"
+          }
+        },
+        {
+          "description": "U23 的参考字段",
+          "pos": {
+            "x": 85.0,
+            "y": 81.0
+          },
+          "uuid": "9df469f1-3099-4457-9d02-cfd3f659b6aa",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U23",
+            "uuid": "b5ce21a6-521e-4984-8e44-9716f062e709"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 85.0,
+        "y": 117.0
+      },
+      "items": [
+        {
+          "description": "U26 的参考字段",
+          "pos": {
+            "x": 85.0,
+            "y": 117.0
+          },
+          "uuid": "3a4dd1bd-a6b7-440c-be5b-ad9e535eab06",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U26",
+            "uuid": "0210a4e9-72fc-4ade-ac87-d8c321ec3646"
+          }
+        },
+        {
+          "description": "U26 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 85.48,
+            "y": 117.57
+          },
+          "uuid": "5c8ae281-0f43-4a3f-bc2b-265b1b3e7153",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U26",
+            "uuid": "0210a4e9-72fc-4ade-ac87-d8c321ec3646"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 208.9,
+        "y": 126.4
+      },
+      "items": [
+        {
+          "description": "JPOWER1 的 矩形, 位于 F.Silkscreen",
+          "pos": {
+            "x": 208.9,
+            "y": 126.4
+          },
+          "uuid": "24a66ccb-8880-4996-ba79-448773bc9422",
+          "ownership_status": "resolved",
+          "item_kind": "fp_rect",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "JPOWER1",
+            "uuid": "5daa5460-6e35-4310-b16f-b54f3a2d9308"
+          }
+        },
+        {
+          "description": "JPOWER1 的参考字段",
+          "pos": {
+            "x": 213.0,
+            "y": 127.0
+          },
+          "uuid": "ea98043a-eb1e-4d55-af59-c94650b776ff",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "JPOWER1",
+            "uuid": "5daa5460-6e35-4310-b16f-b54f3a2d9308"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 217.9,
+        "y": 124.57
+      },
+      "items": [
+        {
+          "description": "U25 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 217.9,
+            "y": 124.57
+          },
+          "uuid": "9814a754-bd08-4724-8845-17ca4f9d76bb",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U25",
+            "uuid": "d3933b82-4197-449e-9e4f-353d6b905384"
+          }
+        },
+        {
+          "description": "U25 的参考字段",
+          "pos": {
+            "x": 219.5,
+            "y": 124.0
+          },
+          "uuid": "fce1aab4-ba3b-4b25-a748-40a0d37cf224",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U25",
+            "uuid": "d3933b82-4197-449e-9e4f-353d6b905384"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 205.0,
+        "y": 125.17
+      },
+      "items": [
+        {
+          "description": "R20 的参考字段",
+          "pos": {
+            "x": 205.0,
+            "y": 125.17
+          },
+          "uuid": "1cb9c2e3-5b2a-422d-a54d-5db32b180e7d",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R20",
+            "uuid": "75b4785e-d152-4500-8775-590ee12905a0"
+          }
+        },
+        {
+          "description": "C9 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 203.738748,
+            "y": 124.735
+          },
+          "uuid": "7c5ed07e-05d4-4c04-83e2-1054a6ca2e07",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C9",
+            "uuid": "f71be6ee-0355-420c-92f2-532038748f79"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 214.738748,
+        "y": 87.235
+      },
+      "items": [
+        {
+          "description": "C7 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 214.738748,
+            "y": 87.235
+          },
+          "uuid": "2b225b8c-cb6f-4757-8884-c28db60e1bef",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C7",
+            "uuid": "63fb0d33-685e-41a6-8dd9-bc01773a8c72"
+          }
+        },
+        {
+          "description": "C6 的参考字段",
+          "pos": {
+            "x": 214.0,
+            "y": 87.32
+          },
+          "uuid": "86bdc02a-77af-471e-87f2-838121adc6b9",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C6",
+            "uuid": "68cc76ab-db05-44ec-b88a-e3868ae1ae92"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 213.4,
+        "y": 81.57
+      },
+      "items": [
+        {
+          "description": "U24 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 213.4,
+            "y": 81.57
+          },
+          "uuid": "a1ee5428-6c35-49ec-8a04-30b66aa51dee",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U24",
+            "uuid": "91730a7e-3c44-40fd-84bb-86f60b4a2462"
+          }
+        },
+        {
+          "description": "U24 的参考字段",
+          "pos": {
+            "x": 215.0,
+            "y": 81.0
+          },
+          "uuid": "b29fed54-ab8c-46f2-bda3-04fe45a3e6e0",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U24",
+            "uuid": "91730a7e-3c44-40fd-84bb-86f60b4a2462"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 215.48,
+        "y": 81.57
+      },
+      "items": [
+        {
+          "description": "U24 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 215.48,
+            "y": 81.57
+          },
+          "uuid": "96de8ff0-22e5-41de-b030-448de56bb719",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U24",
+            "uuid": "91730a7e-3c44-40fd-84bb-86f60b4a2462"
+          }
+        },
+        {
+          "description": "U24 的参考字段",
+          "pos": {
+            "x": 215.0,
+            "y": 81.0
+          },
+          "uuid": "b29fed54-ab8c-46f2-bda3-04fe45a3e6e0",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U24",
+            "uuid": "91730a7e-3c44-40fd-84bb-86f60b4a2462"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 201.0,
+        "y": 120.57
+      },
+      "items": [
+        {
+          "description": "R19 的参考字段",
+          "pos": {
+            "x": 201.0,
+            "y": 120.57
+          },
+          "uuid": "70868261-ac9f-4660-bee3-92e72f42b3c3",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R19",
+            "uuid": "00666359-c9da-490b-8af5-fe11a13298a1"
+          }
+        },
+        {
+          "description": "R18 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 200.762742,
+            "y": 120.5225
+          },
+          "uuid": "a5dacab8-cc0b-442d-8df5-742607a7f291",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R18",
+            "uuid": "ff3f47d0-c0b5-48e2-9730-7e648962ee91"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
         "x": 214.0,
         "y": 108.55
       },
@@ -2219,49 +2806,6 @@
       "description": "Silkscreen clearance",
       "rule": "silk_overlap",
       "pos": {
-        "x": 254.0,
-        "y": 127.0
-      },
-      "items": [
-        {
-          "description": "H2 的参考字段",
-          "pos": {
-            "x": 254.0,
-            "y": 127.0
-          },
-          "uuid": "4cc4cb6f-9138-4fff-946c-200ef8d39f7c",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "H2",
-            "uuid": "13cb15bf-eb74-4bfd-8dce-bf789284b2a0"
-          }
-        },
-        {
-          "description": "H2 的 矩形, 位于 F.Silkscreen",
-          "pos": {
-            "x": 252.65,
-            "y": 126.65
-          },
-          "uuid": "6f59d1e1-7011-4f06-a7f2-5ed5ee16b347",
-          "ownership_status": "resolved",
-          "item_kind": "fp_rect",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "H2",
-            "uuid": "13cb15bf-eb74-4bfd-8dce-bf789284b2a0"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clearance",
-      "rule": "silk_overlap",
-      "pos": {
         "x": 219.0,
         "y": 111.82
       },
@@ -2305,40 +2849,83 @@
       "description": "Silkscreen clearance",
       "rule": "silk_overlap",
       "pos": {
-        "x": 214.738748,
-        "y": 87.235
+        "x": 254.0,
+        "y": 127.0
       },
       "items": [
         {
-          "description": "C7 的 线段, 位于 F.Silkscreen",
+          "description": "H2 的参考字段",
           "pos": {
-            "x": 214.738748,
-            "y": 87.235
+            "x": 254.0,
+            "y": 127.0
           },
-          "uuid": "2b225b8c-cb6f-4757-8884-c28db60e1bef",
-          "ownership_status": "resolved",
-          "item_kind": "fp_line",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "C7",
-            "uuid": "63fb0d33-685e-41a6-8dd9-bc01773a8c72"
-          }
-        },
-        {
-          "description": "C6 的参考字段",
-          "pos": {
-            "x": 214.0,
-            "y": 87.32
-          },
-          "uuid": "86bdc02a-77af-471e-87f2-838121adc6b9",
+          "uuid": "4cc4cb6f-9138-4fff-946c-200ef8d39f7c",
           "ownership_status": "resolved",
           "item_kind": "property",
           "layer": "F.SilkS",
           "owner": {
             "kind": "footprint",
-            "reference": "C6",
-            "uuid": "68cc76ab-db05-44ec-b88a-e3868ae1ae92"
+            "reference": "H2",
+            "uuid": "13cb15bf-eb74-4bfd-8dce-bf789284b2a0"
+          }
+        },
+        {
+          "description": "H2 的 矩形, 位于 F.Silkscreen",
+          "pos": {
+            "x": 252.65,
+            "y": 126.65
+          },
+          "uuid": "6f59d1e1-7011-4f06-a7f2-5ed5ee16b347",
+          "ownership_status": "resolved",
+          "item_kind": "fp_rect",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H2",
+            "uuid": "13cb15bf-eb74-4bfd-8dce-bf789284b2a0"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 219.98,
+        "y": 124.57
+      },
+      "items": [
+        {
+          "description": "U25 的 线段, 位于 F.Silkscreen",
+          "pos": {
+            "x": 219.98,
+            "y": 124.57
+          },
+          "uuid": "2f5ea234-b78a-4dad-9023-e9b1e6230942",
+          "ownership_status": "resolved",
+          "item_kind": "fp_line",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U25",
+            "uuid": "d3933b82-4197-449e-9e4f-353d6b905384"
+          }
+        },
+        {
+          "description": "U25 的参考字段",
+          "pos": {
+            "x": 219.5,
+            "y": 124.0
+          },
+          "uuid": "fce1aab4-ba3b-4b25-a748-40a0d37cf224",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U25",
+            "uuid": "d3933b82-4197-449e-9e4f-353d6b905384"
           }
         }
       ]
@@ -2431,43 +3018,168 @@
     },
     {
       "severity": "warning",
-      "description": "Silkscreen clearance",
-      "rule": "silk_overlap",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
       "pos": {
-        "x": 208.9,
-        "y": 126.4
+        "x": 116.0,
+        "y": 124.07
       },
       "items": [
         {
-          "description": "JPOWER1 的 矩形, 位于 F.Silkscreen",
+          "description": "R10 的参考字段",
           "pos": {
-            "x": 208.9,
-            "y": 126.4
+            "x": 116.0,
+            "y": 124.07
           },
-          "uuid": "24a66ccb-8880-4996-ba79-448773bc9422",
-          "ownership_status": "resolved",
-          "item_kind": "fp_rect",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "JPOWER1",
-            "uuid": "5daa5460-6e35-4310-b16f-b54f3a2d9308"
-          }
-        },
-        {
-          "description": "JPOWER1 的参考字段",
-          "pos": {
-            "x": 213.0,
-            "y": 127.0
-          },
-          "uuid": "ea98043a-eb1e-4d55-af59-c94650b776ff",
+          "uuid": "92434698-1d12-4f6a-b0a7-1c38eacf9610",
           "ownership_status": "resolved",
           "item_kind": "property",
           "layer": "F.SilkS",
           "owner": {
             "kind": "footprint",
-            "reference": "JPOWER1",
-            "uuid": "5daa5460-6e35-4310-b16f-b54f3a2d9308"
+            "reference": "R10",
+            "uuid": "5d7cb044-25fe-4b29-b2d2-e43b260ffd9d"
+          }
+        },
+        {
+          "description": "F.Cu 上 R9 的焊盘 2 [/Main_Control/ENC_A_GPIO1]",
+          "pos": {
+            "x": 116.825,
+            "y": 123.0
+          },
+          "uuid": "ae4000ff-6dbb-4390-986c-d5bb4ae1e943",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R9",
+            "uuid": "12113190-3b05-4e74-aae9-4da5e635da25"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 116.0,
+        "y": 124.07
+      },
+      "items": [
+        {
+          "description": "R10 的参考字段",
+          "pos": {
+            "x": 116.0,
+            "y": 124.07
+          },
+          "uuid": "92434698-1d12-4f6a-b0a7-1c38eacf9610",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R10",
+            "uuid": "5d7cb044-25fe-4b29-b2d2-e43b260ffd9d"
+          }
+        },
+        {
+          "description": "F.Cu 上 R9 的焊盘 1 [3V3]",
+          "pos": {
+            "x": 115.175,
+            "y": 123.0
+          },
+          "uuid": "ce3b4da2-4d92-4a4c-8577-594f8e411317",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R9",
+            "uuid": "12113190-3b05-4e74-aae9-4da5e635da25"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 116.0,
+        "y": 126.57
+      },
+      "items": [
+        {
+          "description": "R11 的参考字段",
+          "pos": {
+            "x": 116.0,
+            "y": 126.57
+          },
+          "uuid": "e9848d2e-7862-4a28-be83-723cab1d4753",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R11",
+            "uuid": "570096ac-a404-4840-9a98-7a94a0d9dc70"
+          }
+        },
+        {
+          "description": "F.Cu 上 R10 的焊盘 1 [3V3]",
+          "pos": {
+            "x": 115.175,
+            "y": 125.5
+          },
+          "uuid": "4adc97ad-5643-4b0d-b6f4-0cdb65772ee3",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R10",
+            "uuid": "5d7cb044-25fe-4b29-b2d2-e43b260ffd9d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 116.0,
+        "y": 126.57
+      },
+      "items": [
+        {
+          "description": "R11 的参考字段",
+          "pos": {
+            "x": 116.0,
+            "y": 126.57
+          },
+          "uuid": "e9848d2e-7862-4a28-be83-723cab1d4753",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R11",
+            "uuid": "570096ac-a404-4840-9a98-7a94a0d9dc70"
+          }
+        },
+        {
+          "description": "F.Cu 上 R10 的焊盘 2 [/Main_Control/ENC_B_GPIO2]",
+          "pos": {
+            "x": 116.825,
+            "y": 125.5
+          },
+          "uuid": "5d7d6f30-35a0-49bf-a0df-b2a1a364d82f",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R10",
+            "uuid": "5d7cb044-25fe-4b29-b2d2-e43b260ffd9d"
           }
         }
       ]
@@ -2729,6 +3441,1224 @@
       "description": "Silkscreen clipped by solder mask",
       "rule": "silk_over_copper",
       "pos": {
+        "x": 100.0,
+        "y": 113.07
+      },
+      "items": [
+        {
+          "description": "R17 的参考字段",
+          "pos": {
+            "x": 100.0,
+            "y": 113.07
+          },
+          "uuid": "7109f4e0-cbed-45db-9091-ad3cd6848321",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R17",
+            "uuid": "cabb54c9-e62a-4629-8348-4825394b0615"
+          }
+        },
+        {
+          "description": "F.Cu 上 R16 的焊盘 1 [3V3]",
+          "pos": {
+            "x": 99.175,
+            "y": 112.0
+          },
+          "uuid": "4207c77e-1080-45a9-8aa3-1595c0d86c8e",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R16",
+            "uuid": "fb427b7c-a0c9-4d61-a63e-a58c458508b1"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 100.0,
+        "y": 113.07
+      },
+      "items": [
+        {
+          "description": "R17 的参考字段",
+          "pos": {
+            "x": 100.0,
+            "y": 113.07
+          },
+          "uuid": "7109f4e0-cbed-45db-9091-ad3cd6848321",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R17",
+            "uuid": "cabb54c9-e62a-4629-8348-4825394b0615"
+          }
+        },
+        {
+          "description": "F.Cu 上 R16 的焊盘 2 [/Main_Control/HAP_L_SDA]",
+          "pos": {
+            "x": 100.825,
+            "y": 112.0
+          },
+          "uuid": "5210b31a-3f36-4ed7-a584-d8745a957bf2",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R16",
+            "uuid": "fb427b7c-a0c9-4d61-a63e-a58c458508b1"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 95.5,
+        "y": 106.819999
+      },
+      "items": [
+        {
+          "description": "C11 的参考字段",
+          "pos": {
+            "x": 95.5,
+            "y": 106.819999
+          },
+          "uuid": "0839a6e5-6189-4188-9a1e-c4aee3907ac2",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C11",
+            "uuid": "e9fc3522-9508-44dc-ad94-2893dcc1c457"
+          }
+        },
+        {
+          "description": "F.Cu 上 C10 的焊盘 1 [/Main_Control/HAPTIC_VDD]",
+          "pos": {
+            "x": 94.55,
+            "y": 106.0
+          },
+          "uuid": "a8855aee-0a5a-40f6-aa0c-12caca5d512c",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C10",
+            "uuid": "894ac7ef-7766-4616-bf3a-ef19f42e7556"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 90.0,
+        "y": 81.0
+      },
+      "items": [
+        {
+          "description": "D20 的参考字段",
+          "pos": {
+            "x": 90.0,
+            "y": 81.0
+          },
+          "uuid": "c2152dec-1297-4764-b5c2-db8669ec5767",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D20",
+            "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548"
+          }
+        },
+        {
+          "description": "F.Cu 上 D20 的焊盘 4 [<no net>]",
+          "pos": {
+            "x": 91.575,
+            "y": 81.47
+          },
+          "uuid": "98fb41a7-b566-44bf-a76d-80c81fb39fb3",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D20",
+            "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 90.0,
+        "y": 81.0
+      },
+      "items": [
+        {
+          "description": "D20 的参考字段",
+          "pos": {
+            "x": 90.0,
+            "y": 81.0
+          },
+          "uuid": "c2152dec-1297-4764-b5c2-db8669ec5767",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D20",
+            "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548"
+          }
+        },
+        {
+          "description": "F.Cu 上 D20 的焊盘 3 [<no net>]",
+          "pos": {
+            "x": 90.575,
+            "y": 81.47
+          },
+          "uuid": "bc35b2ad-8b64-4b28-b88e-6c5573268bbe",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D20",
+            "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 90.0,
+        "y": 81.0
+      },
+      "items": [
+        {
+          "description": "D20 的参考字段",
+          "pos": {
+            "x": 90.0,
+            "y": 81.0
+          },
+          "uuid": "c2152dec-1297-4764-b5c2-db8669ec5767",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D20",
+            "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548"
+          }
+        },
+        {
+          "description": "F.Cu 上 D20 的焊盘 1 [<no net>]",
+          "pos": {
+            "x": 88.325,
+            "y": 81.47
+          },
+          "uuid": "41aa25a6-9b35-442d-ad80-bd2d87f95711",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D20",
+            "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 90.0,
+        "y": 81.0
+      },
+      "items": [
+        {
+          "description": "D20 的参考字段",
+          "pos": {
+            "x": 90.0,
+            "y": 81.0
+          },
+          "uuid": "c2152dec-1297-4764-b5c2-db8669ec5767",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D20",
+            "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548"
+          }
+        },
+        {
+          "description": "F.Cu 上 D20 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 89.575,
+            "y": 81.47
+          },
+          "uuid": "404027bf-980e-4718-92bc-20a3fae5be09",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D20",
+            "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 85.0,
+        "y": 81.0
+      },
+      "items": [
+        {
+          "description": "U23 的参考字段",
+          "pos": {
+            "x": 85.0,
+            "y": 81.0
+          },
+          "uuid": "9df469f1-3099-4457-9d02-cfd3f659b6aa",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U23",
+            "uuid": "b5ce21a6-521e-4984-8e44-9716f062e709"
+          }
+        },
+        {
+          "description": "F.Cu 上 U23 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 85.0,
+            "y": 80.92
+          },
+          "uuid": "55aef435-dc03-4639-85ac-1aa98a4f62ea",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U23",
+            "uuid": "b5ce21a6-521e-4984-8e44-9716f062e709"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 90.0,
+        "y": 117.0
+      },
+      "items": [
+        {
+          "description": "D23 的参考字段",
+          "pos": {
+            "x": 90.0,
+            "y": 117.0
+          },
+          "uuid": "1de9c713-9367-4f9e-99d7-de42fd2c0e54",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D23",
+            "uuid": "c2085c43-f401-4f77-9e13-43559ab04246"
+          }
+        },
+        {
+          "description": "F.Cu 上 D23 的焊盘 1 [<no net>]",
+          "pos": {
+            "x": 88.325,
+            "y": 117.47
+          },
+          "uuid": "af38a451-7f5c-416a-833e-c02a3c1f6e3f",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D23",
+            "uuid": "c2085c43-f401-4f77-9e13-43559ab04246"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 90.0,
+        "y": 117.0
+      },
+      "items": [
+        {
+          "description": "D23 的参考字段",
+          "pos": {
+            "x": 90.0,
+            "y": 117.0
+          },
+          "uuid": "1de9c713-9367-4f9e-99d7-de42fd2c0e54",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D23",
+            "uuid": "c2085c43-f401-4f77-9e13-43559ab04246"
+          }
+        },
+        {
+          "description": "F.Cu 上 D23 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 89.575,
+            "y": 117.47
+          },
+          "uuid": "aec0bac5-c0d0-4cac-bb5a-e418a5d0fb00",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D23",
+            "uuid": "c2085c43-f401-4f77-9e13-43559ab04246"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 90.0,
+        "y": 117.0
+      },
+      "items": [
+        {
+          "description": "D23 的参考字段",
+          "pos": {
+            "x": 90.0,
+            "y": 117.0
+          },
+          "uuid": "1de9c713-9367-4f9e-99d7-de42fd2c0e54",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D23",
+            "uuid": "c2085c43-f401-4f77-9e13-43559ab04246"
+          }
+        },
+        {
+          "description": "F.Cu 上 D23 的焊盘 3 [<no net>]",
+          "pos": {
+            "x": 90.575,
+            "y": 117.47
+          },
+          "uuid": "60d166ed-eda5-44f9-a4b0-14bb56dc48b3",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D23",
+            "uuid": "c2085c43-f401-4f77-9e13-43559ab04246"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 90.0,
+        "y": 117.0
+      },
+      "items": [
+        {
+          "description": "D23 的参考字段",
+          "pos": {
+            "x": 90.0,
+            "y": 117.0
+          },
+          "uuid": "1de9c713-9367-4f9e-99d7-de42fd2c0e54",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D23",
+            "uuid": "c2085c43-f401-4f77-9e13-43559ab04246"
+          }
+        },
+        {
+          "description": "F.Cu 上 D23 的焊盘 4 [<no net>]",
+          "pos": {
+            "x": 91.575,
+            "y": 117.47
+          },
+          "uuid": "7c627979-91b3-42fc-9496-5e7ee15f8836",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D23",
+            "uuid": "c2085c43-f401-4f77-9e13-43559ab04246"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 85.0,
+        "y": 117.0
+      },
+      "items": [
+        {
+          "description": "U26 的参考字段",
+          "pos": {
+            "x": 85.0,
+            "y": 117.0
+          },
+          "uuid": "3a4dd1bd-a6b7-440c-be5b-ad9e535eab06",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U26",
+            "uuid": "0210a4e9-72fc-4ade-ac87-d8c321ec3646"
+          }
+        },
+        {
+          "description": "F.Cu 上 U26 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 85.0,
+            "y": 116.92
+          },
+          "uuid": "2fbff001-3774-473b-aa6f-e6d041d750a6",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U26",
+            "uuid": "0210a4e9-72fc-4ade-ac87-d8c321ec3646"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 95.5,
+        "y": 106.819999
+      },
+      "items": [
+        {
+          "description": "C11 的参考字段",
+          "pos": {
+            "x": 95.5,
+            "y": 106.819999
+          },
+          "uuid": "0839a6e5-6189-4188-9a1e-c4aee3907ac2",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C11",
+            "uuid": "e9fc3522-9508-44dc-ad94-2893dcc1c457"
+          }
+        },
+        {
+          "description": "F.Cu 上 C10 的焊盘 2 [GND]",
+          "pos": {
+            "x": 96.45,
+            "y": 106.0
+          },
+          "uuid": "2d937f7f-afb2-43b0-b420-85bf56d957bf",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C10",
+            "uuid": "894ac7ef-7766-4616-bf3a-ef19f42e7556"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 90.0,
+        "y": 104.55
+      },
+      "items": [
+        {
+          "description": "U4 的参考字段",
+          "pos": {
+            "x": 90.0,
+            "y": 104.55
+          },
+          "uuid": "8f84380e-dc22-4337-b80a-07e50fae0b46",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U4",
+            "uuid": "998072ee-d2b9-4daa-a809-8cb1a409d8dd"
+          }
+        },
+        {
+          "description": "F.Cu 上 C12 的焊盘 2 [GND]",
+          "pos": {
+            "x": 89.45,
+            "y": 103.5
+          },
+          "uuid": "d8b5ae66-ca64-4987-b9e2-661ceb30fc2b",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C12",
+            "uuid": "ac2be35b-8557-4a40-b7c0-5dce15a2f0af"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 210.5,
+        "y": 123.5
+      },
+      "items": [
+        {
+          "description": "D22 的参考字段",
+          "pos": {
+            "x": 210.5,
+            "y": 123.5
+          },
+          "uuid": "6390a8fd-1162-41b9-9a95-03aae9b9913e",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D22",
+            "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4"
+          }
+        },
+        {
+          "description": "F.Cu 上 D22 的焊盘 1 [<no net>]",
+          "pos": {
+            "x": 208.825,
+            "y": 123.97
+          },
+          "uuid": "c0cb93d5-bb49-436b-bc39-58fa804de9c3",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D22",
+            "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 210.5,
+        "y": 123.5
+      },
+      "items": [
+        {
+          "description": "D22 的参考字段",
+          "pos": {
+            "x": 210.5,
+            "y": 123.5
+          },
+          "uuid": "6390a8fd-1162-41b9-9a95-03aae9b9913e",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D22",
+            "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4"
+          }
+        },
+        {
+          "description": "F.Cu 上 D22 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 210.075,
+            "y": 123.97
+          },
+          "uuid": "630356cb-b0d6-4a7d-b072-8d16aae989dd",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D22",
+            "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 210.5,
+        "y": 123.5
+      },
+      "items": [
+        {
+          "description": "D22 的参考字段",
+          "pos": {
+            "x": 210.5,
+            "y": 123.5
+          },
+          "uuid": "6390a8fd-1162-41b9-9a95-03aae9b9913e",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D22",
+            "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4"
+          }
+        },
+        {
+          "description": "F.Cu 上 D22 的焊盘 3 [<no net>]",
+          "pos": {
+            "x": 211.075,
+            "y": 123.97
+          },
+          "uuid": "d0b4bcdd-82c8-45ce-b39b-f1abc1756051",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D22",
+            "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 210.5,
+        "y": 123.5
+      },
+      "items": [
+        {
+          "description": "D22 的参考字段",
+          "pos": {
+            "x": 210.5,
+            "y": 123.5
+          },
+          "uuid": "6390a8fd-1162-41b9-9a95-03aae9b9913e",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D22",
+            "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4"
+          }
+        },
+        {
+          "description": "F.Cu 上 D22 的焊盘 4 [<no net>]",
+          "pos": {
+            "x": 212.075,
+            "y": 123.97
+          },
+          "uuid": "09bf05e3-4231-41ea-b0ec-2f903547bd15",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D22",
+            "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 213.0,
+        "y": 127.0
+      },
+      "items": [
+        {
+          "description": "JPOWER1 的参考字段",
+          "pos": {
+            "x": 213.0,
+            "y": 127.0
+          },
+          "uuid": "ea98043a-eb1e-4d55-af59-c94650b776ff",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "JPOWER1",
+            "uuid": "5daa5460-6e35-4310-b16f-b54f3a2d9308"
+          }
+        },
+        {
+          "description": "JPOWER1 的PTH 焊盘 1 [/Main_Control/5V_CORE]",
+          "pos": {
+            "x": 210.46,
+            "y": 128.0
+          },
+          "uuid": "1344caa8-a614-438c-b81f-c2e63f088c95",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "JPOWER1",
+            "uuid": "5daa5460-6e35-4310-b16f-b54f3a2d9308"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 213.0,
+        "y": 127.0
+      },
+      "items": [
+        {
+          "description": "JPOWER1 的参考字段",
+          "pos": {
+            "x": 213.0,
+            "y": 127.0
+          },
+          "uuid": "ea98043a-eb1e-4d55-af59-c94650b776ff",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "JPOWER1",
+            "uuid": "5daa5460-6e35-4310-b16f-b54f3a2d9308"
+          }
+        },
+        {
+          "description": "JPOWER1 的PTH 焊盘 2 [GND]",
+          "pos": {
+            "x": 215.54,
+            "y": 128.0
+          },
+          "uuid": "2083a28e-a12b-4317-b074-d8a607e8e807",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "JPOWER1",
+            "uuid": "5daa5460-6e35-4310-b16f-b54f3a2d9308"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 205.0,
+        "y": 125.17
+      },
+      "items": [
+        {
+          "description": "R20 的参考字段",
+          "pos": {
+            "x": 205.0,
+            "y": 125.17
+          },
+          "uuid": "1cb9c2e3-5b2a-422d-a54d-5db32b180e7d",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "R20",
+            "uuid": "75b4785e-d152-4500-8775-590ee12905a0"
+          }
+        },
+        {
+          "description": "F.Cu 上 C9 的焊盘 2 [GND]",
+          "pos": {
+            "x": 204.95,
+            "y": 124.0
+          },
+          "uuid": "2a31ecc4-522f-46e8-9cd3-502a22c47dc7",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C9",
+            "uuid": "f71be6ee-0355-420c-92f2-532038748f79"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 214.0,
+        "y": 87.32
+      },
+      "items": [
+        {
+          "description": "C6 的参考字段",
+          "pos": {
+            "x": 214.0,
+            "y": 87.32
+          },
+          "uuid": "86bdc02a-77af-471e-87f2-838121adc6b9",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C6",
+            "uuid": "68cc76ab-db05-44ec-b88a-e3868ae1ae92"
+          }
+        },
+        {
+          "description": "F.Cu 上 C7 的焊盘 1 [3V3]",
+          "pos": {
+            "x": 214.05,
+            "y": 86.5
+          },
+          "uuid": "bd5f1fa3-dcea-4767-bc28-469ca757c686",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C7",
+            "uuid": "63fb0d33-685e-41a6-8dd9-bc01773a8c72"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 210.0,
+        "y": 81.0
+      },
+      "items": [
+        {
+          "description": "D21 的参考字段",
+          "pos": {
+            "x": 210.0,
+            "y": 81.0
+          },
+          "uuid": "ebff3713-9dda-4717-8a41-88d71ba5921e",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D21",
+            "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3"
+          }
+        },
+        {
+          "description": "F.Cu 上 D21 的焊盘 3 [<no net>]",
+          "pos": {
+            "x": 210.575,
+            "y": 81.47
+          },
+          "uuid": "49143c2d-11ba-4a95-81f9-e7a711a88a0c",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D21",
+            "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 210.0,
+        "y": 81.0
+      },
+      "items": [
+        {
+          "description": "D21 的参考字段",
+          "pos": {
+            "x": 210.0,
+            "y": 81.0
+          },
+          "uuid": "ebff3713-9dda-4717-8a41-88d71ba5921e",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D21",
+            "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3"
+          }
+        },
+        {
+          "description": "F.Cu 上 D21 的焊盘 4 [<no net>]",
+          "pos": {
+            "x": 211.575,
+            "y": 81.47
+          },
+          "uuid": "8a8d0942-7046-4209-9095-ab9f9a8d429a",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D21",
+            "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 215.0,
+        "y": 81.0
+      },
+      "items": [
+        {
+          "description": "U24 的参考字段",
+          "pos": {
+            "x": 215.0,
+            "y": 81.0
+          },
+          "uuid": "b29fed54-ab8c-46f2-bda3-04fe45a3e6e0",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U24",
+            "uuid": "91730a7e-3c44-40fd-84bb-86f60b4a2462"
+          }
+        },
+        {
+          "description": "F.Cu 上 U24 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 215.0,
+            "y": 80.92
+          },
+          "uuid": "46bdb476-961b-4f09-b882-c2953722824a",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U24",
+            "uuid": "91730a7e-3c44-40fd-84bb-86f60b4a2462"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 205.6,
+        "y": 94.0
+      },
+      "items": [
+        {
+          "description": "U2 的参考字段",
+          "pos": {
+            "x": 205.6,
+            "y": 94.0
+          },
+          "uuid": "a87e0de5-a85b-4a52-819d-2c1906afc97e",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U2",
+            "uuid": "bbc0802a-883e-4939-bf2f-8acad214b7c6"
+          }
+        },
+        {
+          "description": "F.Cu 上 C4 的焊盘 2 [GND]",
+          "pos": {
+            "x": 205.2,
+            "y": 95.05
+          },
+          "uuid": "99befe45-39d7-45f2-b3ed-88b9c6fccdc2",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C4",
+            "uuid": "cdebd656-bc19-4192-a496-dc2e4eaf43e2"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 203.52,
+        "y": 96.0
+      },
+      "items": [
+        {
+          "description": "C4 的参考字段",
+          "pos": {
+            "x": 203.52,
+            "y": 96.0
+          },
+          "uuid": "8e71fe42-2f94-455b-912b-1cfd0453f6a3",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C4",
+            "uuid": "cdebd656-bc19-4192-a496-dc2e4eaf43e2"
+          }
+        },
+        {
+          "description": "F.Cu 上 U1 的焊盘 38 [/Main_Control/ENC_B_GPIO2]",
+          "pos": {
+            "x": 202.75,
+            "y": 95.13
+          },
+          "uuid": "ec99593d-ce41-44ab-8458-649c7633e6f6",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 203.52,
+        "y": 96.0
+      },
+      "items": [
+        {
+          "description": "C4 的参考字段",
+          "pos": {
+            "x": 203.52,
+            "y": 96.0
+          },
+          "uuid": "8e71fe42-2f94-455b-912b-1cfd0453f6a3",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "C4",
+            "uuid": "cdebd656-bc19-4192-a496-dc2e4eaf43e2"
+          }
+        },
+        {
+          "description": "F.Cu 上 U1 的焊盘 37 [/Main_Control/UART_TX_GPIO43]",
+          "pos": {
+            "x": 202.75,
+            "y": 96.4
+          },
+          "uuid": "185814c8-42e0-47a5-9a45-084c666cf57b",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
         "x": 201.0,
         "y": 120.57
       },
@@ -2804,132 +4734,6 @@
             "kind": "footprint",
             "reference": "R18",
             "uuid": "ff3f47d0-c0b5-48e2-9730-7e648962ee91"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 205.0,
-        "y": 125.17
-      },
-      "items": [
-        {
-          "description": "R20 的参考字段",
-          "pos": {
-            "x": 205.0,
-            "y": 125.17
-          },
-          "uuid": "1cb9c2e3-5b2a-422d-a54d-5db32b180e7d",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R20",
-            "uuid": "75b4785e-d152-4500-8775-590ee12905a0"
-          }
-        },
-        {
-          "description": "F.Cu 上 C9 的焊盘 2 [GND]",
-          "pos": {
-            "x": 204.95,
-            "y": 124.0
-          },
-          "uuid": "2a31ecc4-522f-46e8-9cd3-502a22c47dc7",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "C9",
-            "uuid": "f71be6ee-0355-420c-92f2-532038748f79"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 90.0,
-        "y": 104.55
-      },
-      "items": [
-        {
-          "description": "U4 的参考字段",
-          "pos": {
-            "x": 90.0,
-            "y": 104.55
-          },
-          "uuid": "8f84380e-dc22-4337-b80a-07e50fae0b46",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "U4",
-            "uuid": "998072ee-d2b9-4daa-a809-8cb1a409d8dd"
-          }
-        },
-        {
-          "description": "F.Cu 上 C12 的焊盘 2 [GND]",
-          "pos": {
-            "x": 89.45,
-            "y": 103.5
-          },
-          "uuid": "d8b5ae66-ca64-4987-b9e2-661ceb30fc2b",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "C12",
-            "uuid": "ac2be35b-8557-4a40-b7c0-5dce15a2f0af"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 95.5,
-        "y": 106.819999
-      },
-      "items": [
-        {
-          "description": "C11 的参考字段",
-          "pos": {
-            "x": 95.5,
-            "y": 106.819999
-          },
-          "uuid": "0839a6e5-6189-4188-9a1e-c4aee3907ac2",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "C11",
-            "uuid": "e9fc3522-9508-44dc-ad94-2893dcc1c457"
-          }
-        },
-        {
-          "description": "F.Cu 上 C10 的焊盘 1 [/Main_Control/HAPTIC_VDD]",
-          "pos": {
-            "x": 94.55,
-            "y": 106.0
-          },
-          "uuid": "a8855aee-0a5a-40f6-aa0c-12caca5d512c",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "C10",
-            "uuid": "894ac7ef-7766-4616-bf3a-ef19f42e7556"
           }
         }
       ]
@@ -3023,291 +4827,39 @@
       "description": "Silkscreen clipped by solder mask",
       "rule": "silk_over_copper",
       "pos": {
-        "x": 116.0,
-        "y": 126.57
+        "x": 212.0,
+        "y": 112.32
       },
       "items": [
         {
-          "description": "R11 的参考字段",
+          "description": "C8 的参考字段",
           "pos": {
-            "x": 116.0,
-            "y": 126.57
+            "x": 212.0,
+            "y": 112.32
           },
-          "uuid": "e9848d2e-7862-4a28-be83-723cab1d4753",
+          "uuid": "89cafdd0-275f-419a-a1ae-988c2a07620d",
           "ownership_status": "resolved",
           "item_kind": "property",
           "layer": "F.SilkS",
           "owner": {
             "kind": "footprint",
-            "reference": "R11",
-            "uuid": "570096ac-a404-4840-9a98-7a94a0d9dc70"
+            "reference": "C8",
+            "uuid": "a15a7a1e-b229-4141-bba1-0601be2950ad"
           }
         },
         {
-          "description": "F.Cu 上 R10 的焊盘 2 [/Main_Control/ENC_B_GPIO2]",
+          "description": "F.Cu 上 U5 的焊盘 5 [/Main_Control/HAPTIC_EN]",
           "pos": {
-            "x": 116.825,
-            "y": 125.5
-          },
-          "uuid": "5d7d6f30-35a0-49bf-a0df-b2a1a364d82f",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R10",
-            "uuid": "5d7cb044-25fe-4b29-b2d2-e43b260ffd9d"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 116.0,
-        "y": 124.07
-      },
-      "items": [
-        {
-          "description": "R10 的参考字段",
-          "pos": {
-            "x": 116.0,
-            "y": 124.07
-          },
-          "uuid": "92434698-1d12-4f6a-b0a7-1c38eacf9610",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R10",
-            "uuid": "5d7cb044-25fe-4b29-b2d2-e43b260ffd9d"
-          }
-        },
-        {
-          "description": "F.Cu 上 R9 的焊盘 2 [/Main_Control/ENC_A_GPIO1]",
-          "pos": {
-            "x": 116.825,
-            "y": 123.0
-          },
-          "uuid": "ae4000ff-6dbb-4390-986c-d5bb4ae1e943",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R9",
-            "uuid": "12113190-3b05-4e74-aae9-4da5e635da25"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 116.0,
-        "y": 126.57
-      },
-      "items": [
-        {
-          "description": "R11 的参考字段",
-          "pos": {
-            "x": 116.0,
-            "y": 126.57
-          },
-          "uuid": "e9848d2e-7862-4a28-be83-723cab1d4753",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R11",
-            "uuid": "570096ac-a404-4840-9a98-7a94a0d9dc70"
-          }
-        },
-        {
-          "description": "F.Cu 上 R10 的焊盘 1 [3V3]",
-          "pos": {
-            "x": 115.175,
-            "y": 125.5
-          },
-          "uuid": "4adc97ad-5643-4b0d-b6f4-0cdb65772ee3",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R10",
-            "uuid": "5d7cb044-25fe-4b29-b2d2-e43b260ffd9d"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 116.0,
-        "y": 124.07
-      },
-      "items": [
-        {
-          "description": "R10 的参考字段",
-          "pos": {
-            "x": 116.0,
-            "y": 124.07
-          },
-          "uuid": "92434698-1d12-4f6a-b0a7-1c38eacf9610",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R10",
-            "uuid": "5d7cb044-25fe-4b29-b2d2-e43b260ffd9d"
-          }
-        },
-        {
-          "description": "F.Cu 上 R9 的焊盘 1 [3V3]",
-          "pos": {
-            "x": 115.175,
-            "y": 123.0
-          },
-          "uuid": "ce3b4da2-4d92-4a4c-8577-594f8e411317",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R9",
-            "uuid": "12113190-3b05-4e74-aae9-4da5e635da25"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 95.5,
-        "y": 106.819999
-      },
-      "items": [
-        {
-          "description": "C11 的参考字段",
-          "pos": {
-            "x": 95.5,
-            "y": 106.819999
-          },
-          "uuid": "0839a6e5-6189-4188-9a1e-c4aee3907ac2",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "C11",
-            "uuid": "e9fc3522-9508-44dc-ad94-2893dcc1c457"
-          }
-        },
-        {
-          "description": "F.Cu 上 C10 的焊盘 2 [GND]",
-          "pos": {
-            "x": 96.45,
-            "y": 106.0
-          },
-          "uuid": "2d937f7f-afb2-43b0-b420-85bf56d957bf",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "C10",
-            "uuid": "894ac7ef-7766-4616-bf3a-ef19f42e7556"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 100.0,
-        "y": 113.07
-      },
-      "items": [
-        {
-          "description": "R17 的参考字段",
-          "pos": {
-            "x": 100.0,
-            "y": 113.07
-          },
-          "uuid": "7109f4e0-cbed-45db-9091-ad3cd6848321",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R17",
-            "uuid": "cabb54c9-e62a-4629-8348-4825394b0615"
-          }
-        },
-        {
-          "description": "F.Cu 上 R16 的焊盘 1 [3V3]",
-          "pos": {
-            "x": 99.175,
+            "x": 211.85,
             "y": 112.0
           },
-          "uuid": "4207c77e-1080-45a9-8aa3-1595c0d86c8e",
+          "uuid": "59f70cbe-81cf-4662-aa44-13cf31f79073",
           "ownership_status": "resolved",
           "item_kind": "pad",
           "owner": {
             "kind": "footprint",
-            "reference": "R16",
-            "uuid": "fb427b7c-a0c9-4d61-a63e-a58c458508b1"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 100.0,
-        "y": 113.07
-      },
-      "items": [
-        {
-          "description": "R17 的参考字段",
-          "pos": {
-            "x": 100.0,
-            "y": 113.07
-          },
-          "uuid": "7109f4e0-cbed-45db-9091-ad3cd6848321",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R17",
-            "uuid": "cabb54c9-e62a-4629-8348-4825394b0615"
-          }
-        },
-        {
-          "description": "F.Cu 上 R16 的焊盘 2 [/Main_Control/HAP_L_SDA]",
-          "pos": {
-            "x": 100.825,
-            "y": 112.0
-          },
-          "uuid": "5210b31a-3f36-4ed7-a584-d8745a957bf2",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "R16",
-            "uuid": "fb427b7c-a0c9-4d61-a63e-a58c458508b1"
+            "reference": "U5",
+            "uuid": "4b1e757f-072c-4b5b-a9aa-2ffe0ef9d619"
           }
         }
       ]
@@ -3359,39 +4911,81 @@
       "description": "Silkscreen clipped by solder mask",
       "rule": "silk_over_copper",
       "pos": {
-        "x": 212.0,
-        "y": 112.32
+        "x": 210.0,
+        "y": 81.0
       },
       "items": [
         {
-          "description": "C8 的参考字段",
+          "description": "D21 的参考字段",
           "pos": {
-            "x": 212.0,
-            "y": 112.32
+            "x": 210.0,
+            "y": 81.0
           },
-          "uuid": "89cafdd0-275f-419a-a1ae-988c2a07620d",
+          "uuid": "ebff3713-9dda-4717-8a41-88d71ba5921e",
           "ownership_status": "resolved",
           "item_kind": "property",
           "layer": "F.SilkS",
           "owner": {
             "kind": "footprint",
-            "reference": "C8",
-            "uuid": "a15a7a1e-b229-4141-bba1-0601be2950ad"
+            "reference": "D21",
+            "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3"
           }
         },
         {
-          "description": "F.Cu 上 U5 的焊盘 5 [/Main_Control/HAPTIC_EN]",
+          "description": "F.Cu 上 D21 的焊盘 1 [<no net>]",
           "pos": {
-            "x": 211.85,
-            "y": 112.0
+            "x": 208.325,
+            "y": 81.47
           },
-          "uuid": "59f70cbe-81cf-4662-aa44-13cf31f79073",
+          "uuid": "8c30b49c-8d7d-4f93-b0bd-f499962e210d",
           "ownership_status": "resolved",
           "item_kind": "pad",
           "owner": {
             "kind": "footprint",
-            "reference": "U5",
-            "uuid": "4b1e757f-072c-4b5b-a9aa-2ffe0ef9d619"
+            "reference": "D21",
+            "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 210.0,
+        "y": 81.0
+      },
+      "items": [
+        {
+          "description": "D21 的参考字段",
+          "pos": {
+            "x": 210.0,
+            "y": 81.0
+          },
+          "uuid": "ebff3713-9dda-4717-8a41-88d71ba5921e",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D21",
+            "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3"
+          }
+        },
+        {
+          "description": "F.Cu 上 D21 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 209.575,
+            "y": 81.47
+          },
+          "uuid": "f305c0b9-b760-47e8-a0cc-471ada39bc21",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D21",
+            "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3"
           }
         }
       ]
@@ -3443,39 +5037,81 @@
       "description": "Silkscreen clipped by solder mask",
       "rule": "silk_over_copper",
       "pos": {
-        "x": 219.0,
-        "y": 111.82
+        "x": 219.5,
+        "y": 124.0
       },
       "items": [
         {
-          "description": "C14 的参考字段",
+          "description": "U25 的参考字段",
           "pos": {
-            "x": 219.0,
-            "y": 111.82
+            "x": 219.5,
+            "y": 124.0
           },
-          "uuid": "1444b12c-3201-4079-be23-9e94814757b9",
+          "uuid": "fce1aab4-ba3b-4b25-a748-40a0d37cf224",
           "ownership_status": "resolved",
           "item_kind": "property",
           "layer": "F.SilkS",
           "owner": {
             "kind": "footprint",
-            "reference": "C14",
-            "uuid": "2d879df2-e100-47cb-99eb-9ee232168973"
+            "reference": "U25",
+            "uuid": "d3933b82-4197-449e-9e4f-353d6b905384"
           }
         },
         {
-          "description": "F.Cu 上 C13 的焊盘 2 [GND]",
+          "description": "F.Cu 上 U25 的焊盘 2 [<no net>]",
           "pos": {
-            "x": 219.95,
-            "y": 111.0
+            "x": 219.5,
+            "y": 123.92
           },
-          "uuid": "c9c009f8-92bc-447d-aff1-c541b39cd6e4",
+          "uuid": "48489d27-930a-43f2-9ee5-55011d13eabc",
           "ownership_status": "resolved",
           "item_kind": "pad",
           "owner": {
             "kind": "footprint",
-            "reference": "C13",
-            "uuid": "f87d0927-079b-44a9-a796-237c288d94e8"
+            "reference": "U25",
+            "uuid": "d3933b82-4197-449e-9e4f-353d6b905384"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 254.0,
+        "y": 71.0
+      },
+      "items": [
+        {
+          "description": "H3 的参考字段",
+          "pos": {
+            "x": 254.0,
+            "y": 71.0
+          },
+          "uuid": "ecf7f8c7-c078-4ab1-a845-7d52dab96d2c",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H3",
+            "uuid": "118bf255-5942-42b7-b53f-89762926256c"
+          }
+        },
+        {
+          "description": "H3 的 NPTH 焊盘",
+          "pos": {
+            "x": 254.0,
+            "y": 72.0
+          },
+          "uuid": "07b3a756-49de-4cdb-8a53-a85f6fb87929",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H3",
+            "uuid": "118bf255-5942-42b7-b53f-89762926256c"
           }
         }
       ]
@@ -3527,39 +5163,39 @@
       "description": "Silkscreen clipped by solder mask",
       "rule": "silk_over_copper",
       "pos": {
-        "x": 214.0,
-        "y": 87.32
+        "x": 219.0,
+        "y": 111.82
       },
       "items": [
         {
-          "description": "C6 的参考字段",
+          "description": "C14 的参考字段",
           "pos": {
-            "x": 214.0,
-            "y": 87.32
+            "x": 219.0,
+            "y": 111.82
           },
-          "uuid": "86bdc02a-77af-471e-87f2-838121adc6b9",
+          "uuid": "1444b12c-3201-4079-be23-9e94814757b9",
           "ownership_status": "resolved",
           "item_kind": "property",
           "layer": "F.SilkS",
           "owner": {
             "kind": "footprint",
-            "reference": "C6",
-            "uuid": "68cc76ab-db05-44ec-b88a-e3868ae1ae92"
+            "reference": "C14",
+            "uuid": "2d879df2-e100-47cb-99eb-9ee232168973"
           }
         },
         {
-          "description": "F.Cu 上 C7 的焊盘 1 [3V3]",
+          "description": "F.Cu 上 C13 的焊盘 2 [GND]",
           "pos": {
-            "x": 214.05,
-            "y": 86.5
+            "x": 219.95,
+            "y": 111.0
           },
-          "uuid": "bd5f1fa3-dcea-4767-bc28-469ca757c686",
+          "uuid": "c9c009f8-92bc-447d-aff1-c541b39cd6e4",
           "ownership_status": "resolved",
           "item_kind": "pad",
           "owner": {
             "kind": "footprint",
-            "reference": "C7",
-            "uuid": "63fb0d33-685e-41a6-8dd9-bc01773a8c72"
+            "reference": "C13",
+            "uuid": "f87d0927-079b-44a9-a796-237c288d94e8"
           }
         }
       ]
@@ -3644,258 +5280,6 @@
             "kind": "footprint",
             "reference": "JD1",
             "uuid": "767a1dc2-c225-4376-a163-1d223718b3d6"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 205.6,
-        "y": 94.0
-      },
-      "items": [
-        {
-          "description": "U2 的参考字段",
-          "pos": {
-            "x": 205.6,
-            "y": 94.0
-          },
-          "uuid": "a87e0de5-a85b-4a52-819d-2c1906afc97e",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "U2",
-            "uuid": "bbc0802a-883e-4939-bf2f-8acad214b7c6"
-          }
-        },
-        {
-          "description": "F.Cu 上 C4 的焊盘 2 [GND]",
-          "pos": {
-            "x": 205.2,
-            "y": 95.05
-          },
-          "uuid": "99befe45-39d7-45f2-b3ed-88b9c6fccdc2",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "C4",
-            "uuid": "cdebd656-bc19-4192-a496-dc2e4eaf43e2"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 203.52,
-        "y": 96.0
-      },
-      "items": [
-        {
-          "description": "C4 的参考字段",
-          "pos": {
-            "x": 203.52,
-            "y": 96.0
-          },
-          "uuid": "8e71fe42-2f94-455b-912b-1cfd0453f6a3",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "C4",
-            "uuid": "cdebd656-bc19-4192-a496-dc2e4eaf43e2"
-          }
-        },
-        {
-          "description": "F.Cu 上 U1 的焊盘 37 [/Main_Control/UART_TX_GPIO43]",
-          "pos": {
-            "x": 202.75,
-            "y": 96.4
-          },
-          "uuid": "185814c8-42e0-47a5-9a45-084c666cf57b",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "U1",
-            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 203.52,
-        "y": 96.0
-      },
-      "items": [
-        {
-          "description": "C4 的参考字段",
-          "pos": {
-            "x": 203.52,
-            "y": 96.0
-          },
-          "uuid": "8e71fe42-2f94-455b-912b-1cfd0453f6a3",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "C4",
-            "uuid": "cdebd656-bc19-4192-a496-dc2e4eaf43e2"
-          }
-        },
-        {
-          "description": "F.Cu 上 U1 的焊盘 38 [/Main_Control/ENC_B_GPIO2]",
-          "pos": {
-            "x": 202.75,
-            "y": 95.13
-          },
-          "uuid": "ec99593d-ce41-44ab-8458-649c7633e6f6",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "U1",
-            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 254.0,
-        "y": 71.0
-      },
-      "items": [
-        {
-          "description": "H3 的参考字段",
-          "pos": {
-            "x": 254.0,
-            "y": 71.0
-          },
-          "uuid": "ecf7f8c7-c078-4ab1-a845-7d52dab96d2c",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "H3",
-            "uuid": "118bf255-5942-42b7-b53f-89762926256c"
-          }
-        },
-        {
-          "description": "H3 的 NPTH 焊盘",
-          "pos": {
-            "x": 254.0,
-            "y": 72.0
-          },
-          "uuid": "07b3a756-49de-4cdb-8a53-a85f6fb87929",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "H3",
-            "uuid": "118bf255-5942-42b7-b53f-89762926256c"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 213.0,
-        "y": 127.0
-      },
-      "items": [
-        {
-          "description": "JPOWER1 的参考字段",
-          "pos": {
-            "x": 213.0,
-            "y": 127.0
-          },
-          "uuid": "ea98043a-eb1e-4d55-af59-c94650b776ff",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "JPOWER1",
-            "uuid": "5daa5460-6e35-4310-b16f-b54f3a2d9308"
-          }
-        },
-        {
-          "description": "JPOWER1 的PTH 焊盘 1 [/Main_Control/5V_CORE]",
-          "pos": {
-            "x": 210.46,
-            "y": 128.0
-          },
-          "uuid": "1344caa8-a614-438c-b81f-c2e63f088c95",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "JPOWER1",
-            "uuid": "5daa5460-6e35-4310-b16f-b54f3a2d9308"
-          }
-        }
-      ]
-    },
-    {
-      "severity": "warning",
-      "description": "Silkscreen clipped by solder mask",
-      "rule": "silk_over_copper",
-      "pos": {
-        "x": 213.0,
-        "y": 127.0
-      },
-      "items": [
-        {
-          "description": "JPOWER1 的参考字段",
-          "pos": {
-            "x": 213.0,
-            "y": 127.0
-          },
-          "uuid": "ea98043a-eb1e-4d55-af59-c94650b776ff",
-          "ownership_status": "resolved",
-          "item_kind": "property",
-          "layer": "F.SilkS",
-          "owner": {
-            "kind": "footprint",
-            "reference": "JPOWER1",
-            "uuid": "5daa5460-6e35-4310-b16f-b54f3a2d9308"
-          }
-        },
-        {
-          "description": "JPOWER1 的PTH 焊盘 2 [GND]",
-          "pos": {
-            "x": 215.54,
-            "y": 128.0
-          },
-          "uuid": "2083a28e-a12b-4317-b074-d8a607e8e807",
-          "ownership_status": "resolved",
-          "item_kind": "pad",
-          "owner": {
-            "kind": "footprint",
-            "reference": "JPOWER1",
-            "uuid": "5daa5460-6e35-4310-b16f-b54f3a2d9308"
           }
         }
       ]
@@ -7690,18 +9074,17 @@
           }
         },
         {
-          "description": "F.Cu 上 R4 的焊盘 1 [3V3]",
+          "description": "走线 [3V3] (F.Cu), 长度: 2.5000 mm",
           "pos": {
             "x": 161.175,
-            "y": 129.5
+            "y": 127.0
           },
-          "uuid": "fae274f4-3279-4139-a336-6c32f58a8c5b",
+          "uuid": "1c17efe3-a017-4ab9-93aa-9cfb0c22886b",
           "ownership_status": "resolved",
-          "item_kind": "pad",
+          "item_kind": "segment",
+          "layer": "F.Cu",
           "owner": {
-            "kind": "footprint",
-            "reference": "R4",
-            "uuid": "c8518de0-7646-4fbd-9da5-bdf8534767fb"
+            "kind": "board"
           }
         }
       ]
@@ -8001,18 +9384,17 @@
       },
       "items": [
         {
-          "description": "B.Cu 上 C16 的焊盘 1 [3V3]",
+          "description": "走线 [3V3] (B.Cu), 长度: 0.0200 mm",
           "pos": {
             "x": 207.52,
             "y": 111.7
           },
-          "uuid": "9339fcc6-3a1f-462d-a73f-8de5279a9a4c",
+          "uuid": "cb13df75-fe20-42d6-babf-5dd6c037e01a",
           "ownership_status": "resolved",
-          "item_kind": "pad",
+          "item_kind": "segment",
+          "layer": "B.Cu",
           "owner": {
-            "kind": "footprint",
-            "reference": "C16",
-            "uuid": "4a659b47-1308-4b94-9681-c5e99d41dded"
+            "kind": "board"
           }
         },
         {
@@ -8123,18 +9505,17 @@
       },
       "items": [
         {
-          "description": "B.Cu 上 C21 的焊盘 1 [3V3]",
+          "description": "走线 [3V3] (B.Cu), 长度: 0.0707 mm",
           "pos": {
             "x": 209.05,
             "y": 97.1
           },
-          "uuid": "e213f872-2684-45d3-b9db-0e19061f6f26",
+          "uuid": "77460784-7f00-4974-9051-d36845e77bd2",
           "ownership_status": "resolved",
-          "item_kind": "pad",
+          "item_kind": "segment",
+          "layer": "B.Cu",
           "owner": {
-            "kind": "footprint",
-            "reference": "C21",
-            "uuid": "e92b131e-d175-4b65-851f-2a9c41a95e49"
+            "kind": "board"
           }
         },
         {
@@ -8319,17 +9700,17 @@
       "description": "Missing connection between items",
       "rule": "unconnected_items",
       "pos": {
-        "x": 214.45,
+        "x": 215.9,
         "y": 91.4
       },
       "items": [
         {
-          "description": "走线 [3V3] (F.Cu), 长度: 1.9799 mm",
+          "description": "走线 [3V3] (F.Cu), 长度: 1.4500 mm",
           "pos": {
-            "x": 214.45,
+            "x": 215.9,
             "y": 91.4
           },
-          "uuid": "2b104fc4-19ae-4510-927c-832ec39ddd4f",
+          "uuid": "a4960cdb-7816-4ee6-aff5-ad9e7597cc34",
           "ownership_status": "resolved",
           "item_kind": "segment",
           "layer": "F.Cu",
@@ -8338,18 +9719,17 @@
           }
         },
         {
-          "description": "B.Cu 上 C21 的焊盘 1 [3V3]",
+          "description": "走线 [3V3] (B.Cu), 长度: 0.0707 mm",
           "pos": {
             "x": 209.05,
             "y": 97.1
           },
-          "uuid": "e213f872-2684-45d3-b9db-0e19061f6f26",
+          "uuid": "77460784-7f00-4974-9051-d36845e77bd2",
           "ownership_status": "resolved",
-          "item_kind": "pad",
+          "item_kind": "segment",
+          "layer": "B.Cu",
           "owner": {
-            "kind": "footprint",
-            "reference": "C21",
-            "uuid": "e92b131e-d175-4b65-851f-2a9c41a95e49"
+            "kind": "board"
           }
         }
       ]
@@ -8359,17 +9739,17 @@
       "description": "Missing connection between items",
       "rule": "unconnected_items",
       "pos": {
-        "x": 218.6,
-        "y": 85.5
+        "x": 216.5,
+        "y": 87.6
       },
       "items": [
         {
-          "description": "走线 [3V3] (F.Cu), 长度: 0.6250 mm",
+          "description": "走线 [3V3] (F.Cu), 长度: 2.9698 mm",
           "pos": {
-            "x": 218.6,
-            "y": 85.5
+            "x": 216.5,
+            "y": 87.6
           },
-          "uuid": "1bdbd75a-fc95-4fda-bce6-344e67c3a34a",
+          "uuid": "7fd41c93-46f8-4064-97fa-caef1b9efe06",
           "ownership_status": "resolved",
           "item_kind": "segment",
           "layer": "F.Cu",
@@ -8418,18 +9798,17 @@
           }
         },
         {
-          "description": "B.Cu 上 R48 的焊盘 1 [3V3]",
+          "description": "走线 [3V3] (B.Cu), 长度: 2.0860 mm",
           "pos": {
-            "x": 214.675,
-            "y": 116.6
+            "x": 213.2,
+            "y": 118.075
           },
-          "uuid": "42b34837-87fa-44a9-9169-3539d0edf88d",
+          "uuid": "0bd919c9-9822-4fe0-a27c-aba1d37bb2b2",
           "ownership_status": "resolved",
-          "item_kind": "pad",
+          "item_kind": "segment",
+          "layer": "B.Cu",
           "owner": {
-            "kind": "footprint",
-            "reference": "R48",
-            "uuid": "1162e7eb-9ad8-49d4-8562-70977634bfe7"
+            "kind": "board"
           }
         }
       ]
@@ -8440,37 +9819,35 @@
       "rule": "unconnected_items",
       "pos": {
         "x": 228.52,
-        "y": 89.5
+        "y": 87.5
       },
       "items": [
         {
-          "description": "B.Cu 上 C105 的焊盘 1 [3V3]",
+          "description": "走线 [3V3] (B.Cu), 长度: 2.0000 mm",
           "pos": {
             "x": 228.52,
-            "y": 89.5
+            "y": 87.5
           },
-          "uuid": "b841c0eb-79bf-4c27-8070-cddff7b1f14b",
+          "uuid": "6c25f2f1-b5df-48fb-a09b-5de46584e96a",
           "ownership_status": "resolved",
-          "item_kind": "pad",
+          "item_kind": "segment",
+          "layer": "B.Cu",
           "owner": {
-            "kind": "footprint",
-            "reference": "C105",
-            "uuid": "11ae737f-8837-4dfe-bdaf-e78aca390b3d"
+            "kind": "board"
           }
         },
         {
-          "description": "B.Cu 上 U102 的焊盘 3 [3V3]",
+          "description": "走线 [3V3] (B.Cu), 长度: 0.1061 mm",
           "pos": {
-            "x": 231.499999,
-            "y": 93.625
+            "x": 231.574999,
+            "y": 93.7
           },
-          "uuid": "485a9e7d-cc3d-4f53-9ec9-f17759ad5d40",
+          "uuid": "145e36fa-30c8-4f62-96e0-4ddaf27ce4d3",
           "ownership_status": "resolved",
-          "item_kind": "pad",
+          "item_kind": "segment",
+          "layer": "B.Cu",
           "owner": {
-            "kind": "footprint",
-            "reference": "U102",
-            "uuid": "712a42bf-9921-4fe7-8063-14cff3df77f6"
+            "kind": "board"
           }
         }
       ]
@@ -8541,12 +9918,12 @@
           }
         },
         {
-          "description": "走线 [3V3] (B.Cu), 长度: 0.8750 mm",
+          "description": "走线 [3V3] (B.Cu), 长度: 0.4243 mm",
           "pos": {
-            "x": 231.624999,
+            "x": 232.5,
             "y": 94.8
           },
-          "uuid": "619c87d3-abef-461b-9b6f-e185cb511a42",
+          "uuid": "ff1128dd-a6a9-4f58-bfd9-8a24304774a7",
           "ownership_status": "resolved",
           "item_kind": "segment",
           "layer": "B.Cu",
@@ -8742,18 +10119,17 @@
           }
         },
         {
-          "description": "B.Cu 上 Y101 的焊盘 2 [GND]",
+          "description": "走线 [GND] (B.Cu), 长度: 0.6600 mm",
           "pos": {
             "x": 227.75,
             "y": 92.549999
           },
-          "uuid": "7bd1f612-327b-4cd1-8144-e4bb43ee9ecd",
+          "uuid": "e38f15f1-0bf8-4b4e-aec5-a6c56d34580d",
           "ownership_status": "resolved",
-          "item_kind": "pad",
+          "item_kind": "segment",
+          "layer": "B.Cu",
           "owner": {
-            "kind": "footprint",
-            "reference": "Y101",
-            "uuid": "3e0cbed9-d8de-4dcf-92ff-efc9aa2c7b77"
+            "kind": "board"
           }
         }
       ]
@@ -8768,18 +10144,17 @@
       },
       "items": [
         {
-          "description": "B.Cu 上 U102 的焊盘 10 [GND]",
+          "description": "走线 [GND] (B.Cu), 长度: 0.6600 mm",
           "pos": {
             "x": 231.499999,
             "y": 89.075001
           },
-          "uuid": "6d328026-6ae4-4f60-9e4b-3abc94ff218e",
+          "uuid": "453ecef7-be9d-4913-9fb1-c8bbf1e2edb5",
           "ownership_status": "resolved",
-          "item_kind": "pad",
+          "item_kind": "segment",
+          "layer": "B.Cu",
           "owner": {
-            "kind": "footprint",
-            "reference": "U102",
-            "uuid": "712a42bf-9921-4fe7-8063-14cff3df77f6"
+            "kind": "board"
           }
         },
         {
@@ -8804,17 +10179,17 @@
       "description": "Missing connection between items",
       "rule": "unconnected_items",
       "pos": {
-        "x": 185.25,
+        "x": 186.5,
         "y": 95.25
       },
       "items": [
         {
-          "description": "走线 [/Main_Control/MCU_EN] (F.Cu), 长度: 1.2500 mm",
+          "description": "走线 [/Main_Control/MCU_EN] (F.Cu), 长度: 0.3536 mm",
           "pos": {
-            "x": 185.25,
+            "x": 186.5,
             "y": 95.25
           },
-          "uuid": "f04febcc-8e3f-4dc0-9ba9-f40722c54ea4",
+          "uuid": "98f996e5-c2a7-4a53-8d5b-83d77d489322",
           "ownership_status": "resolved",
           "item_kind": "segment",
           "layer": "F.Cu",
@@ -8946,18 +10321,17 @@
           }
         },
         {
-          "description": "F.Cu 上 R16 的焊盘 2 [/Main_Control/HAP_L_SDA]",
+          "description": "走线 [/Main_Control/HAP_L_SDA] (F.Cu), 长度: 0.0750 mm",
           "pos": {
-            "x": 100.825,
+            "x": 100.75,
             "y": 112.0
           },
-          "uuid": "5210b31a-3f36-4ed7-a584-d8745a957bf2",
+          "uuid": "22341147-6066-497d-896a-bc6d1134c6e7",
           "ownership_status": "resolved",
-          "item_kind": "pad",
+          "item_kind": "segment",
+          "layer": "F.Cu",
           "owner": {
-            "kind": "footprint",
-            "reference": "R16",
-            "uuid": "fb427b7c-a0c9-4d61-a63e-a58c458508b1"
+            "kind": "board"
           }
         }
       ]
@@ -9027,18 +10401,17 @@
           }
         },
         {
-          "description": "F.Cu 上 R17 的焊盘 2 [/Main_Control/HAP_L_SCL]",
+          "description": "走线 [/Main_Control/HAP_L_SCL] (F.Cu), 长度: 0.0750 mm",
           "pos": {
-            "x": 100.825,
+            "x": 100.75,
             "y": 114.5
           },
-          "uuid": "8e50befe-01bc-4793-867a-4d0e3d625efa",
+          "uuid": "aa332743-e2e4-40a6-928c-5cd3c7437bd0",
           "ownership_status": "resolved",
-          "item_kind": "pad",
+          "item_kind": "segment",
+          "layer": "F.Cu",
           "owner": {
-            "kind": "footprint",
-            "reference": "R17",
-            "uuid": "cabb54c9-e62a-4629-8348-4825394b0615"
+            "kind": "board"
           }
         }
       ]
@@ -9211,21 +10584,22 @@
       "rule": "unconnected_items",
       "pos": {
         "x": 185.25,
-        "y": 106.5
+        "y": 106.56
       },
       "items": [
         {
-          "description": "走线 [/Main_Control/I2C_SDA_GPIO8] (F.Cu), 长度: 0.0600 mm",
+          "description": "F.Cu 上 U1 的焊盘 12 [/Main_Control/I2C_SDA_GPIO8]",
           "pos": {
             "x": 185.25,
-            "y": 106.5
+            "y": 106.56
           },
-          "uuid": "d35ccd50-0440-4856-9640-748d946eb04e",
+          "uuid": "d1a79e8c-6d81-4424-a285-368dfd68c6df",
           "ownership_status": "resolved",
-          "item_kind": "segment",
-          "layer": "F.Cu",
+          "item_kind": "pad",
           "owner": {
-            "kind": "board"
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
           }
         },
         {
@@ -9434,17 +10808,18 @@
           }
         },
         {
-          "description": "走线 [/Main_Control/KEY4_GPIO38] (F.Cu), 长度: 0.0750 mm",
+          "description": "F.Cu 上 R8 的焊盘 2 [/Main_Control/KEY4_GPIO38]",
           "pos": {
-            "x": 81.25,
+            "x": 81.325,
             "y": 118.0
           },
-          "uuid": "71e8b8db-e1e1-4643-8db6-be7e0b1ffc38",
+          "uuid": "60656d24-2c02-438c-8fab-4ae33e8f9186",
           "ownership_status": "resolved",
-          "item_kind": "segment",
-          "layer": "F.Cu",
+          "item_kind": "pad",
           "owner": {
-            "kind": "board"
+            "kind": "footprint",
+            "reference": "R8",
+            "uuid": "32bc3614-6746-41dc-97c9-3bbd79c1b4ac"
           }
         }
       ]
@@ -9538,26 +10913,27 @@
       },
       "items": [
         {
-          "description": "走线 [/Main_Control/HAPTIC_VDD] (F.Cu), 长度: 0.4125 mm",
+          "description": "F.Cu 上 R20 的焊盘 2 [/Main_Control/HAPTIC_VDD]",
           "pos": {
             "x": 206.4625,
             "y": 127.0
           },
-          "uuid": "21f06993-58cb-454e-8d96-068846522f40",
+          "uuid": "bf568c85-232a-449e-ab97-59fd211290d7",
           "ownership_status": "resolved",
-          "item_kind": "segment",
-          "layer": "F.Cu",
+          "item_kind": "pad",
           "owner": {
-            "kind": "board"
+            "kind": "footprint",
+            "reference": "R20",
+            "uuid": "75b4785e-d152-4500-8775-590ee12905a0"
           }
         },
         {
-          "description": "走线 [/Main_Control/HAPTIC_VDD] (F.Cu), 长度: 0.4000 mm",
+          "description": "走线 [/Main_Control/HAPTIC_VDD] (F.Cu), 长度: 2.1213 mm",
           "pos": {
-            "x": 217.65,
-            "y": 113.5
+            "x": 216.15,
+            "y": 112.0
           },
-          "uuid": "e3d79a4b-6854-4727-885f-9aa9e4f801df",
+          "uuid": "fea2822e-fc4b-4bb3-b0c0-6d83470de128",
           "ownership_status": "resolved",
           "item_kind": "segment",
           "layer": "F.Cu",
@@ -9877,17 +11253,18 @@
           }
         },
         {
-          "description": "走线 [/Main_Control/ENC_SW_GPIO39] (F.Cu), 长度: 0.0750 mm",
+          "description": "F.Cu 上 R11 的焊盘 2 [/Main_Control/ENC_SW_GPIO39]",
           "pos": {
-            "x": 116.75,
+            "x": 116.825,
             "y": 128.0
           },
-          "uuid": "74980c04-9ab1-4388-a70e-c455263c4438",
+          "uuid": "d54e887f-412b-4072-ab00-ae9eced6aadf",
           "ownership_status": "resolved",
-          "item_kind": "segment",
-          "layer": "F.Cu",
+          "item_kind": "pad",
           "owner": {
-            "kind": "board"
+            "kind": "footprint",
+            "reference": "R11",
+            "uuid": "570096ac-a404-4840-9a98-7a94a0d9dc70"
           }
         }
       ]
@@ -9897,17 +11274,17 @@
       "description": "Missing connection between items",
       "rule": "unconnected_items",
       "pos": {
-        "x": 205.25,
+        "x": 207.0,
         "y": 96.9
       },
       "items": [
         {
-          "description": "走线 [/Main_Control/5V_CORE] (F.Cu), 长度: 1.7500 mm",
+          "description": "走线 [/Main_Control/5V_CORE] (F.Cu), 长度: 2.4042 mm",
           "pos": {
-            "x": 205.25,
+            "x": 207.0,
             "y": 96.9
           },
-          "uuid": "8d2d4129-41ce-4a36-b57c-f3fae577e57f",
+          "uuid": "42393223-b232-4ccf-991b-ed9b28f51d51",
           "ownership_status": "resolved",
           "item_kind": "segment",
           "layer": "F.Cu",
@@ -10304,21 +11681,22 @@
       "rule": "unconnected_items",
       "pos": {
         "x": 202.75,
-        "y": 109.0
+        "y": 109.1
       },
       "items": [
         {
-          "description": "走线 [/Main_Control/BOOT_DISABLE_GPIO0] (F.Cu), 长度: 0.1000 mm",
+          "description": "F.Cu 上 U1 的焊盘 27 [/Main_Control/BOOT_DISABLE_GPIO0]",
           "pos": {
             "x": 202.75,
-            "y": 109.0
+            "y": 109.1
           },
-          "uuid": "28b03816-4dee-4956-858b-dd143891fff2",
+          "uuid": "1c65a2ad-1233-4f83-88a2-aca916cadf39",
           "ownership_status": "resolved",
-          "item_kind": "segment",
-          "layer": "F.Cu",
+          "item_kind": "pad",
           "owner": {
-            "kind": "board"
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
           }
         },
         {
@@ -10893,12 +12271,12 @@
           }
         },
         {
-          "description": "走线 [/Main_Control/MAG_R_3V3_SW] (B.Cu), 长度: 3.4648 mm",
+          "description": "走线 [/Main_Control/MAG_R_3V3_SW] (B.Cu), 长度: 0.1414 mm",
           "pos": {
-            "x": 222.05,
-            "y": 101.6
+            "x": 221.95,
+            "y": 101.5
           },
-          "uuid": "f6f3a03a-22b4-4d55-bfe1-da5215313fb3",
+          "uuid": "05a184ef-4f47-4a63-a3b6-ec62524be230",
           "ownership_status": "resolved",
           "item_kind": "segment",
           "layer": "B.Cu",
@@ -11890,17 +13268,17 @@
       "description": "Missing connection between items",
       "rule": "unconnected_items",
       "pos": {
-        "x": 213.675,
-        "y": 105.0
+        "x": 212.675,
+        "y": 106.0
       },
       "items": [
         {
-          "description": "走线 [/Main_Control/MAG_Protection/MAG_R_POWER_EN] (B.Cu), 长度: 2.3750 mm",
+          "description": "走线 [/Main_Control/MAG_Protection/MAG_R_POWER_EN] (B.Cu), 长度: 1.4142 mm",
           "pos": {
-            "x": 213.675,
-            "y": 105.0
+            "x": 212.675,
+            "y": 106.0
           },
-          "uuid": "73f72911-eee8-4ba8-9f9a-6c4cdb191435",
+          "uuid": "67cec552-10a2-4e10-894b-a419cd26b1f6",
           "ownership_status": "resolved",
           "item_kind": "segment",
           "layer": "B.Cu",
@@ -12237,31 +13615,519 @@
     },
     {
       "severity": "warning",
-      "description": "缺失的封装 D20 (WS2812C-4020-H2)",
-      "rule": "missing_footprint",
-      "pos": null,
-      "items": []
+      "description": "封装中缺少符号字段 'LCSC'",
+      "rule": "footprint_symbol_field_mismatch",
+      "pos": {
+        "x": 90.0,
+        "y": 82.0
+      },
+      "items": [
+        {
+          "description": "封装 D20",
+          "pos": {
+            "x": 90.0,
+            "y": 82.0
+          },
+          "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
     },
     {
       "severity": "warning",
-      "description": "缺失的封装 D21 (WS2812C-4020-H2)",
-      "rule": "missing_footprint",
-      "pos": null,
-      "items": []
+      "description": "焊盘缺少原理图 (/Main_Control/RGB_DIN_1) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 88.325,
+        "y": 81.47
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D20 的焊盘 1 [<no net>]",
+          "pos": {
+            "x": 88.325,
+            "y": 81.47
+          },
+          "uuid": "41aa25a6-9b35-442d-ad80-bd2d87f95711",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D20",
+            "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548"
+          }
+        }
+      ]
     },
     {
       "severity": "warning",
-      "description": "缺失的封装 D22 (WS2812C-4020-H2)",
-      "rule": "missing_footprint",
-      "pos": null,
-      "items": []
+      "description": "焊盘缺少原理图 (/Main_Control/RGB_5V) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 89.575,
+        "y": 81.47
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D20 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 89.575,
+            "y": 81.47
+          },
+          "uuid": "404027bf-980e-4718-92bc-20a3fae5be09",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D20",
+            "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548"
+          }
+        }
+      ]
     },
     {
       "severity": "warning",
-      "description": "缺失的封装 D23 (WS2812C-4020-H2)",
-      "rule": "missing_footprint",
-      "pos": null,
-      "items": []
+      "description": "焊盘缺少原理图 (/Main_Control/RGB_DIN_2) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 90.575,
+        "y": 81.47
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D20 的焊盘 3 [<no net>]",
+          "pos": {
+            "x": 90.575,
+            "y": 81.47
+          },
+          "uuid": "bc35b2ad-8b64-4b28-b88e-6c5573268bbe",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D20",
+            "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (GND) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 91.575,
+        "y": 81.47
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D20 的焊盘 4 [<no net>]",
+          "pos": {
+            "x": 91.575,
+            "y": 81.47
+          },
+          "uuid": "98fb41a7-b566-44bf-a76d-80c81fb39fb3",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D20",
+            "uuid": "ab1bfe90-77c7-41eb-8a99-b7b732619548"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "封装中缺少符号字段 'LCSC'",
+      "rule": "footprint_symbol_field_mismatch",
+      "pos": {
+        "x": 210.0,
+        "y": 82.0
+      },
+      "items": [
+        {
+          "description": "封装 D21",
+          "pos": {
+            "x": 210.0,
+            "y": 82.0
+          },
+          "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (/Main_Control/RGB_DIN_2) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 208.325,
+        "y": 81.47
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D21 的焊盘 1 [<no net>]",
+          "pos": {
+            "x": 208.325,
+            "y": 81.47
+          },
+          "uuid": "8c30b49c-8d7d-4f93-b0bd-f499962e210d",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D21",
+            "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (/Main_Control/RGB_5V) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 209.575,
+        "y": 81.47
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D21 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 209.575,
+            "y": 81.47
+          },
+          "uuid": "f305c0b9-b760-47e8-a0cc-471ada39bc21",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D21",
+            "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (/Main_Control/RGB_DIN_3) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 210.575,
+        "y": 81.47
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D21 的焊盘 3 [<no net>]",
+          "pos": {
+            "x": 210.575,
+            "y": 81.47
+          },
+          "uuid": "49143c2d-11ba-4a95-81f9-e7a711a88a0c",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D21",
+            "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (GND) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 211.575,
+        "y": 81.47
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D21 的焊盘 4 [<no net>]",
+          "pos": {
+            "x": 211.575,
+            "y": 81.47
+          },
+          "uuid": "8a8d0942-7046-4209-9095-ab9f9a8d429a",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D21",
+            "uuid": "3aa8c0f9-945e-49bd-ad72-40be16455ec3"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "封装中缺少符号字段 'LCSC'",
+      "rule": "footprint_symbol_field_mismatch",
+      "pos": {
+        "x": 210.5,
+        "y": 124.5
+      },
+      "items": [
+        {
+          "description": "封装 D22",
+          "pos": {
+            "x": 210.5,
+            "y": 124.5
+          },
+          "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (/Main_Control/RGB_DIN_3) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 208.825,
+        "y": 123.97
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D22 的焊盘 1 [<no net>]",
+          "pos": {
+            "x": 208.825,
+            "y": 123.97
+          },
+          "uuid": "c0cb93d5-bb49-436b-bc39-58fa804de9c3",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D22",
+            "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (/Main_Control/RGB_5V) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 210.075,
+        "y": 123.97
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D22 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 210.075,
+            "y": 123.97
+          },
+          "uuid": "630356cb-b0d6-4a7d-b072-8d16aae989dd",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D22",
+            "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (/Main_Control/RGB_DIN_4) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 211.075,
+        "y": 123.97
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D22 的焊盘 3 [<no net>]",
+          "pos": {
+            "x": 211.075,
+            "y": 123.97
+          },
+          "uuid": "d0b4bcdd-82c8-45ce-b39b-f1abc1756051",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D22",
+            "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (GND) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 212.075,
+        "y": 123.97
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D22 的焊盘 4 [<no net>]",
+          "pos": {
+            "x": 212.075,
+            "y": 123.97
+          },
+          "uuid": "09bf05e3-4231-41ea-b0ec-2f903547bd15",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D22",
+            "uuid": "4b5c59bc-5955-44a0-8af2-b235bfecaad4"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "封装中缺少符号字段 'LCSC'",
+      "rule": "footprint_symbol_field_mismatch",
+      "pos": {
+        "x": 90.0,
+        "y": 118.0
+      },
+      "items": [
+        {
+          "description": "封装 D23",
+          "pos": {
+            "x": 90.0,
+            "y": 118.0
+          },
+          "uuid": "c2085c43-f401-4f77-9e13-43559ab04246",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (/Main_Control/RGB_DIN_4) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 88.325,
+        "y": 117.47
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D23 的焊盘 1 [<no net>]",
+          "pos": {
+            "x": 88.325,
+            "y": 117.47
+          },
+          "uuid": "af38a451-7f5c-416a-833e-c02a3c1f6e3f",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D23",
+            "uuid": "c2085c43-f401-4f77-9e13-43559ab04246"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (/Main_Control/RGB_5V) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 89.575,
+        "y": 117.47
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D23 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 89.575,
+            "y": 117.47
+          },
+          "uuid": "aec0bac5-c0d0-4cac-bb5a-e418a5d0fb00",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D23",
+            "uuid": "c2085c43-f401-4f77-9e13-43559ab04246"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (unconnected-(D23-DOUT-Pad3)) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 90.575,
+        "y": 117.47
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D23 的焊盘 3 [<no net>]",
+          "pos": {
+            "x": 90.575,
+            "y": 117.47
+          },
+          "uuid": "60d166ed-eda5-44f9-a4b0-14bb56dc48b3",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D23",
+            "uuid": "c2085c43-f401-4f77-9e13-43559ab04246"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (GND) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 91.575,
+        "y": 117.47
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 D23 的焊盘 4 [<no net>]",
+          "pos": {
+            "x": 91.575,
+            "y": 117.47
+          },
+          "uuid": "7c627979-91b3-42fc-9496-5e7ee15f8836",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "D23",
+            "uuid": "c2085c43-f401-4f77-9e13-43559ab04246"
+          }
+        }
+      ]
     },
     {
       "severity": "warning",
@@ -12663,31 +14529,415 @@
     },
     {
       "severity": "warning",
-      "description": "缺失的封装 U23 (OH49E)",
-      "rule": "missing_footprint",
-      "pos": null,
-      "items": []
+      "description": "封装中缺少符号字段 'LCSC'",
+      "rule": "footprint_symbol_field_mismatch",
+      "pos": {
+        "x": 85.0,
+        "y": 82.0
+      },
+      "items": [
+        {
+          "description": "封装 U23",
+          "pos": {
+            "x": 85.0,
+            "y": 82.0
+          },
+          "uuid": "b5ce21a6-521e-4984-8e44-9716f062e709",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
     },
     {
       "severity": "warning",
-      "description": "缺失的封装 U24 (OH49E)",
-      "rule": "missing_footprint",
-      "pos": null,
-      "items": []
+      "description": "焊盘缺少原理图 (3V3) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 84.05,
+        "y": 83.08
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U23 的焊盘 1 [<no net>]",
+          "pos": {
+            "x": 84.05,
+            "y": 83.08
+          },
+          "uuid": "4eecda38-6939-4b46-bd58-906ae1a87187",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U23",
+            "uuid": "b5ce21a6-521e-4984-8e44-9716f062e709"
+          }
+        }
+      ]
     },
     {
       "severity": "warning",
-      "description": "缺失的封装 U25 (OH49E)",
-      "rule": "missing_footprint",
-      "pos": null,
-      "items": []
+      "description": "焊盘缺少原理图 (GND) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 85.0,
+        "y": 80.92
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U23 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 85.0,
+            "y": 80.92
+          },
+          "uuid": "55aef435-dc03-4639-85ac-1aa98a4f62ea",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U23",
+            "uuid": "b5ce21a6-521e-4984-8e44-9716f062e709"
+          }
+        }
+      ]
     },
     {
       "severity": "warning",
-      "description": "缺失的封装 U26 (OH49E)",
-      "rule": "missing_footprint",
-      "pos": null,
-      "items": []
+      "description": "焊盘缺少原理图 (/Main_Control/HALL1_RAW) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 85.95,
+        "y": 83.08
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U23 的焊盘 3 [<no net>]",
+          "pos": {
+            "x": 85.95,
+            "y": 83.08
+          },
+          "uuid": "8c6ef6cf-8665-4fad-8b3f-180e04de4b62",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U23",
+            "uuid": "b5ce21a6-521e-4984-8e44-9716f062e709"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "封装中缺少符号字段 'LCSC'",
+      "rule": "footprint_symbol_field_mismatch",
+      "pos": {
+        "x": 215.0,
+        "y": 82.0
+      },
+      "items": [
+        {
+          "description": "封装 U24",
+          "pos": {
+            "x": 215.0,
+            "y": 82.0
+          },
+          "uuid": "91730a7e-3c44-40fd-84bb-86f60b4a2462",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (3V3) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 214.05,
+        "y": 83.08
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U24 的焊盘 1 [<no net>]",
+          "pos": {
+            "x": 214.05,
+            "y": 83.08
+          },
+          "uuid": "6dae52a8-626d-42c3-88ff-26a5f744fce3",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U24",
+            "uuid": "91730a7e-3c44-40fd-84bb-86f60b4a2462"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (GND) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 215.0,
+        "y": 80.92
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U24 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 215.0,
+            "y": 80.92
+          },
+          "uuid": "46bdb476-961b-4f09-b882-c2953722824a",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U24",
+            "uuid": "91730a7e-3c44-40fd-84bb-86f60b4a2462"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (/Main_Control/HALL2_RAW) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 215.95,
+        "y": 83.08
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U24 的焊盘 3 [<no net>]",
+          "pos": {
+            "x": 215.95,
+            "y": 83.08
+          },
+          "uuid": "4375a304-c96e-49d5-978f-ec7d61c9c808",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U24",
+            "uuid": "91730a7e-3c44-40fd-84bb-86f60b4a2462"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "封装中缺少符号字段 'LCSC'",
+      "rule": "footprint_symbol_field_mismatch",
+      "pos": {
+        "x": 219.5,
+        "y": 125.0
+      },
+      "items": [
+        {
+          "description": "封装 U25",
+          "pos": {
+            "x": 219.5,
+            "y": 125.0
+          },
+          "uuid": "d3933b82-4197-449e-9e4f-353d6b905384",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (3V3) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 218.55,
+        "y": 126.08
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U25 的焊盘 1 [<no net>]",
+          "pos": {
+            "x": 218.55,
+            "y": 126.08
+          },
+          "uuid": "b89f0bb4-7e3d-489c-b62e-db95d1c8cebc",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U25",
+            "uuid": "d3933b82-4197-449e-9e4f-353d6b905384"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (GND) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 219.5,
+        "y": 123.92
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U25 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 219.5,
+            "y": 123.92
+          },
+          "uuid": "48489d27-930a-43f2-9ee5-55011d13eabc",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U25",
+            "uuid": "d3933b82-4197-449e-9e4f-353d6b905384"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (/Main_Control/HALL3_RAW) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 220.45,
+        "y": 126.08
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U25 的焊盘 3 [<no net>]",
+          "pos": {
+            "x": 220.45,
+            "y": 126.08
+          },
+          "uuid": "40e76b1b-2931-423e-acf9-b1e5fe951c00",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U25",
+            "uuid": "d3933b82-4197-449e-9e4f-353d6b905384"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "封装中缺少符号字段 'LCSC'",
+      "rule": "footprint_symbol_field_mismatch",
+      "pos": {
+        "x": 85.0,
+        "y": 118.0
+      },
+      "items": [
+        {
+          "description": "封装 U26",
+          "pos": {
+            "x": 85.0,
+            "y": 118.0
+          },
+          "uuid": "0210a4e9-72fc-4ade-ac87-d8c321ec3646",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (3V3) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 84.05,
+        "y": 119.08
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U26 的焊盘 1 [<no net>]",
+          "pos": {
+            "x": 84.05,
+            "y": 119.08
+          },
+          "uuid": "523a58a7-0b85-4d1e-9e79-8400db9bc611",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U26",
+            "uuid": "0210a4e9-72fc-4ade-ac87-d8c321ec3646"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (GND) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 85.0,
+        "y": 116.92
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U26 的焊盘 2 [<no net>]",
+          "pos": {
+            "x": 85.0,
+            "y": 116.92
+          },
+          "uuid": "2fbff001-3774-473b-aa6f-e6d041d750a6",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U26",
+            "uuid": "0210a4e9-72fc-4ade-ac87-d8c321ec3646"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "焊盘缺少原理图 (/Main_Control/HALL4_RAW) 指定的网络",
+      "rule": "net_conflict",
+      "pos": {
+        "x": 85.95,
+        "y": 119.08
+      },
+      "items": [
+        {
+          "description": "F.Cu 上 U26 的焊盘 3 [<no net>]",
+          "pos": {
+            "x": 85.95,
+            "y": 119.08
+          },
+          "uuid": "2fa398ae-b6e7-44ce-a0fa-81c35d47cf87",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U26",
+            "uuid": "0210a4e9-72fc-4ade-ac87-d8c321ec3646"
+          }
+        }
+      ]
     },
     {
       "severity": "warning",

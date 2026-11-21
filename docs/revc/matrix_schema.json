@@ -86,10 +86,10 @@
     "zones": 0
   },
   "limits": "Pad XY extracted by footprint transform; old anchors verified from source; pad display rectangles approximate all shapes; no filled zones reconstruction, DRC, exact courtyards, or latest 116 footprint data.",
-  "saved_pcb_sha256": "b6ecaefe3850c9baf6a0456be1a1b326bef079d9325e58b4e8ad76446d298b58",
+  "saved_pcb_sha256": "5e874a8ad7fc3052e4228d225968f4427fa315b40a842bd78d690ab54784e5c5",
   "saved_pcb_counts": {
-    "footprints": 116,
-    "pads": 469,
+    "footprints": 124,
+    "pads": 497,
     "vias": 95,
     "layers": {
       "B.Cu": {
