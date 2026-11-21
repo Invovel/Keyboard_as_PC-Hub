@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "columns": [
+    "id",
+    "class",
+    "status",
+    "source",
+    "mount",
+    "x",
+    "y",
+    "z",
+    "dx",
+    "dy",
+    "dz",
+    "rot_deg",
+    "shape",
+    "x2",
+    "y2",
+    "z2",
+    "min",
+    "max"
+  ],
+  "unit": "mm; deg",
+  "origin": "screen center; +X right, +Y rear high edge, +Z up from enclosure bottom",
+  "kicad_transform": "Xk=150+X; Yk=100-Y; rotation kept as KiCad native for old footprints; proposed rot CCW in product XY",
+  "unknown": null,
+  "class": {
+    "1": "shell",
+    "2": "PCB",
+    "3": "control",
+    "4": "mechanical",
+    "5": "acoustic",
+    "6": "port",
+    "7": "functional zone",
+    "8": "component",
+    "9": "geometry",
+    "10": "old footprint"
+  },
+  "status": {
+    "1": "measured from older uploaded file (not latest)",
+    "2": "confirmed design/document intent, unverified manufacture",
+    "3": "inherited source candidate",
+    "4": "new proposed coordinates",
+    "5": "unresolved",
+    "6": "superseded"
+  },
+  "source": {
+    "1": "uploaded Pc-Hub_RevB.kicad_pcb b45e2fa8844ede5e65c0c1d2b8155a0f80a48a8898d3fcc1ab8a3a941220791a",
+    "2": "R3.1 dimensions/placement docs",
+    "3": "haptic-reservation-r3-1.json",
+    "4": "2026-11-18 status doc",
+    "5": "conversation final design and author proposals"
+  },
+  "mount": {
+    "0": "unspecified",
+    "1": "F.Cu",
+    "2": "In1.Cu",
+    "3": "In2.Cu",
+    "4": "B.Cu",
+    "5": "all Cu",
+    "6": "upper shell",
+    "7": "lower shell",
+    "8": "daughter assembly",
+    "9": "housing edge",
+    "10": "moving structure",
+    "11": "internal",
+    "12": "underside"
+  },
+  "shape": {
+    "0": "point/unknown",
+    "1": "rectangle nominal envelope",
+    "2": "circle nominal envelope",
+    "3": "segment"
+  },
+  "semantics": "x,y center except shape 3 start and footprint anchor; z center except 100 bottom datum; dx dy dz envelope unless explicitly described; min/max context in dictionary; no dimension inferred for unknown footprints; native pad rotations retained (KiCad).",
+  "repository_tree_sha": "6f457df0c0c896b424c8cd6883c0bdcac49e52f0",
+  "latest_doc_pcb_sha256": "fe276efdff6f99c06652819baa8627778bd1978354104d869fe9c515d477b64b",
+  "snapshot_counts": {
+    "footprints": 79,
+    "segments": 282,
+    "vias": 0,
+    "zones": 0
+  },
+  "limits": "Pad XY extracted by footprint transform; old anchors verified from source; pad display rectangles approximate all shapes; no filled zones reconstruction, DRC, exact courtyards, or latest 116 footprint data."
+}

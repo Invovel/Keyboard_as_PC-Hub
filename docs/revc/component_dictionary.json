@@ -1,0 +1,3576 @@
+{
+  "1000": {
+    "name": "C1",
+    "detail": "10uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      181.8,
+      88.8,
+      180.0
+    ],
+    "value": "10uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1001": {
+    "name": "C10",
+    "detail": "1uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      95.5,
+      106.0,
+      0
+    ],
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1002": {
+    "name": "C101",
+    "detail": "100nF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      246.0,
+      84.5,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1003": {
+    "name": "C102",
+    "detail": "8pF | Capacitor_SMD:C_0402_1005Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      226.0,
+      90.0,
+      0
+    ],
+    "value": "8pF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "layer": "B.Cu",
+    "pad_count": 2
+  },
+  "1004": {
+    "name": "C103",
+    "detail": "8pF | Capacitor_SMD:C_0402_1005Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      226.0,
+      94.0,
+      0
+    ],
+    "value": "8pF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "layer": "B.Cu",
+    "pad_count": 2
+  },
+  "1005": {
+    "name": "C104",
+    "detail": "100nF | Capacitor_SMD:C_0402_1005Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      229.0,
+      87.5,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "layer": "B.Cu",
+    "pad_count": 2
+  },
+  "1006": {
+    "name": "C105",
+    "detail": "100nF | Capacitor_SMD:C_0402_1005Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      229.0,
+      89.5,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "layer": "B.Cu",
+    "pad_count": 2
+  },
+  "1007": {
+    "name": "C106",
+    "detail": "100nF | Capacitor_SMD:C_0402_1005Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      241.0,
+      88.5,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "layer": "B.Cu",
+    "pad_count": 2
+  },
+  "1008": {
+    "name": "C107",
+    "detail": "100nF | Capacitor_SMD:C_0402_1005Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      241.0,
+      91.0,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "layer": "B.Cu",
+    "pad_count": 2
+  },
+  "1009": {
+    "name": "C11",
+    "detail": "100nF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      95.5,
+      108.5,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1010": {
+    "name": "C12",
+    "detail": "1uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      88.5,
+      103.5,
+      0
+    ],
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1011": {
+    "name": "C13",
+    "detail": "1uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      219.0,
+      111.0,
+      0
+    ],
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1012": {
+    "name": "C14",
+    "detail": "100nF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      219.0,
+      113.5,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1013": {
+    "name": "C15",
+    "detail": "1uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      213.5,
+      107.5,
+      0
+    ],
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1014": {
+    "name": "C2",
+    "detail": "100nF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      181.8,
+      92.4,
+      180.0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1015": {
+    "name": "C3",
+    "detail": "1uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      181.8,
+      98.1,
+      180.0
+    ],
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1016": {
+    "name": "C4",
+    "detail": "10uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      205.2,
+      96.0,
+      90.0
+    ],
+    "value": "10uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1017": {
+    "name": "C5",
+    "detail": "100nF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      208.0,
+      90.0,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1018": {
+    "name": "C6",
+    "detail": "22uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      214.0,
+      89.0,
+      0
+    ],
+    "value": "22uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1019": {
+    "name": "C7",
+    "detail": "22uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      215.0,
+      86.5,
+      0
+    ],
+    "value": "22uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1020": {
+    "name": "C8",
+    "detail": "100nF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      212.0,
+      114.0,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1021": {
+    "name": "C9",
+    "detail": "10uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      204.0,
+      124.0,
+      0
+    ],
+    "value": "10uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1022": {
+    "name": "H1",
+    "detail": "M2 / D2.4 candidate | CoreMechanical:Core_Frame_With_H1_D2.4；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      46.0,
+      128.0,
+      0
+    ],
+    "value": "M2 / D2.4 candidate",
+    "footprint": "CoreMechanical:Core_Frame_With_H1_D2.4",
+    "layer": "F.Cu",
+    "pad_count": 1
+  },
+  "1023": {
+    "name": "H2",
+    "detail": "M2 / D2.4 candidate | CoreMechanical:Hole_D2.4_Keepout5；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      254.0,
+      128.0,
+      0
+    ],
+    "value": "M2 / D2.4 candidate",
+    "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+    "layer": "F.Cu",
+    "pad_count": 1
+  },
+  "1024": {
+    "name": "H3",
+    "detail": "M2 / D2.4 candidate | CoreMechanical:Hole_D2.4_Keepout5；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      254.0,
+      72.0,
+      0
+    ],
+    "value": "M2 / D2.4 candidate",
+    "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+    "layer": "F.Cu",
+    "pad_count": 1
+  },
+  "1025": {
+    "name": "H4",
+    "detail": "M2 / D2.4 candidate | CoreMechanical:Hole_D2.4_Keepout5；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      46.0,
+      72.0,
+      0
+    ],
+    "value": "M2 / D2.4 candidate",
+    "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+    "layer": "F.Cu",
+    "pad_count": 1
+  },
+  "1026": {
+    "name": "J101",
+    "detail": "USB1046-GF-0190-L-B-A | Connector_USB:USB_A_Receptacle_GCT_USB1046；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      241.0,
+      73.45,
+      180.0
+    ],
+    "value": "USB1046-GF-0190-L-B-A",
+    "footprint": "Connector_USB:USB_A_Receptacle_GCT_USB1046",
+    "layer": "F.Cu",
+    "pad_count": 8
+  },
+  "1027": {
+    "name": "JB1",
+    "detail": "KBD_USB2_P5 | Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      197.0,
+      73.0,
+      0
+    ],
+    "value": "KBD_USB2_P5",
+    "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 6
+  },
+  "1028": {
+    "name": "JD1",
+    "detail": "UART 3V3 LOGIC | Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      211.0,
+      103.0,
+      0
+    ],
+    "value": "UART 3V3 LOGIC",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 8
+  },
+  "1029": {
+    "name": "JE1",
+    "detail": "EC11 A/B/SW | Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      108.0,
+      125.0,
+      0
+    ],
+    "value": "EC11 A/B/SW",
+    "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 6
+  },
+  "1030": {
+    "name": "JG1",
+    "detail": "MAG_L_LOW_SPEED | Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认；最新RevB已删除，不得恢复。",
+    "kicad_at": [
+      73.5,
+      94.0,
+      0
+    ],
+    "value": "MAG_L_LOW_SPEED",
+    "footprint": "Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 10
+  },
+  "1031": {
+    "name": "JG2",
+    "detail": "MAG_R_LOW_SPEED | Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      226.5,
+      94.0,
+      0
+    ],
+    "value": "MAG_R_LOW_SPEED",
+    "footprint": "Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 10
+  },
+  "1032": {
+    "name": "JH1",
+    "detail": "HAPTIC L DEBUG DNP | Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      72.0,
+      106.0,
+      0
+    ],
+    "value": "HAPTIC L DEBUG DNP",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 8
+  },
+  "1033": {
+    "name": "JH2",
+    "detail": "HAPTIC R DEBUG DNP | Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      228.0,
+      106.0,
+      0
+    ],
+    "value": "HAPTIC R DEBUG DNP",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 8
+  },
+  "1034": {
+    "name": "JK1",
+    "detail": "KEY 1 | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      75.0,
+      82.0,
+      0
+    ],
+    "value": "KEY 1",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1035": {
+    "name": "JK2",
+    "detail": "KEY 2 | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      225.0,
+      82.0,
+      0
+    ],
+    "value": "KEY 2",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1036": {
+    "name": "JK3",
+    "detail": "KEY 3 | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      225.0,
+      118.0,
+      0
+    ],
+    "value": "KEY 3",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1037": {
+    "name": "JK4",
+    "detail": "KEY 4 | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      75.0,
+      118.0,
+      0
+    ],
+    "value": "KEY 4",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1038": {
+    "name": "JL1",
+    "detail": "LCD QSPI 6 SIGNALS | Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      130.0,
+      128.0,
+      0
+    ],
+    "value": "LCD QSPI 6 SIGNALS",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 8
+  },
+  "1039": {
+    "name": "JM1",
+    "detail": "INMP441 MODULE OPTION DNP | Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      108.0,
+      104.0,
+      0
+    ],
+    "value": "INMP441 MODULE OPTION DNP",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 8
+  },
+  "1040": {
+    "name": "JML1",
+    "detail": "7 PLUS MOTOR L | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      82.5,
+      108.0,
+      0
+    ],
+    "value": "7 PLUS MOTOR L",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1041": {
+    "name": "JMR1",
+    "detail": "7 PLUS MOTOR R | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      226.0,
+      126.0,
+      0
+    ],
+    "value": "7 PLUS MOTOR R",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1042": {
+    "name": "JP1",
+    "detail": "BOOT / DISABLE | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      123.0,
+      120.0,
+      0
+    ],
+    "value": "BOOT / DISABLE",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1043": {
+    "name": "JPOWER1",
+    "detail": "BENCH_5V_DNP | CoreControl:Bench_5V_Input_2Pads_P5.08_D1.2；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      213.0,
+      128.0,
+      0
+    ],
+    "value": "BENCH_5V_DNP",
+    "footprint": "CoreControl:Bench_5V_Input_2Pads_P5.08_D1.2",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1044": {
+    "name": "JR1",
+    "detail": "RESET | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      193.0,
+      84.0,
+      0
+    ],
+    "value": "RESET",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1045": {
+    "name": "JS1",
+    "detail": "SCREEN_PRESS_SPARE_TBD | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      177.0,
+      120.0,
+      0
+    ],
+    "value": "SCREEN_PRESS_SPARE_TBD",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1046": {
+    "name": "JT1",
+    "detail": "TOUCH + DISPLAY POWER | Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      170.0,
+      128.0,
+      0
+    ],
+    "value": "TOUCH + DISPLAY POWER",
+    "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 6
+  },
+  "1047": {
+    "name": "JU1",
+    "detail": "INTERNAL USB2 FS ONLY | Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      180.0,
+      78.0,
+      0
+    ],
+    "value": "INTERNAL USB2 FS ONLY",
+    "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 6
+  },
+  "1048": {
+    "name": "L1",
+    "detail": "3.3uH | CoreControl:L_Bourns_SRP4020TA；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      215.0,
+      94.0,
+      0
+    ],
+    "value": "3.3uH",
+    "footprint": "CoreControl:L_Bourns_SRP4020TA",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1049": {
+    "name": "R1",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      181.8,
+      95.3,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1050": {
+    "name": "R10",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      116.0,
+      125.5,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1051": {
+    "name": "R101",
+    "detail": "0R DNP | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      232.0,
+      80.0,
+      0
+    ],
+    "value": "0R DNP",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1052": {
+    "name": "R11",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      116.0,
+      128.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1053": {
+    "name": "R12",
+    "detail": "22R | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      181.8,
+      107.8,
+      0
+    ],
+    "value": "22R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1054": {
+    "name": "R13",
+    "detail": "22R | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      181.8,
+      110.3,
+      0
+    ],
+    "value": "22R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1055": {
+    "name": "R14",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      209.0,
+      121.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1056": {
+    "name": "R15",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      205.0,
+      121.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1057": {
+    "name": "R16",
+    "detail": "4.7k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      100.0,
+      112.0,
+      0
+    ],
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1058": {
+    "name": "R17",
+    "detail": "4.7k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      100.0,
+      114.5,
+      0
+    ],
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1059": {
+    "name": "R18",
+    "detail": "4.7k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      201.0,
+      120.0,
+      0
+    ],
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1060": {
+    "name": "R19",
+    "detail": "4.7k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      201.0,
+      122.0,
+      0
+    ],
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1061": {
+    "name": "R2",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      206.0,
+      109.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1062": {
+    "name": "R20",
+    "detail": "0R | Resistor_SMD:R_1206_3216Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      205.0,
+      127.0,
+      0
+    ],
+    "value": "0R",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1063": {
+    "name": "R21",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      205.0,
+      130.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1064": {
+    "name": "R3",
+    "detail": "4.7k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      162.0,
+      127.0,
+      0
+    ],
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1065": {
+    "name": "R4",
+    "detail": "4.7k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      162.0,
+      129.5,
+      0
+    ],
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1066": {
+    "name": "R5",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      80.5,
+      84.8,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1067": {
+    "name": "R6",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      219.5,
+      84.8,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1068": {
+    "name": "R7",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      219.5,
+      118.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1069": {
+    "name": "R8",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      80.5,
+      118.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1070": {
+    "name": "R9",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      116.0,
+      123.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1071": {
+    "name": "U1",
+    "detail": "ESP32-S3-WROOM-1U-N16R8 | RF_Module:ESP32-S3-WROOM-1U；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      194.0,
+      101.0,
+      0
+    ],
+    "value": "ESP32-S3-WROOM-1U-N16R8",
+    "footprint": "RF_Module:ESP32-S3-WROOM-1U",
+    "layer": "F.Cu",
+    "pad_count": 62
+  },
+  "1072": {
+    "name": "U101",
+    "detail": "USBLC6-2SC6 | Package_TO_SOT_SMD:SOT-23-6；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      241.0,
+      86.5,
+      -90.0
+    ],
+    "value": "USBLC6-2SC6",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "layer": "F.Cu",
+    "pad_count": 6
+  },
+  "1073": {
+    "name": "U102",
+    "detail": "ADuM3165BRSZ | Package_SO:SSOP-20_5.3x7.2mm_P0.65mm；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      235.0,
+      92.0,
+      0
+    ],
+    "value": "ADuM3165BRSZ",
+    "footprint": "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm",
+    "layer": "B.Cu",
+    "pad_count": 20
+  },
+  "1074": {
+    "name": "U2",
+    "detail": "AP63203WU-7 | Package_TO_SOT_SMD:TSOT-23-6；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      208.0,
+      94.0,
+      90.0
+    ],
+    "value": "AP63203WU-7",
+    "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+    "layer": "F.Cu",
+    "pad_count": 6
+  },
+  "1075": {
+    "name": "U3",
+    "detail": "TCA9543APWR | Package_SO:TSSOP-14_4.4x5mm_P0.65mm；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      206.0,
+      116.0,
+      0
+    ],
+    "value": "TCA9543APWR",
+    "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "layer": "F.Cu",
+    "pad_count": 14
+  },
+  "1076": {
+    "name": "U4",
+    "detail": "DRV2605LDGSR | Package_SO:TSSOP-10_3x3mm_P0.5mm；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      90.0,
+      107.0,
+      0
+    ],
+    "value": "DRV2605LDGSR",
+    "footprint": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+    "layer": "F.Cu",
+    "pad_count": 10
+  },
+  "1077": {
+    "name": "U5",
+    "detail": "DRV2605LDGSR | Package_SO:TSSOP-10_3x3mm_P0.5mm；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      214.0,
+      111.0,
+      0
+    ],
+    "value": "DRV2605LDGSR",
+    "footprint": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+    "layer": "F.Cu",
+    "pad_count": 10
+  },
+  "1078": {
+    "name": "Y101",
+    "detail": "24MHz | Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      227.5,
+      92.0,
+      0
+    ],
+    "value": "24MHz",
+    "footprint": "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm",
+    "layer": "B.Cu",
+    "pad_count": 4
+  },
+  "100": {
+    "name": "Core 下壳/整机包络",
+    "detail": "R5；前20 后26.65；5°名义倾角，基准壁/底厚2.4；下壳固定侧壁承力；前后高度需CAD复核"
+  },
+  "101": {
+    "name": "可更换弹性顶壳",
+    "detail": "四分区环形连续外观；4径向渐消槽，不画独立矩形键帽；顶层目标≤10元、单键≥10万次"
+  },
+  "102": {
+    "name": "四层主PCB",
+    "detail": "Z=6.4~8.0旧基准；F.Cu / In1 / In2 / B.Cu；保留中心板材，局部孔按实物"
+  },
+  "103": {
+    "name": "EC56-HA1",
+    "detail": "选择EC56；正向焊接；正式子型号/厂图/3D及孔位未冻结"
+  },
+  "104": {
+    "name": "旋转外环",
+    "detail": "名义直径60；外壳间隙单边1~2；内环3D打印，外环首版打印；不得承载固定支撑"
+  },
+  "105": {
+    "name": "360×360触控屏",
+    "detail": "AA Ø38.16，双FPC延伸39.98/41.93；不随旋转环运动；需独立托架/导向/硬限位"
+  },
+  "106": {
+    "name": "固定支撑限位环",
+    "detail": "示意直径62（非加工值）；固定于下壳，需与编码器/旋钮/磁铁及FPC分离；实际截面未知"
+  },
+  "107": {
+    "name": "屏幕下压开关",
+    "detail": "独立机械触发；低矮SMD候选，型号/实际XY/Z未确认；中心仅表达作用轴"
+  },
+  "108": {
+    "name": "旧中央机构优先区 R27",
+    "detail": "旧R27不是自动铜层禁布；新版EC56须重新生成更大机械包络"
+  },
+  "109": {
+    "name": "旋钮外壳开口",
+    "detail": "Ø60+2×单边1mm；Ø64为2mm单边上限"
+  },
+  "110": {
+    "name": "K1 OH49E",
+    "detail": "继承旧感应中心作为RevC首轮候选；JSMSEMI C49021369，SOT-23，3.3V；ADC1或ADS1015；实际移近旋钮与否需曲面位移验证"
+  },
+  "120": {
+    "name": "K1 磁铁",
+    "detail": "Ø2×1/Ø3×1候选；与霍尔同轴；顶壳卡槽+防脱；无接触；初始间隙2~4"
+  },
+  "130": {
+    "name": "K1 RGB",
+    "detail": "WS2812C-4020-H2 C42417604；4颗单线串联；灯珠侧发光方向随导光件定，XY仅候选"
+  },
+  "140": {
+    "name": "K1 硬限位",
+    "detail": "固定件限位0.4~0.5；触发0.2~0.3/释放0.1~0.15；坐标需按活动面确定"
+  },
+  "111": {
+    "name": "K2 OH49E",
+    "detail": "继承旧感应中心作为RevC首轮候选；JSMSEMI C49021369，SOT-23，3.3V；ADC1或ADS1015；实际移近旋钮与否需曲面位移验证"
+  },
+  "121": {
+    "name": "K2 磁铁",
+    "detail": "Ø2×1/Ø3×1候选；与霍尔同轴；顶壳卡槽+防脱；无接触；初始间隙2~4"
+  },
+  "131": {
+    "name": "K2 RGB",
+    "detail": "WS2812C-4020-H2 C42417604；4颗单线串联；灯珠侧发光方向随导光件定，XY仅候选"
+  },
+  "141": {
+    "name": "K2 硬限位",
+    "detail": "固定件限位0.4~0.5；触发0.2~0.3/释放0.1~0.15；坐标需按活动面确定"
+  },
+  "112": {
+    "name": "K3 OH49E",
+    "detail": "继承旧感应中心作为RevC首轮候选；JSMSEMI C49021369，SOT-23，3.3V；ADC1或ADS1015；实际移近旋钮与否需曲面位移验证"
+  },
+  "122": {
+    "name": "K3 磁铁",
+    "detail": "Ø2×1/Ø3×1候选；与霍尔同轴；顶壳卡槽+防脱；无接触；初始间隙2~4"
+  },
+  "132": {
+    "name": "K3 RGB",
+    "detail": "WS2812C-4020-H2 C42417604；4颗单线串联；灯珠侧发光方向随导光件定，XY仅候选"
+  },
+  "142": {
+    "name": "K3 硬限位",
+    "detail": "固定件限位0.4~0.5；触发0.2~0.3/释放0.1~0.15；坐标需按活动面确定"
+  },
+  "113": {
+    "name": "K4 OH49E",
+    "detail": "继承旧感应中心作为RevC首轮候选；JSMSEMI C49021369，SOT-23，3.3V；ADC1或ADS1015；实际移近旋钮与否需曲面位移验证"
+  },
+  "123": {
+    "name": "K4 磁铁",
+    "detail": "Ø2×1/Ø3×1候选；与霍尔同轴；顶壳卡槽+防脱；无接触；初始间隙2~4"
+  },
+  "133": {
+    "name": "K4 RGB",
+    "detail": "WS2812C-4020-H2 C42417604；4颗单线串联；灯珠侧发光方向随导光件定，XY仅候选"
+  },
+  "143": {
+    "name": "K4 硬限位",
+    "detail": "固定件限位0.4~0.5；触发0.2~0.3/释放0.1~0.15；坐标需按活动面确定"
+  },
+  "150": {
+    "name": "径向渐消/释放槽 1",
+    "detail": "按用户草图四条与圆周连接；左右原槽延长约20%意图，历史没有CAD长度，坐标是演示候选；端圆角，固定根部保留"
+  },
+  "151": {
+    "name": "径向渐消/释放槽 2",
+    "detail": "按用户草图四条与圆周连接；左右原槽延长约20%意图，历史没有CAD长度，坐标是演示候选；端圆角，固定根部保留"
+  },
+  "152": {
+    "name": "径向渐消/释放槽 3",
+    "detail": "按用户草图四条与圆周连接；左右原槽延长约20%意图，历史没有CAD长度，坐标是演示候选；端圆角，固定根部保留"
+  },
+  "153": {
+    "name": "径向渐消/释放槽 4",
+    "detail": "按用户草图四条与圆周连接；左右原槽延长约20%意图，历史没有CAD长度，坐标是演示候选；端圆角，固定根部保留"
+  },
+  "160": {
+    "name": "左马达安装包络",
+    "detail": "仓库旧平面候选；下壳固定弧形载架（覆盖旧顶壳固定）；本体长轴Y；Z9.5~15.5需重核；右ISO冲突"
+  },
+  "162": {
+    "name": "左iPhone 7 Plus Taptic Engine",
+    "detail": "用户提供含耳50×12.5×2.6，本体43×12.5×2.6；原安装耳+螺丝；不固定PCB；实际孔/轴/电流未知"
+  },
+  "164": {
+    "name": "左马达刚性承力架",
+    "detail": "与下壳高侧壁弧筋连接；位置不等于安装孔；可拆卸，预留焊线弯折"
+  },
+  "166": {
+    "name": "左马达2Pin输出座",
+    "detail": "独立OUT+/OUT−，JST SH/GH候选；原JH1/2为6Pin接口，不能直接当2Pin输出；落点依据驱动器和线束",
+    "saved_anchor_id": 2049
+  },
+  "161": {
+    "name": "右马达安装包络",
+    "detail": "仓库旧平面候选；下壳固定弧形载架（覆盖旧顶壳固定）；本体长轴Y；Z9.5~15.5需重核；右ISO冲突"
+  },
+  "163": {
+    "name": "右iPhone 7 Plus Taptic Engine",
+    "detail": "用户提供含耳50×12.5×2.6，本体43×12.5×2.6；原安装耳+螺丝；不固定PCB；实际孔/轴/电流未知"
+  },
+  "165": {
+    "name": "右马达刚性承力架",
+    "detail": "与下壳高侧壁弧筋连接；位置不等于安装孔；可拆卸，预留焊线弯折"
+  },
+  "167": {
+    "name": "右马达2Pin输出座",
+    "detail": "独立OUT+/OUT−，JST SH/GH候选；原JH1/2为6Pin接口，不能直接当2Pin输出；落点依据驱动器和线束",
+    "saved_anchor_id": 2050
+  },
+  "170": {
+    "name": "INMP441独立小板",
+    "detail": "右下偏内侧；10×12候选，旧左侧麦位作废；底部声孔、弹性座、密封声道；与右马达实际距离/按键/连接器待核"
+  },
+  "171": {
+    "name": "收音槽1顶面",
+    "detail": "三道对应跨棱；仅在外露侧壁延续，不被键盘堵塞；顶面4~6、侧壁5~8，宽0.8~1.2，间距2.5~3候选"
+  },
+  "174": {
+    "name": "收音槽1侧壁",
+    "detail": "投影点；实际边缘Z与外露条件待测；不通整机腔体，透声网和独立声腔"
+  },
+  "172": {
+    "name": "收音槽2顶面",
+    "detail": "三道对应跨棱；仅在外露侧壁延续，不被键盘堵塞；顶面4~6、侧壁5~8，宽0.8~1.2，间距2.5~3候选"
+  },
+  "175": {
+    "name": "收音槽2侧壁",
+    "detail": "投影点；实际边缘Z与外露条件待测；不通整机腔体，透声网和独立声腔"
+  },
+  "173": {
+    "name": "收音槽3顶面",
+    "detail": "三道对应跨棱；仅在外露侧壁延续，不被键盘堵塞；顶面4~6、侧壁5~8，宽0.8~1.2，间距2.5~3候选"
+  },
+  "176": {
+    "name": "收音槽3侧壁",
+    "detail": "投影点；实际边缘Z与外露条件待测；不通整机腔体，透声网和独立声腔"
+  },
+  "177": {
+    "name": "麦克风密封声腔",
+    "detail": "与顶面/高侧对应，防喷薄开孔泡棉/透声网；没有冻结声道截面与真实侧壁位置"
+  },
+  "180": {
+    "name": "SWJ1 SLLB510100",
+    "detail": "最新RevB文档确认KiCad(47.1,100)旋转90，拨头朝左；GPIO未分配；上录音、中静音、下通知",
+    "saved_anchor_id": 2104
+  },
+  "181": {
+    "name": "SWJ1 定位孔1",
+    "detail": "最新RevB文档确认，正式封装仍需厂图复核"
+  },
+  "182": {
+    "name": "SWJ1 定位孔2",
+    "detail": "最新RevB文档确认，正式封装仍需厂图复核"
+  },
+  "190": {
+    "name": "A1/P1",
+    "detail": "USB-A 3.x下游；壳体接口中心，不是焊盘坐标"
+  },
+  "191": {
+    "name": "A2/P2",
+    "detail": "USB-A 3.x下游；壳体接口中心，不是焊盘坐标"
+  },
+  "192": {
+    "name": "PC-C",
+    "detail": "唯一电脑Host上行，CC Sink、ESD、SS mux；壳体接口中心，不是焊盘坐标"
+  },
+  "193": {
+    "name": "ISO/DEBUG",
+    "detail": "USB-A 480Mbps目标；隔离地与主地独立，右马达冲突；壳体接口中心，不是焊盘坐标"
+  },
+  "194": {
+    "name": "FAST-C/P3",
+    "detail": "左侧下游，10Gbps目标；壳体接口中心，不是焊盘坐标"
+  },
+  "195": {
+    "name": "MAG-R",
+    "detail": "右侧8触点2.5间距；低速低功耗；左MAG移除；壳体接口中心，不是焊盘坐标"
+  },
+  "196": {
+    "name": "总禁用",
+    "detail": "旧位置候选；GPIO0启动绑带风险；壳体接口中心，不是焊盘坐标"
+  },
+  "197": {
+    "name": "KBD/P5",
+    "detail": "浮动长颈标准公头；键盘CC64-RGB实物坐标未取得；不另设外部线；壳体接口中心，不是焊盘坐标"
+  },
+  "200": {
+    "name": "主Hub/配置",
+    "detail": "USB7206C目标未落地；CH634只为5Gbps备选，不擅自替换"
+  },
+  "201": {
+    "name": "Hub电源",
+    "detail": "晶振/电感/去耦就近，真实电压按芯片"
+  },
+  "202": {
+    "name": "MCU区",
+    "detail": "ESP32-S3 N16R8正式首选，S31升级候选；外置天线净空"
+  },
+  "203": {
+    "name": "PC/Dock电源选择",
+    "detail": "反灌保护/限流，布局旧修订候选"
+  },
+  "204": {
+    "name": "Dock DATA",
+    "detail": "P4专用USB2/SS；非第二上行"
+  },
+  "205": {
+    "name": "Dock PWR",
+    "detail": "单向5V"
+  },
+  "206": {
+    "name": "Dock CTRL",
+    "detail": "检测与故障"
+  },
+  "207": {
+    "name": "LCD/Touch接口候选带",
+    "detail": "按双FPC真实出口重核"
+  },
+  "208": {
+    "name": "高速后缘走廊",
+    "detail": "仅研究，不承诺SI，不跨地缝"
+  },
+  "209": {
+    "name": "ISO完整电源/隔离边界",
+    "detail": "U102背面优先；实测3D、爬电/电气间隙；禁止主/隔离地混铜；VRB0505S完整端点待补"
+  },
+  "210": {
+    "name": "ADS1015",
+    "detail": "4路ADC，若ADC1四路空闲则不装"
+  },
+  "211": {
+    "name": "RGB电平转换",
+    "detail": "根据WS2812C电气阈值选用AHCT等；RGB_DATA GPIO待分配"
+  },
+  "212": {
+    "name": "USB2512B",
+    "detail": "P6分支Hub；待原理图"
+  },
+  "213": {
+    "name": "KBD受控供电/CC",
+    "detail": "Source/DFP、限流防反灌"
+  },
+  "214": {
+    "name": "VRB0505S",
+    "detail": "隔离DC/DC，预算/装配未验证"
+  },
+  "215": {
+    "name": "IPEX天线",
+    "detail": "塑料区域远离金属及磁铁，实测RF"
+  },
+  "216": {
+    "name": "EC56安装孔",
+    "detail": "厂图未取得，不生成正式钻孔"
+  },
+  "217": {
+    "name": "固定弧形加强筋",
+    "detail": "承力区加强；不侵入四键活动区、USB、FPC/声孔、隔离带"
+  },
+  "220": {
+    "name": "主板安装孔H1",
+    "detail": "旧候选Ø2.4，柱体/接口/铜禁布待核"
+  },
+  "221": {
+    "name": "主板安装孔H2",
+    "detail": "旧候选Ø2.4，柱体/接口/铜禁布待核"
+  },
+  "222": {
+    "name": "主板安装孔H3",
+    "detail": "旧候选Ø2.4，柱体/接口/铜禁布待核"
+  },
+  "223": {
+    "name": "主板安装孔H4",
+    "detail": "旧候选Ø2.4，柱体/接口/铜禁布待核"
+  },
+  "230": {
+    "name": "Dock底部总体预留",
+    "detail": "板间8研究值；外壳开孔及配对件TBD"
+  },
+  "231": {
+    "name": "右附件五键",
+    "detail": "一字5键，19.05间距，键帽外露9；K5 Fn；不属于Core主板坐标"
+  },
+  "232": {
+    "name": "右附件横向触控条",
+    "detail": "五键前部，长度104、有效90~96；不新增Core上的第二触控条"
+  },
+  "2000": {
+    "name": "C1",
+    "reference": "C1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      181.8,
+      88.8,
+      180.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1000,
+    "value": "10uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2001": {
+    "name": "C10",
+    "reference": "C10",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      95.5,
+      106.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1001,
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2002": {
+    "name": "C101",
+    "reference": "C101",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      246.0,
+      84.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1002,
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2003": {
+    "name": "C102",
+    "reference": "C102",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      229.15,
+      94.7,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1003,
+    "value": "8pF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2004": {
+    "name": "C103",
+    "reference": "C103",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      226.5,
+      90.05,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1004,
+    "value": "8pF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2005": {
+    "name": "C104",
+    "reference": "C104",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      229.0,
+      87.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1005,
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2006": {
+    "name": "C105",
+    "reference": "C105",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      229.0,
+      89.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1006,
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2007": {
+    "name": "C106",
+    "reference": "C106",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      241.0,
+      96.2,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1007,
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2008": {
+    "name": "C107",
+    "reference": "C107",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      241.5,
+      93.625,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1008,
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2009": {
+    "name": "C11",
+    "reference": "C11",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      95.5,
+      108.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1009,
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2010": {
+    "name": "C12",
+    "reference": "C12",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      88.5,
+      103.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1010,
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2011": {
+    "name": "C13",
+    "reference": "C13",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      219.0,
+      111.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1011,
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2012": {
+    "name": "C14",
+    "reference": "C14",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      219.0,
+      113.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1012,
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2013": {
+    "name": "C15",
+    "reference": "C15",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      213.5,
+      107.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1013,
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2014": {
+    "name": "C16",
+    "reference": "C16",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      208.0,
+      111.7,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2015": {
+    "name": "C2",
+    "reference": "C2",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      181.8,
+      92.4,
+      180.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1014,
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2016": {
+    "name": "C21",
+    "reference": "C21",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      210.0,
+      97.1,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "100nF 10V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2017": {
+    "name": "C22",
+    "reference": "C22",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      217.0,
+      100.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "1uF 10V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2018": {
+    "name": "C23",
+    "reference": "C23",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      223.0,
+      101.6,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "100nF 10V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2019": {
+    "name": "C24",
+    "reference": "C24",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      217.0,
+      105.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "470nF 10V X7R",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2020": {
+    "name": "C3",
+    "reference": "C3",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      181.8,
+      98.1,
+      180.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1015,
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2021": {
+    "name": "C4",
+    "reference": "C4",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      205.2,
+      96.0,
+      90.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1016,
+    "value": "10uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2022": {
+    "name": "C5",
+    "reference": "C5",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      208.0,
+      90.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1017,
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2023": {
+    "name": "C6",
+    "reference": "C6",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      214.0,
+      89.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1018,
+    "value": "22uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2024": {
+    "name": "C7",
+    "reference": "C7",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      215.0,
+      86.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1019,
+    "value": "22uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2025": {
+    "name": "C8",
+    "reference": "C8",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      212.0,
+      114.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1020,
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2026": {
+    "name": "C9",
+    "reference": "C9",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      204.0,
+      124.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1021,
+    "value": "10uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2027": {
+    "name": "D10",
+    "reference": "D10",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      224.5,
+      98.8,
+      90.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": null,
+    "value": "PESD5V0L1UL",
+    "footprint": "Diode_SMD:D_SOD-882",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2028": {
+    "name": "D6",
+    "reference": "D6",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      226.3,
+      99.2,
+      90.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": null,
+    "value": "PESD5V0L1UL",
+    "footprint": "Diode_SMD:D_SOD-882",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2029": {
+    "name": "D7",
+    "reference": "D7",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      228.1,
+      98.8,
+      90.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": null,
+    "value": "PESD5V0L1UL",
+    "footprint": "Diode_SMD:D_SOD-882",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2030": {
+    "name": "D8",
+    "reference": "D8",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      229.9,
+      99.2,
+      90.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": null,
+    "value": "PESD5V0L1UL",
+    "footprint": "Diode_SMD:D_SOD-882",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2031": {
+    "name": "D9",
+    "reference": "D9",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      231.7,
+      98.8,
+      90.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": null,
+    "value": "PESD5V0L1UL",
+    "footprint": "Diode_SMD:D_SOD-882",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2032": {
+    "name": "H1",
+    "reference": "H1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      46.0,
+      128.0,
+      0.0
+    ],
+    "pad_count": 1,
+    "old_matrix_id": 1022,
+    "value": "M2 / D2.4 candidate",
+    "footprint": "CoreMechanical:Core_Frame_With_H1_D2.4",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2033": {
+    "name": "H2",
+    "reference": "H2",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      254.0,
+      128.0,
+      0.0
+    ],
+    "pad_count": 1,
+    "old_matrix_id": 1023,
+    "value": "M2 / D2.4 candidate",
+    "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2034": {
+    "name": "H3",
+    "reference": "H3",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      254.0,
+      72.0,
+      0.0
+    ],
+    "pad_count": 1,
+    "old_matrix_id": 1024,
+    "value": "M2 / D2.4 candidate",
+    "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2035": {
+    "name": "H4",
+    "reference": "H4",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      46.0,
+      72.0,
+      0.0
+    ],
+    "pad_count": 1,
+    "old_matrix_id": 1025,
+    "value": "M2 / D2.4 candidate",
+    "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2036": {
+    "name": "J101",
+    "reference": "J101",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      241.0,
+      73.45,
+      180.0
+    ],
+    "pad_count": 8,
+    "old_matrix_id": 1026,
+    "value": "USB1046-GF-0190-L-B-A",
+    "footprint": "Connector_USB:USB_A_Receptacle_GCT_USB1046",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2037": {
+    "name": "JB1",
+    "reference": "JB1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      197.0,
+      73.0,
+      0.0
+    ],
+    "pad_count": 6,
+    "old_matrix_id": 1027,
+    "value": "KBD USB2 PROTECTED 100mA TARGET",
+    "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2038": {
+    "name": "JD1",
+    "reference": "JD1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      211.0,
+      103.0,
+      0.0
+    ],
+    "pad_count": 8,
+    "old_matrix_id": 1028,
+    "value": "UART 3V3 LOGIC",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2039": {
+    "name": "JE1",
+    "reference": "JE1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      108.0,
+      125.0,
+      0.0
+    ],
+    "pad_count": 6,
+    "old_matrix_id": 1029,
+    "value": "EC11 A/B/SW",
+    "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2040": {
+    "name": "JG2",
+    "reference": "JG2",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      226.5,
+      94.0,
+      0.0
+    ],
+    "pad_count": 10,
+    "old_matrix_id": 1031,
+    "value": "MAG R GH8 v1 PIN1 NC",
+    "footprint": "Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2041": {
+    "name": "JH1",
+    "reference": "JH1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      72.0,
+      106.0,
+      0.0
+    ],
+    "pad_count": 8,
+    "old_matrix_id": 1032,
+    "value": "HAPTIC L DEBUG DNP",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2042": {
+    "name": "JH2",
+    "reference": "JH2",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      228.0,
+      106.0,
+      0.0
+    ],
+    "pad_count": 8,
+    "old_matrix_id": 1033,
+    "value": "HAPTIC R DEBUG DNP",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2043": {
+    "name": "JK1",
+    "reference": "JK1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      75.0,
+      82.0,
+      0.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": 1034,
+    "value": "KEY 1",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2044": {
+    "name": "JK2",
+    "reference": "JK2",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      225.0,
+      82.0,
+      0.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": 1035,
+    "value": "KEY 2",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2045": {
+    "name": "JK3",
+    "reference": "JK3",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      225.0,
+      118.0,
+      0.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": 1036,
+    "value": "KEY 3",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2046": {
+    "name": "JK4",
+    "reference": "JK4",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      75.0,
+      118.0,
+      0.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": 1037,
+    "value": "KEY 4",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2047": {
+    "name": "JL1",
+    "reference": "JL1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      130.0,
+      128.0,
+      0.0
+    ],
+    "pad_count": 8,
+    "old_matrix_id": 1038,
+    "value": "LCD QSPI 6 SIGNALS",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2048": {
+    "name": "JM1",
+    "reference": "JM1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      108.0,
+      104.0,
+      0.0
+    ],
+    "pad_count": 8,
+    "old_matrix_id": 1039,
+    "value": "INMP441 MODULE OPTION DNP",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2049": {
+    "name": "JML1",
+    "reference": "JML1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      82.5,
+      108.0,
+      0.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": 1040,
+    "value": "7 PLUS MOTOR L",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2050": {
+    "name": "JMR1",
+    "reference": "JMR1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      226.0,
+      126.0,
+      0.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": 1041,
+    "value": "7 PLUS MOTOR R",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2051": {
+    "name": "JP1",
+    "reference": "JP1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      123.0,
+      120.0,
+      0.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": 1042,
+    "value": "BOOT / DISABLE",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2052": {
+    "name": "JPOWER1",
+    "reference": "JPOWER1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      213.0,
+      128.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1043,
+    "value": "BENCH_5V_DNP",
+    "footprint": "CoreControl:Bench_5V_Input_2Pads_P5.08_D1.2",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2053": {
+    "name": "JR1",
+    "reference": "JR1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      193.0,
+      84.0,
+      0.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": 1044,
+    "value": "RESET",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2054": {
+    "name": "JS1",
+    "reference": "JS1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      177.0,
+      120.0,
+      0.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": 1045,
+    "value": "SCREEN_PRESS GPIO39 DEBUG",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2055": {
+    "name": "JT1",
+    "reference": "JT1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      170.0,
+      128.0,
+      0.0
+    ],
+    "pad_count": 6,
+    "old_matrix_id": 1046,
+    "value": "TOUCH + DISPLAY POWER",
+    "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2056": {
+    "name": "JU1",
+    "reference": "JU1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      180.0,
+      78.0,
+      0.0
+    ],
+    "pad_count": 6,
+    "old_matrix_id": 1047,
+    "value": "INTERNAL USB2 FS ONLY",
+    "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2057": {
+    "name": "L1",
+    "reference": "L1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      215.0,
+      94.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1048,
+    "value": "3.3uH",
+    "footprint": "CoreControl:L_Bourns_SRP4020TA",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2058": {
+    "name": "Q3",
+    "reference": "Q3",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      214.0,
+      109.1,
+      0.0
+    ],
+    "pad_count": 3,
+    "old_matrix_id": null,
+    "value": "AO3400A",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2059": {
+    "name": "Q4",
+    "reference": "Q4",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      229.4,
+      107.7,
+      0.0
+    ],
+    "pad_count": 3,
+    "old_matrix_id": null,
+    "value": "AO3400A",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2060": {
+    "name": "Q6",
+    "reference": "Q6",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      233.8,
+      110.5,
+      0.0
+    ],
+    "pad_count": 3,
+    "old_matrix_id": null,
+    "value": "AO3400A",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2061": {
+    "name": "Q7",
+    "reference": "Q7",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      204.0,
+      106.0,
+      0.0
+    ],
+    "pad_count": 3,
+    "old_matrix_id": null,
+    "value": "AO3400A",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2062": {
+    "name": "Q9",
+    "reference": "Q9",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      218.8,
+      110.4,
+      0.0
+    ],
+    "pad_count": 3,
+    "old_matrix_id": null,
+    "value": "AO3400A",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2063": {
+    "name": "R1",
+    "reference": "R1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      181.8,
+      95.3,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1049,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2064": {
+    "name": "R10",
+    "reference": "R10",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      116.0,
+      125.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1050,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2065": {
+    "name": "R101",
+    "reference": "R101",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      234.0,
+      84.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1051,
+    "value": "0R DNP",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2066": {
+    "name": "R11",
+    "reference": "R11",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      116.0,
+      128.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1052,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2067": {
+    "name": "R12",
+    "reference": "R12",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      181.8,
+      107.8,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1053,
+    "value": "22R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2068": {
+    "name": "R13",
+    "reference": "R13",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      181.8,
+      110.3,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1054,
+    "value": "22R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2069": {
+    "name": "R14",
+    "reference": "R14",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      209.0,
+      121.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1055,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2070": {
+    "name": "R15",
+    "reference": "R15",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      205.0,
+      121.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1056,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2071": {
+    "name": "R16",
+    "reference": "R16",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      100.0,
+      112.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1057,
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2072": {
+    "name": "R17",
+    "reference": "R17",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      100.0,
+      114.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1058,
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2073": {
+    "name": "R18",
+    "reference": "R18",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      201.0,
+      120.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1059,
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2074": {
+    "name": "R19",
+    "reference": "R19",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      201.0,
+      122.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1060,
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2075": {
+    "name": "R2",
+    "reference": "R2",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      206.0,
+      109.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1061,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2076": {
+    "name": "R20",
+    "reference": "R20",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      205.0,
+      127.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1062,
+    "value": "0R",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2077": {
+    "name": "R21",
+    "reference": "R21",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      205.0,
+      130.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1063,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2078": {
+    "name": "R22",
+    "reference": "R22",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      211.2,
+      111.7,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2079": {
+    "name": "R24",
+    "reference": "R24",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      235.0,
+      106.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2080": {
+    "name": "R25",
+    "reference": "R25",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      205.0,
+      119.8,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2081": {
+    "name": "R26",
+    "reference": "R26",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      204.0,
+      111.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2082": {
+    "name": "R3",
+    "reference": "R3",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      162.0,
+      127.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1064,
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2083": {
+    "name": "R4",
+    "reference": "R4",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      162.0,
+      129.5,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1065,
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2084": {
+    "name": "R41",
+    "reference": "R41",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      213.0,
+      103.6,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "210k 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2085": {
+    "name": "R42",
+    "reference": "R42",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      229.4,
+      110.6,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2086": {
+    "name": "R43",
+    "reference": "R43",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      210.0,
+      105.8,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2087": {
+    "name": "R44",
+    "reference": "R44",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      213.5,
+      106.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "1M",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2088": {
+    "name": "R45",
+    "reference": "R45",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      217.8,
+      107.3,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2089": {
+    "name": "R46",
+    "reference": "R46",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      217.0,
+      102.4,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2090": {
+    "name": "R47",
+    "reference": "R47",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      215.5,
+      114.3,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2091": {
+    "name": "R48",
+    "reference": "R48",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      215.5,
+      116.6,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2092": {
+    "name": "R49",
+    "reference": "R49",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      231.5,
+      102.1,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2093": {
+    "name": "R5",
+    "reference": "R5",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      80.5,
+      84.8,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1066,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2094": {
+    "name": "R50",
+    "reference": "R50",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      231.5,
+      104.3,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2095": {
+    "name": "R51",
+    "reference": "R51",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      228.0,
+      102.1,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "33",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2096": {
+    "name": "R52",
+    "reference": "R52",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      228.0,
+      104.3,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "33",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2097": {
+    "name": "R53",
+    "reference": "R53",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      235.0,
+      102.1,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2098": {
+    "name": "R54",
+    "reference": "R54",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      235.0,
+      104.3,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2099": {
+    "name": "R55",
+    "reference": "R55",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      204.0,
+      109.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": null,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2100": {
+    "name": "R6",
+    "reference": "R6",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      219.5,
+      84.8,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1067,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2101": {
+    "name": "R7",
+    "reference": "R7",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      219.5,
+      118.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1068,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2102": {
+    "name": "R8",
+    "reference": "R8",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      80.5,
+      118.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1069,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2103": {
+    "name": "R9",
+    "reference": "R9",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      116.0,
+      123.0,
+      0.0
+    ],
+    "pad_count": 2,
+    "old_matrix_id": 1070,
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2104": {
+    "name": "SWJ1",
+    "reference": "SWJ1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      47.1,
+      100.0,
+      90.0
+    ],
+    "pad_count": 10,
+    "old_matrix_id": null,
+    "value": "SLLB510100",
+    "footprint": "CoreControl:SW_Jog_ALPS_SLLB510100",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2105": {
+    "name": "U1",
+    "reference": "U1",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      194.0,
+      101.0,
+      0.0
+    ],
+    "pad_count": 62,
+    "old_matrix_id": 1071,
+    "value": "ESP32-S3-WROOM-1U-N16R8",
+    "footprint": "RF_Module:ESP32-S3-WROOM-1U",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2106": {
+    "name": "U10",
+    "reference": "U10",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      223.0,
+      105.0,
+      0.0
+    ],
+    "pad_count": 8,
+    "old_matrix_id": null,
+    "value": "TCA4307DGKR",
+    "footprint": "CoreControl:VSSOP8_TI_DGK0008A",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2107": {
+    "name": "U101",
+    "reference": "U101",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      241.0,
+      86.5,
+      -90.0
+    ],
+    "pad_count": 6,
+    "old_matrix_id": 1072,
+    "value": "USBLC6-2SC6",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2108": {
+    "name": "U102",
+    "reference": "U102",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      235.0,
+      92.0,
+      0.0
+    ],
+    "pad_count": 20,
+    "old_matrix_id": 1073,
+    "value": "ADuM3165BRSZ",
+    "footprint": "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2109": {
+    "name": "U2",
+    "reference": "U2",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      208.0,
+      94.0,
+      90.0
+    ],
+    "pad_count": 6,
+    "old_matrix_id": 1074,
+    "value": "AP63203WU-7",
+    "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2110": {
+    "name": "U3",
+    "reference": "U3",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      206.0,
+      116.0,
+      0.0
+    ],
+    "pad_count": 14,
+    "old_matrix_id": 1075,
+    "value": "TCA9543APWR",
+    "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2111": {
+    "name": "U4",
+    "reference": "U4",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      90.0,
+      107.0,
+      0.0
+    ],
+    "pad_count": 10,
+    "old_matrix_id": 1076,
+    "value": "DRV2605LDGSR",
+    "footprint": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-10_3x3mm_P0.5mm.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2112": {
+    "name": "U5",
+    "reference": "U5",
+    "record_type": "saved_pcb_anchor",
+    "side": "F.Cu",
+    "kicad_at": [
+      214.0,
+      111.0,
+      0.0
+    ],
+    "pad_count": 10,
+    "old_matrix_id": 1077,
+    "value": "DRV2605LDGSR",
+    "footprint": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+    "registered_3d_models": [
+      "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-10_3x3mm_P0.5mm.step"
+    ],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2113": {
+    "name": "U6",
+    "reference": "U6",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      209.0,
+      115.8,
+      0.0
+    ],
+    "pad_count": 16,
+    "old_matrix_id": null,
+    "value": "TCA9546APWR 0x71 MAG",
+    "footprint": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2114": {
+    "name": "U8",
+    "reference": "U8",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      213.0,
+      100.5,
+      0.0
+    ],
+    "pad_count": 6,
+    "old_matrix_id": null,
+    "value": "TPS2553DBVR-1",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "2115": {
+    "name": "Y101",
+    "reference": "Y101",
+    "record_type": "saved_pcb_anchor",
+    "side": "B.Cu",
+    "kicad_at": [
+      228.45,
+      92.0,
+      180.0
+    ],
+    "pad_count": 4,
+    "old_matrix_id": 1078,
+    "value": "24MHz",
+    "footprint": "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm",
+    "registered_3d_models": [],
+    "source_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。"
+  },
+  "240": {
+    "name": "下壳低位环形承力筋研究",
+    "detail": "候选外径 62、内径 59.6、Z 2.3 至 3.8。与下壳底连接；屏托硬限位与实际承力路径仍待样件。"
+  },
+  "241": {
+    "name": "左后壁低位支撑研究",
+    "detail": "候选支撑体；未定义马达耳孔、紧固件及连接件。"
+  },
+  "242": {
+    "name": "右后壁低位支撑研究",
+    "detail": "候选支撑体；须与右侧 ISO 口和底侧器件包络共同检查。"
+  }
+}

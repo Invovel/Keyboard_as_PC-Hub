@@ -1,0 +1,80 @@
+{
+  "status": "PASS_SELECTED_PARTS_PINMAP_NOT_FAB_RELEASE",
+  "parts": {
+    "ESP32-S3-WROOM-1U-N16R8": {
+      "datasheet_logical_leads": 41,
+      "symbol_electrical_pins": 41,
+      "footprint_pad_objects": 62,
+      "unique_electrical_pad_numbers": 41,
+      "duplicate_same_net_thermal_vias": 12,
+      "paste_only_unnumbered_apertures": 9,
+      "symbol": "RF_Module:ESP32-S3-WROOM-1",
+      "footprint": "RF_Module:ESP32-S3-WROOM-1U",
+      "source": "https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+      "scratch_schematic_render": "PASS inspected core-pinmap-check.png",
+      "scratch_board_readback_render": "PASS: all library and placed pad geometry compared independently; render inspected"
+    },
+    "AP63203WU-7": {
+      "datasheet_logical_leads": 6,
+      "symbol_electrical_pins": 6,
+      "footprint_pad_objects": 6,
+      "unique_electrical_pad_numbers": 6,
+      "duplicate_same_net_thermal_vias": 0,
+      "paste_only_unnumbered_apertures": 0,
+      "symbol": "Regulator_Switching:AP63203WU",
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "source": "https://www.diodes.com/datasheet/download/AP63200-AP63201-AP63203-AP63205.pdf",
+      "scratch_schematic_render": "PASS inspected core-pinmap-check.png",
+      "scratch_board_readback_render": "PASS: all library and placed pad geometry compared independently; render inspected"
+    },
+    "TCA9543APWR": {
+      "datasheet_logical_leads": 14,
+      "symbol_electrical_pins": 14,
+      "footprint_pad_objects": 14,
+      "unique_electrical_pad_numbers": 14,
+      "duplicate_same_net_thermal_vias": 0,
+      "paste_only_unnumbered_apertures": 0,
+      "symbol": "CoreControl:TCA9543APWR",
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "source": "https://www.ti.com/lit/ds/symlink/tca9543a.pdf",
+      "scratch_schematic_render": "PASS inspected core-pinmap-check.png",
+      "scratch_board_readback_render": "PASS: all library and placed pad geometry compared independently; render inspected"
+    },
+    "DRV2605LDGSR": {
+      "datasheet_logical_leads": 10,
+      "symbol_electrical_pins": 10,
+      "footprint_pad_objects": 10,
+      "unique_electrical_pad_numbers": 10,
+      "duplicate_same_net_thermal_vias": 0,
+      "paste_only_unnumbered_apertures": 0,
+      "symbol": "Driver:DRV2605LDGS",
+      "footprint": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+      "source": "https://www.ti.com/lit/ds/symlink/drv2605l.pdf",
+      "scratch_schematic_render": "PASS inspected core-pinmap-check.png",
+      "scratch_board_readback_render": "PASS: all library and placed pad geometry compared independently; render inspected"
+    },
+    "BM02B-GHS-TBT": {
+      "datasheet_electrical_circuits": 2,
+      "symbol_electrical_pins": 2,
+      "footprint_electrical_pads": 2,
+      "mechanical_retainers": 2,
+      "scratch_board_readback_render": "PASS: all library and placed pad geometry compared independently; render inspected"
+    },
+    "BM04B-GHS-TBT": {
+      "datasheet_electrical_circuits": 4,
+      "symbol_electrical_pins": 4,
+      "footprint_electrical_pads": 4,
+      "mechanical_retainers": 2,
+      "scratch_board_readback_render": "PASS: all library and placed pad geometry compared independently; render inspected"
+    },
+    "BM06B-GHS-TBT": {
+      "datasheet_electrical_circuits": 6,
+      "symbol_electrical_pins": 6,
+      "footprint_electrical_pads": 6,
+      "mechanical_retainers": 2,
+      "scratch_board_readback_render": "PASS: all library and placed pad geometry compared independently; render inspected"
+    }
+  },
+  "DRV_REG_note": "TI defines regulator output; selected KiCad library models REG as passive; used only with required decoupling capacitor, not as general supply",
+  "general_note": "schematic topology validated separately from manufacturing and physical acceptance; later L1/bench gate recorded separately"
+}

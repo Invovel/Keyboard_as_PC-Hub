@@ -1,0 +1,12 @@
+model,version_scope,reported_position,reported_distance_mm,distance_datum,opening_width_mm,opening_height_mm,recess_depth_mm,center_height_above_desk_mm,evidence_status,source_url
+Keychron K2,layout guide version,left,23,top side panel in prose; no engineering datum,,,,,official prose only,https://www.keychron.com/pages/keychron-keyboard-layout-text-version
+Keychron K4,layout guide version,left,23,top side panel in prose; no engineering datum,,,,,official prose only,https://www.keychron.com/pages/keychron-keyboard-layout-text-version
+Keychron K6,layout guide version,left,23,top side panel in prose; no engineering datum,,,,,official prose only,https://www.keychron.com/pages/keychron-keyboard-layout-text-version
+Keychron K8,layout guide version,left,23,top side panel in prose; no engineering datum,,,,,official prose only,https://www.keychron.com/pages/keychron-keyboard-layout-text-version
+Keychron K12,layout guide version,left,23,top side panel in prose; no engineering datum,,,,,official prose only,https://www.keychron.com/pages/keychron-keyboard-layout-text-version
+Keychron K3 Ultra-slim,layout guide version,middle,13,top side panel in prose; do not treat as desk height,,,,,official prose only,https://www.keychron.com/pages/keychron-keyboard-layout-text-version
+Keychron K7 Ultra-slim,layout guide version,middle,13,top side panel in prose; do not treat as desk height,,,,,official prose only,https://www.keychron.com/pages/keychron-keyboard-layout-text-version
+Wooting Alumaze60,official case specifications,top left,,,10,4.5,,,official opening dimensions; untested,https://wooting.io/en/product/alumaze60
+OwLab x Wooting OW60,official case specifications,left,,,10.34,4.12,,,official opening dimensions; untested,https://wooting.io/ja/owlab60
+Akko Bun Wonderland 5075 V5,official product page,side,,,,,,,position and wired operation confirmed; dimensions missing,https://en.akkogear.com/product/bun-wonderland-5075-v5-mechanical-keyboard/
+Logitech MX Mechanical,official getting started,top right,,,,,,,USB-C charging; input via wireless,https://support.logi.com/hc/en-us/articles/5216357107991-Getting-Started-MX-Mechanical

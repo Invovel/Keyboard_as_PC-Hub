@@ -1,0 +1,20 @@
+block,quantity,candidate,role,source,status,fit_gate
+USB2_branch,1,Microchip USB2512B,P6_to_CTRL_and_ISO,https://www.microchip.com/en-us/product/USB2512B,research,independent_boot_and_dual_enumeration
+Core_logic_supply,1,existing_3V3_Core_or_local_regulator_TBD,supply_USB2512B_and_Core_side_isolators,https://www.microchip.com/en-us/product/USB2512B,unselected,Core_3V3_capacity_and_power_sequencing
+data_isolator,1,ADI ADuM3165,USB2_1p5_12_480Mbps,https://www.analog.com/en/products/ADUM3165.html,research,clock_power_signal_integrity
+data_isolator_clock,1,clock_or_crystal_TBD,ADuM3165_high_speed_retiming_reference,https://www.analog.com/en/products/ADUM3165.html,unselected,frequency_topology_and_accuracy_from_datasheet
+isolated_power,1,MORNSUN VRB0505S-5WR3,isolated_5V_candidate_5W,https://www.mornsun.cn/index/index/downpdf/pdf/VRB0505S-5WR3.pdf/name/VRB0505S-5WR3.html,research,Core_budget_thermal_startup_no_hotplug
+input_power_switch,1,existing_Core_soft_start_or_local_switch_TBD,limit_startup_and_disconnect_DC_DC_before_input_overload,https://www.mornsun.cn/index/index/downpdf/pdf/VRB0505S-5WR3.pdf/name/VRB0505S-5WR3.html,required_function_may_reuse_Core,Core_bus_budget_and_DC_DC_inrush
+output_protection,1,TI TPS25947xx_exact_suffix_TBD,hardware_OCP_OVLO_reverse_block_fault,https://www.ti.com/product/TPS25947,research,choose_variant_and_threshold_from_load
+local_fault_indicator,1,ISO_side_LED_and_resistor_TBD,show_output_fault_without_crossing_isolation,https://www.ti.com/product/TPS25947,required_candidate,check_exact_FLT_pin_and_logic
+power_monitor,1,TI INA238,ISO_side_V_I_P_measurement,https://www.ti.com/product/INA238,deferred_option,shunt_range_calibration_ISO_supply
+telemetry_isolator,1,TI ISO1640,ISO_side_I2C_to_Core,https://www.ti.com/product/ISO1640,deferred_option,dual_rail_pullups_address
+control_fault_isolator,1,ADI ADuM1201_candidate,Core_to_ISO_enable_and_ISO_to_Core_fault,https://www.analog.com/en/products/adum1201.html,deferred_option,pinmap_fail_safe_state_and_isolation_rating
+isolated_logic_regulator,1,ISO_5V_to_3V3_regulator_TBD,supply_ISO_side_monitor_and_I2C,https://www.ti.com/product/INA238,deferred_option,load_noise_thermal_decoupling
+shunt,1,value_TBD,current_measurement,https://www.ti.com/product/INA238,deferred_option,loss_heat_accuracy
+USB_A_receptacle,1,USB2_right_angle_or_mid_mount_TBD,isolated_output_port,https://www.analog.com/en/products/ADUM3165.html,unselected,real_3D_model_shield_and_footprint
+USB_C_receptacle,1,current_PC_C_part_TBD_moved_X64,sole_host_upstream,https://www.microchip.com/en-us/product/USB7206C,existing_role_new_position,real_3D_model_SS_routing
+ESD_network,as_needed,USB2_ESD_part_TBD,connector_side_discharge,https://www.analog.com/en/products/ADUM3165.html,unselected,capacitance_ground_domain_placement
+support_passives,as_needed,decoupling_pullups_configuration_resistors_TBD,hub_isolator_monitor_and_protection_support,https://www.microchip.com/en-us/product/USB2512B,unselected,derive_exact_values_from_selected_parts
+isolation_barrier,1,PCB_slot_and_keepout_TBD,separate_Core_and_ISO_ground,https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0550.html,unselected,clearance_creepage_shield_mechanics
+mechanical_isolator,1,insulating_shroud_and_retainer_TBD,no_shield_or_screw_ground_bypass,https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0550.html,unselected,USB_A_PC_C_haptic_hole_3D_fit

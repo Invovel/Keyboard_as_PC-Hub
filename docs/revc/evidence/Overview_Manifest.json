@@ -1,0 +1,128 @@
+{
+  "generated_utc": "2026-11-19T18:56:25.372879+08:00",
+  "board": "outputs/pc-hub-repair-20261116/Project/Pc-Hub_RevB.kicad_pcb",
+  "board_sha256": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+  "status": "INCOMPLETE",
+  "source": "saved file via KiCad native geometry engine",
+  "bounds_mm": {
+    "x": 41.975,
+    "y": 67.975,
+    "width": 216.05,
+    "height": 64.05
+  },
+  "svg_viewBox": [
+    37.975,
+    55.974999999999994,
+    224.05,
+    88.05
+  ],
+  "layers": {
+    "B.Cu": {
+      "track_segments": 171,
+      "length_mm": 480.8963043877092
+    },
+    "In2.Cu": {
+      "track_segments": 0,
+      "length_mm": 0
+    },
+    "In1.Cu": {
+      "track_segments": 0,
+      "length_mm": 0
+    },
+    "F.Cu": {
+      "track_segments": 381,
+      "length_mm": 1103.0337306123433
+    }
+  },
+  "footprints": 116,
+  "pads": 469,
+  "vias": 87,
+  "zones_hidden_only_in_export": [
+    {
+      "uuid": "09ba8aba-7f90-44de-b032-3bd84ac83278",
+      "net": "/ISO_Debug_Output/ISO_GND",
+      "layers": [
+        "In1.Cu"
+      ]
+    },
+    {
+      "uuid": "c6472918-f913-4900-aa3b-b3cdc9190f53",
+      "net": "GND",
+      "layers": [
+        "In1.Cu"
+      ]
+    },
+    {
+      "uuid": "168850a4-15f3-4dc3-abab-7edf3d59ed3d",
+      "net": "/ISO_Debug_Output/ISO_GND",
+      "layers": [
+        "In2.Cu"
+      ]
+    },
+    {
+      "uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "net": "GND",
+      "layers": [
+        "In2.Cu"
+      ]
+    }
+  ],
+  "geometry_max_error_mm": 0.001,
+  "protected_source_hashes": {
+    "Project\\CoreControl.kicad_sym": "1cfd264cf94459c8b41d1c9c745aaa5ddfba3855947837afd4dace8ac14dc01d",
+    "Project\\CoreExpansion.kicad_sym": "eeec2b4d85eacc231956d129ad69ad8ebd689ac69661cc1cfa8a6ff9043b61ae",
+    "Project\\ISO_Debug_Output.kicad_sch": "29c06672f7ac530effc8abf90b52d2d9e842183444782a7a0f9766aad6af9840",
+    "Project\\MAG_Protection.kicad_sch": "5dba042c5256ffe252f9c9c25f141bb985a708c37a6c6aec9f444912a9cce7dc",
+    "Project\\Main_Control.kicad_sch": "fbcf3cdee396c91f0ce7ed66db8702def9150cb298588648c2fb636f5487aff5",
+    "Project\\Pc-Hub_RevB.kicad_dru": "5babbade588305d56221c755914e8c87b9ec987bf65a9bd918ea988a1e8ea25c",
+    "Project\\Pc-Hub_RevB.kicad_pcb": "3f082629954bdb488613209f4213198f4b84ce832a26fdd4af76abb786354d88",
+    "Project\\Pc-Hub_RevB.kicad_prl": "c633a316cf751283148a9a2ff605e754442bd5c61233308e1bf4f71f09e04c89",
+    "Project\\Pc-Hub_RevB.kicad_pro": "67acc2ddbc2aa603b0a310b417923d07cb8853786931111f574545f54455395f",
+    "Project\\Pc-Hub_RevB.kicad_sch": "51d8542161456230e8dca86bfe3ebdd9d235ff71666e676237a67453418015df"
+  },
+  "net_track_lengths_mm": {
+    "3V3": 63.73764284107915,
+    "/Main_Control/HAP_R_SCL": 39.9093765884842,
+    "/Main_Control/LCD_CS_GPIO16": 71.10729402860447,
+    "/Main_Control/LCD_SCLK_GPIO6": 70.6141262363657,
+    "/Main_Control/LCD_D0_GPIO15": 115.86835630883222,
+    "/Main_Control/LCD_D1_GPIO7": 68.56550282823264,
+    "/Main_Control/LCD_D2_GPIO11": 75.53351177011209,
+    "/Main_Control/LCD_D3_GPIO12": 69.54142882788078,
+    "GND": 57.73999198531071,
+    "/Main_Control/MCU_EN": 19.746935687740027,
+    "/Main_Control/HAP_L_SDA": 43.43374525924878,
+    "/Main_Control/HAP_L_SCL": 32.17714354145056,
+    "/Main_Control/HAP_R_SDA": 41.65430422811427,
+    "/Main_Control/I2C_SCL_GPIO9": 31.21196042067408,
+    "/Main_Control/I2C_SDA_GPIO8": 40.324569942728026,
+    "/Main_Control/KEY2_GPIO41": 39.90292975798708,
+    "/Main_Control/ENC_A_GPIO1": 168.47357925518781,
+    "/Main_Control/KEY4_GPIO38": 7.227396073144733,
+    "/Main_Control/HAPTIC_VDD": 19.497781374238567,
+    "/Main_Control/ENC_SW_GPIO39": 45.84818968952161,
+    "/Main_Control/ENC_B_GPIO2": 171.89779281756094,
+    "/Main_Control/5V_CORE": 5.450762081801234,
+    "/Main_Control/MIC_SD_GPIO17": 134.95235633493087,
+    "/Main_Control/MAG_DET_R_N": 5.042031021678297,
+    "/Main_Control/MAG_ENABLE": 5.145431995911324,
+    "/Main_Control/BOOT_DISABLE_GPIO0": 20.023716416704374,
+    "/Main_Control/KEY3_GPIO40": 8.409376588484195,
+    "/Main_Control/KEY1_GPIO42": 6.785428073844784,
+    "/Main_Control/BUCK_BST": 2.8625,
+    "/Main_Control/BUCK_SW": 11.511143571373726,
+    "/ISO_Debug_Output/ISO_GND": 15.822716359837875,
+    "/ISO_Debug_Output/ISO_USB_VBUS": 2.5481222920256963,
+    "/Main_Control/MAG_R_3V3_SW": 15.092451288348661,
+    "/Main_Control/MAG_R_SDA": 3.595889244992065,
+    "/Main_Control/MAG_R_SCL": 10.255077554195742,
+    "/Main_Control/MAG_R_DET_EXT_N": 5.331244584051392,
+    "/Main_Control/MAG_R_INT_N": 7.2151280605345764,
+    "/Main_Control/MAG_Protection/MAG_DISABLE_N": 3.0465990257669735,
+    "/ISO_Debug_Output/XI_24M": 4.792019733045907,
+    "/ISO_Debug_Output/XO_24M": 6.7744163824159225,
+    "/ISO_Debug_Output/ISO_LDO2": 2.52,
+    "/Main_Control/MAG_Protection/MAG_R_POWER_EN": 8.405203820042827,
+    "/Main_Control/MAG_Protection/MAG_R_ILIM": 4.334861107568208
+  }
+}

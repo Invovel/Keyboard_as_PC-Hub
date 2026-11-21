@@ -1,0 +1,13 @@
+{
+  "jsonrpc": "2.0",
+  "id": 11,
+  "result": {
+    "content": [
+      {
+        "text": "{\"components\":[{\"footprint\":\"Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical\",\"layer\":\"F.Cu\",\"reference\":\"J6\",\"rotation\":0.0,\"value\":\"JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical\",\"x\":120.0,\"y\":90.0},{\"footprint\":\"Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical\",\"layer\":\"F.Cu\",\"reference\":\"J4\",\"rotation\":0.0,\"value\":\"JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical\",\"x\":85.0,\"y\":90.0},{\"footprint\":\"Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical\",\"layer\":\"F.Cu\",\"reference\":\"J2\",\"rotation\":0.0,\"value\":\"JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical\",\"x\":50.0,\"y\":90.0},{\"footprint\":\"Package_SO:TSSOP-10_3x3mm_P0.5mm\",\"layer\":\"F.Cu\",\"reference\":\"U4\",\"rotation\":0.0,\"value\":\"TSSOP-10_3x3mm_P0.5mm\",\"x\":135.0,\"y\":50.0},{\"footprint\":\"Package_SO:TSSOP-14_4.4x5mm_P0.65mm\",\"layer\":\"F.Cu\",\"reference\":\"U3\",\"rotation\":0.0,\"value\":\"TSSOP-14_4.4x5mm_P0.65mm\",\"x\":110.0,\"y\":50.0},{\"footprint\":\"Package_TO_SOT_SMD:TSOT-23-6\",\"layer\":\"F.Cu\",\"reference\":\"U2\",\"rotation\":0.0,\"value\":\"TSOT-23-6\",\"x\":85.0,\"y\":50.0},{\"footprint\":\"RF_Module:ESP32-S3-WROOM-1U\",\"layer\":\"F.Cu\",\"reference\":\"U1\",\"rotation\":0.0,\"value\":\"ESP32-S3-WROOM-1U\",\"x\":50.0,\"y\":50.0}],\"count\":7}",
+        "type": "text"
+      }
+    ],
+    "isError": false
+  }
+}

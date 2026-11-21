@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="930" viewBox="0 0 1600 930" role="img" aria-labelledby="title desc">
+  <title id="title">R3.1 ISO/DEBUG 首版连接原理图</title>
+  <desc id="desc">P6经过双口USB2 Hub分别连接原CTRL与USB2隔离器；Core 5V经软启动、隔离电源、集成保护后到独立USB-A。两地分开，故障灯在ISO侧。</desc>
+  <defs>
+    <style>
+      text{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#22314a}
+      .title{font-size:34px;font-weight:700}.sub{font-size:19px;fill:#52627b}
+      .zone{font-size:22px;font-weight:700}.ref{font-size:17px;font-weight:700;fill:#334766}
+      .name{font-size:22px;font-weight:700}.mini{font-size:15px;fill:#52627b}
+      .sig{stroke:#2379b8;stroke-width:5;fill:none;stroke-linejoin:round;stroke-linecap:round}
+      .pwr{stroke:#d48b20;stroke-width:6;fill:none;stroke-linejoin:round;stroke-linecap:round}
+      .gnd{stroke:#637285;stroke-width:4;fill:none;stroke-linejoin:round}
+      .fault{stroke:#c64b4b;stroke-width:4;fill:none;stroke-linejoin:round}
+      .core{fill:#eaf3fa;stroke:#a8c9de;stroke-width:2}.iso{fill:#fff4df;stroke:#e0ba74;stroke-width:2}
+      .chip{fill:#fff;stroke:#4e6680;stroke-width:2.5}.pin{fill:#fff;stroke:#4e6680;stroke-width:2}
+      .note{font-size:16px;fill:#6c5474}.caption{font-size:16px;fill:#536178}
+    </style>
+    <marker id="arrowB" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10" fill="none" stroke="#2379b8" stroke-width="2"/></marker>
+    <marker id="arrowO" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2L10 6L2 10" fill="none" stroke="#d48b20" stroke-width="2"/></marker>
+  </defs>
+  <rect width="1600" height="930" fill="#f9fbfd"/>
+  <text x="62" y="67" class="title">R3.1 · ISO / DEBUG USB-A</text>
+  <text x="62" y="99" class="sub">首版功能连接原理图　·　仅含正常调试所需电路　·　具体芯片脚号、元件值及封装待 KiCad 核对</text>
+  <rect x="44" y="132" width="830" height="704" rx="22" class="core"/>
+  <rect x="916" y="132" width="640" height="704" rx="22" class="iso"/>
+  <rect x="885" y="132" width="20" height="704" fill="#f9fbfd" stroke="#9a8e92" stroke-width="2" stroke-dasharray="10 9"/>
+  <text x="70" y="173" class="zone">CORE 域 · CORE_GND</text>
+  <text x="948" y="173" class="zone">ISO 域 · ISO_GND</text>
+  <text x="878" y="811" transform="rotate(-90 878 811)" class="mini">绝缘边界</text>
+
+  <!-- Data branch -->
+  <rect x="74" y="249" width="167" height="121" rx="10" class="chip"/>
+  <text x="92" y="278" class="ref">P6 原下游</text><text x="92" y="307" class="name">USB 2.0</text><text x="92" y="338" class="mini">D+ · D− · CORE_GND</text>
+  <path d="M241 308H312" class="sig"/>
+  <rect x="312" y="227" width="230" height="159" rx="12" class="chip"/>
+  <text x="332" y="259" class="ref">U1 · USB2512B 候选</text><text x="332" y="297" class="name">双口 USB2 Hub</text>
+  <text x="332" y="327" class="mini">3V3_CORE · 时钟/配置</text><text x="332" y="352" class="mini">同一 P6 的真实二路分配</text>
+  <path d="M542 279H625V211H687" class="sig"/>
+  <rect x="687" y="181" width="160" height="86" rx="10" class="chip"/>
+  <text x="703" y="211" class="ref">DN1</text><text x="703" y="240" class="name">原 CTRL</text>
+  <path d="M542 329H654" class="sig"/>
+  <rect x="654" y="285" width="358" height="133" rx="11" class="chip"/>
+  <path d="M897 286V417" stroke="#9a8e92" stroke-width="2" stroke-dasharray="9 8"/>
+  <text x="673" y="315" class="ref">DN2 → U2 · ADuM3165 候选</text><text x="673" y="349" class="name">USB2 数据隔离</text>
+  <text x="673" y="378" class="mini">CORE 侧供电 / ISO 侧供电 · 外部时钟</text>
+  <path d="M1012 348H1140" class="sig"/>
+  <rect x="1140" y="288" width="112" height="111" rx="10" class="chip"/>
+  <text x="1155" y="319" class="ref">U4</text><text x="1155" y="349" class="name">ESD</text><text x="1155" y="375" class="mini">D+ / D−</text>
+  <path d="M1252 348H1330" class="sig" marker-end="url(#arrowB)"/>
+  <rect x="1332" y="261" width="182" height="192" rx="11" class="chip"/>
+  <rect x="1360" y="286" width="127" height="63" rx="7" fill="#3e536c" stroke="#233b58" stroke-width="3"/>
+  <rect x="1376" y="297" width="94" height="37" rx="3" fill="#e6edf3"/>
+  <text x="1350" y="388" class="ref">J1 · ISO / DEBUG</text><text x="1350" y="419" class="name">USB-A 2.0</text>
+
+  <!-- Power branch -->
+  <rect x="74" y="560" width="166" height="94" rx="10" class="chip"/>
+  <text x="92" y="592" class="ref">受保护入口</text><text x="92" y="627" class="name">5V_CORE</text>
+  <path d="M240 607H283" class="pwr"/>
+  <rect x="283" y="543" width="182" height="130" rx="10" class="chip"/>
+  <text x="303" y="575" class="ref">SW1 · 可复用 Core</text><text x="303" y="608" class="name">输入软启动</text><text x="303" y="641" class="mini">限制 DC/DC 启动浪涌</text>
+  <path d="M465 607H526" class="pwr"/>
+  <rect x="526" y="519" width="487" height="174" rx="11" class="chip"/>
+  <path d="M897 520V692" stroke="#9a8e92" stroke-width="2" stroke-dasharray="9 8"/>
+  <text x="548" y="551" class="ref">PS1 · 隔离 5→5V DC/DC，功率待预算</text>
+  <text x="548" y="590" class="name">CORE_5V → ISO_5V_RAW</text>
+  <text x="548" y="621" class="mini">输入/输出去耦均按器件资料；两侧 GND 不接通</text>
+  <text x="548" y="650" class="mini">无 Dock 模式的可用电流尚待实测</text>
+  <path d="M1013 607H1072" class="pwr"/>
+  <rect x="1072" y="523" width="233" height="170" rx="11" class="chip"/>
+  <text x="1090" y="555" class="ref">U3 · TPS25947 家族候选</text><text x="1090" y="593" class="name">集成电源保护</text>
+  <text x="1090" y="623" class="mini">限流 · 短路 · 防反灌</text>
+  <text x="1090" y="651" class="mini">软启动 · 锁断后缀待选</text>
+  <path d="M1305 607H1421V453" class="pwr" marker-end="url(#arrowO)"/>
+  <text x="1320" y="590" class="mini">ISO_USB_VBUS</text>
+
+  <!-- Fault indicator -->
+  <path d="M1187 693V732H1253" class="fault"/>
+  <rect x="1253" y="712" width="167" height="61" rx="9" class="chip"/>
+  <circle cx="1280" cy="742" r="9" fill="#e7a2a2" stroke="#b84c4c" stroke-width="2"/>
+  <text x="1300" y="749" class="mini">R＋LED · 本地故障</text>
+  <text x="949" y="782" class="note">故障指示留在 ISO 域，不把 FLT 直接接 CORE GPIO</text>
+
+  <!-- Ground separators and notes -->
+  <path d="M72 760H812" class="gnd"/><path d="M949 808H1518" class="gnd"/>
+  <text x="83" y="788" class="mini">CORE_GND：U1、U2 Core 侧、PS1 输入</text>
+  <text x="950" y="827" class="mini">ISO_GND：U2 ISO 侧、PS1 输出、U3、J1、U4</text>
+  <text x="57" y="881" class="caption">蓝线：USB2 数据　橙线：5V 供电　红线：本地故障　　故障保护由硬件实现；本图不含制造针脚、阻值、ERC 或 PCB 布局。</text>
+</svg>

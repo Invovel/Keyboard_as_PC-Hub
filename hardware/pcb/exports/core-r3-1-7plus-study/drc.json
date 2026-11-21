@@ -1,0 +1,1373 @@
+{
+  "violations": [
+    {
+      "severity": "error",
+      "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+      "rule": "drill_out_of_range",
+      "pos": {
+        "x": 191.1,
+        "y": 99.61
+      },
+      "items": [
+        {
+          "description": "U1 的PTH 焊盘 41 [<no net>]",
+          "pos": {
+            "x": 191.1,
+            "y": 99.61
+          },
+          "uuid": "4a494810-5207-4665-987c-524bdc191ea7",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+      "rule": "drill_out_of_range",
+      "pos": {
+        "x": 191.1,
+        "y": 101.01
+      },
+      "items": [
+        {
+          "description": "U1 的PTH 焊盘 41 [<no net>]",
+          "pos": {
+            "x": 191.1,
+            "y": 101.01
+          },
+          "uuid": "4cceb96f-085c-4807-9452-a4397fcbcc81",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+      "rule": "drill_out_of_range",
+      "pos": {
+        "x": 191.8,
+        "y": 98.91
+      },
+      "items": [
+        {
+          "description": "U1 的PTH 焊盘 41 [<no net>]",
+          "pos": {
+            "x": 191.8,
+            "y": 98.91
+          },
+          "uuid": "25750d0a-e8c4-4f60-90df-fec93769a801",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+      "rule": "drill_out_of_range",
+      "pos": {
+        "x": 191.8,
+        "y": 100.31
+      },
+      "items": [
+        {
+          "description": "U1 的PTH 焊盘 41 [<no net>]",
+          "pos": {
+            "x": 191.8,
+            "y": 100.31
+          },
+          "uuid": "2a612b86-7b17-4330-bbeb-48e89aef57cf",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+      "rule": "drill_out_of_range",
+      "pos": {
+        "x": 191.8,
+        "y": 101.71
+      },
+      "items": [
+        {
+          "description": "U1 的PTH 焊盘 41 [<no net>]",
+          "pos": {
+            "x": 191.8,
+            "y": 101.71
+          },
+          "uuid": "4700eabb-9d90-45ef-9ce6-087a90bf7f25",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+      "rule": "drill_out_of_range",
+      "pos": {
+        "x": 192.5,
+        "y": 99.61
+      },
+      "items": [
+        {
+          "description": "U1 的PTH 焊盘 41 [<no net>]",
+          "pos": {
+            "x": 192.5,
+            "y": 99.61
+          },
+          "uuid": "700a83f0-33c8-4bf8-b6ae-18111146e8b7",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+      "rule": "drill_out_of_range",
+      "pos": {
+        "x": 192.5,
+        "y": 101.01
+      },
+      "items": [
+        {
+          "description": "U1 的PTH 焊盘 41 [<no net>]",
+          "pos": {
+            "x": 192.5,
+            "y": 101.01
+          },
+          "uuid": "bd1b0554-34fc-4064-a68f-fa299a9d01b3",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+      "rule": "drill_out_of_range",
+      "pos": {
+        "x": 193.2,
+        "y": 98.91
+      },
+      "items": [
+        {
+          "description": "U1 的PTH 焊盘 41 [<no net>]",
+          "pos": {
+            "x": 193.2,
+            "y": 98.91
+          },
+          "uuid": "1e61aacd-17ce-400c-a71b-093da8c2542b",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+      "rule": "drill_out_of_range",
+      "pos": {
+        "x": 193.2,
+        "y": 100.31
+      },
+      "items": [
+        {
+          "description": "U1 的PTH 焊盘 41 [<no net>]",
+          "pos": {
+            "x": 193.2,
+            "y": 100.31
+          },
+          "uuid": "931541eb-5263-4fec-8aa6-9a08e3acc7c7",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+      "rule": "drill_out_of_range",
+      "pos": {
+        "x": 193.2,
+        "y": 101.71
+      },
+      "items": [
+        {
+          "description": "U1 的PTH 焊盘 41 [<no net>]",
+          "pos": {
+            "x": 193.2,
+            "y": 101.71
+          },
+          "uuid": "02255d8b-9549-440b-ba20-e6662f50bc1e",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+      "rule": "drill_out_of_range",
+      "pos": {
+        "x": 193.9,
+        "y": 99.61
+      },
+      "items": [
+        {
+          "description": "U1 的PTH 焊盘 41 [<no net>]",
+          "pos": {
+            "x": 193.9,
+            "y": 99.61
+          },
+          "uuid": "ce3ce587-d407-4dd4-b570-9584db80af6e",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "error",
+      "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+      "rule": "drill_out_of_range",
+      "pos": {
+        "x": 193.9,
+        "y": 101.01
+      },
+      "items": [
+        {
+          "description": "U1 的PTH 焊盘 41 [<no net>]",
+          "pos": {
+            "x": 193.9,
+            "y": 101.01
+          },
+          "uuid": "5e7ad493-697a-46f4-8e05-f9b9c53da0f7",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "U1",
+            "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "封装 'ESP32-S3-WROOM-1U' 与库 'RF_Module' 中的副本不匹配",
+      "rule": "lib_footprint_mismatch",
+      "pos": {
+        "x": 194.0,
+        "y": 101.0
+      },
+      "items": [
+        {
+          "description": "封装 U1",
+          "pos": {
+            "x": 194.0,
+            "y": 101.0
+          },
+          "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 252.65,
+        "y": 70.65
+      },
+      "items": [
+        {
+          "description": "H3 的 矩形, 位于 F.Silkscreen",
+          "pos": {
+            "x": 252.65,
+            "y": 70.65
+          },
+          "uuid": "31e4e640-02f9-4a48-b137-45f5f8f94759",
+          "ownership_status": "resolved",
+          "item_kind": "fp_rect",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H3",
+            "uuid": "118bf255-5942-42b7-b53f-89762926256c"
+          }
+        },
+        {
+          "description": "H3 的参考字段",
+          "pos": {
+            "x": 254.0,
+            "y": 71.0
+          },
+          "uuid": "ecf7f8c7-c078-4ab1-a845-7d52dab96d2c",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H3",
+            "uuid": "118bf255-5942-42b7-b53f-89762926256c"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 254.0,
+        "y": 127.0
+      },
+      "items": [
+        {
+          "description": "H2 的参考字段",
+          "pos": {
+            "x": 254.0,
+            "y": 127.0
+          },
+          "uuid": "4cc4cb6f-9138-4fff-946c-200ef8d39f7c",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H2",
+            "uuid": "13cb15bf-eb74-4bfd-8dce-bf789284b2a0"
+          }
+        },
+        {
+          "description": "H2 的 矩形, 位于 F.Silkscreen",
+          "pos": {
+            "x": 252.65,
+            "y": 126.65
+          },
+          "uuid": "6f59d1e1-7011-4f06-a7f2-5ed5ee16b347",
+          "ownership_status": "resolved",
+          "item_kind": "fp_rect",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H2",
+            "uuid": "13cb15bf-eb74-4bfd-8dce-bf789284b2a0"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 44.65,
+        "y": 126.65
+      },
+      "items": [
+        {
+          "description": "H1 的 矩形, 位于 F.Silkscreen",
+          "pos": {
+            "x": 44.65,
+            "y": 126.65
+          },
+          "uuid": "a87583bb-d8eb-4128-b1eb-5a6cb8763a0b",
+          "ownership_status": "resolved",
+          "item_kind": "fp_rect",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H1",
+            "uuid": "98df4895-947b-4d5b-a96c-2ca618dc6630"
+          }
+        },
+        {
+          "description": "H1 的参考字段",
+          "pos": {
+            "x": 46.0,
+            "y": 127.0
+          },
+          "uuid": "ca14f409-bb81-4bd4-842e-9596f8d7655e",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H1",
+            "uuid": "98df4895-947b-4d5b-a96c-2ca618dc6630"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clearance",
+      "rule": "silk_overlap",
+      "pos": {
+        "x": 46.0,
+        "y": 71.0
+      },
+      "items": [
+        {
+          "description": "H4 的参考字段",
+          "pos": {
+            "x": 46.0,
+            "y": 71.0
+          },
+          "uuid": "79d12a41-9365-4706-9f19-76154d165fc9",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H4",
+            "uuid": "32b3d6cd-3cc4-4aa1-91a2-dd79092fc492"
+          }
+        },
+        {
+          "description": "H4 的 矩形, 位于 F.Silkscreen",
+          "pos": {
+            "x": 44.65,
+            "y": 70.65
+          },
+          "uuid": "863106c2-2c0f-4e80-992b-bbaec1984f65",
+          "ownership_status": "resolved",
+          "item_kind": "fp_rect",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H4",
+            "uuid": "32b3d6cd-3cc4-4aa1-91a2-dd79092fc492"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 254.0,
+        "y": 71.0
+      },
+      "items": [
+        {
+          "description": "H3 的参考字段",
+          "pos": {
+            "x": 254.0,
+            "y": 71.0
+          },
+          "uuid": "ecf7f8c7-c078-4ab1-a845-7d52dab96d2c",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H3",
+            "uuid": "118bf255-5942-42b7-b53f-89762926256c"
+          }
+        },
+        {
+          "description": "H3 的 NPTH 焊盘",
+          "pos": {
+            "x": 254.0,
+            "y": 72.0
+          },
+          "uuid": "07b3a756-49de-4cdb-8a53-a85f6fb87929",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H3",
+            "uuid": "118bf255-5942-42b7-b53f-89762926256c"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 254.0,
+        "y": 127.0
+      },
+      "items": [
+        {
+          "description": "H2 的参考字段",
+          "pos": {
+            "x": 254.0,
+            "y": 127.0
+          },
+          "uuid": "4cc4cb6f-9138-4fff-946c-200ef8d39f7c",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H2",
+            "uuid": "13cb15bf-eb74-4bfd-8dce-bf789284b2a0"
+          }
+        },
+        {
+          "description": "H2 的 NPTH 焊盘",
+          "pos": {
+            "x": 254.0,
+            "y": 128.0
+          },
+          "uuid": "c4c55109-943d-4ea1-98cb-6ef20651b400",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H2",
+            "uuid": "13cb15bf-eb74-4bfd-8dce-bf789284b2a0"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 46.0,
+        "y": 127.0
+      },
+      "items": [
+        {
+          "description": "H1 的参考字段",
+          "pos": {
+            "x": 46.0,
+            "y": 127.0
+          },
+          "uuid": "ca14f409-bb81-4bd4-842e-9596f8d7655e",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H1",
+            "uuid": "98df4895-947b-4d5b-a96c-2ca618dc6630"
+          }
+        },
+        {
+          "description": "H1 的 NPTH 焊盘",
+          "pos": {
+            "x": 46.0,
+            "y": 128.0
+          },
+          "uuid": "682c9e73-d6fc-490e-ac0c-96d0b652cd39",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H1",
+            "uuid": "98df4895-947b-4d5b-a96c-2ca618dc6630"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Silkscreen clipped by solder mask",
+      "rule": "silk_over_copper",
+      "pos": {
+        "x": 46.0,
+        "y": 71.0
+      },
+      "items": [
+        {
+          "description": "H4 的参考字段",
+          "pos": {
+            "x": 46.0,
+            "y": 71.0
+          },
+          "uuid": "79d12a41-9365-4706-9f19-76154d165fc9",
+          "ownership_status": "resolved",
+          "item_kind": "property",
+          "layer": "F.SilkS",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H4",
+            "uuid": "32b3d6cd-3cc4-4aa1-91a2-dd79092fc492"
+          }
+        },
+        {
+          "description": "H4 的 NPTH 焊盘",
+          "pos": {
+            "x": 46.0,
+            "y": 72.0
+          },
+          "uuid": "4485a662-09ab-4324-9676-a016920c51a9",
+          "ownership_status": "resolved",
+          "item_kind": "pad",
+          "owner": {
+            "kind": "footprint",
+            "reference": "H4",
+            "uuid": "32b3d6cd-3cc4-4aa1-91a2-dd79092fc492"
+          }
+        }
+      ]
+    }
+  ],
+  "unconnected_items": [],
+  "schematic_parity": [
+    {
+      "severity": "warning",
+      "description": "值 (H1) 与符号的值 (Core_Frame_With_H1_D2.4) 不匹配",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 46.0,
+        "y": 128.0
+      },
+      "items": [
+        {
+          "description": "封装 H1",
+          "pos": {
+            "x": 46.0,
+            "y": 128.0
+          },
+          "uuid": "98df4895-947b-4d5b-a96c-2ca618dc6630",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "CoreMechanical:Core_Frame_With_H1_D2.4 与符号 (MountingHole:MountingHole_3.2mm_M3) 指定的封装不匹配",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 46.0,
+        "y": 128.0
+      },
+      "items": [
+        {
+          "description": "封装 H1",
+          "pos": {
+            "x": 46.0,
+            "y": 128.0
+          },
+          "uuid": "98df4895-947b-4d5b-a96c-2ca618dc6630",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "封装特性与符号不匹配: '从物料清单中移除' 设置不一致",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 46.0,
+        "y": 128.0
+      },
+      "items": [
+        {
+          "description": "封装 H1",
+          "pos": {
+            "x": 46.0,
+            "y": 128.0
+          },
+          "uuid": "98df4895-947b-4d5b-a96c-2ca618dc6630",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "值 (H2) 与符号的值 (Hole_D2.4_Keepout5) 不匹配",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 254.0,
+        "y": 128.0
+      },
+      "items": [
+        {
+          "description": "封装 H2",
+          "pos": {
+            "x": 254.0,
+            "y": 128.0
+          },
+          "uuid": "13cb15bf-eb74-4bfd-8dce-bf789284b2a0",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "CoreMechanical:Hole_D2.4_Keepout5 与符号 (MountingHole:MountingHole_3.2mm_M3) 指定的封装不匹配",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 254.0,
+        "y": 128.0
+      },
+      "items": [
+        {
+          "description": "封装 H2",
+          "pos": {
+            "x": 254.0,
+            "y": 128.0
+          },
+          "uuid": "13cb15bf-eb74-4bfd-8dce-bf789284b2a0",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "值 (H3) 与符号的值 (Hole_D2.4_Keepout5) 不匹配",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 254.0,
+        "y": 72.0
+      },
+      "items": [
+        {
+          "description": "封装 H3",
+          "pos": {
+            "x": 254.0,
+            "y": 72.0
+          },
+          "uuid": "118bf255-5942-42b7-b53f-89762926256c",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "CoreMechanical:Hole_D2.4_Keepout5 与符号 (MountingHole:MountingHole_3.2mm_M3) 指定的封装不匹配",
+      "rule": "footprint_symbol_mismatch",
+      "pos": {
+        "x": 254.0,
+        "y": 72.0
+      },
+      "items": [
+        {
+          "description": "封装 H3",
+          "pos": {
+            "x": 254.0,
+            "y": 72.0
+          },
+          "uuid": "118bf255-5942-42b7-b53f-89762926256c",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 J1 (CN7)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "缺失的封装 J2 (CN10)",
+      "rule": "missing_footprint",
+      "pos": null,
+      "items": []
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 130.0,
+        "y": 128.0
+      },
+      "items": [
+        {
+          "description": "封装 JL1",
+          "pos": {
+            "x": 130.0,
+            "y": 128.0
+          },
+          "uuid": "00ebd169-1e08-4f05-81f6-26b86e4e7a93",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 225.0,
+        "y": 82.0
+      },
+      "items": [
+        {
+          "description": "封装 JK2",
+          "pos": {
+            "x": 225.0,
+            "y": 82.0
+          },
+          "uuid": "04e6d341-57c7-4899-86bd-02c64c09ad53",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 194.0,
+        "y": 127.0
+      },
+      "items": [
+        {
+          "description": "封装 JA1",
+          "pos": {
+            "x": 194.0,
+            "y": 127.0
+          },
+          "uuid": "10381e69-e064-4145-9779-138d37b898d1",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 73.5,
+        "y": 94.0
+      },
+      "items": [
+        {
+          "description": "封装 JG1",
+          "pos": {
+            "x": 73.5,
+            "y": 94.0
+          },
+          "uuid": "109a1b00-6da5-4069-9f82-a22a0552ff39",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 180.0,
+        "y": 78.0
+      },
+      "items": [
+        {
+          "description": "封装 JU1",
+          "pos": {
+            "x": 180.0,
+            "y": 78.0
+          },
+          "uuid": "1fecd362-62c0-462d-905f-bd6194a60c65",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 75.0,
+        "y": 118.0
+      },
+      "items": [
+        {
+          "description": "封装 JK4",
+          "pos": {
+            "x": 75.0,
+            "y": 118.0
+          },
+          "uuid": "231dd096-f65b-42d4-85a3-3b3b2f879c43",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 228.0,
+        "y": 106.0
+      },
+      "items": [
+        {
+          "description": "封装 JH2",
+          "pos": {
+            "x": 228.0,
+            "y": 106.0
+          },
+          "uuid": "239c6a44-b539-4f29-82d0-da813a8c7828",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 46.0,
+        "y": 72.0
+      },
+      "items": [
+        {
+          "description": "封装 H4",
+          "pos": {
+            "x": 46.0,
+            "y": 72.0
+          },
+          "uuid": "32b3d6cd-3cc4-4aa1-91a2-dd79092fc492",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 197.0,
+        "y": 73.0
+      },
+      "items": [
+        {
+          "description": "封装 JB1",
+          "pos": {
+            "x": 197.0,
+            "y": 73.0
+          },
+          "uuid": "4317cdbf-ff58-4070-9cca-fe4fe3889830",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 170.0,
+        "y": 128.0
+      },
+      "items": [
+        {
+          "description": "封装 JT1",
+          "pos": {
+            "x": 170.0,
+            "y": 128.0
+          },
+          "uuid": "5903b0be-bf28-4f8b-92b5-85f596683590",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 194.0,
+        "y": 101.0
+      },
+      "items": [
+        {
+          "description": "封装 U1",
+          "pos": {
+            "x": 194.0,
+            "y": 101.0
+          },
+          "uuid": "60408850-8cad-4158-8a4f-0f4c628ae09d",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 123.0,
+        "y": 120.0
+      },
+      "items": [
+        {
+          "description": "封装 JP1",
+          "pos": {
+            "x": 123.0,
+            "y": 120.0
+          },
+          "uuid": "720ef6dc-1926-4bbb-be0b-573ffe4ffe93",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 211.0,
+        "y": 103.0
+      },
+      "items": [
+        {
+          "description": "封装 JD1",
+          "pos": {
+            "x": 211.0,
+            "y": 103.0
+          },
+          "uuid": "767a1dc2-c225-4376-a163-1d223718b3d6",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 225.0,
+        "y": 118.0
+      },
+      "items": [
+        {
+          "description": "封装 JK3",
+          "pos": {
+            "x": 225.0,
+            "y": 118.0
+          },
+          "uuid": "7bcbdf77-f5cb-4507-b3f5-391439c2c0b5",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 108.0,
+        "y": 104.0
+      },
+      "items": [
+        {
+          "description": "封装 JM1",
+          "pos": {
+            "x": 108.0,
+            "y": 104.0
+          },
+          "uuid": "8cde1570-0048-4709-b830-987dbd553188",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 72.0,
+        "y": 106.0
+      },
+      "items": [
+        {
+          "description": "封装 JH1",
+          "pos": {
+            "x": 72.0,
+            "y": 106.0
+          },
+          "uuid": "8e0309b9-9289-4450-b2d1-bcc331685abd",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 226.5,
+        "y": 94.0
+      },
+      "items": [
+        {
+          "description": "封装 JG2",
+          "pos": {
+            "x": 226.5,
+            "y": 94.0
+          },
+          "uuid": "906d022b-04b1-4d5e-bf63-732e20ea0dd1",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 108.0,
+        "y": 125.0
+      },
+      "items": [
+        {
+          "description": "封装 JE1",
+          "pos": {
+            "x": 108.0,
+            "y": 125.0
+          },
+          "uuid": "a6fe9fd0-4e8c-44dc-bd8f-d601d9c7a6e7",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 177.0,
+        "y": 120.0
+      },
+      "items": [
+        {
+          "description": "封装 JS1",
+          "pos": {
+            "x": 177.0,
+            "y": 120.0
+          },
+          "uuid": "b69abfbe-d869-43b5-afb1-6e68458d30c0",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "description": "Extra footprint",
+      "rule": "extra_footprint",
+      "pos": {
+        "x": 75.0,
+        "y": 82.0
+      },
+      "items": [
+        {
+          "description": "封装 JK1",
+          "pos": {
+            "x": 75.0,
+            "y": 82.0
+          },
+          "uuid": "cb189273-33f1-464a-925e-a6c564974408",
+          "ownership_status": "resolved",
+          "item_kind": "footprint",
+          "layer": "F.Cu",
+          "owner": {
+            "kind": "board"
+          }
+        }
+      ]
+    }
+  ]
+}

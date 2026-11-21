@@ -1,0 +1,14 @@
+[
+  {
+    "matrix_row": [240, 4, 4, 7, 7, 0, 0, 3.05, 62, 62, 1.5, 0, 2, null, null, null, null, null],
+    "dictionary_entry": {"name": "下壳低位环形承力筋研究", "detail": "候选外径 62、内径 59.6、Z 2.3 至 3.8。与下壳底连接；屏托硬限位与实际承力路径仍待样件。"}
+  },
+  {
+    "matrix_row": [241, 4, 4, 7, 7, -104.5, 36, 4.3, 7, 4, 4, 0, 1, null, null, null, null, null],
+    "dictionary_entry": {"name": "左后壁低位支撑研究", "detail": "候选支撑体；未定义马达耳孔、紧固件及连接件。"}
+  },
+  {
+    "matrix_row": [242, 4, 4, 7, 7, 104.5, 36, 4.3, 7, 4, 4, 0, 1, null, null, null, null, null],
+    "dictionary_entry": {"name": "右后壁低位支撑研究", "detail": "候选支撑体；须与右侧 ISO 口和底侧器件包络共同检查。"}
+  }
+]

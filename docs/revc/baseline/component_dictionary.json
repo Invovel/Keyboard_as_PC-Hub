@@ -1,0 +1,1357 @@
+{
+  "1000": {
+    "name": "C1",
+    "detail": "10uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      181.8,
+      88.8,
+      180.0
+    ],
+    "value": "10uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1001": {
+    "name": "C10",
+    "detail": "1uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      95.5,
+      106.0,
+      0
+    ],
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1002": {
+    "name": "C101",
+    "detail": "100nF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      246.0,
+      84.5,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1003": {
+    "name": "C102",
+    "detail": "8pF | Capacitor_SMD:C_0402_1005Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      226.0,
+      90.0,
+      0
+    ],
+    "value": "8pF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "layer": "B.Cu",
+    "pad_count": 2
+  },
+  "1004": {
+    "name": "C103",
+    "detail": "8pF | Capacitor_SMD:C_0402_1005Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      226.0,
+      94.0,
+      0
+    ],
+    "value": "8pF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "layer": "B.Cu",
+    "pad_count": 2
+  },
+  "1005": {
+    "name": "C104",
+    "detail": "100nF | Capacitor_SMD:C_0402_1005Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      229.0,
+      87.5,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "layer": "B.Cu",
+    "pad_count": 2
+  },
+  "1006": {
+    "name": "C105",
+    "detail": "100nF | Capacitor_SMD:C_0402_1005Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      229.0,
+      89.5,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "layer": "B.Cu",
+    "pad_count": 2
+  },
+  "1007": {
+    "name": "C106",
+    "detail": "100nF | Capacitor_SMD:C_0402_1005Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      241.0,
+      88.5,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "layer": "B.Cu",
+    "pad_count": 2
+  },
+  "1008": {
+    "name": "C107",
+    "detail": "100nF | Capacitor_SMD:C_0402_1005Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      241.0,
+      91.0,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "layer": "B.Cu",
+    "pad_count": 2
+  },
+  "1009": {
+    "name": "C11",
+    "detail": "100nF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      95.5,
+      108.5,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1010": {
+    "name": "C12",
+    "detail": "1uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      88.5,
+      103.5,
+      0
+    ],
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1011": {
+    "name": "C13",
+    "detail": "1uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      219.0,
+      111.0,
+      0
+    ],
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1012": {
+    "name": "C14",
+    "detail": "100nF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      219.0,
+      113.5,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1013": {
+    "name": "C15",
+    "detail": "1uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      213.5,
+      107.5,
+      0
+    ],
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1014": {
+    "name": "C2",
+    "detail": "100nF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      181.8,
+      92.4,
+      180.0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1015": {
+    "name": "C3",
+    "detail": "1uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      181.8,
+      98.1,
+      180.0
+    ],
+    "value": "1uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1016": {
+    "name": "C4",
+    "detail": "10uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      205.2,
+      96.0,
+      90.0
+    ],
+    "value": "10uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1017": {
+    "name": "C5",
+    "detail": "100nF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      208.0,
+      90.0,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1018": {
+    "name": "C6",
+    "detail": "22uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      214.0,
+      89.0,
+      0
+    ],
+    "value": "22uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1019": {
+    "name": "C7",
+    "detail": "22uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      215.0,
+      86.5,
+      0
+    ],
+    "value": "22uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1020": {
+    "name": "C8",
+    "detail": "100nF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      212.0,
+      114.0,
+      0
+    ],
+    "value": "100nF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1021": {
+    "name": "C9",
+    "detail": "10uF | Capacitor_SMD:C_0805_2012Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      204.0,
+      124.0,
+      0
+    ],
+    "value": "10uF",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1022": {
+    "name": "H1",
+    "detail": "M2 / D2.4 candidate | CoreMechanical:Core_Frame_With_H1_D2.4；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      46.0,
+      128.0,
+      0
+    ],
+    "value": "M2 / D2.4 candidate",
+    "footprint": "CoreMechanical:Core_Frame_With_H1_D2.4",
+    "layer": "F.Cu",
+    "pad_count": 1
+  },
+  "1023": {
+    "name": "H2",
+    "detail": "M2 / D2.4 candidate | CoreMechanical:Hole_D2.4_Keepout5；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      254.0,
+      128.0,
+      0
+    ],
+    "value": "M2 / D2.4 candidate",
+    "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+    "layer": "F.Cu",
+    "pad_count": 1
+  },
+  "1024": {
+    "name": "H3",
+    "detail": "M2 / D2.4 candidate | CoreMechanical:Hole_D2.4_Keepout5；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      254.0,
+      72.0,
+      0
+    ],
+    "value": "M2 / D2.4 candidate",
+    "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+    "layer": "F.Cu",
+    "pad_count": 1
+  },
+  "1025": {
+    "name": "H4",
+    "detail": "M2 / D2.4 candidate | CoreMechanical:Hole_D2.4_Keepout5；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      46.0,
+      72.0,
+      0
+    ],
+    "value": "M2 / D2.4 candidate",
+    "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+    "layer": "F.Cu",
+    "pad_count": 1
+  },
+  "1026": {
+    "name": "J101",
+    "detail": "USB1046-GF-0190-L-B-A | Connector_USB:USB_A_Receptacle_GCT_USB1046；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      241.0,
+      73.45,
+      180.0
+    ],
+    "value": "USB1046-GF-0190-L-B-A",
+    "footprint": "Connector_USB:USB_A_Receptacle_GCT_USB1046",
+    "layer": "F.Cu",
+    "pad_count": 8
+  },
+  "1027": {
+    "name": "JB1",
+    "detail": "KBD_USB2_P5 | Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      197.0,
+      73.0,
+      0
+    ],
+    "value": "KBD_USB2_P5",
+    "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 6
+  },
+  "1028": {
+    "name": "JD1",
+    "detail": "UART 3V3 LOGIC | Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      211.0,
+      103.0,
+      0
+    ],
+    "value": "UART 3V3 LOGIC",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 8
+  },
+  "1029": {
+    "name": "JE1",
+    "detail": "EC11 A/B/SW | Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      108.0,
+      125.0,
+      0
+    ],
+    "value": "EC11 A/B/SW",
+    "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 6
+  },
+  "1030": {
+    "name": "JG1",
+    "detail": "MAG_L_LOW_SPEED | Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认；最新RevB已删除，不得恢复。",
+    "kicad_at": [
+      73.5,
+      94.0,
+      0
+    ],
+    "value": "MAG_L_LOW_SPEED",
+    "footprint": "Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 10
+  },
+  "1031": {
+    "name": "JG2",
+    "detail": "MAG_R_LOW_SPEED | Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      226.5,
+      94.0,
+      0
+    ],
+    "value": "MAG_R_LOW_SPEED",
+    "footprint": "Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 10
+  },
+  "1032": {
+    "name": "JH1",
+    "detail": "HAPTIC L DEBUG DNP | Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      72.0,
+      106.0,
+      0
+    ],
+    "value": "HAPTIC L DEBUG DNP",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 8
+  },
+  "1033": {
+    "name": "JH2",
+    "detail": "HAPTIC R DEBUG DNP | Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      228.0,
+      106.0,
+      0
+    ],
+    "value": "HAPTIC R DEBUG DNP",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 8
+  },
+  "1034": {
+    "name": "JK1",
+    "detail": "KEY 1 | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      75.0,
+      82.0,
+      0
+    ],
+    "value": "KEY 1",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1035": {
+    "name": "JK2",
+    "detail": "KEY 2 | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      225.0,
+      82.0,
+      0
+    ],
+    "value": "KEY 2",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1036": {
+    "name": "JK3",
+    "detail": "KEY 3 | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      225.0,
+      118.0,
+      0
+    ],
+    "value": "KEY 3",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1037": {
+    "name": "JK4",
+    "detail": "KEY 4 | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      75.0,
+      118.0,
+      0
+    ],
+    "value": "KEY 4",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1038": {
+    "name": "JL1",
+    "detail": "LCD QSPI 6 SIGNALS | Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      130.0,
+      128.0,
+      0
+    ],
+    "value": "LCD QSPI 6 SIGNALS",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 8
+  },
+  "1039": {
+    "name": "JM1",
+    "detail": "INMP441 MODULE OPTION DNP | Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      108.0,
+      104.0,
+      0
+    ],
+    "value": "INMP441 MODULE OPTION DNP",
+    "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 8
+  },
+  "1040": {
+    "name": "JML1",
+    "detail": "7 PLUS MOTOR L | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      82.5,
+      108.0,
+      0
+    ],
+    "value": "7 PLUS MOTOR L",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1041": {
+    "name": "JMR1",
+    "detail": "7 PLUS MOTOR R | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      226.0,
+      126.0,
+      0
+    ],
+    "value": "7 PLUS MOTOR R",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1042": {
+    "name": "JP1",
+    "detail": "BOOT / DISABLE | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      123.0,
+      120.0,
+      0
+    ],
+    "value": "BOOT / DISABLE",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1043": {
+    "name": "JPOWER1",
+    "detail": "BENCH_5V_DNP | CoreControl:Bench_5V_Input_2Pads_P5.08_D1.2；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      213.0,
+      128.0,
+      0
+    ],
+    "value": "BENCH_5V_DNP",
+    "footprint": "CoreControl:Bench_5V_Input_2Pads_P5.08_D1.2",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1044": {
+    "name": "JR1",
+    "detail": "RESET | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      193.0,
+      84.0,
+      0
+    ],
+    "value": "RESET",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1045": {
+    "name": "JS1",
+    "detail": "SCREEN_PRESS_SPARE_TBD | Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      177.0,
+      120.0,
+      0
+    ],
+    "value": "SCREEN_PRESS_SPARE_TBD",
+    "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 4
+  },
+  "1046": {
+    "name": "JT1",
+    "detail": "TOUCH + DISPLAY POWER | Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      170.0,
+      128.0,
+      0
+    ],
+    "value": "TOUCH + DISPLAY POWER",
+    "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 6
+  },
+  "1047": {
+    "name": "JU1",
+    "detail": "INTERNAL USB2 FS ONLY | Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      180.0,
+      78.0,
+      0
+    ],
+    "value": "INTERNAL USB2 FS ONLY",
+    "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+    "layer": "F.Cu",
+    "pad_count": 6
+  },
+  "1048": {
+    "name": "L1",
+    "detail": "3.3uH | CoreControl:L_Bourns_SRP4020TA；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      215.0,
+      94.0,
+      0
+    ],
+    "value": "3.3uH",
+    "footprint": "CoreControl:L_Bourns_SRP4020TA",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1049": {
+    "name": "R1",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      181.8,
+      95.3,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1050": {
+    "name": "R10",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      116.0,
+      125.5,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1051": {
+    "name": "R101",
+    "detail": "0R DNP | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      232.0,
+      80.0,
+      0
+    ],
+    "value": "0R DNP",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1052": {
+    "name": "R11",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      116.0,
+      128.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1053": {
+    "name": "R12",
+    "detail": "22R | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      181.8,
+      107.8,
+      0
+    ],
+    "value": "22R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1054": {
+    "name": "R13",
+    "detail": "22R | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      181.8,
+      110.3,
+      0
+    ],
+    "value": "22R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1055": {
+    "name": "R14",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      209.0,
+      121.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1056": {
+    "name": "R15",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      205.0,
+      121.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1057": {
+    "name": "R16",
+    "detail": "4.7k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      100.0,
+      112.0,
+      0
+    ],
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1058": {
+    "name": "R17",
+    "detail": "4.7k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      100.0,
+      114.5,
+      0
+    ],
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1059": {
+    "name": "R18",
+    "detail": "4.7k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      201.0,
+      120.0,
+      0
+    ],
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1060": {
+    "name": "R19",
+    "detail": "4.7k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      201.0,
+      122.0,
+      0
+    ],
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1061": {
+    "name": "R2",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      206.0,
+      109.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1062": {
+    "name": "R20",
+    "detail": "0R | Resistor_SMD:R_1206_3216Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      205.0,
+      127.0,
+      0
+    ],
+    "value": "0R",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1063": {
+    "name": "R21",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      205.0,
+      130.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1064": {
+    "name": "R3",
+    "detail": "4.7k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      162.0,
+      127.0,
+      0
+    ],
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1065": {
+    "name": "R4",
+    "detail": "4.7k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      162.0,
+      129.5,
+      0
+    ],
+    "value": "4.7k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1066": {
+    "name": "R5",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      80.5,
+      84.8,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1067": {
+    "name": "R6",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      219.5,
+      84.8,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1068": {
+    "name": "R7",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      219.5,
+      118.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1069": {
+    "name": "R8",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      80.5,
+      118.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1070": {
+    "name": "R9",
+    "detail": "10k | Resistor_SMD:R_0603_1608Metric；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      116.0,
+      123.0,
+      0
+    ],
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "layer": "F.Cu",
+    "pad_count": 2
+  },
+  "1071": {
+    "name": "U1",
+    "detail": "ESP32-S3-WROOM-1U-N16R8 | RF_Module:ESP32-S3-WROOM-1U；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      194.0,
+      101.0,
+      0
+    ],
+    "value": "ESP32-S3-WROOM-1U-N16R8",
+    "footprint": "RF_Module:ESP32-S3-WROOM-1U",
+    "layer": "F.Cu",
+    "pad_count": 62
+  },
+  "1072": {
+    "name": "U101",
+    "detail": "USBLC6-2SC6 | Package_TO_SOT_SMD:SOT-23-6；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      241.0,
+      86.5,
+      -90.0
+    ],
+    "value": "USBLC6-2SC6",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "layer": "F.Cu",
+    "pad_count": 6
+  },
+  "1073": {
+    "name": "U102",
+    "detail": "ADuM3165BRSZ | Package_SO:SSOP-20_5.3x7.2mm_P0.65mm；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      235.0,
+      92.0,
+      0
+    ],
+    "value": "ADuM3165BRSZ",
+    "footprint": "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm",
+    "layer": "B.Cu",
+    "pad_count": 20
+  },
+  "1074": {
+    "name": "U2",
+    "detail": "AP63203WU-7 | Package_TO_SOT_SMD:TSOT-23-6；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      208.0,
+      94.0,
+      90.0
+    ],
+    "value": "AP63203WU-7",
+    "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+    "layer": "F.Cu",
+    "pad_count": 6
+  },
+  "1075": {
+    "name": "U3",
+    "detail": "TCA9543APWR | Package_SO:TSSOP-14_4.4x5mm_P0.65mm；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      206.0,
+      116.0,
+      0
+    ],
+    "value": "TCA9543APWR",
+    "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "layer": "F.Cu",
+    "pad_count": 14
+  },
+  "1076": {
+    "name": "U4",
+    "detail": "DRV2605LDGSR | Package_SO:TSSOP-10_3x3mm_P0.5mm；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      90.0,
+      107.0,
+      0
+    ],
+    "value": "DRV2605LDGSR",
+    "footprint": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+    "layer": "F.Cu",
+    "pad_count": 10
+  },
+  "1077": {
+    "name": "U5",
+    "detail": "DRV2605LDGSR | Package_SO:TSSOP-10_3x3mm_P0.5mm；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      214.0,
+      111.0,
+      0
+    ],
+    "value": "DRV2605LDGSR",
+    "footprint": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+    "layer": "F.Cu",
+    "pad_count": 10
+  },
+  "1078": {
+    "name": "Y101",
+    "detail": "24MHz | Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm；旧板封装锚点，外廓未确认",
+    "kicad_at": [
+      227.5,
+      92.0,
+      0
+    ],
+    "value": "24MHz",
+    "footprint": "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm",
+    "layer": "B.Cu",
+    "pad_count": 4
+  },
+  "100": {
+    "name": "Core 下壳/整机包络",
+    "detail": "R5；前20 后26.65；5°名义倾角，基准壁/底厚2.4；下壳固定侧壁承力；前后高度需CAD复核"
+  },
+  "101": {
+    "name": "可更换弹性顶壳",
+    "detail": "四分区环形连续外观；4径向渐消槽，不画独立矩形键帽；顶层目标≤10元、单键≥10万次"
+  },
+  "102": {
+    "name": "四层主PCB",
+    "detail": "Z=6.4~8.0旧基准；F.Cu / In1 / In2 / B.Cu；保留中心板材，局部孔按实物"
+  },
+  "103": {
+    "name": "EC56-HA1",
+    "detail": "选择EC56；正向焊接；正式子型号/厂图/3D及孔位未冻结"
+  },
+  "104": {
+    "name": "旋转外环",
+    "detail": "名义直径60；外壳间隙单边1~2；内环3D打印，外环首版打印；不得承载固定支撑"
+  },
+  "105": {
+    "name": "360×360触控屏",
+    "detail": "AA Ø38.16，双FPC延伸39.98/41.93；不随旋转环运动；需独立托架/导向/硬限位"
+  },
+  "106": {
+    "name": "固定支撑限位环",
+    "detail": "示意直径62（非加工值）；固定于下壳，需与编码器/旋钮/磁铁及FPC分离；实际截面未知"
+  },
+  "107": {
+    "name": "屏幕下压开关",
+    "detail": "独立机械触发；低矮SMD候选，型号/实际XY/Z未确认；中心仅表达作用轴"
+  },
+  "108": {
+    "name": "旧中央机构优先区 R27",
+    "detail": "旧R27不是自动铜层禁布；新版EC56须重新生成更大机械包络"
+  },
+  "109": {
+    "name": "旋钮外壳开口",
+    "detail": "Ø60+2×单边1mm；Ø64为2mm单边上限"
+  },
+  "110": {
+    "name": "K1 OH49E",
+    "detail": "继承旧感应中心作为RevC首轮候选；JSMSEMI C49021369，SOT-23，3.3V；ADC1或ADS1015；实际移近旋钮与否需曲面位移验证"
+  },
+  "120": {
+    "name": "K1 磁铁",
+    "detail": "Ø2×1/Ø3×1候选；与霍尔同轴；顶壳卡槽+防脱；无接触；初始间隙2~4"
+  },
+  "130": {
+    "name": "K1 RGB",
+    "detail": "WS2812C-4020-H2 C42417604；4颗单线串联；灯珠侧发光方向随导光件定，XY仅候选"
+  },
+  "140": {
+    "name": "K1 硬限位",
+    "detail": "固定件限位0.4~0.5；触发0.2~0.3/释放0.1~0.15；坐标需按活动面确定"
+  },
+  "111": {
+    "name": "K2 OH49E",
+    "detail": "继承旧感应中心作为RevC首轮候选；JSMSEMI C49021369，SOT-23，3.3V；ADC1或ADS1015；实际移近旋钮与否需曲面位移验证"
+  },
+  "121": {
+    "name": "K2 磁铁",
+    "detail": "Ø2×1/Ø3×1候选；与霍尔同轴；顶壳卡槽+防脱；无接触；初始间隙2~4"
+  },
+  "131": {
+    "name": "K2 RGB",
+    "detail": "WS2812C-4020-H2 C42417604；4颗单线串联；灯珠侧发光方向随导光件定，XY仅候选"
+  },
+  "141": {
+    "name": "K2 硬限位",
+    "detail": "固定件限位0.4~0.5；触发0.2~0.3/释放0.1~0.15；坐标需按活动面确定"
+  },
+  "112": {
+    "name": "K3 OH49E",
+    "detail": "继承旧感应中心作为RevC首轮候选；JSMSEMI C49021369，SOT-23，3.3V；ADC1或ADS1015；实际移近旋钮与否需曲面位移验证"
+  },
+  "122": {
+    "name": "K3 磁铁",
+    "detail": "Ø2×1/Ø3×1候选；与霍尔同轴；顶壳卡槽+防脱；无接触；初始间隙2~4"
+  },
+  "132": {
+    "name": "K3 RGB",
+    "detail": "WS2812C-4020-H2 C42417604；4颗单线串联；灯珠侧发光方向随导光件定，XY仅候选"
+  },
+  "142": {
+    "name": "K3 硬限位",
+    "detail": "固定件限位0.4~0.5；触发0.2~0.3/释放0.1~0.15；坐标需按活动面确定"
+  },
+  "113": {
+    "name": "K4 OH49E",
+    "detail": "继承旧感应中心作为RevC首轮候选；JSMSEMI C49021369，SOT-23，3.3V；ADC1或ADS1015；实际移近旋钮与否需曲面位移验证"
+  },
+  "123": {
+    "name": "K4 磁铁",
+    "detail": "Ø2×1/Ø3×1候选；与霍尔同轴；顶壳卡槽+防脱；无接触；初始间隙2~4"
+  },
+  "133": {
+    "name": "K4 RGB",
+    "detail": "WS2812C-4020-H2 C42417604；4颗单线串联；灯珠侧发光方向随导光件定，XY仅候选"
+  },
+  "143": {
+    "name": "K4 硬限位",
+    "detail": "固定件限位0.4~0.5；触发0.2~0.3/释放0.1~0.15；坐标需按活动面确定"
+  },
+  "150": {
+    "name": "径向渐消/释放槽 1",
+    "detail": "按用户草图四条与圆周连接；左右原槽延长约20%意图，历史没有CAD长度，坐标是演示候选；端圆角，固定根部保留"
+  },
+  "151": {
+    "name": "径向渐消/释放槽 2",
+    "detail": "按用户草图四条与圆周连接；左右原槽延长约20%意图，历史没有CAD长度，坐标是演示候选；端圆角，固定根部保留"
+  },
+  "152": {
+    "name": "径向渐消/释放槽 3",
+    "detail": "按用户草图四条与圆周连接；左右原槽延长约20%意图，历史没有CAD长度，坐标是演示候选；端圆角，固定根部保留"
+  },
+  "153": {
+    "name": "径向渐消/释放槽 4",
+    "detail": "按用户草图四条与圆周连接；左右原槽延长约20%意图，历史没有CAD长度，坐标是演示候选；端圆角，固定根部保留"
+  },
+  "160": {
+    "name": "左马达安装包络",
+    "detail": "仓库旧平面候选；下壳固定弧形载架（覆盖旧顶壳固定）；本体长轴Y；Z9.5~15.5需重核；右ISO冲突"
+  },
+  "162": {
+    "name": "左iPhone 7 Plus Taptic Engine",
+    "detail": "用户提供含耳50×12.5×2.6，本体43×12.5×2.6；原安装耳+螺丝；不固定PCB；实际孔/轴/电流未知"
+  },
+  "164": {
+    "name": "左马达刚性承力架",
+    "detail": "与下壳高侧壁弧筋连接；位置不等于安装孔；可拆卸，预留焊线弯折"
+  },
+  "166": {
+    "name": "左马达2Pin输出座",
+    "detail": "独立OUT+/OUT−，JST SH/GH候选；原JH1/2为6Pin接口，不能直接当2Pin输出；落点依据驱动器和线束"
+  },
+  "161": {
+    "name": "右马达安装包络",
+    "detail": "仓库旧平面候选；下壳固定弧形载架（覆盖旧顶壳固定）；本体长轴Y；Z9.5~15.5需重核；右ISO冲突"
+  },
+  "163": {
+    "name": "右iPhone 7 Plus Taptic Engine",
+    "detail": "用户提供含耳50×12.5×2.6，本体43×12.5×2.6；原安装耳+螺丝；不固定PCB；实际孔/轴/电流未知"
+  },
+  "165": {
+    "name": "右马达刚性承力架",
+    "detail": "与下壳高侧壁弧筋连接；位置不等于安装孔；可拆卸，预留焊线弯折"
+  },
+  "167": {
+    "name": "右马达2Pin输出座",
+    "detail": "独立OUT+/OUT−，JST SH/GH候选；原JH1/2为6Pin接口，不能直接当2Pin输出；落点依据驱动器和线束"
+  },
+  "170": {
+    "name": "INMP441独立小板",
+    "detail": "右下偏内侧；10×12候选，旧左侧麦位作废；底部声孔、弹性座、密封声道；与右马达实际距离/按键/连接器待核"
+  },
+  "171": {
+    "name": "收音槽1顶面",
+    "detail": "三道对应跨棱；仅在外露侧壁延续，不被键盘堵塞；顶面4~6、侧壁5~8，宽0.8~1.2，间距2.5~3候选"
+  },
+  "174": {
+    "name": "收音槽1侧壁",
+    "detail": "投影点；实际边缘Z与外露条件待测；不通整机腔体，透声网和独立声腔"
+  },
+  "172": {
+    "name": "收音槽2顶面",
+    "detail": "三道对应跨棱；仅在外露侧壁延续，不被键盘堵塞；顶面4~6、侧壁5~8，宽0.8~1.2，间距2.5~3候选"
+  },
+  "175": {
+    "name": "收音槽2侧壁",
+    "detail": "投影点；实际边缘Z与外露条件待测；不通整机腔体，透声网和独立声腔"
+  },
+  "173": {
+    "name": "收音槽3顶面",
+    "detail": "三道对应跨棱；仅在外露侧壁延续，不被键盘堵塞；顶面4~6、侧壁5~8，宽0.8~1.2，间距2.5~3候选"
+  },
+  "176": {
+    "name": "收音槽3侧壁",
+    "detail": "投影点；实际边缘Z与外露条件待测；不通整机腔体，透声网和独立声腔"
+  },
+  "177": {
+    "name": "麦克风密封声腔",
+    "detail": "与顶面/高侧对应，防喷薄开孔泡棉/透声网；没有冻结声道截面与真实侧壁位置"
+  },
+  "180": {
+    "name": "SWJ1 SLLB510100",
+    "detail": "最新RevB文档确认KiCad(47.1,100)旋转90，拨头朝左；GPIO未分配；上录音、中静音、下通知"
+  },
+  "181": {
+    "name": "SWJ1 定位孔1",
+    "detail": "最新RevB文档确认，正式封装仍需厂图复核"
+  },
+  "182": {
+    "name": "SWJ1 定位孔2",
+    "detail": "最新RevB文档确认，正式封装仍需厂图复核"
+  },
+  "190": {
+    "name": "A1/P1",
+    "detail": "USB-A 3.x下游；壳体接口中心，不是焊盘坐标"
+  },
+  "191": {
+    "name": "A2/P2",
+    "detail": "USB-A 3.x下游；壳体接口中心，不是焊盘坐标"
+  },
+  "192": {
+    "name": "PC-C",
+    "detail": "唯一电脑Host上行，CC Sink、ESD、SS mux；壳体接口中心，不是焊盘坐标"
+  },
+  "193": {
+    "name": "ISO/DEBUG",
+    "detail": "USB-A 480Mbps目标；隔离地与主地独立，右马达冲突；壳体接口中心，不是焊盘坐标"
+  },
+  "194": {
+    "name": "FAST-C/P3",
+    "detail": "左侧下游，10Gbps目标；壳体接口中心，不是焊盘坐标"
+  },
+  "195": {
+    "name": "MAG-R",
+    "detail": "右侧8触点2.5间距；低速低功耗；左MAG移除；壳体接口中心，不是焊盘坐标"
+  },
+  "196": {
+    "name": "总禁用",
+    "detail": "旧位置候选；GPIO0启动绑带风险；壳体接口中心，不是焊盘坐标"
+  },
+  "197": {
+    "name": "KBD/P5",
+    "detail": "浮动长颈标准公头；键盘CC64-RGB实物坐标未取得；不另设外部线；壳体接口中心，不是焊盘坐标"
+  },
+  "200": {
+    "name": "主Hub/配置",
+    "detail": "USB7206C目标未落地；CH634只为5Gbps备选，不擅自替换"
+  },
+  "201": {
+    "name": "Hub电源",
+    "detail": "晶振/电感/去耦就近，真实电压按芯片"
+  },
+  "202": {
+    "name": "MCU区",
+    "detail": "ESP32-S3 N16R8正式首选，S31升级候选；外置天线净空"
+  },
+  "203": {
+    "name": "PC/Dock电源选择",
+    "detail": "反灌保护/限流，布局旧修订候选"
+  },
+  "204": {
+    "name": "Dock DATA",
+    "detail": "P4专用USB2/SS；非第二上行"
+  },
+  "205": {
+    "name": "Dock PWR",
+    "detail": "单向5V"
+  },
+  "206": {
+    "name": "Dock CTRL",
+    "detail": "检测与故障"
+  },
+  "207": {
+    "name": "LCD/Touch接口候选带",
+    "detail": "按双FPC真实出口重核"
+  },
+  "208": {
+    "name": "高速后缘走廊",
+    "detail": "仅研究，不承诺SI，不跨地缝"
+  },
+  "209": {
+    "name": "ISO完整电源/隔离边界",
+    "detail": "U102背面优先；实测3D、爬电/电气间隙；禁止主/隔离地混铜；VRB0505S完整端点待补"
+  },
+  "210": {
+    "name": "ADS1015",
+    "detail": "4路ADC，若ADC1四路空闲则不装"
+  },
+  "211": {
+    "name": "RGB电平转换",
+    "detail": "根据WS2812C电气阈值选用AHCT等；RGB_DATA GPIO待分配"
+  },
+  "212": {
+    "name": "USB2512B",
+    "detail": "P6分支Hub；待原理图"
+  },
+  "213": {
+    "name": "KBD受控供电/CC",
+    "detail": "Source/DFP、限流防反灌"
+  },
+  "214": {
+    "name": "VRB0505S",
+    "detail": "隔离DC/DC，预算/装配未验证"
+  },
+  "215": {
+    "name": "IPEX天线",
+    "detail": "塑料区域远离金属及磁铁，实测RF"
+  },
+  "216": {
+    "name": "EC56安装孔",
+    "detail": "厂图未取得，不生成正式钻孔"
+  },
+  "217": {
+    "name": "固定弧形加强筋",
+    "detail": "承力区加强；不侵入四键活动区、USB、FPC/声孔、隔离带"
+  },
+  "220": {
+    "name": "主板安装孔H1",
+    "detail": "旧候选Ø2.4，柱体/接口/铜禁布待核"
+  },
+  "221": {
+    "name": "主板安装孔H2",
+    "detail": "旧候选Ø2.4，柱体/接口/铜禁布待核"
+  },
+  "222": {
+    "name": "主板安装孔H3",
+    "detail": "旧候选Ø2.4，柱体/接口/铜禁布待核"
+  },
+  "223": {
+    "name": "主板安装孔H4",
+    "detail": "旧候选Ø2.4，柱体/接口/铜禁布待核"
+  },
+  "230": {
+    "name": "Dock底部总体预留",
+    "detail": "板间8研究值；外壳开孔及配对件TBD"
+  },
+  "231": {
+    "name": "右附件五键",
+    "detail": "一字5键，19.05间距，键帽外露9；K5 Fn；不属于Core主板坐标"
+  },
+  "232": {
+    "name": "右附件横向触控条",
+    "detail": "五键前部，长度104、有效90~96；不新增Core上的第二触控条"
+  }
+}

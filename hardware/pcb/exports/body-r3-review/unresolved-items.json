@@ -1,0 +1,15 @@
+{
+  "fabrication_released": false,
+  "routing_complete": false,
+  "drc_run": false,
+  "erc_run": false,
+  "unknowns": [
+    "development-board exact model and footprint",
+    "screen backboard/FPC connector",
+    "final encoder/push mechanism",
+    "selected pogo connector/magnet/current rating",
+    "hub/PD/power-tree design",
+    "acoustic port and microphone module outline",
+    "physical GPIO2 vs GPIO42 wire-label discrepancy"
+  ]
+}
