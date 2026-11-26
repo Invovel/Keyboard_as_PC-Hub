@@ -4,7 +4,13 @@
 
 [RevC 工程入口](docs/revc/README.md) · [差异审查](docs/revc/REVIEW.md) · [工作分工](docs/revc/PLAN.md) · [协作规范](AGENTS.md)。
 
-冻结环形霍尔四键和独立 RGB、EC56 与独立屏幕下压、承力下壳、双马达、独立麦克风、浮动 USB-C 键盘公头，以及完整 Hub 和隔离口。右 MAG、左拨轮、现有五页固件与可选底置 Dock 继续纳入。当前工程基线为核验过的 116 封装修复板，详见[真实四层铜、焊盘和钻孔证据](docs/revc/evidence/README.md)。**制造未放行。**
+冻结环形霍尔四键和独立 RGB、EC56 与独立屏幕下压、承力下壳、双马达、独立麦克风、浮动 USB-C 键盘公头，以及完整 Hub 和隔离口。右 MAG、左拨轮、现有五页固件与可选底置 Dock 继续纳入。现行工程从已核验的 116 封装修复板继承，当前保存板有 159 个封装。详见[真实四层铜、焊盘和钻孔证据](docs/revc/evidence/README.md)。**制造未放行。**
+
+### RevC PCB 线路综合图
+
+![RevC PCB 保存板铜线、焊盘、过孔和钻孔](docs/revc/evidence/PC_Hub_Pure_Circuit_Overview.png)
+
+图源为保存板 `942accd835ab9017…`。内层覆铜另见[电源与地平面](docs/revc/evidence/PC_Hub_Inner_Planes.svg)。[查看 SVG 原图](docs/revc/evidence/PC_Hub_Pure_Circuit_Overview.svg) · [MAG-R 修改进度](docs/revc/pcb/MAG_R_PROGRESS.md)。
 
 ## R3.1 历史设计资料
 
