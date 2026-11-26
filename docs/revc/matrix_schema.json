@@ -86,15 +86,15 @@
     "zones": 0
   },
   "limits": "Pad XY extracted by footprint transform; old anchors verified from source; pad display rectangles approximate all shapes; no filled zones reconstruction, DRC, exact courtyards, or latest 116 footprint data.",
-  "saved_pcb_sha256": "5e874a8ad7fc3052e4228d225968f4427fa315b40a842bd78d690ab54784e5c5",
+  "saved_pcb_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
   "saved_pcb_counts": {
-    "footprints": 124,
-    "pads": 497,
-    "vias": 95,
+    "footprints": 159,
+    "pads": 569,
+    "vias": 253,
     "layers": {
       "B.Cu": {
-        "track_segments": 191,
-        "length_mm": 547.9434219370208
+        "track_segments": 597,
+        "length_mm": 2220.5393250443603
       },
       "In2.Cu": {
         "track_segments": 0,
@@ -105,11 +105,18 @@
         "length_mm": 0
       },
       "F.Cu": {
-        "track_segments": 390,
-        "length_mm": 1111.4728179088693
+        "track_segments": 999,
+        "length_mm": 2342.8715555480367
       }
     },
-    "zones": 4
+    "zones": 6
   },
+  "saved_layer_contract": {
+    "F.Cu": "signals and local supply escapes",
+    "In1.Cu": "continuous main GND; independent ISO_GND",
+    "In2.Cu": "3V3 / 5V_CORE zones, remaining GND and independent ISO_GND",
+    "B.Cu": "signals and local supply escapes"
+  },
+  "layer_contract_evidence": "evidence/Continuation_Connectivity.json",
   "snapshot_counts_scope": "older uploaded board only"
 }

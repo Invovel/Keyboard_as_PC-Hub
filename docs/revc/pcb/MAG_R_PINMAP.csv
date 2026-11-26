@@ -1,0 +1,9 @@
+﻿jg2_pin,saved_net,role,harness_logical_contact,accessory_requirement,physical_contact_order_status
+1,unconnected-(JG2-Pin_1-Pad1),RESERVED_NC,1,No connection,Logical mapping proposed; physical mating face and cable numbering require manufacturer drawing
+2,GND,GND,2,Ground,Logical mapping proposed; physical mating face and cable numbering require manufacturer drawing
+3,/Main_Control/MAG_R_3V3_SW,SWITCHED_3V3,3,3.3V target 100mA including supply overhead; validate startup,Logical mapping proposed; physical mating face and cable numbering require manufacturer drawing
+4,/Main_Control/MAG_R_SDA,I2C_SDA,4,"Open-drain, pull-ups to switched 3V3 only",Logical mapping proposed; physical mating face and cable numbering require manufacturer drawing
+5,/Main_Control/MAG_R_SCL,I2C_SCL,5,"Open-drain, pull-ups to switched 3V3 only",Logical mapping proposed; physical mating face and cable numbering require manufacturer drawing
+6,/Main_Control/MAG_R_DET_EXT_N,DETECT_ACTIVE_LOW,6,Passive contact to GND; no back-power,Logical mapping proposed; physical mating face and cable numbering require manufacturer drawing
+7,/Main_Control/MAG_R_INT_N,ACCESSORY_INT_OPEN_DRAIN,7,"Open-drain, pull-ups to switched 3V3 only",Logical mapping proposed; physical mating face and cable numbering require manufacturer drawing
+8,GND,GND,8,Ground,Logical mapping proposed; physical mating face and cable numbering require manufacturer drawing

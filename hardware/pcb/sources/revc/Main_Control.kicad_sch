@@ -5008,16 +5008,8 @@
 		(uuid "06d15a29-1fb4-4f8f-841e-0c70b0118aa2")
 	)
 	(no_connect
-		(at 200.66 325.12)
-		(uuid "18c05ce7-0fdf-4276-a1de-954dd0ba0790")
-	)
-	(no_connect
 		(at 243.84 83.82)
 		(uuid "2d60abd7-0e0e-47b6-b5a1-46de409f4db1")
-	)
-	(no_connect
-		(at 200.66 335.28)
-		(uuid "4ab04bb6-974c-4119-b8e7-14fb5df418bf")
 	)
 	(no_connect
 		(at 662.94 193.04)
@@ -5056,20 +5048,12 @@
 		(uuid "a3b66c4c-5e4b-413f-88c9-48752d7887ac")
 	)
 	(no_connect
-		(at 180.34 330.2)
-		(uuid "a593f4a7-cb25-43e2-94fb-6f23416f66d5")
-	)
-	(no_connect
 		(at 243.84 104.14)
 		(uuid "aeb753e0-7859-4bb6-895b-63dff35c6320")
 	)
 	(no_connect
 		(at 490.22 344.17)
 		(uuid "b04cb8dd-7a34-4a79-80d6-539d6d469ab7")
-	)
-	(no_connect
-		(at 200.66 330.2)
-		(uuid "b117b06f-c2d5-442a-8e43-fa09df6d35fb")
 	)
 	(no_connect
 		(at 662.94 223.52)
@@ -5139,17 +5123,6 @@
 			(type default)
 		)
 		(uuid "053ce89f-7a99-4fa9-aafe-ea77938ea7d7")
-	)
-	(wire
-		(pts
-			(xy 325.12 124.46)
-			(xy 322.58 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "053e9901-b06e-4b38-b586-d6164b4dc45a")
 	)
 	(wire
 		(pts
@@ -5813,17 +5786,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 124.46)
-			(xy 388.62 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e106f3c-b154-4add-8183-bf3d99def60f")
-	)
-	(wire
-		(pts
 			(xy 280.67 330.2)
 			(xy 278.13 330.2)
 		)
@@ -5832,17 +5794,6 @@
 			(type default)
 		)
 		(uuid "3eeecf17-5e9e-4f7a-ab4b-9070ec1d17a0")
-	)
-	(wire
-		(pts
-			(xy 391.16 93.98)
-			(xy 388.62 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40642f69-6982-4ba9-8d0f-2ca40870d510")
 	)
 	(wire
 		(pts
@@ -6008,17 +5959,6 @@
 			(type default)
 		)
 		(uuid "57b2414c-b7df-4223-affc-0d6baa8e5017")
-	)
-	(wire
-		(pts
-			(xy 309.88 82.55)
-			(xy 309.88 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58216a77-53e7-4967-8065-c6488496bd5e")
 	)
 	(wire
 		(pts
@@ -6195,17 +6135,6 @@
 			(type default)
 		)
 		(uuid "6725ed6c-db02-47c3-84a0-4462cb13b558")
-	)
-	(wire
-		(pts
-			(xy 391.16 121.92)
-			(xy 388.62 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69d3a7d6-5832-45b3-ba05-34c7d6b6c025")
 	)
 	(wire
 		(pts
@@ -6968,17 +6897,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 121.92)
-			(xy 322.58 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1cd4e95-19ae-4f3f-923b-e70292d935e1")
-	)
-	(wire
-		(pts
 			(xy 195.58 46.99)
 			(xy 195.58 49.53)
 		)
@@ -7064,17 +6982,6 @@
 			(type default)
 		)
 		(uuid "bba4df9d-67ee-4a13-91a8-db2e33b7f733")
-	)
-	(wire
-		(pts
-			(xy 325.12 93.98)
-			(xy 322.58 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbc54ae2-2e12-42c2-8d80-ca703f7c9695")
 	)
 	(wire
 		(pts
@@ -7265,17 +7172,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 91.44)
-			(xy 388.62 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d168c96a-c630-43d3-b1d9-c69bdbdedec6")
-	)
-	(wire
-		(pts
 			(xy 411.48 274.32)
 			(xy 414.02 274.32)
 		)
@@ -7295,17 +7191,6 @@
 			(type default)
 		)
 		(uuid "d17b97bc-76a1-4b22-b9a0-db08ae72c5c3")
-	)
-	(wire
-		(pts
-			(xy 309.88 74.93)
-			(xy 309.88 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1b54c35-ddec-49be-b8a9-a7881d30ab97")
 	)
 	(wire
 		(pts
@@ -7746,17 +7631,6 @@
 			(type default)
 		)
 		(uuid "fb925403-9378-431c-b805-c3785f0fb032")
-	)
-	(wire
-		(pts
-			(xy 325.12 91.44)
-			(xy 322.58 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc28f9b9-a829-473a-90bb-fe8c4c64ad12")
 	)
 	(wire
 		(pts
@@ -8583,6 +8457,34 @@
 		)
 		(uuid "5c98b49c-bbbb-4362-90c9-0276798d0646")
 	)
+	(wire
+		(pts
+			(xy 200.66 325.12)
+			(xy 205.74 325.12)
+		)
+		(uuid "72c70b24-585e-409c-b33c-a32bb250b670")
+	)
+	(wire
+		(pts
+			(xy 200.66 330.2)
+			(xy 205.74 330.2)
+		)
+		(uuid "5faf26bf-1833-43a7-b455-8d2f3c53700d")
+	)
+	(wire
+		(pts
+			(xy 200.66 335.28)
+			(xy 205.74 335.28)
+		)
+		(uuid "e0769313-630c-458b-b73c-70108e2514d0")
+	)
+	(wire
+		(pts
+			(xy 180.34 330.2)
+			(xy 175.26 330.2)
+		)
+		(uuid "412088c1-9eef-4d6c-9b67-1ba10b646343")
+	)
 	(text "MCU + reset / BOOT / debug: existing firmware GPIO map"
 		(at 163.83 27.94 0)
 		(effects
@@ -8593,7 +8495,7 @@
 		)
 		(uuid "1efd0e8a-e7a7-4ce1-8f47-542e1f215476")
 	)
-	(text "INPUTS: four keys + EC11, active-low to GND"
+	(text "RevC INPUTS: OH49E x4 -> RC -> ADS1015 U20, I2C 0x48.\nEC56-HA1 is the frozen encoder direction; exact mounting/pin map pending.\nJE1 retains prototype A/B GPIO1/2; JS1 is independent screen press GPIO39."
 		(at 317.5 27.94 0)
 		(effects
 			(font
@@ -8623,7 +8525,7 @@
 		)
 		(uuid "7584e33b-4c04-4b49-b6af-71ed4ada52c2")
 	)
-	(text "CORE CONTROL REVA - ELECTRICAL STUDY, NOT RELEASED FOR FAB"
+	(text "PC-HUB RevC CONTROL | MANUFACTURING_NOT_RELEASED"
 		(at 20.32 332.74 0)
 		(effects
 			(font
@@ -8633,7 +8535,7 @@
 		)
 		(uuid "9c61a15e-47e6-45f1-bf78-7f5ab829152d")
 	)
-	(text "MCU USB FULL-SPEED / future Hub downstream P6"
+	(text "ESP32 USB FULL-SPEED Device/HID/PC Agent | internal Hub branch pending"
 		(at 251.46 139.7 0)
 		(effects
 			(font
@@ -8653,7 +8555,7 @@
 		)
 		(uuid "ad31d8bb-b2e5-41e2-bb7b-80b962e0f6b8")
 	)
-	(text "SWJ1 POSITION_STAGE_ONLY: 1 / C / T / 2 intentionally NC.\nSpring-return lever + push; no GPIO or application action assigned.\nC is the shared contact, not connected to GND at this stage."
+	(text "SWJ1 SLLB510100: 1=GPIO38, T=GPIO40, 2=GPIO41; C=GND.\nProduct actions: up=record, push=system mute, down=Agent notification center.\nVerify physical up/down against final mounted orientation; do not infer from pad names."
 		(at 165.1 350.52 0)
 		(effects
 			(font
@@ -8683,7 +8585,7 @@
 		)
 		(uuid "caa44072-e8aa-4647-a457-3ec24399da0a")
 	)
-	(text "Not included: USB7206C Hub, PC/Dock power mux/PD, A1/A2/FAST-C, magnetic face, Dock high-speed connector.\nThese need exact receptacle/connector pin maps, source budgets and impedance/stackup design.\nScreen assembly and EC11 use brackets/cables; motors attach to shell, not PCB pads.\nDo not synchronize this new control sheet into the old CN7/CN10 schematic or overwrite the main placement PCB."
+	(text "RevC full scope retained: main Hub, USB2 CTRL/ISO branches, PC-C and optional Dock power.\nMissing circuits require verified parts, physical pin maps, source budgets and stackup.\nEC56 direct Core mounting is preferred; dimensions/support are mechanical gates.\nKeep JE1/JU1 until their complete replacements are verified. Motors mount to shell."
 		(at 20.32 345.44 0)
 		(effects
 			(font
@@ -8713,7 +8615,7 @@
 		)
 		(uuid "e2b5afb2-ca36-4839-88d1-ceebf66ad539")
 	)
-	(text "No duplicate screen-press GPIO39.\nFuture independent screen press is not connected.\nConnector A/B = running firmware GPIO1/GPIO2;\nhistorical physical wire labels need assembly check."
+	(text "JS1 is the independent screen-press interface on GPIO39.\nJE1 legacy pin4 shares this net; do not add a second encoder push function.\nJE1 pin2/3 are encoder A/B on GPIO1/2; EC56 package and installation pending."
 		(at 429.26 121.92 0)
 		(effects
 			(font
@@ -8723,7 +8625,7 @@
 		)
 		(uuid "e5efde64-45ee-4a17-95ba-cfdc75d40ed4")
 	)
-	(text "LEFT MAG REMOVED: JG1, left protection and DET pull-up deleted.\nGPIO10 and TCA9546 CH0 are unused (NC); right MAG remains on CH1.\nLeft spring-return control: mechanical placement only, no GPIO/function allocation.\nCentral ENC_SW_GPIO39, screen, four independent keys and MIC I2S unchanged."
+	(text "JG1 left MAG retired; JG2 right MAG remains on TCA9546 CH1.\nGPIO10=RGB DATA; GPIO42=RGB_EN. CH0 remains unused.\nSWJ1 uses GPIO38/40/41. Four keys use linear Hall sensors and ADS1015.\nScreen press GPIO39, display/touch and INMP441 are retained formal functions."
 		(at 165.1 287.02 0)
 		(effects
 			(font
@@ -8733,7 +8635,7 @@
 		)
 		(uuid "e9d08b72-e5a2-4867-8dd8-70bf695d59e2")
 	)
-	(text "JA1 is the already-tested I2S amplifier interface, not the motor driver.\nMAX outputs drive only the speaker differential pair; never ground OUT-.\nJM1 pin6 straps INMP441 L/R low for LEFT; module itself provides decoupling.\nMicrophone code optional, hardware not verified; default DNP."
+	(text "JM1 is the formal INMP441 daughterboard interface, populated in RevC.\n1=3V3, 2=GND, 3=BCLK GPIO4, 4=WS GPIO5, 5=SD GPIO17, 6=L/R low.\nDaughterboard decoupling, acoustic placement and I2S runtime validation remain required.\nJA1 historical amplifier interface is absent; no speaker circuit is introduced here."
 		(at 20.32 276.86 0)
 		(effects
 			(font
@@ -8743,7 +8645,7 @@
 		)
 		(uuid "ea1e8737-d2a7-4bf1-9715-5b4e34b917c3")
 	)
-	(text "OPTIONAL AUDIO / MICROPHONE: keep modules external"
+	(text "RevC MICROPHONE: independent INMP441 daughterboard interface"
 		(at 20.32 223.52 0)
 		(effects
 			(font
@@ -8804,6 +8706,47 @@
 		)
 		(uuid "7ec1620f-7783-4fca-9586-5d20aa3d232c")
 	)
+	(text "RevC RGB | Default-off supply and 3.3-to-5 V data"
+		(at 442 448 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f68df156-c87b-45e8-98de-33d3d816542b")
+	)
+	(text "RGB_EN=GPIO42 with default-low bias; TP24 is a test point.\nGPIO10 drives U22 level translation; U21 switches RGB power."
+		(at 57 571 0)
+		(effects
+			(font
+				(size 1.35 1.35)
+			)
+			(justify left bottom)
+		)
+		(uuid "70c83f3e-91a9-4b94-be6e-802bc40aa6fa")
+	)
+	(text "Start RMT low; send zero frame after power-up. Cut RGB_EN on failure."
+		(at 57 575 0)
+		(effects
+			(font
+				(size 1.35 1.35)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ad7e4ac-8bf9-4c31-9880-536e1cd3f629")
+	)
+	(text "QOD discharges the switched RGB rail through R72."
+		(at 57 579 0)
+		(effects
+			(font
+				(size 1.35 1.35)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3108c18-0c5c-4bf6-afb0-06d6f9204dfc")
+	)
 	(label "KEY4_GPIO38"
 		(at 246.38 91.44 0)
 		(effects
@@ -8833,16 +8776,6 @@
 			(justify right bottom)
 		)
 		(uuid "034f3b0c-910e-422b-8523-23363ee708e9")
-	)
-	(label "KEY1_GPIO42"
-		(at 309.88 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0357f39a-845a-4aba-8b80-f68f0e6c7cb0")
 	)
 	(label "GND"
 		(at 157.48 248.92 180)
@@ -8893,16 +8826,6 @@
 			(justify left bottom)
 		)
 		(uuid "0b2c9bac-b4d2-4bfc-954b-9f1593bf5657")
-	)
-	(label "KEY1_GPIO42"
-		(at 322.58 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0be478f6-7e5c-4452-a4b3-27f2a584932b")
 	)
 	(label "3V3"
 		(at 466.09 57.15 0)
@@ -9053,16 +8976,6 @@
 			(justify left bottom)
 		)
 		(uuid "1e4dc34a-8037-4560-8a46-89d0d3a37107")
-	)
-	(label "GND"
-		(at 322.58 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1e8670cc-a121-4e54-aa41-c3e79bc49bc9")
 	)
 	(label "5V_CORE"
 		(at 71.12 55.88 180)
@@ -9294,16 +9207,6 @@
 		)
 		(uuid "3bdaf26c-5bee-43a2-9685-5ab9bac20064")
 	)
-	(label "KEY3_GPIO40"
-		(at 388.62 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d0a0ec4-caed-48f5-a34e-9586073058d1")
-	)
 	(label "GND"
 		(at 435.61 293.37 0)
 		(effects
@@ -9534,16 +9437,6 @@
 		)
 		(uuid "533f84dc-8bc0-40fa-8a7a-5d3e3b45e6ab")
 	)
-	(label "GND"
-		(at 388.62 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "53fd09a9-6b5c-4c44-aa0b-2bda48dc6d97")
-	)
 	(label "LCD_D0_GPIO15"
 		(at 68.58 165.1 180)
 		(effects
@@ -9573,16 +9466,6 @@
 			(justify right bottom)
 		)
 		(uuid "5551bdab-a2cb-45cc-803f-0d26199657b8")
-	)
-	(label "KEY1_GPIO42"
-		(at 246.38 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "563dde96-edff-48f0-afed-d5f568884bf4")
 	)
 	(label "3V3"
 		(at 157.48 246.38 180)
@@ -9883,16 +9766,6 @@
 			(justify right bottom)
 		)
 		(uuid "7d571b2f-ed9c-4093-8582-84219d775186")
-	)
-	(label "GND"
-		(at 388.62 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7dd3049f-c144-4a14-baba-1ca4f6351778")
 	)
 	(label "GND"
 		(at 375.92 328.93 0)
@@ -10244,16 +10117,6 @@
 		)
 		(uuid "9d6a4b1d-899a-4094-b328-baf44a83fee3")
 	)
-	(label "KEY4_GPIO38"
-		(at 322.58 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9daa93db-3149-47fc-a73d-8e636798d7ff")
-	)
 	(label "GND"
 		(at 392.43 328.93 0)
 		(effects
@@ -10323,16 +10186,6 @@
 			(justify left bottom)
 		)
 		(uuid "a56554d5-e7f7-45fb-8848-bf84a7decc83")
-	)
-	(label "KEY2_GPIO41"
-		(at 388.62 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a65f32c0-7bf1-4a33-a733-3e6a4af5d8d1")
 	)
 	(label "I2C_SDA_GPIO8"
 		(at 635 193.04 180)
@@ -10774,16 +10627,6 @@
 		)
 		(uuid "e5d4bd28-f276-4bf5-a5ae-12c3481d131b")
 	)
-	(label "GND"
-		(at 322.58 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e63d2c2d-0aef-44b2-a8c4-b8977aa6ae0e")
-	)
 	(label "MOTOR_R_P"
 		(at 414.02 344.17 0)
 		(effects
@@ -10923,16 +10766,6 @@
 			(justify right bottom)
 		)
 		(uuid "f2ea654e-55a8-4956-a39c-f758d52992ff")
-	)
-	(label "3V3"
-		(at 309.88 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4180fd8-b420-4bc2-84bf-dd4312723bb7")
 	)
 	(label "GND"
 		(at 294.64 40.64 180)
@@ -12204,6 +12037,56 @@
 		)
 		(uuid "2d3bc2df-1a83-4d4c-98b6-17c79e26e274")
 	)
+	(label "KEY4_GPIO38"
+		(at 205.74 325.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59715da9-eff6-418b-9c46-edc63c3557fa")
+	)
+	(label "KEY3_GPIO40"
+		(at 205.74 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "941f9581-09c0-4eaf-b547-9f0cacc9cd00")
+	)
+	(label "KEY2_GPIO41"
+		(at 205.74 335.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d78fec6d-af30-4104-9011-02e7d3c05097")
+	)
+	(label "GND"
+		(at 175.26 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a3fa3e1-794b-40c3-ba8f-0c494f7d25fa")
+	)
+	(label "RGB_EN"
+		(at 246.38 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4a078b9-d957-49de-9730-e5f4a6ad96ea")
+	)
 	(global_label "GND"
 		(shape input)
 		(at 650.24 238.76 0)
@@ -12707,26 +12590,6 @@
 			)
 		)
 	)
-  (text "RevC RGB | Default-off supply and 3.3-to-5 V data"
-    (at 442 448 0)
-    (effects (font (size 2 2) (bold yes)) (justify left bottom))
-    (uuid "f68df156-c87b-45e8-98de-33d3d816542b")
-  )
-  (text "RGB_EN defaults low. TP24 is for bench gating pending GPIO42 cutover."
-    (at 57 571 0)
-    (effects (font (size 1.35 1.35)) (justify left bottom))
-    (uuid "70c83f3e-91a9-4b94-be6e-802bc40aa6fa")
-  )
-  (text "Start RMT low; send zero frame after power-up. Cut RGB_EN on failure."
-    (at 57 575 0)
-    (effects (font (size 1.35 1.35)) (justify left bottom))
-    (uuid "9ad7e4ac-8bf9-4c31-9880-536e1cd3f629")
-  )
-  (text "QOD discharges the switched RGB rail through R72."
-    (at 57 579 0)
-    (effects (font (size 1.35 1.35)) (justify left bottom))
-    (uuid "a3108c18-0c5c-4bf6-afb0-06d6f9204dfc")
-  )
 	(symbol
 		(lib_id "Device:R")
 		(at 251.46 246.38 0)
@@ -13218,85 +13081,6 @@
 			(project "Pc-Hub_RevB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/34e07b5a-6c97-4ce8-9a4e-d112246fb6e0"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 330.2 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f3e1f63-25ac-4d36-b4c8-9acd391b9956")
-		(property "Reference" "JK1"
-			(at 330.2 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KEY 1"
-			(at 330.2 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 330.2 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 330.2 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "71712d66-6d62-4931-ba39-bcfca2688d81")
-		)
-		(pin "2"
-			(uuid "b82368ba-ac41-465b-9ccf-773a06eede0b")
-		)
-		(instances
-			(project "Pc-Hub_RevB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/34e07b5a-6c97-4ce8-9a4e-d112246fb6e0"
-					(reference "JK1")
 					(unit 1)
 				)
 			)
@@ -14957,85 +14741,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 396.24 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "793694c0-db3b-409d-822b-a58064f102cf")
-		(property "Reference" "JK3"
-			(at 396.24 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KEY 3"
-			(at 396.24 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 396.24 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 396.24 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 396.24 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "2"
-			(uuid "2eb656a0-3432-476f-8839-da9e18698d23")
-		)
-		(pin "1"
-			(uuid "77c1aaba-588c-4448-b020-2e8e40e2546c")
-		)
-		(instances
-			(project "Pc-Hub_RevB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/34e07b5a-6c97-4ce8-9a4e-d112246fb6e0"
-					(reference "JK3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 495.3 219.71 0)
 		(unit 1)
@@ -16283,85 +15988,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 396.24 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aab897a6-4181-436a-9473-8f5f9a8aaa00")
-		(property "Reference" "JK2"
-			(at 396.24 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KEY 2"
-			(at 396.24 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 396.24 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 396.24 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 396.24 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "1"
-			(uuid "dc27a980-8d1a-4cde-ab3d-1e0a75de9c2c")
-		)
-		(pin "2"
-			(uuid "7bc736a5-42a7-4e08-9ca3-fe59fc18abd7")
-		)
-		(instances
-			(project "Pc-Hub_RevB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/34e07b5a-6c97-4ce8-9a4e-d112246fb6e0"
-					(reference "JK2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 165.1 251.46 0)
 		(unit 1)
@@ -16380,7 +16006,7 @@
 				)
 			)
 		)
-		(property "Value" "INMP441 MODULE OPTION DNP"
+		(property "Value" "INMP441 MICROPHONE INTERFACE"
 			(at 165.1 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16423,7 +16049,7 @@
 				)
 			)
 		)
-		(property "Assembly" "DNP_OPTIONAL"
+		(property "Assembly" "REVC_POPULATE"
 			(at 165.1 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -17069,85 +16695,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 309.88 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9629763-9f2a-4fb1-b5ac-a48271a06391")
-		(property "Reference" "R5"
-			(at 311.912 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 309.88 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 309.88 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 309.88 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "2"
-			(uuid "9024ef4b-c309-4a6d-8a3e-11240395f7ea")
-		)
-		(pin "1"
-			(uuid "3b70beda-01a3-469f-ad4e-05eede42956c")
-		)
-		(instances
-			(project "Pc-Hub_RevB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/34e07b5a-6c97-4ce8-9a4e-d112246fb6e0"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 435.61 367.03 0)
 		(unit 1)
@@ -17516,7 +17063,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c6aaa52f-0296-434e-95fc-efa042a2c892")
 		(property "Reference" "JH1"
 			(at 495.3 248.92 0)
@@ -17571,7 +17118,7 @@
 				)
 			)
 		)
-		(property "Assembly" "DNP_OPTIONAL"
+		(property "Assembly" "DNP"
 			(at 495.3 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -18529,85 +18076,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 330.2 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df159a0f-050c-45bc-822c-313d4b9f3c84")
-		(property "Reference" "JK4"
-			(at 330.2 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KEY 4"
-			(at 330.2 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 330.2 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 330.2 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(body_style 1)
-		(in_pos_files yes)
-		(pin "2"
-			(uuid "c4e174f1-8c5b-4c00-ad7e-154221d4856e")
-		)
-		(pin "1"
-			(uuid "2fc0492f-63f9-4dd2-af79-6876085a18bb")
-		)
-		(instances
-			(project "Pc-Hub_RevB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/34e07b5a-6c97-4ce8-9a4e-d112246fb6e0"
-					(reference "JK4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 147.32 382.27 0)
 		(unit 1)
@@ -18693,7 +18161,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e1f8e416-4ca7-4985-b547-613fedacb674")
 		(property "Reference" "JH2"
 			(at 495.3 328.93 0)
@@ -18748,7 +18216,7 @@
 				)
 			)
 		)
-		(property "Assembly" "DNP_OPTIONAL"
+		(property "Assembly" "DNP"
 			(at 495.3 336.55 0)
 			(hide yes)
 			(show_name no)

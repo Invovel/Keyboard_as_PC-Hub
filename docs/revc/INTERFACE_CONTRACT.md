@@ -1,12 +1,13 @@
 # RevC PCB 接口契约 · 第一批
 
-[GPIO 全表](GPIO_CONTRACT.csv)逐项对照 116 封装 PCB 对应的保存原理图网表、ESP32 模组实体焊盘和 `firmware/deck-ui/main` 中的 `body_input.c`、`body_encoder.c`、`body_screen.c`、`body_mic.h` 和 `body_audio.c`。CSV 的第三列是基线网名，省略 `/Main_Control/` 层级前缀。第四列是源码实际用法。分配项以当批保存网表确认实施状态。
+[GPIO 全表](GPIO_CONTRACT.csv)逐项对照当前 RevC 保存原理图网表、ESP32 模组实体焊盘和 `firmware/deck-ui/main` 中的 `body_input.c`、`body_encoder.c`、`body_screen.c`、`body_mic.h` 和 `body_audio.c`。CSV 第三列是当前保存网名，省略 `/Main_Control/` 层级前缀；第四列保留已审查固件的旧用法，不能当作 RevC 已实现的软件映射。当前引脚证据见[保存网表](evidence/Continuation_Pins.tsv)。
 
 ## 输入和灯
 
 - ADC1 的 GPIO1/2 是编码器，3 为绑带，4/5 是麦克风，6/7 是 QSPI，8/9 是 I²C。仅 GPIO10 未被占用，不能满足四模拟输入。选择 ADS1015 接 GPIO8/9，ADDR 接 GND 时地址 0x48。四路按 K1–K4 对应 AIN0–AIN3，按传感器和磁回路实测重新标定。触摸 0x15、TCA9543A 0x70、右 MAG 开关 0x71 留原位。
 - GPIO10 模组焊盘 18 分配为 RGB 数据。首颗 DIN 需确定 5 V 逻辑门限与上电状态。每像素近端去耦；数据和使能为独立概念，单纯拉低数据无法清除已锁存颜色。总禁用、失联、启动和固件挂起的行为需结合电源关断验证。
-- SWJ1 实体端子为 1（CCW）、T（按压）、2（CW）和 C（公共）。建议 C 到主地，三输入带外部上拉和软件防抖。GPIO38/40/41 在当前固件仍属于旧四键。Hall 读数接管前保持这些引脚的旧网表和固件兼容；切换时同批核对旧四键退役、新网、PCB、事件语义。GPIO21/47/48 被现有固件的 I²S0 发声初始化占用，即使当前 PCB 上无网络也不能径自复用。
+- 2026-11-23：GPIO10 到 U22 和四灯级联铜线已连通；GPIO42（U1.35）已正式改为 RGB_EN，接 U21.ON 与 U22.OE。旧 R5 上拉已从原理图和 PCB 删除，R68 4.7k 下拉保留。四路霍尔使用 ADS1015，相关信号及 L1 输出至传感器/ADC/主控的供电路径已逐端检查。SWJ1 三路及上拉已全部接通。固件迁移、真实采样与关断时序仍待验证。
+- SWJ1 实体端子 1（CCW）、T（按压）、2（CW）分别分配 GPIO38、40、41，公共端 C 接主地，R8、R7、R6 复用为 10 kΩ 上拉。当前工具保留三个 PCB 网络名 `KEY4_GPIO38`、`KEY3_GPIO40`、`KEY2_GPIO41` 以沿用现有主控端铜线，物理用途由 SWJ1 引脚定义。JK1–JK4 已退出原理图和保存板。旧固件仍把三个 GPIO 识别为旧按键，RevC 使用前须切换软件映射并验证霍尔采集。GPIO21/47/48 仍由现有固件的 I²S0 发声初始化占用。
 - EC56 A/B 继承 GPIO1/2，GPIO39 继承独立屏按压。JE1 的旧四针网用于原型联调。EC56 订货图需写明相序、是否带开关、焊孔基准、配合高度和公差；候选 XY 原点与最终钻孔保持分别记录。
 
 参考 [Espressif WROOM-1/1U v1.8](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)、[TI ADS1015](https://www.ti.com/product/ADS1015)、[ALPS SLLB510100](https://tech.alpsalpine.com/e/products/detail/SLLB510100/)。

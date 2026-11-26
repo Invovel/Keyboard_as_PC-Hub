@@ -13,27 +13,27 @@ module_pad,gpio,saved_schematic_net,deck_ui_observed,revc_assignment,state
 12,8,I2C_SDA_GPIO8,I2C0 SDA,touch plus ADS1015 and upstream muxes,preserve
 13,19,USB_DM_MCU,native USB HID,USB DM,preserve
 14,20,USB_DP_MCU,native USB HID,USB DP,preserve
-15,3,unconnected,,strapping,reserved
-16,46,unconnected,,strapping/reserved input,reserved
+15,3,unconnected-(U1-IO3-Pad15),,strapping,reserved
+16,46,unconnected-(U1-IO46-Pad16),,strapping/reserved input,reserved
 17,9,I2C_SCL_GPIO9,I2C0 SCL,touch plus ADS1015 and upstream muxes,preserve
-18,10,RGB_DATA_GPIO10,,RGB data,schematic verified; PCB pending
+18,10,RGB_DATA_GPIO10,,RGB data,saved schematic and PCB copper verified; RevC firmware mapping pending
 19,11,LCD_D2_GPIO11,QSPI D2,LCD D2,preserve
 20,12,LCD_D3_GPIO12,QSPI D3,LCD D3,preserve
 21,13,MAG_DET_R_N,,right MAG detect,preserve
 22,14,MAG_ENABLE,,right MAG enable,preserve
-23,21,unconnected,I2S0 legacy speaker DOUT,test firmware compatibility,reserved
-24,47,unconnected,I2S0 legacy speaker BCLK,test firmware compatibility,reserved
-25,48,unconnected,I2S0 legacy speaker WS,test firmware compatibility,reserved
-26,45,unconnected,,strapping,reserved
+23,21,unconnected-(U1-IO21-Pad23),I2S0 legacy speaker DOUT,test firmware compatibility,reserved
+24,47,unconnected-(U1-IO47-Pad24),I2S0 legacy speaker BCLK,test firmware compatibility,reserved
+25,48,unconnected-(U1-IO48-Pad25),I2S0 legacy speaker WS,test firmware compatibility,reserved
+26,45,unconnected-(U1-IO45-Pad26),,strapping,reserved
 27,0,BOOT_DISABLE_GPIO0,BOOT strap,disable input migration pending,preserve
-28,35,unconnected,,octal PSRAM,reserved
-29,36,unconnected,,octal PSRAM,reserved
-30,37,unconnected,,octal PSRAM,reserved
-31,38,KEY4_GPIO38,digital key 4,SWJ1 contact 1 CCW after Hall cutover,allocated_after_cutover
+28,35,unconnected-(U1-IO35-Pad28),,octal PSRAM,reserved
+29,36,unconnected-(U1-IO36-Pad29),,octal PSRAM,reserved
+30,37,unconnected-(U1-IO37-Pad30),,octal PSRAM,reserved
+31,38,KEY4_GPIO38,digital key 4,SWJ1 contact 1 CCW via R8,saved schematic and PCB copper verified; RevC firmware mapping pending
 32,39,ENC_SW_GPIO39,digital press,independent screen press through legacy JE1 breakout,preserve
-33,40,KEY3_GPIO40,digital key 3,SWJ1 contact T push after Hall cutover,allocated_after_cutover
-34,41,KEY2_GPIO41,digital key 2,SWJ1 contact 2 CW after Hall cutover,allocated_after_cutover
-35,42,KEY1_GPIO42,digital key 1,RGB power enable candidate after Hall cutover,allocated_after_cutover
+33,40,KEY3_GPIO40,digital key 3,SWJ1 contact T push to U1,saved schematic and PCB copper verified; RevC firmware mapping pending
+34,41,KEY2_GPIO41,digital key 2,SWJ1 contact 2 CW to U1,saved schematic and PCB copper verified; RevC firmware mapping pending
+35,42,RGB_EN,digital key 1,RGB_EN to U21 ON and U22 OE; R68 4.7k pulldown; old R5 removed,saved schematic and PCB copper verified; RevC firmware mapping pending
 36,44,UART_RX_GPIO44,UART0 RX,serial/debug,preserve
 37,43,UART_TX_GPIO43,UART0 TX,serial/debug,preserve
 38,2,ENC_B_GPIO2,PCNT B,EC56 B,preserve

@@ -1,0 +1,28 @@
+{
+  "previous_board_sha256": "c692295d16d34fb3976d8394f16775c8e1e1b6fa319b3b330b4d58ddb9164e3a",
+  "board_sha256": "fdbe18f67f997fad49c8d76f4c2355473bbd59eb351de1bf784968d86176ca80",
+  "removed_refs": [
+    "JK1",
+    "JK2",
+    "JK3",
+    "JK4"
+  ],
+  "removed_copper_segments": 32,
+  "new_copper": {
+    "segment": 91,
+    "via": 11
+  },
+  "backside_gnd_segments": 20,
+  "wheel_pads": {
+    "1": "/Main_Control/KEY4_GPIO38",
+    "2": "/Main_Control/KEY2_GPIO41",
+    "C": "GND",
+    "T": "/Main_Control/KEY3_GPIO40"
+  },
+  "layer_segments": {
+    "B.Cu": 232,
+    "In2.Cu": 0,
+    "In1.Cu": 0,
+    "F.Cu": 553
+  }
+}

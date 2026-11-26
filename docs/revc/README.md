@@ -1,6 +1,12 @@
 # PC-Hub RevC
 
+2026-11-26 MAG-R 当前原板实施进度见 [MAG_R_PROGRESS](pcb/MAG_R_PROGRESS.md)：READY 分网和铜线完成；实物与整板验收未完成。该记录针对 hardware/pcb/sources/revc，不代表 RevC-Compact 工程已实施。
+
 **2026-11-19 · 产品方向冻结 · 制造未放行**
+
+**2026-11-25 最新产品方向**见 [RevC Compact 实施基准](../revc-compact/DESIGN_SPEC.md)，含新旧需求差异、当前保存板读回、紧凑布局与接口迁移。下方记录保留为现行 RevC 工程的沿革与证据。
+
+2026-11-24 已复核保存板、原理图及装配状态，并登记正式清理进度。见[阶段成果与未完成项](pcb/CLEANUP_STATUS_20261124.md)、[删除与迁移台账](pcb/REMOVAL_AUDIT.csv)及[真实布线、供电分层与检查](CONTINUATION_20261123.md)。
 
 1. [冻结设计交接](baseline/HANDOFF.md)和[交接展示](baseline/RevC_Interactive.html)。展示中的铜线来自旧 79 封装板。
 2. [差异审查](REVIEW.md)、[执行计划与分工](PLAN.md)和[候选装配预检](ASSEMBLY.md)。

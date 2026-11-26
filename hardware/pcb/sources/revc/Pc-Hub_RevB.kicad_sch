@@ -2211,7 +2211,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "H1..H4 are the four main-board mounting locations; motor brackets attach to the shell.\nCore-Control-RevA is a temporary sheet/file name, not another product or independent PCB.\nOld CN7/CN10 carrier schematic was backed up before replacement."
+	(text "One RevC Core main board. H1..H4 are saved candidate mounting anchors, not assembly freeze.\nMotors mount to load-bearing shell; all mechanical interfaces use product coordinates.\nThe RevB filename is retained as project identity, not product authority."
 		(exclude_from_sim no)
 		(at 20.32 116.84 0)
 		(effects
@@ -2222,7 +2222,7 @@
 		)
 		(uuid "4ef82f9f-cb51-4aed-ae83-ffffc2610e4d")
 	)
-	(text "PC-HUB / MAIN BOARD / R3.1"
+	(text "PC-HUB / MAIN BOARD / RevC"
 		(exclude_from_sim no)
 		(at 20.32 25.4 0)
 		(effects

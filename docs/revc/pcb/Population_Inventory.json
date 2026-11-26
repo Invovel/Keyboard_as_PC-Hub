@@ -1,0 +1,63 @@
+{
+  "checked_date": "2026-11-24",
+  "board_sha256": "9a5b069014011d6112070d0b913e055b93e656b90effbd8b87aed80c10b56416",
+  "schematic_sha256": {
+    "ISO_Debug_Output.kicad_sch": "29c06672f7ac530effc8abf90b52d2d9e842183444782a7a0f9766aad6af9840",
+    "MAG_Protection.kicad_sch": "5dba042c5256ffe252f9c9c25f141bb985a708c37a6c6aec9f444912a9cce7dc",
+    "Main_Control.kicad_sch": "12be11f386cc089808f4b19df551e2ca1d5aa9539b69662ba583c9f5b51ba733",
+    "Pc-Hub_RevB.kicad_sch": "51d8542161456230e8dca86bfe3ebdd9d235ff71666e676237a67453418015df"
+  },
+  "footprint_count": 157,
+  "pad_count": 566,
+  "retired_absent_on_board_in_hierarchy_and_saved_bom": [
+    "R5",
+    "JK1",
+    "JK2",
+    "JK3",
+    "JK4",
+    "JG1",
+    "JA1"
+  ],
+  "assembly_checks": [
+    {
+      "reference": "JH1",
+      "board_dnp": false,
+      "schematic_dnp": false,
+      "bom_dnp_field": "",
+      "board_value": "HAPTIC L DEBUG DNP",
+      "schematic_sheet": "Main_Control.kicad_sch"
+    },
+    {
+      "reference": "JH2",
+      "board_dnp": false,
+      "schematic_dnp": false,
+      "bom_dnp_field": "",
+      "board_value": "HAPTIC R DEBUG DNP",
+      "schematic_sheet": "Main_Control.kicad_sch"
+    },
+    {
+      "reference": "R101",
+      "board_dnp": false,
+      "schematic_dnp": false,
+      "bom_dnp_field": "",
+      "board_value": "0R DNP",
+      "schematic_sheet": "ISO_Debug_Output.kicad_sch"
+    },
+    {
+      "reference": "JPOWER1",
+      "board_dnp": false,
+      "schematic_dnp": false,
+      "bom_dnp_field": "",
+      "board_value": "BENCH_5V_DNP",
+      "schematic_sheet": "Main_Control.kicad_sch"
+    },
+    {
+      "reference": "JM1",
+      "board_dnp": false,
+      "schematic_dnp": false,
+      "bom_dnp_field": "",
+      "board_value": "INMP441 MODULE OPTION DNP",
+      "schematic_sheet": "Main_Control.kicad_sch"
+    }
+  ]
+}

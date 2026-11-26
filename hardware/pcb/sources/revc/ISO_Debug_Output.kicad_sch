@@ -3223,7 +3223,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "32fcb428-4101-4d54-9b9b-e3661a31373a")
 		(property "Reference" "R101"
 			(at 176.022 109.22 90)
@@ -3292,7 +3292,16 @@
 				)
 			)
 		)
-	)
+	
+		(property "Assembly" "DNP_ISOLATION_VALIDATION_REQUIRED"
+			(at 173.99 109.22 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))
 	(symbol
 		(lib_id "Device:C")
 		(at 57.15 168.91 0)

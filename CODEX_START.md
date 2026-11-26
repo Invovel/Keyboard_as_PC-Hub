@@ -1,6 +1,6 @@
 # 当前开发入口 · RevC
 
-从 [RevC 项目入口](docs/revc/README.md)进入，按 [AGENTS.md](AGENTS.md) 的专业分工和产品坐标工作。
+按照 [AGENTS.md](AGENTS.md) 的分工，从 [RevC 项目入口](docs/revc/README.md) 打开[当前 KiCad 项目](hardware/pcb/sources/revc/Pc-Hub_RevB.kicad_pro)。开工时将[检查证据](docs/revc/evidence/README.md)与当前保存文件核对。下方 R3.1 内容保留用于追溯，当前工作以 RevC 的工程文件、要求和分工为准。
 
 ## R3.1 历史开发说明
 
@@ -14,4 +14,4 @@
 
 保持原固件/GPIO、日志、镜像不变，Touchpad延迟不优化。本轮不烧录、不改KiCad、不出Gerber。之后KiCad读写按Konnect工作流；旧R3生成脚本属于历史，不运行覆盖新版。新的[机械生成器](hardware/enclosure/tools/update_r3_1.py)只写R3.1 JSON/SVG。
 
-按[目录规范](docs/repository-layout.md)在main持续更新。参考[机械说明](hardware/enclosure/dimensions-r3-1.md)、[原HTML](design/visualization/hairline-keyboard-hub.html)与[检查证据](tests/design/r3-1-review.md)。
+历史目录及配套材料见[目录规范](docs/repository-layout.md)、[机械说明](hardware/enclosure/dimensions-r3-1.md)、[原 HTML](design/visualization/hairline-keyboard-hub.html)与[检查证据](tests/design/r3-1-review.md)。

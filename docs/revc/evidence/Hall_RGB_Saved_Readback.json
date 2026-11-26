@@ -1,0 +1,24 @@
+{
+  "board_sha256": "c692295d16d34fb3976d8394f16775c8e1e1b6fa319b3b330b4d58ddb9164e3a",
+  "pad_net_changes": 116,
+  "new_copper": {
+    "segment": 145
+  },
+  "original_copper_verified": 676,
+  "local_endpoint_pairs": 28,
+  "local_pairs_pending": 4,
+  "nets": [
+    "/Main_Control/HALL1_ADC",
+    "/Main_Control/HALL1_RAW",
+    "/Main_Control/HALL2_ADC",
+    "/Main_Control/HALL2_RAW",
+    "/Main_Control/HALL3_ADC",
+    "/Main_Control/HALL3_RAW",
+    "/Main_Control/HALL4_ADC",
+    "/Main_Control/HALL4_RAW",
+    "/Main_Control/RGB_5V",
+    "/Main_Control/RGB_DIN_1",
+    "/Main_Control/RGB_EN",
+    "/Main_Control/RGB_SHIFTED"
+  ]
+}

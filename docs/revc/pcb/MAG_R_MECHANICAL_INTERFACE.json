@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "status": "BLOCKED_MECHANICAL",
+  "coordinate_system": {
+    "product_x": "right positive",
+    "product_y": "front/back sign follows RevC matrix",
+    "native_transform": "Xk=150+X; Yk=100-Y",
+    "z_datum": "bottom shell bottom per RevC; installation heights unknown"
+  },
+  "core_connector": {
+    "reference": "JG2",
+    "evidence": "saved PCB export",
+    "product_xyz_mm": [
+      76.5,
+      6.0,
+      null
+    ],
+    "native_angle_deg": 0.0,
+    "side": "F.Cu",
+    "body_height_mm": null,
+    "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d"
+  },
+  "side_face_requirement": {
+    "x_mm": 114,
+    "evidence": "user confirmed requirement"
+  },
+  "contact_board": {
+    "exact_mpn": null,
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "mounting_holes": null,
+    "installation_z_mm": null,
+    "center_y_mm": 0,
+    "center_y_status": "candidate from MECHANICAL_INTERFACE.md",
+    "pitch_mm": 2.5,
+    "pitch_status": "candidate from MECHANICAL_INTERFACE.md",
+    "contacts": [
+      {
+        "logical_contact": 1,
+        "jg2_pin": 1,
+        "role": "RESERVED_NC",
+        "candidate_product_xyz_mm": [
+          114,
+          8.75,
+          null
+        ],
+        "released_product_xyz_mm": null
+      },
+      {
+        "logical_contact": 2,
+        "jg2_pin": 2,
+        "role": "GND",
+        "candidate_product_xyz_mm": [
+          114,
+          6.25,
+          null
+        ],
+        "released_product_xyz_mm": null
+      },
+      {
+        "logical_contact": 3,
+        "jg2_pin": 3,
+        "role": "SWITCHED_3V3",
+        "candidate_product_xyz_mm": [
+          114,
+          3.75,
+          null
+        ],
+        "released_product_xyz_mm": null
+      },
+      {
+        "logical_contact": 4,
+        "jg2_pin": 4,
+        "role": "I2C_SDA",
+        "candidate_product_xyz_mm": [
+          114,
+          1.25,
+          null
+        ],
+        "released_product_xyz_mm": null
+      },
+      {
+        "logical_contact": 5,
+        "jg2_pin": 5,
+        "role": "I2C_SCL",
+        "candidate_product_xyz_mm": [
+          114,
+          -1.25,
+          null
+        ],
+        "released_product_xyz_mm": null
+      },
+      {
+        "logical_contact": 6,
+        "jg2_pin": 6,
+        "role": "DETECT_ACTIVE_LOW",
+        "candidate_product_xyz_mm": [
+          114,
+          -3.75,
+          null
+        ],
+        "released_product_xyz_mm": null
+      },
+      {
+        "logical_contact": 7,
+        "jg2_pin": 7,
+        "role": "ACCESSORY_INT_OPEN_DRAIN",
+        "candidate_product_xyz_mm": [
+          114,
+          -6.25,
+          null
+        ],
+        "released_product_xyz_mm": null
+      },
+      {
+        "logical_contact": 8,
+        "jg2_pin": 8,
+        "role": "GND",
+        "candidate_product_xyz_mm": [
+          114,
+          -8.75,
+          null
+        ],
+        "released_product_xyz_mm": null
+      }
+    ]
+  },
+  "mating_contract": {
+    "electrical": "Core logical contact i connects accessory logical contact i",
+    "view_mirroring": "If both mating faces are viewed along their own inward normals with +Z up, apparent left-to-right index order reverses. This convention is proposed; confirm drawing before PCB footprint assignment.",
+    "physical_pin1_marking": null,
+    "keying_or_polarity_reversal_protection": null,
+    "verified_mating_transform": null
+  },
+  "harness": {
+    "conductors": 8,
+    "connector_family": "JG2 JST GH 1.25mm 8-way board connector",
+    "wire_gauge": null,
+    "length_mm": null,
+    "bend_radius_mm": null,
+    "strain_relief": null,
+    "pin_mapping": "see MAG_R_PINMAP.csv"
+  },
+  "positioning_magnets": [
+    {
+      "id": "MAG_R_MAGNET_1",
+      "product_xyz_mm": null,
+      "size_mm": null,
+      "polarity": null
+    },
+    {
+      "id": "MAG_R_MAGNET_2",
+      "product_xyz_mm": null,
+      "size_mm": null,
+      "polarity": null
+    }
+  ],
+  "nearby_saved_anchors": [
+    {
+      "reference": "JMR1",
+      "evidence": "saved PCB export",
+      "product_xyz_mm": [
+        76.0,
+        -26.0,
+        null
+      ],
+      "native_angle_deg": 0.0,
+      "side": "F.Cu",
+      "body_height_mm": null,
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d"
+    },
+    {
+      "reference": "J101",
+      "evidence": "saved PCB export",
+      "product_xyz_mm": [
+        91.0,
+        26.55,
+        null
+      ],
+      "native_angle_deg": 180.0,
+      "side": "F.Cu",
+      "body_height_mm": null,
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d"
+    },
+    {
+      "reference": "H2",
+      "evidence": "saved PCB export",
+      "product_xyz_mm": [
+        104.0,
+        -28.0,
+        null
+      ],
+      "native_angle_deg": 0.0,
+      "side": "F.Cu",
+      "body_height_mm": null,
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d"
+    },
+    {
+      "reference": "H3",
+      "evidence": "saved PCB export",
+      "product_xyz_mm": [
+        104.0,
+        28.0,
+        null
+      ],
+      "native_angle_deg": 0.0,
+      "side": "F.Cu",
+      "body_height_mm": null,
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d"
+    },
+    {
+      "reference": "U102",
+      "evidence": "saved PCB export",
+      "product_xyz_mm": [
+        85.0,
+        8.0,
+        null
+      ],
+      "native_angle_deg": 0.0,
+      "side": "B.Cu",
+      "body_height_mm": null,
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d"
+    },
+    {
+      "reference": "D6",
+      "evidence": "saved PCB export",
+      "product_xyz_mm": [
+        76.3,
+        0.8,
+        null
+      ],
+      "native_angle_deg": 90.0,
+      "side": "B.Cu",
+      "body_height_mm": null,
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d"
+    },
+    {
+      "reference": "D7",
+      "evidence": "saved PCB export",
+      "product_xyz_mm": [
+        78.1,
+        1.2,
+        null
+      ],
+      "native_angle_deg": 90.0,
+      "side": "B.Cu",
+      "body_height_mm": null,
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d"
+    },
+    {
+      "reference": "D8",
+      "evidence": "saved PCB export",
+      "product_xyz_mm": [
+        79.9,
+        0.8,
+        null
+      ],
+      "native_angle_deg": 90.0,
+      "side": "B.Cu",
+      "body_height_mm": null,
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d"
+    },
+    {
+      "reference": "D9",
+      "evidence": "saved PCB export",
+      "product_xyz_mm": [
+        81.7,
+        1.2,
+        null
+      ],
+      "native_angle_deg": 90.0,
+      "side": "B.Cu",
+      "body_height_mm": null,
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d"
+    },
+    {
+      "reference": "D10",
+      "evidence": "saved PCB export",
+      "product_xyz_mm": [
+        74.5,
+        1.2,
+        null
+      ],
+      "native_angle_deg": 90.0,
+      "side": "B.Cu",
+      "body_height_mm": null,
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d"
+    }
+  ],
+  "right_motor": {
+    "connector_anchor_only": "JMR1",
+    "body_envelope": null,
+    "installation_xyz_mm": null
+  },
+  "interference_checks": [
+    {
+      "pair": "contact board versus right motor",
+      "status": "BLOCKED_MISSING_3D_ENVELOPES"
+    },
+    {
+      "pair": "contact board/harness versus ISO connector mating sweep",
+      "status": "BLOCKED_MISSING_3D_ENVELOPES"
+    },
+    {
+      "pair": "contact board versus right rear pillar and screw",
+      "status": "BLOCKED_MISSING_3D_ENVELOPES"
+    },
+    {
+      "pair": "two magnets versus contact board and connectors",
+      "status": "BLOCKED_MISSING_3D_ENVELOPES"
+    }
+  ],
+  "mechanical_workline_handoff": "Existing mechanical owner must provide exact contact part, two magnets, right motor mount, ISO mating sweep and pillar/screw solids. No verified thread identity or response received.",
+  "assembly_released": false
+}

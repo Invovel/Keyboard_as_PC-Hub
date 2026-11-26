@@ -1,0 +1,808 @@
+{
+  "board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+  "method": "Saved native polygons; same-net intersecting copper on shared layers, including filled zones. Cross-checked with native KiCad DRC.",
+  "checks": [
+    {
+      "a": "U1.2",
+      "b": "L1.2",
+      "net": "3V3",
+      "connected": true
+    },
+    {
+      "a": "U23.1",
+      "b": "U1.2",
+      "net": "3V3",
+      "connected": true
+    },
+    {
+      "a": "U23.2",
+      "b": "U1.1",
+      "net": "GND",
+      "connected": true
+    },
+    {
+      "a": "U24.1",
+      "b": "U1.2",
+      "net": "3V3",
+      "connected": true
+    },
+    {
+      "a": "U24.2",
+      "b": "U1.1",
+      "net": "GND",
+      "connected": true
+    },
+    {
+      "a": "U25.1",
+      "b": "U1.2",
+      "net": "3V3",
+      "connected": true
+    },
+    {
+      "a": "U25.2",
+      "b": "U1.1",
+      "net": "GND",
+      "connected": true
+    },
+    {
+      "a": "U26.1",
+      "b": "U1.2",
+      "net": "3V3",
+      "connected": true
+    },
+    {
+      "a": "U26.2",
+      "b": "U1.1",
+      "net": "GND",
+      "connected": true
+    },
+    {
+      "a": "U20.8",
+      "b": "U1.2",
+      "net": "3V3",
+      "connected": true
+    },
+    {
+      "a": "U22.1",
+      "b": "U1.2",
+      "net": "3V3",
+      "connected": true
+    },
+    {
+      "a": "U1.35",
+      "b": "U21.3",
+      "net": "/Main_Control/RGB_EN",
+      "connected": true
+    },
+    {
+      "a": "U1.35",
+      "b": "U22.5",
+      "net": "/Main_Control/RGB_EN",
+      "connected": true
+    },
+    {
+      "a": "C60.1",
+      "b": "R60.2",
+      "net": "/Main_Control/HALL1_ADC",
+      "connected": true
+    },
+    {
+      "a": "C60.1",
+      "b": "R64.1",
+      "net": "/Main_Control/HALL1_ADC",
+      "connected": true
+    },
+    {
+      "a": "C60.1",
+      "b": "U20.4",
+      "net": "/Main_Control/HALL1_ADC",
+      "connected": true
+    },
+    {
+      "a": "R60.1",
+      "b": "U23.3",
+      "net": "/Main_Control/HALL1_RAW",
+      "connected": true
+    },
+    {
+      "a": "R60.1",
+      "b": "TP20.1",
+      "net": "/Main_Control/HALL1_RAW",
+      "connected": true
+    },
+    {
+      "a": "R61.2",
+      "b": "U20.5",
+      "net": "/Main_Control/HALL2_ADC",
+      "connected": true
+    },
+    {
+      "a": "R61.2",
+      "b": "C61.1",
+      "net": "/Main_Control/HALL2_ADC",
+      "connected": true
+    },
+    {
+      "a": "R61.2",
+      "b": "R65.1",
+      "net": "/Main_Control/HALL2_ADC",
+      "connected": true
+    },
+    {
+      "a": "TP21.1",
+      "b": "R61.1",
+      "net": "/Main_Control/HALL2_RAW",
+      "connected": true
+    },
+    {
+      "a": "TP21.1",
+      "b": "U24.3",
+      "net": "/Main_Control/HALL2_RAW",
+      "connected": true
+    },
+    {
+      "a": "C62.1",
+      "b": "R66.1",
+      "net": "/Main_Control/HALL3_ADC",
+      "connected": true
+    },
+    {
+      "a": "C62.1",
+      "b": "R62.2",
+      "net": "/Main_Control/HALL3_ADC",
+      "connected": true
+    },
+    {
+      "a": "C62.1",
+      "b": "U20.6",
+      "net": "/Main_Control/HALL3_ADC",
+      "connected": true
+    },
+    {
+      "a": "TP22.1",
+      "b": "R62.1",
+      "net": "/Main_Control/HALL3_RAW",
+      "connected": true
+    },
+    {
+      "a": "TP22.1",
+      "b": "U25.3",
+      "net": "/Main_Control/HALL3_RAW",
+      "connected": true
+    },
+    {
+      "a": "C63.1",
+      "b": "R67.1",
+      "net": "/Main_Control/HALL4_ADC",
+      "connected": true
+    },
+    {
+      "a": "C63.1",
+      "b": "R63.2",
+      "net": "/Main_Control/HALL4_ADC",
+      "connected": true
+    },
+    {
+      "a": "C63.1",
+      "b": "U20.7",
+      "net": "/Main_Control/HALL4_ADC",
+      "connected": true
+    },
+    {
+      "a": "U26.3",
+      "b": "TP23.1",
+      "net": "/Main_Control/HALL4_RAW",
+      "connected": true
+    },
+    {
+      "a": "U26.3",
+      "b": "R63.1",
+      "net": "/Main_Control/HALL4_RAW",
+      "connected": true
+    },
+    {
+      "a": "SWJ1.2",
+      "b": "R6.2",
+      "net": "/Main_Control/KEY2_GPIO41",
+      "connected": true
+    },
+    {
+      "a": "SWJ1.2",
+      "b": "U1.34",
+      "net": "/Main_Control/KEY2_GPIO41",
+      "connected": true
+    },
+    {
+      "a": "SWJ1.T",
+      "b": "U1.33",
+      "net": "/Main_Control/KEY3_GPIO40",
+      "connected": true
+    },
+    {
+      "a": "SWJ1.T",
+      "b": "R7.2",
+      "net": "/Main_Control/KEY3_GPIO40",
+      "connected": true
+    },
+    {
+      "a": "SWJ1.1",
+      "b": "R8.2",
+      "net": "/Main_Control/KEY4_GPIO38",
+      "connected": true
+    },
+    {
+      "a": "SWJ1.1",
+      "b": "U1.31",
+      "net": "/Main_Control/KEY4_GPIO38",
+      "connected": true
+    },
+    {
+      "a": "U1.21",
+      "b": "R53.2",
+      "net": "/Main_Control/MAG_DET_R_N",
+      "connected": true
+    },
+    {
+      "a": "U1.21",
+      "b": "Q3.1",
+      "net": "/Main_Control/MAG_DET_R_N",
+      "connected": true
+    },
+    {
+      "a": "U1.21",
+      "b": "R24.2",
+      "net": "/Main_Control/MAG_DET_R_N",
+      "connected": true
+    },
+    {
+      "a": "Q3.3",
+      "b": "R45.2",
+      "net": "/Main_Control/MAG_Protection/MAG_R_EN_CLAMP",
+      "connected": true
+    },
+    {
+      "a": "Q3.3",
+      "b": "Q9.3",
+      "net": "/Main_Control/MAG_Protection/MAG_R_EN_CLAMP",
+      "connected": true
+    },
+    {
+      "a": "U8.5",
+      "b": "R41.1",
+      "net": "/Main_Control/MAG_Protection/MAG_R_ILIM",
+      "connected": true
+    },
+    {
+      "a": "Q4.2",
+      "b": "R42.2",
+      "net": "/Main_Control/MAG_Protection/MAG_R_INT_CARD",
+      "connected": true
+    },
+    {
+      "a": "Q4.2",
+      "b": "R54.2",
+      "net": "/Main_Control/MAG_Protection/MAG_R_INT_CARD",
+      "connected": true
+    },
+    {
+      "a": "Q4.3",
+      "b": "Q6.3",
+      "net": "/Main_Control/MAG_Protection/MAG_R_IRQ_MID",
+      "connected": true
+    },
+    {
+      "a": "U8.3",
+      "b": "R44.1",
+      "net": "/Main_Control/MAG_Protection/MAG_R_POWER_EN",
+      "connected": true
+    },
+    {
+      "a": "U8.3",
+      "b": "R45.1",
+      "net": "/Main_Control/MAG_Protection/MAG_R_POWER_EN",
+      "connected": true
+    },
+    {
+      "a": "U8.3",
+      "b": "C24.1",
+      "net": "/Main_Control/MAG_Protection/MAG_R_POWER_EN",
+      "connected": true
+    },
+    {
+      "a": "U8.3",
+      "b": "R43.2",
+      "net": "/Main_Control/MAG_Protection/MAG_R_POWER_EN",
+      "connected": true
+    },
+    {
+      "a": "TP25.1",
+      "b": "R56.2",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "connected": true
+    },
+    {
+      "a": "TP25.1",
+      "b": "U10.5",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "connected": true
+    },
+    {
+      "a": "U10.2",
+      "b": "R52.1",
+      "net": "/Main_Control/MAG_Protection/MAG_R_SCL_BUF",
+      "connected": true
+    },
+    {
+      "a": "U10.7",
+      "b": "R51.1",
+      "net": "/Main_Control/MAG_Protection/MAG_R_SDA_BUF",
+      "connected": true
+    },
+    {
+      "a": "JG2.3",
+      "b": "R56.1",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "connected": true
+    },
+    {
+      "a": "JG2.3",
+      "b": "U10.1",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "connected": true
+    },
+    {
+      "a": "JG2.3",
+      "b": "U10.8",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "connected": true
+    },
+    {
+      "a": "JG2.3",
+      "b": "R49.1",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "connected": true
+    },
+    {
+      "a": "JG2.3",
+      "b": "R46.1",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "connected": true
+    },
+    {
+      "a": "JG2.3",
+      "b": "U8.6",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "connected": true
+    },
+    {
+      "a": "JG2.3",
+      "b": "C23.1",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "connected": true
+    },
+    {
+      "a": "JG2.3",
+      "b": "D10.1",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "connected": true
+    },
+    {
+      "a": "JG2.3",
+      "b": "C22.1",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "connected": true
+    },
+    {
+      "a": "JG2.3",
+      "b": "Q4.1",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "connected": true
+    },
+    {
+      "a": "JG2.3",
+      "b": "R42.1",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "connected": true
+    },
+    {
+      "a": "JG2.3",
+      "b": "R50.1",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "connected": true
+    },
+    {
+      "a": "JG2.6",
+      "b": "R53.1",
+      "net": "/Main_Control/MAG_R_DET_EXT_N",
+      "connected": true
+    },
+    {
+      "a": "JG2.6",
+      "b": "D8.1",
+      "net": "/Main_Control/MAG_R_DET_EXT_N",
+      "connected": true
+    },
+    {
+      "a": "JG2.7",
+      "b": "D9.1",
+      "net": "/Main_Control/MAG_R_INT_N",
+      "connected": true
+    },
+    {
+      "a": "JG2.7",
+      "b": "R54.1",
+      "net": "/Main_Control/MAG_R_INT_N",
+      "connected": true
+    },
+    {
+      "a": "JG2.5",
+      "b": "R52.2",
+      "net": "/Main_Control/MAG_R_SCL",
+      "connected": true
+    },
+    {
+      "a": "JG2.5",
+      "b": "D7.1",
+      "net": "/Main_Control/MAG_R_SCL",
+      "connected": true
+    },
+    {
+      "a": "JG2.5",
+      "b": "R50.2",
+      "net": "/Main_Control/MAG_R_SCL",
+      "connected": true
+    },
+    {
+      "a": "U10.3",
+      "b": "R48.2",
+      "net": "/Main_Control/MAG_R_SCL_PRE",
+      "connected": true
+    },
+    {
+      "a": "U10.3",
+      "b": "U6.7",
+      "net": "/Main_Control/MAG_R_SCL_PRE",
+      "connected": true
+    },
+    {
+      "a": "JG2.4",
+      "b": "R49.2",
+      "net": "/Main_Control/MAG_R_SDA",
+      "connected": true
+    },
+    {
+      "a": "JG2.4",
+      "b": "R51.2",
+      "net": "/Main_Control/MAG_R_SDA",
+      "connected": true
+    },
+    {
+      "a": "JG2.4",
+      "b": "D6.1",
+      "net": "/Main_Control/MAG_R_SDA",
+      "connected": true
+    },
+    {
+      "a": "U10.6",
+      "b": "R47.2",
+      "net": "/Main_Control/MAG_R_SDA_PRE",
+      "connected": true
+    },
+    {
+      "a": "U10.6",
+      "b": "U6.6",
+      "net": "/Main_Control/MAG_R_SDA_PRE",
+      "connected": true
+    },
+    {
+      "a": "C73.1",
+      "b": "D21.2",
+      "net": "/Main_Control/RGB_5V",
+      "connected": true
+    },
+    {
+      "a": "C73.1",
+      "b": "C76.1",
+      "net": "/Main_Control/RGB_5V",
+      "connected": true
+    },
+    {
+      "a": "C73.1",
+      "b": "D22.2",
+      "net": "/Main_Control/RGB_5V",
+      "connected": true
+    },
+    {
+      "a": "C73.1",
+      "b": "U22.6",
+      "net": "/Main_Control/RGB_5V",
+      "connected": true
+    },
+    {
+      "a": "C73.1",
+      "b": "C75.1",
+      "net": "/Main_Control/RGB_5V",
+      "connected": true
+    },
+    {
+      "a": "C73.1",
+      "b": "C74.1",
+      "net": "/Main_Control/RGB_5V",
+      "connected": true
+    },
+    {
+      "a": "C73.1",
+      "b": "C72.1",
+      "net": "/Main_Control/RGB_5V",
+      "connected": true
+    },
+    {
+      "a": "C73.1",
+      "b": "U21.6",
+      "net": "/Main_Control/RGB_5V",
+      "connected": true
+    },
+    {
+      "a": "C73.1",
+      "b": "D20.2",
+      "net": "/Main_Control/RGB_5V",
+      "connected": true
+    },
+    {
+      "a": "C73.1",
+      "b": "D23.2",
+      "net": "/Main_Control/RGB_5V",
+      "connected": true
+    },
+    {
+      "a": "C73.1",
+      "b": "C70.1",
+      "net": "/Main_Control/RGB_5V",
+      "connected": true
+    },
+    {
+      "a": "C73.1",
+      "b": "R72.1",
+      "net": "/Main_Control/RGB_5V",
+      "connected": true
+    },
+    {
+      "a": "U22.3",
+      "b": "R69.1",
+      "net": "/Main_Control/RGB_DATA_GPIO10",
+      "connected": true
+    },
+    {
+      "a": "U22.3",
+      "b": "U1.18",
+      "net": "/Main_Control/RGB_DATA_GPIO10",
+      "connected": true
+    },
+    {
+      "a": "R70.2",
+      "b": "D20.1",
+      "net": "/Main_Control/RGB_DIN_1",
+      "connected": true
+    },
+    {
+      "a": "R70.2",
+      "b": "R71.1",
+      "net": "/Main_Control/RGB_DIN_1",
+      "connected": true
+    },
+    {
+      "a": "D21.1",
+      "b": "D20.3",
+      "net": "/Main_Control/RGB_DIN_2",
+      "connected": true
+    },
+    {
+      "a": "D21.3",
+      "b": "D22.1",
+      "net": "/Main_Control/RGB_DIN_3",
+      "connected": true
+    },
+    {
+      "a": "D22.3",
+      "b": "D23.1",
+      "net": "/Main_Control/RGB_DIN_4",
+      "connected": true
+    },
+    {
+      "a": "R68.1",
+      "b": "TP24.1",
+      "net": "/Main_Control/RGB_EN",
+      "connected": true
+    },
+    {
+      "a": "R68.1",
+      "b": "U22.5",
+      "net": "/Main_Control/RGB_EN",
+      "connected": true
+    },
+    {
+      "a": "R68.1",
+      "b": "U1.35",
+      "net": "/Main_Control/RGB_EN",
+      "connected": true
+    },
+    {
+      "a": "R68.1",
+      "b": "U21.3",
+      "net": "/Main_Control/RGB_EN",
+      "connected": true
+    },
+    {
+      "a": "U21.5",
+      "b": "R72.2",
+      "net": "/Main_Control/RGB_QOD",
+      "connected": true
+    },
+    {
+      "a": "U22.4",
+      "b": "R70.1",
+      "net": "/Main_Control/RGB_SHIFTED",
+      "connected": true
+    },
+    {
+      "a": "U1.12",
+      "b": "U20.9",
+      "net": "/Main_Control/I2C_SDA_GPIO8",
+      "connected": true
+    },
+    {
+      "a": "U1.17",
+      "b": "U20.10",
+      "net": "/Main_Control/I2C_SCL_GPIO9",
+      "connected": true
+    }
+  ],
+  "zones": [
+    {
+      "uuid": "09ba8aba-7f90-44de-b032-3bd84ac83278",
+      "net": "/ISO_Debug_Output/ISO_GND",
+      "layers": [
+        "In1.Cu"
+      ],
+      "filled_parts": 1,
+      "area_mm2": 606.0247
+    },
+    {
+      "uuid": "c6472918-f913-4900-aa3b-b3cdc9190f53",
+      "net": "GND",
+      "layers": [
+        "In1.Cu"
+      ],
+      "filled_parts": 1,
+      "area_mm2": 12484.6733
+    },
+    {
+      "uuid": "168850a4-15f3-4dc3-abab-7edf3d59ed3d",
+      "net": "/ISO_Debug_Output/ISO_GND",
+      "layers": [
+        "In2.Cu"
+      ],
+      "filled_parts": 1,
+      "area_mm2": 606.0247
+    },
+    {
+      "uuid": "82434b8c-4c35-41b6-8b46-2cc2b8ad582c",
+      "net": "/Main_Control/5V_CORE",
+      "layers": [
+        "In2.Cu"
+      ],
+      "filled_parts": 1,
+      "area_mm2": 1295.6318
+    },
+    {
+      "uuid": "92fb992d-930e-4cd4-b549-e5e764bb152f",
+      "net": "3V3",
+      "layers": [
+        "In2.Cu"
+      ],
+      "filled_parts": 1,
+      "area_mm2": 470.4126
+    },
+    {
+      "uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "net": "GND",
+      "layers": [
+        "In2.Cu"
+      ],
+      "filled_parts": 11,
+      "area_mm2": 10648.4953
+    }
+  ],
+  "ground_domain_separation": [
+    {
+      "layer": "In1.Cu",
+      "filled_plane_separation_mm": 3.2988
+    },
+    {
+      "layer": "In2.Cu",
+      "filled_plane_separation_mm": 3.2997
+    }
+  ],
+  "drc_rules": {
+    "drill_out_of_range": 12,
+    "lib_footprint_mismatch": 99,
+    "silk_overlap": 88,
+    "silk_over_copper": 126
+  },
+  "unconnected": 80,
+  "schematic_parity": 94,
+  "inner_ground_region_connections": [
+    {
+      "zone_uuid": "c6472918-f913-4900-aa3b-b3cdc9190f53",
+      "layer": "In1.Cu",
+      "region": 0,
+      "connected_to_u1_ground": true
+    },
+    {
+      "zone_uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "layer": "In2.Cu",
+      "region": 0,
+      "connected_to_u1_ground": true
+    },
+    {
+      "zone_uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "layer": "In2.Cu",
+      "region": 1,
+      "connected_to_u1_ground": true
+    },
+    {
+      "zone_uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "layer": "In2.Cu",
+      "region": 2,
+      "connected_to_u1_ground": true
+    },
+    {
+      "zone_uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "layer": "In2.Cu",
+      "region": 3,
+      "connected_to_u1_ground": true
+    },
+    {
+      "zone_uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "layer": "In2.Cu",
+      "region": 4,
+      "connected_to_u1_ground": true
+    },
+    {
+      "zone_uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "layer": "In2.Cu",
+      "region": 5,
+      "connected_to_u1_ground": true
+    },
+    {
+      "zone_uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "layer": "In2.Cu",
+      "region": 6,
+      "connected_to_u1_ground": true
+    },
+    {
+      "zone_uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "layer": "In2.Cu",
+      "region": 7,
+      "connected_to_u1_ground": true
+    },
+    {
+      "zone_uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "layer": "In2.Cu",
+      "region": 8,
+      "connected_to_u1_ground": true
+    },
+    {
+      "zone_uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "layer": "In2.Cu",
+      "region": 9,
+      "connected_to_u1_ground": true
+    },
+    {
+      "zone_uuid": "db89ddbd-9209-48ab-b7c8-9c6a73d196d0",
+      "layer": "In2.Cu",
+      "region": 10,
+      "connected_to_u1_ground": true
+    }
+  ]
+}

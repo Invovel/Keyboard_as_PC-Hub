@@ -58,6 +58,17 @@ def main():
     schema["saved_pcb_sha256"] = manifest["board_sha256"]
     schema["saved_pcb_counts"] = {key: manifest[key] for key in ("footprints", "pads", "vias", "layers")}
     schema["saved_pcb_counts"]["zones"] = len(manifest["zones_hidden_only_in_export"])
+    proof_path = args.exports / "Continuation_Connectivity.json"
+    if proof_path.exists():
+        proof = read_json(proof_path)
+        assert proof["board_sha256"] == manifest["board_sha256"], "Stale layer/connectivity proof"
+        schema["saved_layer_contract"] = {
+            "F.Cu": "signals and local supply escapes",
+            "In1.Cu": "continuous main GND; independent ISO_GND",
+            "In2.Cu": "3V3 / 5V_CORE zones, remaining GND and independent ISO_GND",
+            "B.Cu": "signals and local supply escapes",
+        }
+        schema["layer_contract_evidence"] = "evidence/Continuation_Connectivity.json"
     schema["semantics"] += " Class 11 records have native KiCad rotation; XYZ of as-installed geometry remains unverified."
     schema["snapshot_counts_scope"] = "older uploaded board only"
     for part in footprints:
@@ -79,6 +90,16 @@ def main():
             "detail": "保存板真实封装锚点。角度为 KiCad 原生值，背面 XY 不镜像。安装 Z 及外形未知。",
         }
     active = set(references)
+    population_path = args.exports / "Population_Inventory.json"
+    if population_path.exists():
+        population = read_json(population_path)
+        assert population["board_sha256"] == manifest["board_sha256"], "Stale population inventory"
+        for footprint in population["footprints"]:
+            ref = footprint["reference"]
+            parts[str(ids[ref])]["dnp"] = footprint["dnp"]
+            schematic = population["schematic"].get(ref)
+            if schematic:
+                parts[str(ids[ref])]["schematic_dnp"] = schematic["dnp"]
     for ref, matrix_id in ids.items():
         if ref in active:
             continue
@@ -94,6 +115,13 @@ def main():
     for design_id, ref in {166: "JML1", 167: "JMR1", 180: "SWJ1"}.items():
         if ref in active:
             parts[str(design_id)]["saved_anchor_id"] = ids[ref]
+    current_descriptions = {
+        "180": "SLLB510100 三路输入。保存网表接 GPIO38/40/41，共用 GND。上拨录音、中按系统静音、下拨 Agent 通知中心，实物上下朝向待机构核对。",
+        "210": "RevC 采用 ADS1015 采集四路 OH49E，地址 0x48。实际模拟路径、供电和 I²C 以当前保存证据为准。",
+        "211": "四颗 WS2812C-4020-H2。GPIO10 数据经 U22 TXU0101 电平转换，GPIO42 控制 RGB_EN 与 U21 受控电源，默认下拉关闭。动态失效保护及功耗待实测。",
+    }
+    for design_id, description in current_descriptions.items():
+        parts[design_id]["detail"] = description
     bindings_path = ROOT / "electrical_bindings.json"
     if bindings_path.exists():
         bindings = read_json(bindings_path)
