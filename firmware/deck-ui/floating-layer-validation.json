@@ -1,0 +1,41 @@
+{
+  "binary_sha256": "c2d2ce092e67ad74bec417404d5152c4d2bfb26295d238e0c998d982682de898",
+  "scope": "Device boot, UART mapping and eight transitions; touch/optical checks require user observation",
+  "mapping_saved": true,
+  "pages_checked": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "top_layer_and_passthrough": true,
+  "four_content_slots": true,
+  "home_only": true,
+  "transition_overlay_leaks": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "benchmark_complete": true,
+  "render_fps": [
+    33.1,
+    32.7,
+    32.9,
+    32.8,
+    42.4,
+    33.5,
+    32.1,
+    30.6
+  ],
+  "touch_hide_observed": false,
+  "touch_show_observed": false,
+  "voice_entry_observed": false,
+  "faults": [],
+  "capture": false
+}

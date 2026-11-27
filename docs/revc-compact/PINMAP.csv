@@ -1,0 +1,39 @@
+interface,baseline_ref,board_pin,signal,compact_destination,assembly_status,verification
+LCD,JL1,1,LCD_CS_GPIO16,,屏端待映射,实测GH5和GH4逐针导通
+LCD,JL1,2,LCD_SCLK_GPIO6,,屏端待映射,实测GH5和GH4逐针导通
+LCD,JL1,3,LCD_D0_GPIO15,,屏端待映射,实测GH5和GH4逐针导通
+LCD,JL1,4,LCD_D1_GPIO7,,屏端待映射,实测GH5和GH4逐针导通
+LCD,JL1,5,LCD_D2_GPIO11,,屏端待映射,实测GH5和GH4逐针导通
+LCD,JL1,6,LCD_D3_GPIO12,,屏端待映射,实测GH5和GH4逐针导通
+TOUCH,JT1,1,I2C_SDA_GPIO8,,屏端待映射,实测屏端排线与触摸地址
+TOUCH,JT1,2,I2C_SCL_GPIO9,,屏端待映射,实测屏端排线与上拉
+TOUCH,JT1,3,3V3,,屏端待映射,确认电压与回流
+TOUCH,JT1,4,GND,,屏端待映射,确认电压与回流
+ENC,JE1,1,GND,EC56 COM,候选,确认变体脚序与承力
+ENC,JE1,2,ENC_A_GPIO1,EC56 A,候选,检查实物相序和每档计数
+ENC,JE1,3,ENC_B_GPIO2,EC56 B,候选,检查实物相序和每档计数
+PRESS_SHARED,JE1,4,ENC_SW_GPIO39,,并联候选待去重,与JS1同网且只装一个独立按压输入
+PRESS,JS1,1,ENC_SW_GPIO39,独立下压开关,候选,验证开关和长短按去抖
+PRESS,JS1,2,GND,独立下压开关地,候选,验证单一按压回路
+HAPTIC_LEFT,JML1,1,MOTOR_L_P,左Taptic一端,板外后装,核对实物绕组和阻抗
+HAPTIC_LEFT,JML1,2,MOTOR_L_N,左Taptic另一端,板外后装,差分输出
+HAPTIC_RIGHT,JMR1,1,MOTOR_R_P,右Taptic一端,板外后装,核对实物绕组和阻抗
+HAPTIC_RIGHT,JMR1,2,MOTOR_R_N,右Taptic另一端,板外后装,差分输出
+MIC,JM1,1,3V3,模块3V3,板外后装,确认实物模块丝印及供电
+MIC,JM1,2,GND,模块地,板外后装,与板端6同参考
+MIC,JM1,3,MIC_BCLK_GPIO4,模块BCLK,板外后装,短线及回流
+MIC,JM1,4,MIC_WS_GPIO5,模块WS,板外后装,确认左右声道配置
+MIC,JM1,5,MIC_SD_GPIO17,模块SD,板外后装,确认实际数据方向
+MIC,JM1,6,GND,第二回流,板外后装,按实物排线确认接地
+MAG_R,JG2,1,unconnected-(JG2-Pin_1-Pad1),,保留NC,磁吸触点实际序号未定
+MAG_R,JG2,2,GND,,外部触点待映射,实物配对镜像测量
+MAG_R,JG2,3,MAG_R_3V3_SW,,外部触点待映射,实物配对镜像及限流测试
+MAG_R,JG2,4,MAG_R_SDA,,外部触点待映射,实物配对镜像及热插拔测试
+MAG_R,JG2,5,MAG_R_SCL,,外部触点待映射,实物配对镜像及热插拔测试
+MAG_R,JG2,6,MAG_R_DET_EXT_N,,外部触点待映射,验证插拔检测与开路状态
+MAG_R,JG2,7,MAG_R_INT_N,,外部触点待映射,核对READY与INT
+MAG_R,JG2,8,GND,,外部触点待映射,实物配对镜像测量
+KEYBOARD,JB1,1,KBD_5V_PROTECTED,浮动Type-C公头VBUS,候选,实测启动和高亮电流
+KEYBOARD,JB1,2,HUB_P5_DM,浮动Type-C公头D-,候选,实测短USB2线束和插向
+KEYBOARD,JB1,3,HUB_P5_DP,浮动Type-C公头D+,候选,实测短USB2线束和插向
+KEYBOARD,JB1,4,GND,浮动Type-C公头地,候选,确认公头模块的DFP CC与受控VBUS

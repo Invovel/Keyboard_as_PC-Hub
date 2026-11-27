@@ -1,0 +1,24 @@
+{
+  "matrix_rows": 161,
+  "final_design_rows": 82,
+  "old_footprint_rows": 79,
+  "pad_count": 356,
+  "segment_count": 282,
+  "via_count": 0,
+  "all_rows_numeric_or_null": true,
+  "all_row_ids_unique": true,
+  "dictionary_coverage": true,
+  "csv_row_count_matches": true,
+  "html_js_syntax": "node --check passed",
+  "latest_pcb_not_available": true,
+  "manufacturing_validation": false,
+  "browser_runtime_test": true,
+  "browser_test_method": "Chromium set_content; file:// blocked by runtime policy",
+  "browser_tested": [
+    "layout/selected component",
+    "copper layer toggle",
+    "approval/session second confirmation",
+    "only Open enabled on completed",
+    "matrix search"
+  ]
+}

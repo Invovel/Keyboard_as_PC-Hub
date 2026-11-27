@@ -1,0 +1,7 @@
+version: "0.1.0"
+dependencies:
+  espressif/esp_tinyusb: "2.4.0"
+  espressif/esp_lcd_st77916: "2.0.2"
+  espressif/esp_lcd_touch_cst816s: "1.1.1"
+  espressif/esp_lvgl_port: "2.8.0"
+  lvgl/lvgl: "9.5.0"

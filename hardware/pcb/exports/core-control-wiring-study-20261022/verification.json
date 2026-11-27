@@ -1,0 +1,99 @@
+{
+  "validate_wire_connections": {
+    "floating_count": 0,
+    "floating_endpoints": [],
+    "valid": true
+  },
+  "validate_component_connections": {
+    "unconnected_count": 0,
+    "unconnected_pins": [],
+    "valid": true
+  },
+  "find_shorted_nets": {
+    "short_count": 0,
+    "shorts": []
+  },
+  "annotation": {
+    "assigned": [],
+    "dry_run": false,
+    "duplicates_before": [],
+    "message": "Nothing to annotate: every designator is numbered and unique on every sheet instance.",
+    "other_sheets_consulted": [],
+    "other_sheets_unreadable": [],
+    "outcome": {
+      "completed": 0,
+      "failed": 0,
+      "requested": 0,
+      "retry": null,
+      "source": "saved_file",
+      "status": "complete",
+      "target": "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Core-Control-RevA\\Core-Control-RevA.kicad_sch"
+    },
+    "outside_project": [],
+    "paths": [
+      "/43d64427-64e7-41a1-9a5f-2546a93fe9be"
+    ],
+    "project": "Core-Control-RevA",
+    "resolve_duplicates": false,
+    "schematic": "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Core-Control-RevA\\Core-Control-RevA.kicad_sch",
+    "unannotated_before": 0,
+    "unresolved": [],
+    "written": false
+  },
+  "erc": {
+    "coordinates": {
+      "kicad_version": "10.0.7",
+      "reason": "KiCad 10.0.7 carries the fix for the ERC JSON coordinate scaling defect (kicad#25582, fixed in 10.0.7), so its coordinates are passed through unchanged.",
+      "status": "verbatim"
+    },
+    "errors": 0,
+    "total": 0,
+    "violations": [],
+    "warnings": 0
+  },
+  "revision": "20261022 control electrical study",
+  "project_role": "temporary validation subproject for the same Pc-Hub main PCB, not a second physical board",
+  "source_schematic": "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Core-Control-RevA\\Core-Control-RevA.kicad_sch",
+  "mcp_schematic_save": "each mutation committed and saved-file-readback; save_project saves PCB only and was deliberately not invoked during parent scratch-PCB switching",
+  "component_count_including_power_flags": 64,
+  "named_net_count": 48,
+  "cli_net_count_including_NC": 63,
+  "native_scratch_footprint_gate": "PASS for selected MCU/Buck/mux/DRV/GH2/GH4/GH6; L1 and bench input use subsequent original-board readback at user request",
+  "main_project_integration": {
+    "status": "PASS",
+    "main_schematic": "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Pc-Hub.kicad_sch",
+    "hierarchy": {
+      "children": [
+        {
+          "children": [],
+          "file": "Core-Control-RevA/Core-Control-RevA.kicad_sch",
+          "height": 45.72,
+          "name": "Main_Control",
+          "page": "2",
+          "pins": [],
+          "uuid": "00cac763-c30d-41b8-8899-3675b9f1aa28",
+          "width": 104.14,
+          "x": 40.64,
+          "y": 50.8
+        }
+      ],
+      "file": "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Pc-Hub.kicad_sch"
+    },
+    "erc": {
+      "coordinates": {
+        "kicad_version": "10.0.7",
+        "reason": "KiCad 10.0.7 carries the fix for the ERC JSON coordinate scaling defect (kicad#25582, fixed in 10.0.7), so its coordinates are passed through unchanged.",
+        "status": "verbatim"
+      },
+      "errors": 0,
+      "total": 0,
+      "violations": [],
+      "warnings": 0
+    },
+    "original_legacy_sha256": "296d02ea02c9011fa593e616577d6c5e9c554654f5e2257132766d8bf5f5d164",
+    "backup": "workspace tmp/before-7plus-20261022/Pc-Hub.kicad_sch"
+  },
+  "new_PCB_layout_and_routing": "NOT_PERFORMED",
+  "complete_hub_and_power_path": "NOT_INCLUDED",
+  "overall": "INCOMPLETE_FOR_FAB"
+}

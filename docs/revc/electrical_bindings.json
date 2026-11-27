@@ -1,0 +1,160 @@
+{
+  "schematic_sha256": {
+    "ISO_Debug_Output.kicad_sch": "c432c1fe640191f95e7a5047d06c117e8aec34b05d962749560107f52d28bb1b",
+    "MAG_Protection.kicad_sch": "a5f03550844fdd54a3b95acf8d94e5a8f58d5c0ec26b406276caf5089d846512",
+    "Main_Control.kicad_sch": "6124576fbb3dc0eb264801ccee7ec8e06d626dc7cc2222c69de861edc1da87f9",
+    "Pc-Hub_RevB.kicad_sch": "0ed5458862c465d907dadabb1f5376ece2c0a916ff6bbc76e15d1b970e327b9f"
+  },
+  "components": {
+    "110": {
+      "status": "saved PCB nets and relevant copper paths verified; firmware, loaded operation and assembly validation pending",
+      "pcb_xy": [
+        -65.0,
+        18.0
+      ],
+      "reference": "U23",
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+      "connectivity_evidence": "evidence/Continuation_Connectivity.json",
+      "mechanical_assembly_validated": false
+    },
+    "130": {
+      "status": "saved PCB nets and relevant copper paths verified; firmware, loaded operation and assembly validation pending",
+      "pcb_xy": [
+        -60.0,
+        18.0
+      ],
+      "reference": "D20",
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+      "connectivity_evidence": "evidence/Continuation_Connectivity.json",
+      "mechanical_assembly_validated": false
+    },
+    "111": {
+      "status": "saved PCB nets and relevant copper paths verified; firmware, loaded operation and assembly validation pending",
+      "pcb_xy": [
+        65.0,
+        18.0
+      ],
+      "reference": "U24",
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+      "connectivity_evidence": "evidence/Continuation_Connectivity.json",
+      "mechanical_assembly_validated": false
+    },
+    "131": {
+      "status": "saved PCB nets and relevant copper paths verified; firmware, loaded operation and assembly validation pending",
+      "pcb_xy": [
+        60.0,
+        18.0
+      ],
+      "reference": "D21",
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+      "connectivity_evidence": "evidence/Continuation_Connectivity.json",
+      "mechanical_assembly_validated": false
+    },
+    "112": {
+      "status": "saved PCB nets and relevant copper paths verified; firmware, loaded operation and assembly validation pending",
+      "pcb_xy": [
+        69.5,
+        -25.0
+      ],
+      "reference": "U25",
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+      "connectivity_evidence": "evidence/Continuation_Connectivity.json",
+      "mechanical_assembly_validated": false
+    },
+    "132": {
+      "status": "saved PCB nets and relevant copper paths verified; firmware, loaded operation and assembly validation pending",
+      "pcb_xy": [
+        60.5,
+        -24.5
+      ],
+      "reference": "D22",
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+      "connectivity_evidence": "evidence/Continuation_Connectivity.json",
+      "mechanical_assembly_validated": false
+    },
+    "113": {
+      "status": "saved PCB nets and relevant copper paths verified; firmware, loaded operation and assembly validation pending",
+      "pcb_xy": [
+        -65.0,
+        -18.0
+      ],
+      "reference": "U26",
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+      "connectivity_evidence": "evidence/Continuation_Connectivity.json",
+      "mechanical_assembly_validated": false
+    },
+    "133": {
+      "status": "saved PCB nets and relevant copper paths verified; firmware, loaded operation and assembly validation pending",
+      "pcb_xy": [
+        -60.0,
+        -18.0
+      ],
+      "reference": "D23",
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+      "connectivity_evidence": "evidence/Continuation_Connectivity.json",
+      "mechanical_assembly_validated": false
+    },
+    "210": {
+      "status": "saved PCB nets and relevant copper paths verified; firmware, loaded operation and assembly validation pending",
+      "address": "0x48",
+      "reference": "U20",
+      "pcb_xy": [
+        6.5,
+        1.0
+      ],
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+      "connectivity_evidence": "evidence/Continuation_Connectivity.json",
+      "mechanical_assembly_validated": false
+    },
+    "211": {
+      "status": "saved PCB nets and relevant copper paths verified; firmware, loaded operation and assembly validation pending",
+      "enable_switch": "U21",
+      "reference": "U22",
+      "pcb_xy": [
+        -51.5,
+        13.0
+      ],
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+      "connectivity_evidence": "evidence/Continuation_Connectivity.json",
+      "mechanical_assembly_validated": false,
+      "enable_gpio": 42,
+      "data_gpio": 10
+    },
+    "180": {
+      "pins": {
+        "1": "GPIO38",
+        "T": "GPIO40",
+        "2": "GPIO41",
+        "C": "GND"
+      },
+      "native_rotation_deg": 90,
+      "status": "saved PCB nets and relevant copper paths verified; firmware, loaded operation and assembly validation pending",
+      "reference": "SWJ1",
+      "pcb_xy": [
+        -102.9,
+        0
+      ],
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+      "connectivity_evidence": "evidence/Continuation_Connectivity.json",
+      "mechanical_assembly_validated": false
+    },
+    "195": {
+      "pcb_xy": [
+        76.5,
+        6
+      ],
+      "enclosure_contact_center_xy": [
+        114,
+        0
+      ],
+      "enclosure_contact_z": null,
+      "reference": "JG2",
+      "board_role": "internal mainboard harness",
+      "source_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+      "connectivity_evidence": "evidence/Continuation_Connectivity.json",
+      "mechanical_assembly_validated": false,
+      "status": "JG2 preserved; U10 READY separated from accessory INT in saved schematic and PCB; R56 pull-up and TP25 fully routed; independent MCU sampling and real accessory tests pending"
+    }
+  },
+  "saved_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d"
+}

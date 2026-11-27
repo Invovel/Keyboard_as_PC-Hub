@@ -1,0 +1,8 @@
+menu "PC Hub body peripherals"
+config BODY_MIC_ENABLE
+    bool "Compile INMP441 capture support (unverified hardware)"
+    default n
+    help
+        Reserves I2S1 RX on GPIO4/5/17. Capture starts only from the Mic page.
+        This does not expose a USB audio microphone or implement speech recognition.
+endmenu

@@ -1,0 +1,81 @@
+{
+  "normalization": "UTF-8 text, CRLF converted to LF",
+  "files": [
+    {
+      "name": "app_main.c",
+      "sha256": "8aaf9ad005045eca72ed9dc3f03766bdb766f26d55f573233cfc264d8be408f9"
+    },
+    {
+      "name": "body_audio.c",
+      "sha256": "9f5cadd4ebbb5385d2c54b85196ad155a917a609a4a97911bf3113859cdac6c1"
+    },
+    {
+      "name": "body_audio.h",
+      "sha256": "9dd0ccb1cca57e88a478c7620588fc6f95b0bfe120b573b060464e6c8fc2136a"
+    },
+    {
+      "name": "body_encoder.c",
+      "sha256": "6cd2a3bdb5fb6254b80f3a71b35dc02a32ee3487a6f16ac25c86a2745868c7a1"
+    },
+    {
+      "name": "body_encoder.h",
+      "sha256": "4fd68230c5bd7da227f20dc8f2cf90626f05534c3ab2766b15046784e136a3b9"
+    },
+    {
+      "name": "body_hid.c",
+      "sha256": "ed3ef09ed972bdf2a6f8978e123e7bc49ca84508ee32689652c1e76e555afe77"
+    },
+    {
+      "name": "body_hid.h",
+      "sha256": "f684f1dbbf9ec752ab0661d57deccb6437e91f64d3cd3752aa3366054f77c1f4"
+    },
+    {
+      "name": "body_input.c",
+      "sha256": "5ca0ebdb2ef2d940c1a093cacff03d29734081a21dfd1cdff5dc762e7931ccc7"
+    },
+    {
+      "name": "body_input.h",
+      "sha256": "8d44adbf0b2438efbd60522bffd6cc128920a0136e9c32d9eb0ed3e3f299f594"
+    },
+    {
+      "name": "body_screen.c",
+      "sha256": "c4099111f574dc3ecb9151998b8b78fbf69fee65adf81d71b1cda23e844f907a"
+    },
+    {
+      "name": "body_screen.h",
+      "sha256": "f4fc7875b2eb1ca198c1a0c71ce8059b43a47c4ba3b9de650e534af1c0d1082e"
+    },
+    {
+      "name": "body_ui.c",
+      "sha256": "9e1c9d2d703451674bc40de766eac01a2c0dc3f4a57ef9def2ec45f5a8c349cf"
+    },
+    {
+      "name": "body_ui.h",
+      "sha256": "49b6edfcf6dc81110c28b26b8cc6463ac3664f62d5eb7724154257c236b1580c"
+    },
+    {
+      "name": "CMakeLists.txt",
+      "sha256": "ab1c72c20c057460fa57cea914ee8f631e7ff89f147e4cf78c13541edf3d3c67"
+    },
+    {
+      "name": "gesture_selftest.c",
+      "sha256": "5cd4a9e3cc17b40d6cfdc8704acce001c199066224b8e924f3281d618cfea4aa"
+    },
+    {
+      "name": "idf_component.yml",
+      "sha256": "efc0ee00108feb9af81e8d9c14bf7f3a724e7e3d1202d1021b09edef2b22994c"
+    },
+    {
+      "name": "panel_verified_init.h",
+      "sha256": "a0686d442024a632345a72838e0fcfe8f491620bcb2cdf53fcfe83fe6463cb4c"
+    },
+    {
+      "name": "touchpad_gesture.c",
+      "sha256": "41f23ce89386ea1a9551babbae53d390f81d50f436463eda193d8e00c95ecfdd"
+    },
+    {
+      "name": "touchpad_gesture.h",
+      "sha256": "ece38990a542fb863b8f97c0c4e4f95516e877ce7ab380a094f4ae96dfba7963"
+    }
+  ]
+}

@@ -1,0 +1,1225 @@
+{
+  "date": "2026-10-22",
+  "revision": "R3.1-7PLUS-MECHANICAL",
+  "requested_target": "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Pc-Hub.kicad_pcb",
+  "live_binding_confirmed": true,
+  "board_info": {
+    "company": "",
+    "copper_layer_count": 2,
+    "date": "",
+    "file": "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Pc-Hub.kicad_pcb",
+    "layer_count": 29,
+    "net_count": 0,
+    "paper": "A4",
+    "paper_size_mm": null,
+    "revision": "",
+    "source": "ipc",
+    "title": ""
+  },
+  "components": [
+    {
+      "footprint": "Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JG2",
+      "rotation": 0.0,
+      "value": "MAG_R_LOW_SPEED",
+      "x": 226.5,
+      "y": 94.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JG1",
+      "rotation": 0.0,
+      "value": "MAG_L_LOW_SPEED",
+      "x": 73.5,
+      "y": 94.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JH2",
+      "rotation": 0.0,
+      "value": "HAPTIC_R_DRIVER_IF",
+      "x": 228.0,
+      "y": 106.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JH1",
+      "rotation": 0.0,
+      "value": "HAPTIC_L_DRIVER_IF",
+      "x": 72.0,
+      "y": 106.0
+    },
+    {
+      "footprint": "CoreMechanical:Core_Frame_With_H1_D2.4",
+      "layer": "F.Cu",
+      "reference": "H1",
+      "rotation": 0.0,
+      "value": "Core_Frame_With_H1_D2.4",
+      "x": 46.0,
+      "y": 128.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JL1",
+      "rotation": 0.0,
+      "value": "LCD_QSPI_6_SIGNAL",
+      "x": 130.0,
+      "y": 128.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JK2",
+      "rotation": 0.0,
+      "value": "KEY2_GND_GPIO41",
+      "x": 225.0,
+      "y": 82.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JA1",
+      "rotation": 0.0,
+      "value": "LEGACY_I2S_AUDIO_OPTION",
+      "x": 194.0,
+      "y": 127.0
+    },
+    {
+      "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+      "layer": "F.Cu",
+      "reference": "H3",
+      "rotation": 0.0,
+      "value": "Hole_D2.4_Keepout5",
+      "x": 254.0,
+      "y": 72.0
+    },
+    {
+      "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+      "layer": "F.Cu",
+      "reference": "H2",
+      "rotation": 0.0,
+      "value": "Hole_D2.4_Keepout5",
+      "x": 254.0,
+      "y": 128.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JU1",
+      "rotation": 0.0,
+      "value": "MCU_USB2_FS_P6",
+      "x": 180.0,
+      "y": 78.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JK4",
+      "rotation": 0.0,
+      "value": "KEY4_GND_GPIO38",
+      "x": 75.0,
+      "y": 118.0
+    },
+    {
+      "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+      "layer": "F.Cu",
+      "reference": "H4",
+      "rotation": 0.0,
+      "value": "Hole_D2.4_Keepout5",
+      "x": 46.0,
+      "y": 72.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JB1",
+      "rotation": 0.0,
+      "value": "KBD_USB2_P5",
+      "x": 197.0,
+      "y": 73.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JT1",
+      "rotation": 0.0,
+      "value": "TOUCH_3V3_I2C",
+      "x": 170.0,
+      "y": 128.0
+    },
+    {
+      "footprint": "RF_Module:ESP32-S3-WROOM-1U",
+      "layer": "F.Cu",
+      "reference": "U1",
+      "rotation": 0.0,
+      "value": "ESP32-S3-WROOM-1U",
+      "x": 194.0,
+      "y": 101.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JP1",
+      "rotation": 0.0,
+      "value": "DISABLE_GPIO0_GND",
+      "x": 123.0,
+      "y": 120.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JD1",
+      "rotation": 0.0,
+      "value": "DEBUG_EN_BOOT_UART",
+      "x": 211.0,
+      "y": 103.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JK3",
+      "rotation": 0.0,
+      "value": "KEY3_GND_GPIO40",
+      "x": 225.0,
+      "y": 118.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JM1",
+      "rotation": 0.0,
+      "value": "INMP441_OPTION",
+      "x": 108.0,
+      "y": 104.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JE1",
+      "rotation": 0.0,
+      "value": "ENC_A_B_SW_GND",
+      "x": 108.0,
+      "y": 125.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JS1",
+      "rotation": 0.0,
+      "value": "SCREEN_PRESS_SPARE_TBD",
+      "x": 177.0,
+      "y": 120.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JK1",
+      "rotation": 0.0,
+      "value": "KEY1_GND_GPIO42",
+      "x": 75.0,
+      "y": 82.0
+    }
+  ],
+  "h1_graphics": [
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 20.0,
+          "y": 10.0
+        },
+        {
+          "x": 20.0,
+          "y": -66.0
+        }
+      ],
+      "uuid": "b4c6dff0-48b5-4767-b376-58824033d014"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 188.0,
+          "y": 10.0
+        },
+        {
+          "x": 188.0,
+          "y": -66.0
+        }
+      ],
+      "uuid": "2ea8f03b-3a69-47aa-9f09-412128332806"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 37.0,
+          "y": -10.0
+        },
+        {
+          "x": 41.0,
+          "y": -10.0
+        }
+      ],
+      "uuid": "aefd196a-2343-427f-9546-945a55005e77"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 39.0,
+          "y": -8.0
+        },
+        {
+          "x": 39.0,
+          "y": -12.0
+        }
+      ],
+      "uuid": "8072ca6d-11d7-44e2-9fd7-ab0af3419209"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 37.0,
+          "y": -46.0
+        },
+        {
+          "x": 41.0,
+          "y": -46.0
+        }
+      ],
+      "uuid": "a5f0ce68-fbd4-4546-9fa7-742ec3d80f7f"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 39.0,
+          "y": -44.0
+        },
+        {
+          "x": 39.0,
+          "y": -48.0
+        }
+      ],
+      "uuid": "4971e824-70e2-4274-8288-3fee0dba9ff9"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 167.0,
+          "y": -10.0
+        },
+        {
+          "x": 171.0,
+          "y": -10.0
+        }
+      ],
+      "uuid": "cc49d9c2-22d2-43a5-98fb-8bf91cbbf891"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 169.0,
+          "y": -8.0
+        },
+        {
+          "x": 169.0,
+          "y": -12.0
+        }
+      ],
+      "uuid": "6e6dfd73-3a4d-4d9c-afa8-18b192fdca57"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 167.0,
+          "y": -46.0
+        },
+        {
+          "x": 171.0,
+          "y": -46.0
+        }
+      ],
+      "uuid": "292953ef-35fc-4a1e-a094-490a27fcbe15"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 169.0,
+          "y": -44.0
+        },
+        {
+          "x": 169.0,
+          "y": -48.0
+        }
+      ],
+      "uuid": "8b6f6d3d-231d-42a2-a26d-7c2a1d11fd41"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -19.25
+        },
+        {
+          "x": -9.2,
+          "y": -19.25
+        }
+      ],
+      "uuid": "60d8e047-6e9c-43eb-abfd-f7fe09a1b3bd"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -21.75
+        },
+        {
+          "x": -9.2,
+          "y": -21.75
+        }
+      ],
+      "uuid": "df0b3b62-25d3-454e-ad14-d49ee4111126"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -24.25
+        },
+        {
+          "x": -9.2,
+          "y": -24.25
+        }
+      ],
+      "uuid": "8a80cd95-1d25-4cf6-8ea1-9d963eeea4e3"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -26.75
+        },
+        {
+          "x": -9.2,
+          "y": -26.75
+        }
+      ],
+      "uuid": "7e590352-debd-4320-b44b-f8b183dc66df"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -29.25
+        },
+        {
+          "x": -9.2,
+          "y": -29.25
+        }
+      ],
+      "uuid": "b7d4a39d-e3ab-4470-964a-622db6920e12"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -31.75
+        },
+        {
+          "x": -9.2,
+          "y": -31.75
+        }
+      ],
+      "uuid": "1da71a01-d241-43e8-ac92-fdc435a153fb"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -34.25
+        },
+        {
+          "x": -9.2,
+          "y": -34.25
+        }
+      ],
+      "uuid": "a84d7649-54e2-4d88-9916-445511fe9418"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -36.75
+        },
+        {
+          "x": -9.2,
+          "y": -36.75
+        }
+      ],
+      "uuid": "98cacec1-ab23-491b-8e07-f6dfa3c7976c"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -19.25
+        },
+        {
+          "x": 218.8,
+          "y": -19.25
+        }
+      ],
+      "uuid": "0efe2327-c0e8-44d2-9f21-2119752a672e"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -21.75
+        },
+        {
+          "x": 218.8,
+          "y": -21.75
+        }
+      ],
+      "uuid": "e2b96b6b-e9c5-4558-b389-dd69f6543853"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -24.25
+        },
+        {
+          "x": 218.8,
+          "y": -24.25
+        }
+      ],
+      "uuid": "71a8edbe-9212-4ae5-8fc8-ed2a118fac19"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -26.75
+        },
+        {
+          "x": 218.8,
+          "y": -26.75
+        }
+      ],
+      "uuid": "a075deea-62ad-4808-b328-4feefeccd345"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -29.25
+        },
+        {
+          "x": 218.8,
+          "y": -29.25
+        }
+      ],
+      "uuid": "eb18f046-4e93-4829-8a30-3d1ad49c4a55"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -31.75
+        },
+        {
+          "x": 218.8,
+          "y": -31.75
+        }
+      ],
+      "uuid": "394dd87c-d6ea-4e31-bcc8-89992b9d9edb"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -34.25
+        },
+        {
+          "x": 218.8,
+          "y": -34.25
+        }
+      ],
+      "uuid": "88dc9130-9e66-496d-8fa7-b1e1988a00b7"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -36.75
+        },
+        {
+          "x": 218.8,
+          "y": -36.75
+        }
+      ],
+      "uuid": "ace7e82f-36ab-46ba-92ef-112e886ef7b3"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.0,
+          "y": -66.0
+        },
+        {
+          "x": 218.0,
+          "y": 10.0
+        }
+      ],
+      "uuid": "24c102e6-6ce1-4347-9166-1d17a85e1324"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 3.5,
+          "y": -52.0
+        },
+        {
+          "x": 18.5,
+          "y": 2.0
+        }
+      ],
+      "uuid": "8ad9d10d-0b0b-489f-91d5-8e4561c0ef57"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 189.5,
+          "y": -52.0
+        },
+        {
+          "x": 204.5,
+          "y": 2.0
+        }
+      ],
+      "uuid": "9c312ddc-0fa8-446f-9f95-53e258a88b45"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 32.0,
+          "y": -17.0
+        },
+        {
+          "x": 46.0,
+          "y": -3.0
+        }
+      ],
+      "uuid": "2848f214-9bd8-41e6-a224-19de5f81d8d5"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 32.0,
+          "y": -53.0
+        },
+        {
+          "x": 46.0,
+          "y": -39.0
+        }
+      ],
+      "uuid": "4bc89814-d02f-4197-ae03-999609ad653b"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 162.0,
+          "y": -17.0
+        },
+        {
+          "x": 176.0,
+          "y": -3.0
+        }
+      ],
+      "uuid": "c0d8a5ba-fdd5-4ce4-8ce9-7dda0c2e20ee"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 162.0,
+          "y": -53.0
+        },
+        {
+          "x": 176.0,
+          "y": -39.0
+        }
+      ],
+      "uuid": "9b1a065e-4cbb-4976-9eee-77035035ed5e"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 48.0,
+          "y": -58.0
+        },
+        {
+          "x": 76.0,
+          "y": -30.0
+        }
+      ],
+      "uuid": "518b5d2f-67ab-4d01-b889-17621c6aaa3b"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 50.0,
+          "y": -18.0
+        },
+        {
+          "x": 74.0,
+          "y": -10.0
+        }
+      ],
+      "uuid": "6e934f96-e96d-4787-9baf-a2bab09ad478"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 159.0,
+          "y": -38.0
+        },
+        {
+          "x": 173.0,
+          "y": -30.0
+        }
+      ],
+      "uuid": "11637fe6-1de7-42bc-9dda-724d9180fc28"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 7.0,
+          "y": -66.0
+        },
+        {
+          "x": 19.0,
+          "y": -55.0
+        }
+      ],
+      "uuid": "d2b91cae-77e6-4411-aa2d-d275278b8ee3"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 34.0,
+          "y": -66.0
+        },
+        {
+          "x": 46.0,
+          "y": -55.0
+        }
+      ],
+      "uuid": "fe14d585-5ac5-4674-8373-d7245af6fd38"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 189.0,
+          "y": -66.0
+        },
+        {
+          "x": 201.0,
+          "y": -55.0
+        }
+      ],
+      "uuid": "40eb08e8-f766-4984-a29b-7abbeb038889"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.0,
+          "y": -49.0
+        },
+        {
+          "x": -4.0,
+          "y": -41.0
+        }
+      ],
+      "uuid": "f11b6ab6-2055-4734-8376-cd1eaa437736"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 140.0,
+          "y": -51.0
+        },
+        {
+          "x": 168.0,
+          "y": -33.0
+        }
+      ],
+      "uuid": "cf4a52fb-66b6-456e-a585-1b79613f2e3f"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 172.0,
+          "y": -41.0
+        },
+        {
+          "x": 188.0,
+          "y": -33.0
+        }
+      ],
+      "uuid": "7adf51cb-f880-47ec-9644-bc81c0440251"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 172.0,
+          "y": -51.0
+        },
+        {
+          "x": 188.0,
+          "y": -43.0
+        }
+      ],
+      "uuid": "1718443a-f517-4c7e-9c15-ad4f63e926f2"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 104.0,
+          "y": -28.0
+        },
+        {
+          "x": 134.0,
+          "y": -28.0
+        }
+      ],
+      "uuid": "87919f4a-0da7-4b7c-b339-864454fdd2ac"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 104.0,
+          "y": -28.0
+        },
+        {
+          "x": 131.0,
+          "y": -28.0
+        }
+      ],
+      "uuid": "8f1ba6b7-73d3-4edc-9d1b-e3608dff2b4e"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 104.0,
+          "y": -28.0
+        },
+        {
+          "x": 126.16,
+          "y": -28.0
+        }
+      ],
+      "uuid": "244013ef-6031-45da-b923-f301d97a69bd"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.0,
+          "y": -1.0
+        },
+        {
+          "x": -7.5,
+          "y": -1.0
+        }
+      ],
+      "uuid": "8cedf0d7-8b19-42d5-9f79-60b5c418f543"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.0,
+          "y": -55.0
+        },
+        {
+          "x": -7.5,
+          "y": -55.0
+        }
+      ],
+      "uuid": "3a00dee8-2023-417d-a8de-5a8d5464aa0f"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 218.0,
+          "y": -1.0
+        },
+        {
+          "x": 220.5,
+          "y": -1.0
+        }
+      ],
+      "uuid": "ddb2989e-3d68-4ba3-8c5a-2ca1a53f67b9"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 218.0,
+          "y": -55.0
+        },
+        {
+          "x": 220.5,
+          "y": -55.0
+        }
+      ],
+      "uuid": "cd12078e-0e6b-40a5-b804-2b69443fa319"
+    }
+  ],
+  "library_refresh": {
+    "changes": [
+      {
+        "changed_domains": [
+          "pads",
+          "graphics"
+        ],
+        "library_id": "CoreMechanical:Core_Frame_With_H1_D2.4",
+        "preserved": {
+          "instance_overrides": true,
+          "kiid": true,
+          "layer": true,
+          "locked": true,
+          "pad_nets": true,
+          "position": true,
+          "rotation": true,
+          "symbol_path": true
+        },
+        "reference": "H1"
+      }
+    ],
+    "coverage": {
+      "atomicity": "single_kicad_undo_commit",
+      "changed": {
+        "applied": 1,
+        "planned": 1
+      },
+      "conflicts": {
+        "applied": 0,
+        "planned": 0
+      },
+      "selected": {
+        "applied": 1,
+        "planned": 1
+      },
+      "skipped_unlinked": {
+        "applied": 0,
+        "planned": 0
+      },
+      "transport": "live_kicad_ipc",
+      "unchanged": {
+        "applied": 0,
+        "planned": 0
+      }
+    },
+    "diagnostics": [],
+    "plan_revision": "9eae27c5dbca79a01796396ef54a67c79e8628a15381392a2ffb146789ab807e",
+    "status": "applied",
+    "undo": "Ctrl-Z reverses the whole footprint library update."
+  },
+  "placement_check": {
+    "connector_edges": [],
+    "decoupling_associations": [],
+    "deductions": [],
+    "footprints_scored": 23,
+    "footprints_skipped": 0,
+    "hard_failures": [],
+    "interface_filter_caps": [],
+    "outline_missing": false,
+    "outline_shape": "unproven",
+    "outline_unproven": true,
+    "score": 100,
+    "source": "ipc",
+    "uncoupled_caps": [],
+    "unproven_decoupling_caps": [],
+    "verdict": "outline_unproven"
+  },
+  "drc": {
+    "categories_not_reported": [],
+    "design_rule_violations": 21,
+    "errors": 12,
+    "filtered_count": 50,
+    "live_board_synced": true,
+    "schematic_parity": 29,
+    "schematic_parity_diagnostic": null,
+    "severity_filter": "warning",
+    "shown": 50,
+    "source": "saved_file",
+    "total_violations": 50,
+    "truncated": false,
+    "unconnected_items": 0,
+    "warnings": 38,
+    "zone_refill_source": null,
+    "zones_refilled": false
+  },
+  "backup_sha256": {
+    "Pc-Hub.kicad_pcb": "ab89ed70c5719516d29b264c903d3c7b157b51caf0c08a47d5889fe344cfda5e",
+    "Pc-Hub.kicad_sch": "296d02ea02c9011fa593e616577d6c5e9c554654f5e2257132766d8bf5f5d164",
+    "Pc-Hub.kicad_pro": "2e8c41b7150249200c22eae12695a261e9a28bc06cf6bafbe268aa0670a2dddb",
+    "Core_Frame_With_H1_D2.4.kicad_mod": "d82474c8b540bffc6b9e250e6744e3f44dd0f979d86ca37a2666fe1f8b47c153"
+  },
+  "mechanical_reference_is_automatic_keepout": false,
+  "routing_complete": false,
+  "fabrication_released": false,
+  "scope": "mechanical placement only, before new control schematic synchronization"
+}

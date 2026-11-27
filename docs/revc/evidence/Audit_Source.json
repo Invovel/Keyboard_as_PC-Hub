@@ -1,0 +1,11 @@
+{
+  "board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+  "schematic_sha256": {
+    "ISO_Debug_Output.kicad_sch": "c432c1fe640191f95e7a5047d06c117e8aec34b05d962749560107f52d28bb1b",
+    "MAG_Protection.kicad_sch": "a5f03550844fdd54a3b95acf8d94e5a8f58d5c0ec26b406276caf5089d846512",
+    "Main_Control.kicad_sch": "6124576fbb3dc0eb264801ccee7ec8e06d626dc7cc2222c69de861edc1da87f9",
+    "Pc-Hub_RevB.kicad_sch": "0ed5458862c465d907dadabb1f5376ece2c0a916ff6bbc76e15d1b970e327b9f"
+  },
+  "source": "saved file; no live sync; CLI zone refill analysis only",
+  "created_unix": 1795691159.5450034
+}

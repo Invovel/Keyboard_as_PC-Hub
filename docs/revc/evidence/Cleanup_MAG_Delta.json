@@ -1,0 +1,431 @@
+{
+  "before_board_sha256": "9a5b069014011d6112070d0b913e055b93e656b90effbd8b87aed80c10b56416",
+  "after_board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+  "added_copper": [
+    {
+      "uuid": "944832ea-c39c-4857-a753-6558e7ab5a5b",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "kind": "segment",
+      "width_mm": 0.3,
+      "start_xy_mm": [
+        74.5,
+        0.425
+      ],
+      "end_xy_mm": [
+        74.5,
+        0.85
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "22ee8d16-8699-465d-8220-a8b35d5ce4f5",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        78.45,
+        -2.875
+      ],
+      "end_xy_mm": [
+        78.45,
+        -3.0
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "0501a06c-e9ad-4f52-a2c7-ddeb51494691",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        78.45,
+        -3.0
+      ],
+      "end_xy_mm": [
+        78.0,
+        -2.55
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "3fd35264-7f48-4e94-9250-e35d3442061f",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "kind": "via",
+      "xy_mm": [
+        74.925,
+        0.0
+      ],
+      "drill_mm": 0.3,
+      "width_mm": 0.6,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "60713f32-8ba2-4365-b5f1-ae9dac767b0a",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "kind": "segment",
+      "width_mm": 0.3,
+      "start_xy_mm": [
+        75.675,
+        -0.5
+      ],
+      "end_xy_mm": [
+        75.175,
+        0.0
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "c2aaf1d0-e6f1-419d-9cfb-27b88ec3ac36",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        79.2,
+        -1.25
+      ],
+      "end_xy_mm": [
+        79.325,
+        -1.125
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "da281662-f117-4261-879e-8ce3e90fdee5",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        75.5,
+        -3.75
+      ],
+      "end_xy_mm": [
+        75.5,
+        -2.325
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "f8e7c105-1114-4dd1-be22-72dbf750cfaa",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        78.0,
+        -2.55
+      ],
+      "end_xy_mm": [
+        78.0,
+        -1.75
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "a9d5edc4-ae9b-4c78-8301-a7893a9e1f9e",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        77.325,
+        -0.5
+      ],
+      "end_xy_mm": [
+        76.825,
+        -1.0
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "e4f299c8-396e-4f39-90b1-b19490f5cdff",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "kind": "segment",
+      "width_mm": 0.3,
+      "start_xy_mm": [
+        75.175,
+        0.0
+      ],
+      "end_xy_mm": [
+        74.925,
+        0.0
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "298c47a6-c387-447e-8295-1fe8cfc9e370",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        77.325,
+        -1.75
+      ],
+      "end_xy_mm": [
+        77.575,
+        -2.0
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "45b76d57-dde4-4ccc-a970-880062d36602",
+      "net": "/Main_Control/MAG_R_3V3_SW",
+      "kind": "segment",
+      "width_mm": 0.3,
+      "start_xy_mm": [
+        74.925,
+        0.0
+      ],
+      "end_xy_mm": [
+        74.5,
+        0.425
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "b1c788a2-933f-46b2-ae3b-0d86dc5e97e3",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        75.2,
+        -4.025
+      ],
+      "end_xy_mm": [
+        75.475,
+        -3.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "b9a98255-5c17-4d77-9571-453a42033fe3",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        78.0,
+        -1.75
+      ],
+      "end_xy_mm": [
+        78.5,
+        -1.25
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "8afb4f21-6fe3-42e3-bd90-b6ca6f2f37fc",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        78.5,
+        -1.25
+      ],
+      "end_xy_mm": [
+        79.2,
+        -1.25
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "aa58252a-3deb-4fd5-80cc-1677dfeba85e",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        77.575,
+        -2.0
+      ],
+      "end_xy_mm": [
+        78.45,
+        -2.875
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "13261912-3634-4a34-b44f-9aabff86d723",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        75.475,
+        -3.75
+      ],
+      "end_xy_mm": [
+        75.5,
+        -3.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "c2eb5833-f74a-43fd-b464-dd39128605f6",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        75.5,
+        -2.325
+      ],
+      "end_xy_mm": [
+        76.825,
+        -1.0
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "9d708d13-c66e-4d20-92bd-6c0439fd7ddf",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "via",
+      "xy_mm": [
+        76.825,
+        -1.0
+      ],
+      "drill_mm": 0.3,
+      "width_mm": 0.6,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "b12eeb10-79e8-4cc7-8a60-a00dde6218da",
+      "net": "/Main_Control/MAG_Protection/MAG_R_READY",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        77.325,
+        -0.5
+      ],
+      "end_xy_mm": [
+        77.325,
+        -1.75
+      ],
+      "layer": "F.Cu"
+    }
+  ],
+  "removed_copper": [
+    {
+      "uuid": "20b622f1-30b3-4310-90d3-741c96ca82c4",
+      "net": "/Main_Control/MAG_Protection/MAG_R_INT_CARD",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        78.25,
+        -6.5
+      ],
+      "end_xy_mm": [
+        78.25,
+        -6.5375
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "7ec7fdbe-cd67-456f-915a-1e1c19287ffe",
+      "net": "/Main_Control/MAG_Protection/MAG_R_INT_CARD",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        75.5,
+        -3.75
+      ],
+      "end_xy_mm": [
+        78.25,
+        -6.5
+      ],
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "7142c87b-be0b-4725-ab9f-8b42184c2740",
+      "net": "/Main_Control/MAG_Protection/MAG_R_INT_CARD",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        75.475,
+        -3.75
+      ],
+      "end_xy_mm": [
+        75.5,
+        -3.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "3b3659b0-2d24-458d-9710-524197f9520f",
+      "net": "/Main_Control/MAG_Protection/MAG_R_INT_CARD",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        75.2,
+        -4.025
+      ],
+      "end_xy_mm": [
+        75.475,
+        -3.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "73e0fe15-1a81-4183-8aa1-95d6e9b1e44c",
+      "net": "/Main_Control/MAG_Protection/MAG_R_INT_CARD",
+      "kind": "via",
+      "xy_mm": [
+        78.25,
+        -6.5
+      ],
+      "drill_mm": 0.3,
+      "width_mm": 0.6,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "uuid": "cbe44155-4d31-4a81-8ba2-8c0a516b6384",
+      "net": "/Main_Control/MAG_Protection/MAG_R_INT_CARD",
+      "kind": "segment",
+      "width_mm": 0.2,
+      "start_xy_mm": [
+        78.25,
+        -6.5375
+      ],
+      "end_xy_mm": [
+        78.4625,
+        -6.75
+      ],
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "837b2a57-bc0c-4356-8567-8bd7a7d617a1",
+      "net": "/Main_Control/MAG_Protection/MAG_R_INT_CARD",
+      "kind": "via",
+      "xy_mm": [
+        75.5,
+        -3.75
+      ],
+      "drill_mm": 0.3,
+      "width_mm": 0.6,
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ]
+    }
+  ],
+  "changed_copper": [],
+  "drc_rules": {
+    "drill_out_of_range": 12,
+    "lib_footprint_mismatch": 99,
+    "silk_overlap": 88,
+    "silk_over_copper": 126
+  },
+  "unconnected": 80,
+  "parity": 94,
+  "manufacturing_release": false
+}

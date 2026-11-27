@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>R3.1 ISO / DEBUG · 结构视图</title>
+<style>
+  :root{color-scheme:dark;--paper:#0d141d;--card:#17222f;--ink:#ecf2f7;--muted:#9bafc2;--line:#394b5c;--accent:#78d9e4;--warn:#f7ad69}
+  *{box-sizing:border-box}body{margin:0;background:var(--paper);font:15px/1.55 system-ui,'Microsoft YaHei',sans-serif;color:var(--ink)}
+  main{max-width:1320px;margin:28px auto;padding:0 18px}.heading{display:flex;gap:20px;justify-content:space-between;align-items:end;margin:0 0 14px}.heading h1{font-size:23px;margin:0;font-weight:650}.heading p{margin:0;color:var(--muted);font-size:13px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 20px 70px #0005}.frame{position:relative;padding:8px 8px 0}.frame svg{display:block;width:100%;height:auto;min-height:420px;touch-action:none}
+  .framehead{position:absolute;left:24px;top:22px;z-index:1;color:var(--muted);font-size:13px;letter-spacing:.12em}.framehint{position:absolute;left:24px;bottom:24px;color:var(--muted);font-size:13px}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:15px 18px;border-top:1px solid var(--line)}button{background:#233747;border:1px solid #536c7d;border-radius:9px;padding:8px 13px;color:var(--ink);font:inherit;cursor:pointer}button:hover,button:focus-visible{border-color:var(--accent);outline:none}button[aria-pressed="true"]{border-color:var(--accent);background:#254a53}.readout{margin-left:auto;min-width:210px;text-align:right;color:var(--accent);font-weight:600}.readout.fault{color:var(--warn)}
+  .under{display:grid;grid-template-columns:1fr 1fr;gap:20px;color:var(--muted);font-size:13px;margin:14px 4px}.under p{margin:0}.under strong{color:var(--ink)}
+  .wire{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.4}.data{stroke:#81d8e4}.power{stroke:#eeb270}.ground{stroke:#899baa}.solder{fill:#d5bb86}.mark{fill:#aec1ce;font-size:11px;font-family:ui-monospace,monospace}.parttext{fill:#dbe7ed;font-size:11px;font-family:ui-monospace,monospace;letter-spacing:.05em}
+  #power-path,#data-path,#fault-led{transition:opacity .35s ease,filter .35s ease}body.fault #power-path{opacity:.22}body.fault #fault-led{filter:drop-shadow(0 0 12px #ff655e)}body.fault #port-led{fill:#ff6d63}body:not(.fault) #port-led{fill:#76d7c5}
+  #cover{transition:transform .55s cubic-bezier(.2,.8,.2,1),opacity .4s ease;transform-origin:50% 50%}body.open #cover{transform:translate(-12px,-55px);opacity:.44}
+  body.light{color-scheme:light;--paper:#edf2f5;--card:#fff;--ink:#1a2c38;--muted:#5c7180;--line:#c6d4dd;--accent:#116d78;--warn:#ac4c24}body.light button{background:#eef6f7;color:#1a2c38;border-color:#8baab3}body.light button[aria-pressed="true"]{background:#d1ecee}
+  @media(max-width:650px){main{margin:12px auto;padding:0 8px}.heading{display:block}.heading p{margin-top:4px}.framehead{left:15px;top:13px}.framehint{left:15px;bottom:11px;font-size:11px}.controls{padding:10px;gap:7px}.readout{width:100%;text-align:left;margin:4px 2px}.under{grid-template-columns:1fr}.frame svg{min-height:245px}}
+  @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<main>
+  <div class="heading"><h1>R3.1 · 隔离调试口的首版结构</h1><p>产品位置与连接关系研究视图 · 不是 PCB 放置图</p></div>
+  <div class="card">
+    <div class="frame"><div class="framehead">FIG 01　CORE → ISO / DEBUG</div>
+      <svg id="figure" viewBox="0 190 1100 490" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="桌面控制 Hub 主板右侧的隔离调试接口结构视图">
+        <defs><linearGradient id="metal" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#d4dbe1"/><stop offset=".45" stop-color="#8fa1ad"/><stop offset="1" stop-color="#556978"/></linearGradient><radialGradient id="glass"><stop stop-color="#3d6878"/><stop offset=".75" stop-color="#172d3a"/><stop offset="1" stop-color="#101c28"/></radialGradient></defs>
+        <g id="board"></g><g id="traces"></g><g id="parts"></g><g id="cover"></g><g id="labels"></g>
+      </svg>
+      <div class="framehint">点击接口或使用下方按钮，查看端口在正常和过流时的状态</div>
+    </div>
+    <div class="controls"><button id="state" type="button" aria-pressed="false">模拟过流</button><button id="explode" type="button" aria-pressed="false">展开上盖</button><button id="theme" type="button" aria-pressed="false">浅色</button><div id="readout" class="readout" aria-live="polite">正常：ISO 端口供电已允许</div></div>
+  </div>
+  <div class="under"><p><strong>蓝色路径</strong>由 P6 经独立双口 USB2 Hub 保留 CTRL，并通往数据隔离器；橙色路径经隔离电源和硬件保护到调试口。</p><p><strong>过流状态</strong>只演示硬件切断与本地提示。可输出电流、具体料号和装配高度须实测；当前主板尚无新电路网表。</p></div>
+</main>
+<script>
+(()=>{
+  const NS='http://www.w3.org/2000/svg';
+  const $=id=>document.getElementById(id), board=$('board'),traces=$('traces'),parts=$('parts'),cover=$('cover'),labels=$('labels');
+  const fit=()=>$('figure').setAttribute('viewBox',matchMedia('(max-width:650px)').matches?'300 260 710 410':'0 190 1100 490');fit();addEventListener('resize',fit);
+  const P=(x,y,z=0)=>[146+3.28*x-1.32*y,275+.62*x+1.35*y-2.5*z];
+  const pts=arr=>arr.map(p=>p.join(',')).join(' ');
+  const node=(tag,attrs={},parent=parts)=>{const e=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))e.setAttribute(k,v);parent.appendChild(e);return e};
+  const poly=(a,fill,stroke='#2b4855',parent=parts)=>node('polygon',{points:pts(a),fill,stroke,'stroke-width':1.5,'stroke-linejoin':'round'},parent);
+  const line=(a,cls,parent=traces)=>node('polyline',{points:pts(a.map(p=>P(...p))),class:cls},parent);
+  const cub=(x,y,z,w,d,h,top='#344b58',side='#1e3542',parent=parts)=>{
+    const a=P(x,y,z),b=P(x+w,y,z),c=P(x+w,y+d,z),d0=P(x,y+d,z),A=P(x,y,z+h),B=P(x+w,y,z+h),C=P(x+w,y+d,z+h),D=P(x,y+d,z+h);
+    poly([d0,c,C,D],side,'#203643',parent);poly([b,c,C,B],'#253c48','#203643',parent);poly([A,B,C,D],top,'#7894a0',parent);
+    return {top:[A,B,C,D],center:P(x+w/2,y+d/2,z+h)};
+  };
+  const dot=(x,y,z,r,fill,parent=parts)=>{const p=P(x,y,z);return node('circle',{cx:p[0],cy:p[1],r,fill,stroke:'#304854','stroke-width':1},parent)};
+  const label=(x,y,z,t,anchor='middle')=>{const p=P(x,y,z);const e=node('text',{x:p[0],y:p[1],class:'parttext','text-anchor':anchor},labels);e.textContent=t;return e};
+  // A single 228 × 76 mm Core board: the visible gap marks an electrical domain boundary.
+  cub(0,0,0,228,76,3,'#1e4c48','#183b3b',board);
+  for(let i=0;i<16;i++){const x=9+i*14;dot(x,4,3.2,.65,'#698b79',board);dot(x,72,3.2,.65,'#698b79',board)}
+  // Copper-free band and milled slot in the right-hand field.
+  const slit=[P(176,11,3.3),P(181,11,3.3),P(181,65,3.3),P(176,65,3.3)];poly(slit,'#0b1b25','#779196',board);
+  for(const [x,y] of [[8,8],[216,8],[8,68],[216,68]]){dot(x,y,4,5,'#8da4a7',board);dot(x,y,4.2,2.4,'#182b31',board)}
+  // Two distinct electrical routes. Geometry is an assembly illustration, not a PCB routing claim.
+  node('g',{id:'data-path'},traces);const data=$('data-path');
+  line([[68,61,3.5],[79,61,3.5],[79,54,3.5],[145,54,3.5]],'wire data',data);
+  line([[155,48,3.5],[171,48,3.5],[171,51,3.5],[188,51,3.5]],'wire data',data);
+  line([[198,51,3.5],[209,51,3.5],[209,69,3.5]],'wire data',data);
+  node('g',{id:'power-path'},traces);const power=$('power-path');
+  line([[96,22,3.6],[146,22,3.6],[146,26,3.6],[165,26,3.6]],'wire power',power);
+  line([[185,25,3.6],[197,25,3.6],[197,39,3.6],[208,39,3.6],[208,67,3.6]],'wire power',power);
+  // Existing controls, display, rear ports and clear mounting details give the device its scale.
+  cub(22,23,3,30,22,2,'#304550','#20333d');cub(62,21,3,20,20,2,'#304550','#20333d');
+  const screen=P(112,38,8);node('ellipse',{cx:screen[0],cy:screen[1],rx:83,ry:51,transform:`rotate(12 ${screen[0]} ${screen[1]})`,fill:'#101b25',stroke:'#879aa2','stroke-width':7},parts);
+  node('ellipse',{cx:screen[0],cy:screen[1],rx:67,ry:40,transform:`rotate(12 ${screen[0]} ${screen[1]})`,fill:'url(#glass)',stroke:'#243d4b','stroke-width':3},parts);
+  for(const [x,y,w,d] of [[20,49,20,12],[43,49,22,12],[19,14,20,10],[45,14,22,10]])cub(x,y,4,w,d,1.1,'#536b70','#30464e');
+  for(const [x,w] of [[18,12],[42,12],[155,12]]){cub(x,71,4,w,9,8,'url(#metal)','#576977');cub(x+2,78,6,w-4,1.4,3,'#172b36','#213744')}
+  // Hub and support network: each foot and small passive is a physical part.
+  cub(143,43,3,13,13,4,'#23333a','#16272e');label(149.5,49.5,10,'U1');
+  for(let i=0;i<5;i++){dot(142.5,44+i*2.5,4,.95,'#d7b56e');dot(156.5,44+i*2.5,4,.95,'#d7b56e')}
+  for(const [x,y] of [[136,40],[137,57],[161,42],[161,57],[131,48],[163,51]])cub(x,y,3,3.1,1.5,1,'#c9ba93','#7f8372');
+  cub(157,35,3,6,4,2,'#aab9b8','#657a7e');label(160,37,8,'Y1');
+  // ADuM crossing the boundary; a few pins visibly land on each separate domain.
+  cub(171,45,3,22,13,3.5,'#263b45','#172b34');label(182,52,10,'U2');
+  for(let i=0;i<8;i++){dot(172+i*2.7,44.5,4,1.15,'#d5b986');dot(172+i*2.7,58.4,4,1.15,'#d5b986')}
+  // Isolated power module, its paired bypass capacitors and output protection.
+  cub(162,15,3,27,16,12,'#d9e0dc','#778c92');label(175,23,19,'PS1');
+  for(const [x,y] of [[157,19],[157,26],[192,19],[192,27]])cub(x,y,3,3,2,2,'#a9b9b4','#60767a');
+  cub(197,33,3,9,8,2.6,'#243b45','#1b2c33');label(201,37,9,'U3');
+  for(let i=0;i<4;i++){dot(196.5,34+i*2,4,.8,'#cfb37e');dot(206.5,34+i*2,4,.8,'#cfb37e')}
+  for(const [x,y] of [[193,32],[209,33],[211,42],[194,44]])cub(x,y,3,2.8,1.5,1,'#d2bb91','#758180');
+  // USB-A shell, shielding tongue, retainer screws and fault lamp.
+  cub(205,67,3,18,11,11,'url(#metal)','#5b7180');cub(207,76.8,7.5,14,1.4,4,'#172d39','#1a2f3b');cub(209,77.7,8,10,1.0,1.2,'#9caeb5','#58717c');
+  for(const x of [207,221])dot(x,70,15,1.6,'#364e5b');
+  dot(200,61,4.5,4.2,'#8caeab');const led=dot(200,61,4.8,2.2,'#76d7c5');led.setAttribute('id','port-led');node('g',{id:'fault-led'},parts).appendChild(led);
+  for(const [x,y] of [[200,55],[206,57],[195,59]])cub(x,y,3,2.8,1.4,1,'#c8ae7f','#75817a');
+  // Movable cutaway cover. Its presence explains where the visible socket is held.
+  const cg=cub(189,63,18,38,16,2,'#4a5962','#293b46',cover);
+  for(let i=0;i<14;i++){const x=190+i*2.5;line([[x,64,20.2],[x,66,20.2]],'wire ground',cover)}
+  for(const [x,y] of [[193,65],[222,65],[193,76],[222,76]])dot(x,y,20.4,1.8,'#a6b7ba',cover);
+  label(144,39,13,'USB2 分支');label(173,11,20,'隔离 5V');label(199,29,10,'保护');label(208,80,18,'ISO');
+  // Resolved interaction: toggling a short changes the local port state only.
+  const state=$('state'),readout=$('readout');
+  function setFault(on){document.body.classList.toggle('fault',on);state.setAttribute('aria-pressed',String(on));state.textContent=on?'恢复正常':'模拟过流';readout.textContent=on?'过流：硬件切断 ISO 端口供电':'正常：ISO 端口供电已允许';readout.classList.toggle('fault',on)}
+  state.addEventListener('click',()=>setFault(!document.body.classList.contains('fault')));
+  $('explode').addEventListener('click',e=>{const on=document.body.classList.toggle('open');e.currentTarget.setAttribute('aria-pressed',String(on));e.currentTarget.textContent=on?'合上上盖':'展开上盖'});
+  $('theme').addEventListener('click',e=>{const on=document.body.classList.toggle('light');e.currentTarget.setAttribute('aria-pressed',String(on));e.currentTarget.textContent=on?'深色':'浅色'});
+  $('figure').addEventListener('click',e=>{if(e.target.closest('#parts'))setFault(!document.body.classList.contains('fault'))});
+  window.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.body.classList.contains('fault'))setFault(false)});
+})();
+</script>
+</body>
+</html>

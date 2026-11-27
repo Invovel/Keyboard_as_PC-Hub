@@ -1,0 +1,31 @@
+I (757464) body-core: Encoder full cycle -1
+I (757464) body-core: Volume -: USB offline
+I (757664) body-core: Encoder full cycle -1
+I (757664) body-core: Volume -: USB offline
+I (758064) body-core: Encoder full cycle -1
+I (758064) body-core: Volume -: USB offline
+I (758234) body-core: Encoder full cycle -1
+I (758234) body-core: Volume -: USB offline
+I (758924) body-core: Encoder full cycle +1
+I (758924) body-core: Volume +: USB offline
+I (759034) body-core: Health A=108 B=68 invalid=0 drop=0 touch=27 errors=0 PCNT=-16 USB=0 enabled=1 heap=244300
+I (759184) body-core: Encoder full cycle +1
+I (759184) body-core: Volume +: USB offline
+I (759414) body-core: Encoder full cycle +1
+I (759414) body-core: Volume +: USB offline
+I (759574) body-core: Encoder full cycle +1
+I (759574) body-core: Volume +: USB offline
+I (759634) body-core: Encoder full cycle +1
+I (759634) body-core: Volume +: USB offline
+I (764044) body-core: Health A=116 B=76 invalid=0 drop=0 touch=27 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (769064) body-core: Health A=116 B=76 invalid=0 drop=0 touch=27 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (774074) body-core: Health A=116 B=76 invalid=0 drop=0 touch=27 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (779084) body-core: Health A=116 B=76 invalid=0 drop=0 touch=27 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (784104) body-core: Health A=116 B=76 invalid=0 drop=0 touch=27 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (789114) body-core: Health A=116 B=76 invalid=0 drop=0 touch=27 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (794124) body-core: Health A=116 B=76 invalid=0 drop=0 touch=27 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (799144) body-core: Health A=116 B=76 invalid=0 drop=0 touch=27 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (804154) body-core: Health A=116 B=76 invalid=0 drop=0 touch=27 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (809164) body-core: Health A=116 B=76 invalid=0 drop=0 touch=27 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (814184) body-core: Health A=116 B=76 invalid=0 drop=0 touch=27 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (819194) body-core: Health A=116 B=76 invalid=0 drop=0 touch=27 errors=0 PCNT=0 USB=0 enabled=1 heap=244300

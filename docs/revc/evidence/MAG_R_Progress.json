@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-26",
+  "board_sha256": "942accd835ab9017354a0cfade39002de317d729a9ded73473988973c95fae7d",
+  "fully_unclosed_items_minimum": 5,
+  "total_requested_items": 10,
+  "metric": "requirement closure, not effort",
+  "ready_routed": true,
+  "accessory_communication_verified": false,
+  "manufacturing_status": "MANUFACTURING_NOT_RELEASED",
+  "remaining_framework": [
+    "READY/FAULT sampling and external ESD",
+    "exact contact part and cable pin mirror",
+    "3D assembly",
+    "100kHz accessory integration",
+    "power hotplug ESD and 400kHz tests"
+  ]
+}

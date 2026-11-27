@@ -1,0 +1,12 @@
+link,existing_ref,main_board_interface,board_mpn_preferred,remote_interface,main_pins_1_to_n,implementation_status,verification
+LCD,JL1,GH5优先,SM05B-GHS-TB,现有屏端GH5线束,待测|待测|待测|待测|待测,待屏线逐针通断,确认实物工作显示模式与供电及回流；替换原GH6须满足实测映射
+TOUCH,JT1,GH4,SM04B-GHS-TB,现有屏端GH4线束,I2C_SDA_GPIO8|I2C_SCL_GPIO9|3V3|GND,继承板侧顺序候选,校验已有样机并确认可与GH5线束同时工作
+ENC_AND_PRESS,JE1,GH4,SM04B-GHS-TB,支架分线到EC56和独立下压,GND|ENC_A_GPIO1|ENC_B_GPIO2|ENC_SW_GPIO39,继承板侧顺序,量实物相序和变体针序；屏下压一次输入；防止插入JT1
+HAPTIC_L,JML1,GH2,SM02B-GHS-TB,左Taptic带线或适配短线,MOTOR_L_P|MOTOR_L_N,继承板侧顺序,核对马达绕组和真实共振及供电波形
+HAPTIC_R,JMR1,GH2,SM02B-GHS-TB,右Taptic带线或适配短线,MOTOR_R_P|MOTOR_R_N,继承板侧顺序,核对绕组并与ISO右后口做干涉检查
+MIC,JM1,GH6,SM06B-GHS-TB,INMP441模块转接线,3V3|GND|MIC_BCLK_GPIO4|MIC_WS_GPIO5|MIC_SD_GPIO17|GND,继承板侧顺序,确认成品板脚名和L/R及安装声孔
+MAG_R,JG2,GH8,SM08B-GHS-TB,CX2.84-8P单头线,NC|GND|MAG_R_3V3_SW|MAG_R_SDA|MAG_R_SCL|MAG_R_DET_EXT_N|MAG_R_INT_N|GND,继承板侧顺序,实际触点顺序和镜像待测；独立支架与应力释放
+DISABLE,拟替代JP1总禁用功能,GH3,SM03B-GHS-TB,外壳总禁用开关,GND|INPUT_ENABLE_N|NC,Compact设计,候选GPIO38；布置独立BOOT和复位；断开默认禁用
+KBD,JB1,USB2受控线束接口,,浮动Type-C DFP公头,KBD_5V_PROTECTED|HUB_P5_DM|HUB_P5_DP|GND,四路为原JB1顺序且新座待选,验证主机侧CC和VBUS及短数据线；压力由浮动架承担
+DOCK,,速率与电流匹配的专用连接器,,底部可选Dock,,接口和针序待定,核P4数据类型和供电路径及防反灌
+ANTENNA,U1,模块射频座,,外接天线同轴,,已有模块接口,按所选天线核安装和同轴弯线

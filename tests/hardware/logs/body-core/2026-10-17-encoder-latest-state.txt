@@ -1,0 +1,3 @@
+I (388474) body-core: Health A=0 B=0 invalid=0 drop=0 touch=0 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (393474) body-core: Health A=44 B=0 invalid=0 drop=0 touch=0 errors=0 PCNT=0 USB=0 enabled=1 heap=244300
+I (398474) body-core: Health A=44 B=0 invalid=0 drop=0 touch=0 errors=0 PCNT=0 USB=0 enabled=1 heap=244300

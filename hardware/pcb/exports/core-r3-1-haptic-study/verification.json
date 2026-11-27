@@ -1,0 +1,1588 @@
+{
+  "date": "2026-10-19",
+  "status": "PLACEMENT STUDY - NOT FABRICATION RELEASED",
+  "requested_board": "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Pc-Hub.kicad_pcb",
+  "explicit_live_binding": {
+    "ipc_address": "ipc://C:\\Users\\indeg\\AppData\\Local\\Temp\\kicad\\api.sock",
+    "ipc_available": true,
+    "ipc_failure": null,
+    "kicad_ui_running": true,
+    "message": "The requested board is open in KiCad.",
+    "open_board_count": 1,
+    "open_boards": [
+      "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Pc-Hub.kicad_pcb"
+    ],
+    "open_boards_error": null,
+    "requested_board": "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Pc-Hub.kicad_pcb",
+    "requested_check_error": null,
+    "requested_open": true,
+    "requested_path": "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Pc-Hub.kicad_pcb"
+  },
+  "board_info_readback": {
+    "company": "",
+    "copper_layer_count": 2,
+    "date": "",
+    "file": "C:\\Users\\indeg\\OneDrive\\文档\\KiCad\\10.0\\projects\\Pc-Hub\\Pc-Hub\\Pc-Hub.kicad_pcb",
+    "layer_count": 29,
+    "net_count": 72,
+    "paper": "A4",
+    "paper_size_mm": null,
+    "revision": "",
+    "source": "ipc",
+    "title": ""
+  },
+  "observed_metadata_path_has_encoding_loss": false,
+  "authority_note": "Exact live document binding uses open_project requested_open=true; do not use lossy board-info display path to resolve files.",
+  "footprints": [
+    {
+      "footprint": "CoreMechanical:Core_Frame_With_H1_D2.4",
+      "layer": "F.Cu",
+      "reference": "H1",
+      "rotation": 0.0,
+      "value": "Core_Frame_With_H1_D2.4",
+      "x": 46.0,
+      "y": 128.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JU1",
+      "rotation": 0.0,
+      "value": "MCU_USB2_FS_P6",
+      "x": 180.0,
+      "y": 78.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JT1",
+      "rotation": 0.0,
+      "value": "TOUCH_3V3_I2C",
+      "x": 170.0,
+      "y": 128.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JS1",
+      "rotation": 0.0,
+      "value": "SCREEN_PRESS_SPARE_TBD",
+      "x": 177.0,
+      "y": 120.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JP1",
+      "rotation": 0.0,
+      "value": "DISABLE_GPIO0_GND",
+      "x": 123.0,
+      "y": 120.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JM1",
+      "rotation": 0.0,
+      "value": "INMP441_OPTION",
+      "x": 108.0,
+      "y": 104.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JL1",
+      "rotation": 0.0,
+      "value": "LCD_QSPI_6_SIGNAL",
+      "x": 130.0,
+      "y": 128.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JK4",
+      "rotation": 0.0,
+      "value": "KEY4_GND_GPIO38",
+      "x": 75.0,
+      "y": 118.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JK3",
+      "rotation": 0.0,
+      "value": "KEY3_GND_GPIO40",
+      "x": 225.0,
+      "y": 118.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JK2",
+      "rotation": 0.0,
+      "value": "KEY2_GND_GPIO41",
+      "x": 225.0,
+      "y": 82.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JK1",
+      "rotation": 0.0,
+      "value": "KEY1_GND_GPIO42",
+      "x": 75.0,
+      "y": 82.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JH2",
+      "rotation": 0.0,
+      "value": "HAPTIC_R_DRIVER_IF",
+      "x": 230.0,
+      "y": 106.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JH1",
+      "rotation": 0.0,
+      "value": "HAPTIC_L_DRIVER_IF",
+      "x": 70.0,
+      "y": 106.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JG2",
+      "rotation": 0.0,
+      "value": "MAG_R_LOW_SPEED",
+      "x": 228.0,
+      "y": 94.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JG1",
+      "rotation": 0.0,
+      "value": "MAG_L_LOW_SPEED",
+      "x": 72.0,
+      "y": 94.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JE1",
+      "rotation": 0.0,
+      "value": "ENC_A_B_SW_GND",
+      "x": 108.0,
+      "y": 125.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JD1",
+      "rotation": 0.0,
+      "value": "DEBUG_EN_BOOT_UART",
+      "x": 211.0,
+      "y": 103.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JB1",
+      "rotation": 0.0,
+      "value": "KBD_USB2_P5",
+      "x": 197.0,
+      "y": 73.0
+    },
+    {
+      "footprint": "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "layer": "F.Cu",
+      "reference": "JA1",
+      "rotation": 0.0,
+      "value": "LEGACY_I2S_AUDIO_OPTION",
+      "x": 194.0,
+      "y": 127.0
+    },
+    {
+      "footprint": "RF_Module:ESP32-S3-WROOM-1U",
+      "layer": "F.Cu",
+      "reference": "U1",
+      "rotation": 0.0,
+      "value": "ESP32-S3-WROOM-1U",
+      "x": 194.0,
+      "y": 101.0
+    },
+    {
+      "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+      "layer": "F.Cu",
+      "reference": "H4",
+      "rotation": 0.0,
+      "value": "Hole_D2.4_Keepout5",
+      "x": 46.0,
+      "y": 72.0
+    },
+    {
+      "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+      "layer": "F.Cu",
+      "reference": "H3",
+      "rotation": 0.0,
+      "value": "Hole_D2.4_Keepout5",
+      "x": 254.0,
+      "y": 72.0
+    },
+    {
+      "footprint": "CoreMechanical:Hole_D2.4_Keepout5",
+      "layer": "F.Cu",
+      "reference": "H2",
+      "rotation": 0.0,
+      "value": "Hole_D2.4_Keepout5",
+      "x": 254.0,
+      "y": 128.0
+    }
+  ],
+  "h1_mechanical_local_graphics": [
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 20.0,
+          "y": 10.0
+        },
+        {
+          "x": 20.0,
+          "y": -66.0
+        }
+      ],
+      "uuid": "8f5a0bd6-d6c0-4dfe-a078-378409a0a4b5"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 188.0,
+          "y": 10.0
+        },
+        {
+          "x": 188.0,
+          "y": -66.0
+        }
+      ],
+      "uuid": "c33f902d-a099-4dd3-8ee5-12e67426e014"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 37.0,
+          "y": -10.0
+        },
+        {
+          "x": 41.0,
+          "y": -10.0
+        }
+      ],
+      "uuid": "e1437112-6f11-4b20-95a5-0bbbb3193364"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 39.0,
+          "y": -8.0
+        },
+        {
+          "x": 39.0,
+          "y": -12.0
+        }
+      ],
+      "uuid": "33ac41fc-db67-4c55-bd4d-8bf21f264ef0"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 37.0,
+          "y": -46.0
+        },
+        {
+          "x": 41.0,
+          "y": -46.0
+        }
+      ],
+      "uuid": "d1860f1a-e940-4975-a17e-e551c0ef5b14"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 39.0,
+          "y": -44.0
+        },
+        {
+          "x": 39.0,
+          "y": -48.0
+        }
+      ],
+      "uuid": "09e87432-4687-41e7-ad51-a383ce197cd3"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 167.0,
+          "y": -10.0
+        },
+        {
+          "x": 171.0,
+          "y": -10.0
+        }
+      ],
+      "uuid": "77d8bdeb-1790-49d1-ae79-a1c2e37730ff"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 169.0,
+          "y": -8.0
+        },
+        {
+          "x": 169.0,
+          "y": -12.0
+        }
+      ],
+      "uuid": "b141460a-546b-40a5-a669-a2dc6e54a274"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 167.0,
+          "y": -46.0
+        },
+        {
+          "x": 171.0,
+          "y": -46.0
+        }
+      ],
+      "uuid": "1330cd16-1e92-457f-92a1-1b2f596597dc"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 169.0,
+          "y": -44.0
+        },
+        {
+          "x": 169.0,
+          "y": -48.0
+        }
+      ],
+      "uuid": "12ec0486-4521-4485-bd1a-74b771f7c9b9"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -19.25
+        },
+        {
+          "x": -9.2,
+          "y": -19.25
+        }
+      ],
+      "uuid": "02776b00-1fa2-4439-8da0-ecf143dbbfda"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -21.75
+        },
+        {
+          "x": -9.2,
+          "y": -21.75
+        }
+      ],
+      "uuid": "03b0341d-69d7-4cf9-8e96-1595cfa96c76"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -24.25
+        },
+        {
+          "x": -9.2,
+          "y": -24.25
+        }
+      ],
+      "uuid": "5eacf83d-536d-415c-bb5f-3fc41cbe7b44"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -26.75
+        },
+        {
+          "x": -9.2,
+          "y": -26.75
+        }
+      ],
+      "uuid": "1a1c03e9-e63b-4531-b70b-b2a49193f20f"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -29.25
+        },
+        {
+          "x": -9.2,
+          "y": -29.25
+        }
+      ],
+      "uuid": "e617fba5-8ecf-44c8-9574-6ef68100fc32"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -31.75
+        },
+        {
+          "x": -9.2,
+          "y": -31.75
+        }
+      ],
+      "uuid": "076f1bd8-cf25-427e-88c3-8f12b6bfeb45"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -34.25
+        },
+        {
+          "x": -9.2,
+          "y": -34.25
+        }
+      ],
+      "uuid": "02fc4414-40ff-40c6-9ab7-948cb6b1c80a"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.8,
+          "y": -36.75
+        },
+        {
+          "x": -9.2,
+          "y": -36.75
+        }
+      ],
+      "uuid": "271a4132-ca5a-4ab4-bced-e75fa556e081"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -19.25
+        },
+        {
+          "x": 218.8,
+          "y": -19.25
+        }
+      ],
+      "uuid": "fba2d141-e4a3-4f2a-91f9-428b3a122470"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -21.75
+        },
+        {
+          "x": 218.8,
+          "y": -21.75
+        }
+      ],
+      "uuid": "0aabc15d-9652-476d-8f1b-380ac3504ef5"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -24.25
+        },
+        {
+          "x": 218.8,
+          "y": -24.25
+        }
+      ],
+      "uuid": "f6067749-caf4-44a9-b258-ba75b4b1acad"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -26.75
+        },
+        {
+          "x": 218.8,
+          "y": -26.75
+        }
+      ],
+      "uuid": "2257301b-5f8f-4161-822c-67d180f8b4e7"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -29.25
+        },
+        {
+          "x": 218.8,
+          "y": -29.25
+        }
+      ],
+      "uuid": "0d4b12b7-cbc4-4d8d-8b70-298e0fa79875"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -31.75
+        },
+        {
+          "x": 218.8,
+          "y": -31.75
+        }
+      ],
+      "uuid": "e18ad12c-913d-4fca-bcbd-7661cef86778"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -34.25
+        },
+        {
+          "x": 218.8,
+          "y": -34.25
+        }
+      ],
+      "uuid": "486a7075-39fb-48b0-b5a9-d465aa6ba093"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "segment",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 217.2,
+          "y": -36.75
+        },
+        {
+          "x": 218.8,
+          "y": -36.75
+        }
+      ],
+      "uuid": "cb55c3d8-6e16-4fb4-aaaf-f0fce400bb52"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.0,
+          "y": -66.0
+        },
+        {
+          "x": 218.0,
+          "y": 10.0
+        }
+      ],
+      "uuid": "81d97310-59a9-49b8-aa4b-b9ec785d8f11"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -3.0,
+          "y": -40.0
+        },
+        {
+          "x": 17.0,
+          "y": -4.0
+        }
+      ],
+      "uuid": "452d9a8a-80fa-4604-a60c-d889d0a0fc82"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 191.0,
+          "y": -40.0
+        },
+        {
+          "x": 211.0,
+          "y": -4.0
+        }
+      ],
+      "uuid": "9e58f5b6-61eb-438a-997f-14c006407489"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 32.0,
+          "y": -17.0
+        },
+        {
+          "x": 46.0,
+          "y": -3.0
+        }
+      ],
+      "uuid": "c13801e7-fc23-4a31-a978-0662ef21c03b"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 32.0,
+          "y": -53.0
+        },
+        {
+          "x": 46.0,
+          "y": -39.0
+        }
+      ],
+      "uuid": "24b523a0-08e7-4416-8999-c0458bc5c21b"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 162.0,
+          "y": -17.0
+        },
+        {
+          "x": 176.0,
+          "y": -3.0
+        }
+      ],
+      "uuid": "6f77ee41-0a53-42f5-b0f8-e27c3161cef8"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 162.0,
+          "y": -53.0
+        },
+        {
+          "x": 176.0,
+          "y": -39.0
+        }
+      ],
+      "uuid": "b3b94e16-1939-4c2f-ab52-7f6030a68b1a"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 48.0,
+          "y": -58.0
+        },
+        {
+          "x": 76.0,
+          "y": -30.0
+        }
+      ],
+      "uuid": "44dc71d7-4355-412d-b48d-94d542563a81"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 50.0,
+          "y": -18.0
+        },
+        {
+          "x": 74.0,
+          "y": -10.0
+        }
+      ],
+      "uuid": "39579806-120f-47f0-b4e4-3acaff337fd5"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 180.0,
+          "y": -52.0
+        },
+        {
+          "x": 206.0,
+          "y": -42.0
+        }
+      ],
+      "uuid": "63af6b36-2afc-4867-9753-0ea3ed82ff68"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 7.0,
+          "y": -66.0
+        },
+        {
+          "x": 19.0,
+          "y": -55.0
+        }
+      ],
+      "uuid": "f32f03aa-3b6b-48b9-9091-9c69a5768030"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 34.0,
+          "y": -66.0
+        },
+        {
+          "x": 46.0,
+          "y": -55.0
+        }
+      ],
+      "uuid": "c7f03ae8-0dc0-45c6-951b-98e3b13b864c"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 189.0,
+          "y": -66.0
+        },
+        {
+          "x": 201.0,
+          "y": -55.0
+        }
+      ],
+      "uuid": "84e0eed2-0e13-4621-a422-f99270c2e5f4"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.0,
+          "y": -49.0
+        },
+        {
+          "x": -4.0,
+          "y": -41.0
+        }
+      ],
+      "uuid": "3b6f078a-f4ab-4ea2-bb5f-f60c4c64aa16"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 140.0,
+          "y": -51.0
+        },
+        {
+          "x": 168.0,
+          "y": -33.0
+        }
+      ],
+      "uuid": "f2ac612e-0b8e-4bec-8c87-816311e1829f"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 172.0,
+          "y": -41.0
+        },
+        {
+          "x": 188.0,
+          "y": -33.0
+        }
+      ],
+      "uuid": "8b98b5da-21b1-4bdb-9544-d7d91f10d117"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "rectangle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 172.0,
+          "y": -51.0
+        },
+        {
+          "x": 188.0,
+          "y": -43.0
+        }
+      ],
+      "uuid": "a2e42a16-59b5-42cd-9889-256e9c646abc"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 104.0,
+          "y": -28.0
+        },
+        {
+          "x": 134.0,
+          "y": -28.0
+        }
+      ],
+      "uuid": "54ce8ef8-89be-4619-b7d7-48ea7d6c8b84"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 104.0,
+          "y": -28.0
+        },
+        {
+          "x": 131.0,
+          "y": -28.0
+        }
+      ],
+      "uuid": "7c75e1f2-cbd7-44db-b699-27a8ac716338"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 104.0,
+          "y": -28.0
+        },
+        {
+          "x": 126.16,
+          "y": -28.0
+        }
+      ],
+      "uuid": "45299ebc-48bf-4a8c-92b1-152a3f0e6d44"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.0,
+          "y": -1.0
+        },
+        {
+          "x": -7.5,
+          "y": -1.0
+        }
+      ],
+      "uuid": "7d7ced91-8b9f-48a8-b049-e0ed9a9f2369"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": -10.0,
+          "y": -55.0
+        },
+        {
+          "x": -7.5,
+          "y": -55.0
+        }
+      ],
+      "uuid": "d6418e18-386b-4e66-85e3-06f451a6fcd3"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 218.0,
+          "y": -1.0
+        },
+        {
+          "x": 220.5,
+          "y": -1.0
+        }
+      ],
+      "uuid": "680b9baa-dbe0-4373-a246-fe18641fa5e4"
+    },
+    {
+      "editable": false,
+      "holes": 0,
+      "kind": "circle",
+      "layer": "Dwgs.User",
+      "outlines": 0,
+      "points": [
+        {
+          "x": 218.0,
+          "y": -55.0
+        },
+        {
+          "x": 220.5,
+          "y": -55.0
+        }
+      ],
+      "uuid": "3f04ead1-9ae3-43a6-98ed-eb8894b76245"
+    }
+  ],
+  "h1_refresh": {
+    "changes": [
+      {
+        "changed_domains": [
+          "pads",
+          "graphics",
+          "attributes",
+          "metadata"
+        ],
+        "library_id": "CoreMechanical:Core_Frame_With_H1_D2.4",
+        "preserved": {
+          "instance_overrides": true,
+          "kiid": true,
+          "layer": true,
+          "locked": true,
+          "pad_nets": true,
+          "position": true,
+          "rotation": true,
+          "symbol_path": true
+        },
+        "reference": "H1"
+      }
+    ],
+    "coverage": {
+      "atomicity": "single_kicad_undo_commit",
+      "changed": {
+        "applied": 1,
+        "planned": 1
+      },
+      "conflicts": {
+        "applied": 0,
+        "planned": 0
+      },
+      "selected": {
+        "applied": 1,
+        "planned": 1
+      },
+      "skipped_unlinked": {
+        "applied": 0,
+        "planned": 0
+      },
+      "transport": "live_kicad_ipc",
+      "unchanged": {
+        "applied": 0,
+        "planned": 0
+      }
+    },
+    "diagnostics": [],
+    "plan_revision": "f3c29d78cc6ba4e4691031b5887c5cc3e3e798b3952f47e7cd8474a1cb681eb0",
+    "status": "applied",
+    "undo": "Ctrl-Z reverses the whole footprint library update."
+  },
+  "haptic_interface_pad_readback": {
+    "pad_count": 8,
+    "pads": [
+      {
+        "copper_layers": [
+          {
+            "chamfer_ratio": null,
+            "corner_rounding_ratio": 0.25,
+            "layer": "F.Cu",
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "shape": "roundrect",
+            "size": {
+              "x": 0.6,
+              "y": 1.7
+            }
+          }
+        ],
+        "drill": {
+          "end_layer": "Unknown",
+          "shape": null,
+          "size": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "start_layer": "Unknown"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "",
+        "number": "1",
+        "pad_type": "smd",
+        "rotation_deg": 0.0,
+        "shape": "roundrect",
+        "size": {
+          "x": 0.6,
+          "y": 1.7
+        },
+        "uuid": "5098ed59-edb2-47e0-b3ea-6c902479b929",
+        "x": 66.875,
+        "y": 107.95
+      },
+      {
+        "copper_layers": [
+          {
+            "chamfer_ratio": null,
+            "corner_rounding_ratio": 0.25,
+            "layer": "F.Cu",
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "shape": "roundrect",
+            "size": {
+              "x": 0.6,
+              "y": 1.7
+            }
+          }
+        ],
+        "drill": {
+          "end_layer": "Unknown",
+          "shape": null,
+          "size": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "start_layer": "Unknown"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "",
+        "number": "2",
+        "pad_type": "smd",
+        "rotation_deg": 0.0,
+        "shape": "roundrect",
+        "size": {
+          "x": 0.6,
+          "y": 1.7
+        },
+        "uuid": "77428fe7-f19f-4b3d-93c9-b1088d4145d2",
+        "x": 68.125,
+        "y": 107.95
+      },
+      {
+        "copper_layers": [
+          {
+            "chamfer_ratio": null,
+            "corner_rounding_ratio": 0.25,
+            "layer": "F.Cu",
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "shape": "roundrect",
+            "size": {
+              "x": 0.6,
+              "y": 1.7
+            }
+          }
+        ],
+        "drill": {
+          "end_layer": "Unknown",
+          "shape": null,
+          "size": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "start_layer": "Unknown"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "",
+        "number": "3",
+        "pad_type": "smd",
+        "rotation_deg": 0.0,
+        "shape": "roundrect",
+        "size": {
+          "x": 0.6,
+          "y": 1.7
+        },
+        "uuid": "2dae1a25-47eb-4955-b55a-a4a7e339d4be",
+        "x": 69.375,
+        "y": 107.95
+      },
+      {
+        "copper_layers": [
+          {
+            "chamfer_ratio": null,
+            "corner_rounding_ratio": 0.25,
+            "layer": "F.Cu",
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "shape": "roundrect",
+            "size": {
+              "x": 0.6,
+              "y": 1.7
+            }
+          }
+        ],
+        "drill": {
+          "end_layer": "Unknown",
+          "shape": null,
+          "size": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "start_layer": "Unknown"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "",
+        "number": "4",
+        "pad_type": "smd",
+        "rotation_deg": 0.0,
+        "shape": "roundrect",
+        "size": {
+          "x": 0.6,
+          "y": 1.7
+        },
+        "uuid": "ce285906-8ad1-4d64-8626-8a51422874fa",
+        "x": 70.625,
+        "y": 107.95
+      },
+      {
+        "copper_layers": [
+          {
+            "chamfer_ratio": null,
+            "corner_rounding_ratio": 0.25,
+            "layer": "F.Cu",
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "shape": "roundrect",
+            "size": {
+              "x": 0.6,
+              "y": 1.7
+            }
+          }
+        ],
+        "drill": {
+          "end_layer": "Unknown",
+          "shape": null,
+          "size": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "start_layer": "Unknown"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "",
+        "number": "5",
+        "pad_type": "smd",
+        "rotation_deg": 0.0,
+        "shape": "roundrect",
+        "size": {
+          "x": 0.6,
+          "y": 1.7
+        },
+        "uuid": "d934fbdd-9563-4f62-8a7d-82c789b7bcd5",
+        "x": 71.875,
+        "y": 107.95
+      },
+      {
+        "copper_layers": [
+          {
+            "chamfer_ratio": null,
+            "corner_rounding_ratio": 0.25,
+            "layer": "F.Cu",
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "shape": "roundrect",
+            "size": {
+              "x": 0.6,
+              "y": 1.7
+            }
+          }
+        ],
+        "drill": {
+          "end_layer": "Unknown",
+          "shape": null,
+          "size": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "start_layer": "Unknown"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "",
+        "number": "6",
+        "pad_type": "smd",
+        "rotation_deg": 0.0,
+        "shape": "roundrect",
+        "size": {
+          "x": 0.6,
+          "y": 1.7
+        },
+        "uuid": "b9150e64-4451-455e-b081-aeeb83ffd544",
+        "x": 73.125,
+        "y": 107.95
+      },
+      {
+        "copper_layers": [
+          {
+            "chamfer_ratio": null,
+            "corner_rounding_ratio": 0.25,
+            "layer": "F.Cu",
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "shape": "roundrect",
+            "size": {
+              "x": 1.0,
+              "y": 2.8
+            }
+          }
+        ],
+        "drill": {
+          "end_layer": "Unknown",
+          "shape": null,
+          "size": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "start_layer": "Unknown"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "",
+        "number": "MP",
+        "pad_type": "smd",
+        "rotation_deg": 0.0,
+        "shape": "roundrect",
+        "size": {
+          "x": 1.0,
+          "y": 2.8
+        },
+        "uuid": "c9a0066c-2e9c-46aa-8cf8-f4f3d1d4f961",
+        "x": 65.025,
+        "y": 104.6
+      },
+      {
+        "copper_layers": [
+          {
+            "chamfer_ratio": null,
+            "corner_rounding_ratio": 0.25,
+            "layer": "F.Cu",
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "shape": "roundrect",
+            "size": {
+              "x": 1.0,
+              "y": 2.8
+            }
+          }
+        ],
+        "drill": {
+          "end_layer": "Unknown",
+          "shape": null,
+          "size": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "start_layer": "Unknown"
+        },
+        "layers": [
+          "F.Cu",
+          "F.Mask",
+          "F.Paste"
+        ],
+        "net": "",
+        "number": "MP",
+        "pad_type": "smd",
+        "rotation_deg": 0.0,
+        "shape": "roundrect",
+        "size": {
+          "x": 1.0,
+          "y": 2.8
+        },
+        "uuid": "2c2448c7-95d9-4521-94eb-bf8bdf4d8297",
+        "x": 74.975,
+        "y": 104.6
+      }
+    ],
+    "reference": "JH1",
+    "source": "ipc"
+  },
+  "checks": {
+    "footprint_count": 23,
+    "mechanical_graphic_count": 50,
+    "motor_rectangles_match": true,
+    "screen_center_matches": true,
+    "haptic_connectors_match": true,
+    "four_mount_locations_match": true,
+    "haptic_pads_have_no_nets": true,
+    "electrical_validation_passed": false,
+    "three_dimensional_fit_verified": false
+  },
+  "drc_summary": {
+    "categories_not_reported": [],
+    "design_rule_violations": 21,
+    "errors": 12,
+    "filtered_count": 50,
+    "live_board_synced": true,
+    "schematic_parity": 29,
+    "schematic_parity_diagnostic": null,
+    "severity_filter": "warning",
+    "shown": 3,
+    "source": "saved_file",
+    "total_violations": 50,
+    "truncated": true,
+    "unconnected_items": 0,
+    "warnings": 38,
+    "zone_refill_source": null,
+    "zones_refilled": false
+  },
+  "export_svg_sha256": "5fabab5955415121a46fde2b7669c8dddb7471a2fe7a27f51a9615ce4704d275"
+}

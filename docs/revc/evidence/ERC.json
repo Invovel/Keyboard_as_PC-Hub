@@ -1,0 +1,168 @@
+{
+  "coordinates": {
+    "kicad_version": "10.0.7",
+    "reason": "KiCad 10.0.7 carries the fix for the ERC JSON coordinate scaling defect (kicad#25582, fixed in 10.0.7), so its coordinates are passed through unchanged.",
+    "status": "verbatim"
+  },
+  "errors": 2,
+  "total": 9,
+  "violations": [
+    {
+      "description": "Label connected to only one pin: 标签 'KBD_5V_PROTECTED'",
+      "items": [
+        {
+          "description": "标签 'KBD_5V_PROTECTED'",
+          "uuid": "198d2305-8551-4ff3-95f7-8fbc1c526f6c",
+          "x": 541.02,
+          "y": 167.64
+        }
+      ],
+      "rule": "isolated_pin_label",
+      "severity": "warning",
+      "sheet": "/",
+      "x": 541.02,
+      "y": 167.64
+    },
+    {
+      "description": "Label connected to only one pin: 标签 'HUB_P5_DM'",
+      "items": [
+        {
+          "description": "标签 'HUB_P5_DM'",
+          "uuid": "ab362433-8c23-4fac-802f-9a41b30c87ae",
+          "x": 541.02,
+          "y": 170.18
+        }
+      ],
+      "rule": "isolated_pin_label",
+      "severity": "warning",
+      "sheet": "/",
+      "x": 541.02,
+      "y": 170.18
+    },
+    {
+      "description": "Label connected to only one pin: 标签 'HUB_P5_DP'",
+      "items": [
+        {
+          "description": "标签 'HUB_P5_DP'",
+          "uuid": "e384a708-6044-4c6e-8edd-64fbef81ce6d",
+          "x": 541.02,
+          "y": 172.72
+        }
+      ],
+      "rule": "isolated_pin_label",
+      "severity": "warning",
+      "sheet": "/",
+      "x": 541.02,
+      "y": 172.72
+    },
+    {
+      "description": "Label connected to only one pin: 全局标签 'HUB_DN2_DP'",
+      "items": [
+        {
+          "description": "全局标签 'HUB_DN2_DP'",
+          "uuid": "6c43ae2d-187d-49ff-b2f0-7b49a445a204",
+          "x": 76.2,
+          "y": 149.86
+        }
+      ],
+      "rule": "isolated_pin_label",
+      "severity": "warning",
+      "sheet": "/",
+      "x": 76.2,
+      "y": 149.86
+    },
+    {
+      "description": "Label connected to only one pin: 全局标签 'HUB_DN2_DM'",
+      "items": [
+        {
+          "description": "全局标签 'HUB_DN2_DM'",
+          "uuid": "c907b5c3-7136-4d97-994e-d5ae21fd0519",
+          "x": 76.2,
+          "y": 152.4
+        }
+      ],
+      "rule": "isolated_pin_label",
+      "severity": "warning",
+      "sheet": "/",
+      "x": 76.2,
+      "y": 152.4
+    },
+    {
+      "description": "Input Power pin not driven by any Output Power pins: Symbol J101 引脚 4 [GND, Power input, Line]",
+      "items": [
+        {
+          "description": "Symbol J101 引脚 4 [GND, Power input, Line]",
+          "uuid": "d41f0479-761c-4613-b51e-985fd9e04a38",
+          "x": 193.04,
+          "y": 82.55
+        }
+      ],
+      "rule": "power_pin_not_driven",
+      "severity": "error",
+      "sheet": "/ISO_Debug_Output/",
+      "x": 193.04,
+      "y": 82.55
+    },
+    {
+      "description": "Input Power pin not driven by any Output Power pins: Symbol J101 引脚 1 [VBUS, Power input, Line]",
+      "items": [
+        {
+          "description": "Symbol J101 引脚 1 [VBUS, Power input, Line]",
+          "uuid": "75b02cc9-2546-47cb-a9a0-4326f0dd18d4",
+          "x": 200.66,
+          "y": 67.31
+        }
+      ],
+      "rule": "power_pin_not_driven",
+      "severity": "error",
+      "sheet": "/ISO_Debug_Output/",
+      "x": 200.66,
+      "y": 67.31
+    },
+    {
+      "description": "Local and global labels have same name: 全局标签 'GND'",
+      "items": [
+        {
+          "description": "全局标签 'GND'",
+          "uuid": "00d44912-d8ed-4e83-94ef-1501d76846ec",
+          "x": 57.15,
+          "y": 175.26
+        },
+        {
+          "description": "标签 'GND'",
+          "uuid": "02668d6b-0989-45d8-a12e-441a70d71701",
+          "x": 245.11,
+          "y": 511.81
+        }
+      ],
+      "rule": "same_local_global_label",
+      "severity": "warning",
+      "sheet": "/ISO_Debug_Output/",
+      "x": 57.15,
+      "y": 175.26
+    },
+    {
+      "description": "Local and global labels have same name: 全局标签 '3V3'",
+      "items": [
+        {
+          "description": "全局标签 '3V3'",
+          "uuid": "44105e27-c7e9-4ff4-9e54-d4d525251384",
+          "x": 110.49,
+          "y": 214.63
+        },
+        {
+          "description": "标签 '3V3'",
+          "uuid": "08019e0e-36f2-47ee-8cdc-5b401536cdf8",
+          "x": 402.59,
+          "y": 480.06
+        }
+      ],
+      "rule": "same_local_global_label",
+      "severity": "warning",
+      "sheet": "/Main_Control/MAG_Protection/",
+      "x": 110.49,
+      "y": 214.63
+    }
+  ],
+  "warnings": 7
+}
